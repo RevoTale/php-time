@@ -1,6 +1,6 @@
 {
     "name": "bladl/time",
-    "description": "Extended functionality for built-in PHP DateTime classes",
+    "description": "Extended functionality for built-in PHP DateTimeImmutable, DateInterval and DateTimeZone classes",
     "type": "library",
     "license": "MIT",
     "authors": [
