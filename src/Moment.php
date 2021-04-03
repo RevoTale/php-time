@@ -39,7 +39,7 @@ class Moment extends DateTimeImmutable
     {
         return $this->format('H');
     }
-    public static function fromUnixTime(int $time):self {
+    public static function unixToUniversal(int $time):self {
         return TimeZone::universal()->unix($time);
     }
 }
