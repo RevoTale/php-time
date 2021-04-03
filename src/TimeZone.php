@@ -1,6 +1,8 @@
 <?php
 
 declare(strict_types=1);
+namespace BladL\Time;
+use DateTimeZone;
 
 /**
  * Class TimeZone.
