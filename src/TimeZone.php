@@ -1,7 +1,9 @@
 <?php
 
 declare(strict_types=1);
+
 namespace BladL\Time;
+
 use DateTimeZone;
 
 /**
@@ -9,13 +11,8 @@ use DateTimeZone;
  *
  * @psalm-immutable
  */
-final class TimeZone extends DateTimeZone
+class TimeZone extends DateTimeZone
 {
-    public function timeNow(): Moment
-    {
-        return (new Moment())->setTimezone($this);
-    }
-
     /**
      * @psalm-pure
      */
@@ -24,10 +21,16 @@ final class TimeZone extends DateTimeZone
         return new self('UTC');
     }
 
-    public function timeFromUnix(
+    public function now(): Moment
+    {
+        /* @noinspection PhpUnhandledExceptionInspection */
+        return new Moment($this);
+    }
+
+    public function unix(
         int $timestamp
     ): Moment {
         /* @noinspection PhpUnhandledExceptionInspection */
-        return new Moment("@$timestamp", self::universal());
+        return new Moment($this, "@$timestamp");
     }
 }

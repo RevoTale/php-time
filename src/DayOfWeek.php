@@ -1,11 +1,17 @@
 <?php
 
 declare(strict_types=1);
+
 namespace BladL\Time;
+
+use function in_array;
+
 /**
  * Class DayOfWeek.
+ *
+ * @psalm-immutable
  */
-final class DayOfWeek
+class DayOfWeek
 {
     public const ISO_MONDAY = 1;
     public const ISO_TUESDAY = 2;
@@ -21,6 +27,9 @@ final class DayOfWeek
         $this->dayISO = $dayISO;
     }
 
+    /**
+     * @psalm-mutation-free
+     */
     public static function fromISO(int $day): self
     {
         return new self($day);
