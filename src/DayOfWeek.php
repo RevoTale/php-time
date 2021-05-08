@@ -39,12 +39,17 @@ class DayOfWeek
     {
         return in_array($this->dayISO, $days, true);
     }
-    public function isMonday():bool {
+
+    public function isMonday(): bool
+    {
         return $this->inISO(self::ISO_MONDAY);
     }
-    public function isTuesday():bool {
+
+    public function isTuesday(): bool
+    {
         return $this->inISO(self::ISO_TUESDAY);
     }
+
     public function isWednesday(): bool
     {
         return $this->inISO(self::ISO_WEDNESDAY);

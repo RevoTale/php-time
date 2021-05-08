@@ -21,4 +21,29 @@ class TimeInterval extends DateInterval
         /* @noinspection PhpUnhandledExceptionInspection */
         return new self('PT'.$amount.'S');
     }
+
+    public static function day(int $amount = 1): self
+    {
+        return self::inSeconds(self::SECONDS_IN_DAY * $amount);
+    }
+
+    public static function hour(int $amount = 1): self
+    {
+        return self::inSeconds(self::SECONDS_IN_HOUR * $amount);
+    }
+
+    public static function minute(int $amount = 1): self
+    {
+        return self::inSeconds(self::SECONDS_IN_MINUTE * $amount);
+    }
+
+    public static function second(int $amount = 1): self
+    {
+        return self::inSeconds($amount);
+    }
+
+    public static function week(int $amount = 1): self
+    {
+        return self::inSeconds(self::SECONDS_IN_WEEK * $amount);
+    }
 }
