@@ -1,12 +1,15 @@
 <?php
 
+declare(strict_types=1);
+
 $finder = PhpCsFixer\Finder::create()
     ->in(__DIR__)
 ;
-return PhpCsFixer\Config::create()
-    ->setCacheFile(__DIR__.'/.php_cs.cache')
+$config = new PhpCsFixer\Config();
+
+return $config
     ->setRules([
-        '@Symfony' => true
+        '@Symfony' => true,
     ])
     ->setFinder($finder)
 ;
