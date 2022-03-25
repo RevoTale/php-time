@@ -21,13 +21,13 @@ class TimeZone extends DateTimeZone
         return new self('UTC');
     }
 
-    public function now(): Moment
+    final public function now(): Moment
     {
         /* @noinspection PhpUnhandledExceptionInspection */
         return new Moment($this);
     }
 
-    public function unix(
+    final public function unix(
         int $timestamp
     ): Moment {
         /* @noinspection PhpUnhandledExceptionInspection */
