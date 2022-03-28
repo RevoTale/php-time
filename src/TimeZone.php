@@ -16,7 +16,7 @@ class TimeZone extends DateTimeZone
     /**
      * @psalm-pure
      */
-    public static function universal(): self
+    final public static function universal(): self
     {
         return new self('UTC');
     }
@@ -32,5 +32,10 @@ class TimeZone extends DateTimeZone
     ): Moment {
         /* @noinspection PhpUnhandledExceptionInspection */
         return new Moment($this, "@$timestamp");
+    }
+
+    final public function timeFromFormat(string $format, string $datetime): Moment
+    {
+        return Moment::fromFormat($format, $datetime, $this);
     }
 }
