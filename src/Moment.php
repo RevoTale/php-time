@@ -67,6 +67,15 @@ final class Moment extends DateTimeImmutable
         return TimeZone::universal()->unix($time);
     }
 
+    public function laterThan(Moment $moment): bool
+    {
+        return $this->getTimestamp() > $moment->getTimestamp();
+    }
+
+    public function earlierThan(Moment $moment): bool
+    {
+        return $this->getTimestamp() < $moment->getTimestamp();
+    }
 
     public static function fromFormat(string $format, string $datetime, TimeZone $timeZone): self
     {
