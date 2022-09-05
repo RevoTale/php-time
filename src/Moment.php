@@ -7,6 +7,7 @@ declare(strict_types=1);
 namespace BladL\Time;
 
 use function assert;
+use DateInterval;
 use DateTimeImmutable;
 use DateTimeInterface;
 use DateTimeZone;
@@ -75,6 +76,14 @@ final class Moment extends DateTimeImmutable
     public function earlierThan(Moment $moment): bool
     {
         return $this->getTimestamp() < $moment->getTimestamp();
+    }
+
+    public function sub(DateInterval $interval): Moment
+    {
+        $result = parent::sub($interval);
+        assert($result instanceof self);
+
+        return $result;
     }
 
     public static function fromFormat(string $format, string $datetime, TimeZone $timeZone): self
