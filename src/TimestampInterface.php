@@ -19,6 +19,8 @@ interface TimestampInterface
 
     public function sub(TimeInterval $interval): TimestampInterface;
 
+    public function diff(TimestampInterface $moment): TimeInterval;
+
     /**
      * @return float timestamp in seconds since the Unix epoch with floating milliseconds
      */

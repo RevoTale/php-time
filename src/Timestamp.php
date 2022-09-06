@@ -124,4 +124,9 @@ final class Timestamp implements TimestampInterface
             throw new UnexpectedValueException('Exception never thrown');
         }
     }
+
+    public function diff(TimestampInterface $moment): TimeInterval
+    {
+        return TimeInterval::fromFloatingSeconds($moment->getFloatingSeconds() - $this->getFloatingSeconds());
+    }
 }

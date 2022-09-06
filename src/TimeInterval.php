@@ -63,6 +63,11 @@ final class TimeInterval
         return new self(seconds: self::MILLISECONDS_IN_SECOND * $amount);
     }
 
+    public static function fromFloatingSeconds(float $seconds): self
+    {
+        return new self(seconds: $seconds);
+    }
+
     public static function day(int $amount = 1): self
     {
         return self::inSeconds(self::SECONDS_IN_DAY * $amount);

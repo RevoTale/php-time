@@ -104,4 +104,9 @@ final class LocalTimestamp implements TimestampInterface
     {
         return $this->timeZone;
     }
+
+    public function diff(TimestampInterface $moment): TimeInterval
+    {
+        return $this->timestamp->diff($this);
+    }
 }
