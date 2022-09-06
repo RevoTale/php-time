@@ -101,4 +101,9 @@ final class TimeInterval
     {
         return self::inSeconds(self::SECONDS_IN_WEEK * $amount);
     }
+
+    public function format(string $format): string
+    {
+        return $this->toNativeDateInterval()->format($format);
+    }
 }
