@@ -11,30 +11,42 @@ namespace BladL\Time;
  */
 final class TimeInterval
 {
-    public const MICRO_SECONDS_IN_SECOND = 1000;
+    public const MILLISECONDS_IN_SECOND = 1000;
+    public const MICROSECONDS_IN_MILLISECOND = 1000;
 
     public const SECONDS_IN_MINUTE = 60;
     public const SECONDS_IN_HOUR = self::SECONDS_IN_MINUTE * 60;
     public const SECONDS_IN_DAY = self::SECONDS_IN_HOUR * 24;
     public const SECONDS_IN_WEEK = self::SECONDS_IN_DAY * 7;
 
-    private function __construct(private readonly float $microseconds)
+    /**
+     * @internal
+     */
+    private function __construct(private readonly float $seconds)
     {
     }
 
-    public function getMicroseconds(): float
+    public function getMicroseconds(): int
     {
-        return $this->microseconds;
+        return self::MICROSECONDS_IN_MILLISECOND * $this->getMilliseconds();
     }
 
     public function getMilliseconds(): int
     {
-        return (int) ($this->microseconds * self::MICRO_SECONDS_IN_SECOND);
+        return (int) (self::MILLISECONDS_IN_SECOND * $this->seconds);
     }
 
     public function getSeconds(): int
     {
-        return (int) ($this->microseconds);
+        return (int) ($this->seconds);
+    }
+
+    /**
+     * @internal
+     */
+    public function getFloatingSeconds(): float
+    {
+        return $this->seconds;
     }
 
     public function getMinutes(): int
@@ -44,7 +56,7 @@ final class TimeInterval
 
     public static function inSeconds(int $amount): self
     {
-        return new self(self::MICRO_SECONDS_IN_SECOND * $amount);
+        return new self(seconds: self::MILLISECONDS_IN_SECOND * $amount);
     }
 
     public static function day(int $amount = 1): self

@@ -17,7 +17,10 @@ use UnexpectedValueException;
  */
 final class Moment implements MomentInterface
 {
-    public function __construct(private readonly int $unix)
+    /**
+     * @internal
+     */
+    public function __construct(private readonly float $seconds)
     {
     }
 
@@ -41,22 +44,30 @@ final class Moment implements MomentInterface
 
     public function laterThan(MomentInterface $moment): bool
     {
-        return $this->getUnix() > $moment->getUnix();
+        return $this->seconds > $moment->getUnix();
+    }
+
+    /**
+     * @internal
+     */
+    public function getFloatingSeconds(): float
+    {
+        return $this->seconds;
     }
 
     public function earlierThan(MomentInterface $moment): bool
     {
-        return $this->getUnix() < $moment->getUnix();
+        return $this->getFloatingSeconds() < $moment->getFloatingSeconds();
     }
 
     public function add(TimeInterval $interval): self
     {
-        return new self(unix: (int) ($this->unix + $interval->getMicroseconds()));
+        return new self(seconds: $this->getFloatingSeconds() + $interval->getFloatingSeconds());
     }
 
     public function sub(TimeInterval $interval): self
     {
-        return new self(unix: (int) ($this->unix - $interval->getMicroseconds()));
+        return new self(seconds: $this->getFloatingSeconds() - $interval->getFloatingSeconds());
     }
 
     public function withTimeZone(TimeZone $timeZone): TimeZoneMoment
@@ -74,7 +85,7 @@ final class Moment implements MomentInterface
 
     public function getUnix(): int
     {
-        return $this->unix;
+        return (int) $this->seconds;
     }
 
     public function toNativeDateTime(): DateTimeImmutable

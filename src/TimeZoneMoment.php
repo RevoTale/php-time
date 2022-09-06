@@ -14,6 +14,9 @@ use UnexpectedValueException;
  */
 final class TimeZoneMoment implements MomentInterface
 {
+    /**
+     * @internal
+     */
     public function __construct(private readonly TimeZone $timeZone, private readonly Moment $moment)
     {
     }
@@ -70,6 +73,11 @@ final class TimeZoneMoment implements MomentInterface
     public function add(TimeInterval $interval): self
     {
         return new self(timeZone: $this->timeZone, moment: $this->moment->add($interval));
+    }
+
+    public function getFloatingSeconds(): float
+    {
+        return $this->moment->getFloatingSeconds();
     }
 
     public function sub(TimeInterval $interval): self

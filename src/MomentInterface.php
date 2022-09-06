@@ -21,5 +21,10 @@ interface MomentInterface
 
     public function getUnix(): int;
 
+    /**
+     * @internal
+     */
+    public function getFloatingSeconds(): float;
+
     public function toNativeDateTime(): DateTimeImmutable;
 }
