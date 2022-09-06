@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace BladL\Time;
 
+use function assert;
 use DateTimeImmutable;
 use Exception;
 use UnexpectedValueException;
@@ -46,6 +47,14 @@ final class TimeZoneMoment implements MomentInterface
     public function hour24Zeros(): string
     {
         return $this->toNativeDateTime()->format('H');
+    }
+
+    public function setTime(int $hour, int $minute, int $second = 0): self
+    {
+        $datetime = $this->toNativeDateTime()->setTime(hour: $hour, minute: $minute, second: $second);
+        assert(false !== $datetime);
+
+        return new self(timeZone: $this->timeZone, moment: Moment::fromUnix($datetime->getTimestamp()));
     }
 
     public function laterThan(MomentInterface $moment): bool
