@@ -9,7 +9,7 @@ namespace BladL\Time;
  */
 final class PeriodOfTime
 {
-    public function __construct(public readonly Moment $from, public readonly Moment $to)
+    public function __construct(public readonly Timestamp $from, public readonly Timestamp $to)
     {
     }
 }

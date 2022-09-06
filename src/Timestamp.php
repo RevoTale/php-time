@@ -15,7 +15,7 @@ use UnexpectedValueException;
 /**
  * Class Moment.
  */
-final class Moment implements MomentInterface
+final class Timestamp implements TimestampInterface
 {
     /**
      * @internal
@@ -42,7 +42,7 @@ final class Moment implements MomentInterface
         return new self($time);
     }
 
-    public function laterThan(MomentInterface $moment): bool
+    public function laterThan(TimestampInterface $moment): bool
     {
         return $this->seconds > $moment->getTimestamp();
     }
@@ -55,7 +55,7 @@ final class Moment implements MomentInterface
         return $this->seconds;
     }
 
-    public function earlierThan(MomentInterface $moment): bool
+    public function earlierThan(TimestampInterface $moment): bool
     {
         return $this->getFloatingSeconds() < $moment->getFloatingSeconds();
     }
@@ -70,7 +70,7 @@ final class Moment implements MomentInterface
         return new self(seconds: $this->getFloatingSeconds() - $interval->getFloatingSeconds());
     }
 
-    public function withTimeZone(TimeZone $timeZone): LocalTime
+    public function withTimeZone(TimeZone $timeZone): LocalTimestamp
     {
         return $timeZone->getTimeZoned($this);
     }

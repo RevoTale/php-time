@@ -10,14 +10,14 @@ use Exception;
 use UnexpectedValueException;
 
 /**
- * Class LocalTime.
+ * Class LocalTimestamp.
  */
-final class LocalTime implements MomentInterface
+final class LocalTimestamp implements TimestampInterface
 {
     /**
      * @internal
      */
-    public function __construct(private readonly TimeZone $timeZone, private readonly Moment $moment)
+    public function __construct(private readonly TimeZone $timeZone, private readonly Timestamp $moment)
     {
     }
 
@@ -62,15 +62,15 @@ final class LocalTime implements MomentInterface
         $datetime = $this->toNativeDateTime()->setTime(hour: $hour, minute: $minute, second: $second);
         assert(false !== $datetime);
 
-        return new self(timeZone: $this->timeZone, moment: Moment::fromUnix($datetime->getTimestamp()));
+        return new self(timeZone: $this->timeZone, moment: Timestamp::fromUnix($datetime->getTimestamp()));
     }
 
-    public function laterThan(MomentInterface $moment): bool
+    public function laterThan(TimestampInterface $moment): bool
     {
         return $this->moment->laterThan($moment);
     }
 
-    public function earlierThan(MomentInterface $moment): bool
+    public function earlierThan(TimestampInterface $moment): bool
     {
         return $this->moment->earlierThan($moment);
     }
@@ -95,7 +95,7 @@ final class LocalTime implements MomentInterface
         return $this->moment->getTimestamp();
     }
 
-    public function getMoment(): Moment
+    public function getMoment(): Timestamp
     {
         return $this->moment;
     }
