@@ -43,7 +43,7 @@ final class TimeZoneMoment implements MomentInterface
 
     public function toNativeDateTime(): DateTimeImmutable
     {
-        $timestamp = $this->moment->getUnix();
+        $timestamp = $this->moment->getTimestamp();
 
         try {
             return new DateTimeImmutable("@$timestamp", $this->timeZone->toNativeDateTimeZone());
@@ -90,8 +90,8 @@ final class TimeZoneMoment implements MomentInterface
         return new self(timeZone: $this->timeZone, moment: $this->moment->sub($interval));
     }
 
-    public function getUnix(): int
+    public function getTimestamp(): int
     {
-        return $this->moment->getUnix();
+        return $this->moment->getTimestamp();
     }
 }

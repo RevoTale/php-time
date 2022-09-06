@@ -19,7 +19,7 @@ interface MomentInterface
 
     public function sub(TimeInterval $interval): MomentInterface;
 
-    public function getUnix(): int;
+    public function getTimestamp(): int;
 
     /**
      * @internal
