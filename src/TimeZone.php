@@ -7,35 +7,32 @@ namespace BladL\Time;
 use DateTimeZone;
 
 /**
- * Class TimeZone.
- *
- * @psalm-immutable
+ * Timezone enumeration.
  */
-class TimeZone extends DateTimeZone
+enum TimeZone: string
 {
+    case EuropeKyiv = 'Europe/Kyiv';
+    case UTC = 'UTC';
+    public function toNative(): DateTimeZone
+    {
+        return new DateTimeZone($this->value);
+    }
+
+    public function now(): TimeZoneMoment
+    {
+        return $this->getTimeZoned(Moment::now());
+    }
+
     /**
-     * @psalm-pure
+     * @param int $unix in seconds
      */
-    final public static function universal(): self
+    public function fromUnix(int $unix): TimeZoneMoment
     {
-        return new self('UTC');
+        return $this->getTimeZoned(Moment::fromUnix($unix));
     }
 
-    final public function now(): Moment
+    public function getTimeZoned(Moment $time): TimeZoneMoment
     {
-        /* @noinspection PhpUnhandledExceptionInspection */
-        return new Moment($this);
-    }
-
-    final public function unix(
-        int $timestamp
-    ): Moment {
-        /* @noinspection PhpUnhandledExceptionInspection */
-        return new Moment($this, "@$timestamp");
-    }
-
-    final public function timeFromFormat(string $format, string $datetime): Moment
-    {
-        return Moment::fromFormat($format, $datetime, $this);
+        return new TimeZoneMoment(timeZone: $this, moment: $time);
     }
 }

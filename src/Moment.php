@@ -7,55 +7,23 @@ declare(strict_types=1);
 namespace BladL\Time;
 
 use function assert;
-use DateInterval;
 use DateTimeImmutable;
 use DateTimeInterface;
-use DateTimeZone;
+use Exception;
+use UnexpectedValueException;
 
 /**
  * Class Moment.
- * Time zone is required. If you need not timezone use universal. @see TimeZone::universal().
- *
- * @psalm-immutable
  */
-final class Moment extends DateTimeImmutable
+final class Moment implements MomentInterface
 {
-    public function __construct(DateTimeZone $timezone, string $datetime = 'now')
+    public function __construct(private readonly int $unix)
     {
-        parent::__construct($datetime, $timezone);
-    }
-
-    public function dayOfWeek(): DayOfWeek
-    {
-        return DayOfWeek::fromISO($this->dayOfWeekISO());
-    }
-
-    public function dayOfWeekISO(): int
-    {
-        return (int) $this->format('N');
-    }
-
-    public function hour24Int(): int
-    {
-        return (int) $this->format('G');
-    }
-
-    public function hour24Zeros(): string
-    {
-        return $this->format('H');
     }
 
     public static function now(): self
     {
-        return TimeZone::universal()->now();
-    }
-
-    /**
-     * @deprecated use Moment::fromUnix
-     */
-    public static function unixToUniversal(int $time): self
-    {
-        return TimeZone::universal()->unix($time);
+        return new self(time());
     }
 
     public static function fromDateTime(DateTimeInterface $object): self
@@ -63,34 +31,60 @@ final class Moment extends DateTimeImmutable
         return self::fromUnix($object->getTimestamp());
     }
 
+    /**
+     * @param int $time in seconds
+     */
     public static function fromUnix(int $time): self
     {
-        return TimeZone::universal()->unix($time);
+        return new self($time);
     }
 
-    public function laterThan(Moment $moment): bool
+    public function laterThan(MomentInterface $moment): bool
     {
-        return $this->getTimestamp() > $moment->getTimestamp();
+        return $this->getUnix() > $moment->getUnix();
     }
 
-    public function earlierThan(Moment $moment): bool
+    public function earlierThan(MomentInterface $moment): bool
     {
-        return $this->getTimestamp() < $moment->getTimestamp();
+        return $this->getUnix() < $moment->getUnix();
     }
 
-    public function sub(DateInterval $interval): Moment
+    public function add(TimeInterval $interval): self
     {
-        $result = parent::sub($interval);
-        assert($result instanceof self);
+        return new self(unix: (int) ($this->unix + $interval->getMicroseconds()));
+    }
 
-        return $result;
+    public function sub(TimeInterval $interval): self
+    {
+        return new self(unix: (int) ($this->unix - $interval->getMicroseconds()));
+    }
+
+    public function withTimeZone(TimeZone $timeZone): TimeZoneMoment
+    {
+        return $timeZone->getTimeZoned($this);
     }
 
     public static function fromFormat(string $format, string $datetime, TimeZone $timeZone): self
     {
-        $date_time = parent::createFromFormat($format, $datetime, $timeZone);
-        assert(false !== $date_time);
+        $dateTime = DateTimeImmutable::createFromFormat($format, $datetime, $timeZone->toNative());
+        assert(false !== $dateTime);
 
-        return self::fromUnix($date_time->getTimestamp());
+        return self::fromUnix($dateTime->getTimestamp());
+    }
+
+    public function getUnix(): int
+    {
+        return $this->unix;
+    }
+
+    public function toNativeDateTime(): DateTimeImmutable
+    {
+        $timestamp = $this->getUnix();
+
+        try {
+            return new DateTimeImmutable("@$timestamp", TimeZone::UTC->toNative());
+        } catch (Exception) {
+            throw new UnexpectedValueException('Exception never thrown');
+        }
     }
 }
