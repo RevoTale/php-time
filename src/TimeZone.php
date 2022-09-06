@@ -13,7 +13,7 @@ enum TimeZone: string
 {
     case EuropeKyiv = 'Europe/Kyiv';
     case UTC = 'UTC';
-    public function toNative(): DateTimeZone
+    public function toNativeDateTimeZone(): DateTimeZone
     {
         return new DateTimeZone($this->value);
     }

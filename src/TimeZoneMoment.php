@@ -41,7 +41,7 @@ final class TimeZoneMoment implements MomentInterface
         $timestamp = $this->moment->getUnix();
 
         try {
-            return new DateTimeImmutable("@$timestamp", $this->timeZone->toNative());
+            return new DateTimeImmutable("@$timestamp", $this->timeZone->toNativeDateTimeZone());
         } catch (Exception) {
             throw new UnexpectedValueException('Exception never thrown');
         }

@@ -77,7 +77,7 @@ final class Moment implements MomentInterface
 
     public static function fromFormat(string $format, string $datetime, TimeZone $timeZone): self
     {
-        $dateTime = DateTimeImmutable::createFromFormat($format, $datetime, $timeZone->toNative());
+        $dateTime = DateTimeImmutable::createFromFormat($format, $datetime, $timeZone->toNativeDateTimeZone());
         assert(false !== $dateTime);
 
         return self::fromUnix($dateTime->getTimestamp());
@@ -93,7 +93,7 @@ final class Moment implements MomentInterface
         $timestamp = $this->getUnix();
 
         try {
-            return new DateTimeImmutable("@$timestamp", TimeZone::UTC->toNative());
+            return new DateTimeImmutable("@$timestamp", TimeZone::UTC->toNativeDateTimeZone());
         } catch (Exception) {
             throw new UnexpectedValueException('Exception never thrown');
         }

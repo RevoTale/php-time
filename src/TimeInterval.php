@@ -6,6 +6,10 @@ declare(strict_types=1);
 
 namespace BladL\Time;
 
+use DateInterval;
+use Error;
+use Exception;
+
 /**
  * Class TimeInterval.
  */
@@ -77,6 +81,15 @@ final class TimeInterval
     public static function second(int $amount = 1): self
     {
         return self::inSeconds($amount);
+    }
+
+    public function toNativeDateInterval(): DateInterval
+    {
+        try {
+            return new DateInterval('PT'.$this->getSeconds().'S');
+        } catch (Exception) {
+            throw new Error('No exceptions');
+        }
     }
 
     public static function week(int $amount = 1): self
