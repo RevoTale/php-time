@@ -33,6 +33,6 @@ enum TimeZone: string
 
     public function getTimeZoned(Timestamp $time): LocalTimestamp
     {
-        return new LocalTimestamp(timeZone: $this, moment: $time);
+        return new LocalTimestamp(timeZone: $this, timestamp: $time);
     }
 }

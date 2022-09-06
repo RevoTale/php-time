@@ -17,7 +17,7 @@ final class LocalTimestamp implements TimestampInterface
     /**
      * @internal
      */
-    public function __construct(private readonly TimeZone $timeZone, private readonly Timestamp $moment)
+    public function __construct(private readonly TimeZone $timeZone, private readonly Timestamp $timestamp)
     {
     }
 
@@ -43,7 +43,7 @@ final class LocalTimestamp implements TimestampInterface
 
     public function toNativeDateTime(): DateTimeImmutable
     {
-        $timestamp = $this->moment->getTimestamp();
+        $timestamp = $this->timestamp->getUnix();
 
         try {
             return new DateTimeImmutable("@$timestamp", $this->timeZone->toNativeDateTimeZone());
@@ -62,42 +62,42 @@ final class LocalTimestamp implements TimestampInterface
         $datetime = $this->toNativeDateTime()->setTime(hour: $hour, minute: $minute, second: $second);
         assert(false !== $datetime);
 
-        return new self(timeZone: $this->timeZone, moment: Timestamp::fromUnix($datetime->getTimestamp()));
+        return new self(timeZone: $this->timeZone, timestamp: Timestamp::fromUnix($datetime->getTimestamp()));
     }
 
     public function laterThan(TimestampInterface $moment): bool
     {
-        return $this->moment->laterThan($moment);
+        return $this->timestamp->laterThan($moment);
     }
 
     public function earlierThan(TimestampInterface $moment): bool
     {
-        return $this->moment->earlierThan($moment);
+        return $this->timestamp->earlierThan($moment);
     }
 
     public function add(TimeInterval $interval): self
     {
-        return new self(timeZone: $this->timeZone, moment: $this->moment->add($interval));
+        return new self(timeZone: $this->timeZone, timestamp: $this->timestamp->add($interval));
     }
 
     public function getFloatingSeconds(): float
     {
-        return $this->moment->getFloatingSeconds();
+        return $this->timestamp->getFloatingSeconds();
     }
 
     public function sub(TimeInterval $interval): self
     {
-        return new self(timeZone: $this->timeZone, moment: $this->moment->sub($interval));
+        return new self(timeZone: $this->timeZone, timestamp: $this->timestamp->sub($interval));
     }
 
-    public function getTimestamp(): int
+    public function getUnix(): float
     {
-        return $this->moment->getTimestamp();
+        return $this->timestamp->getUnix();
     }
 
-    public function getMoment(): Timestamp
+    public function getTimestamp(): Timestamp
     {
-        return $this->moment;
+        return $this->timestamp;
     }
 
     public function getTimeZone(): TimeZone

@@ -20,9 +20,9 @@ interface TimestampInterface
     public function sub(TimeInterval $interval): TimestampInterface;
 
     /**
-     * @return int timestamp in seconds since the Unix epoch
+     * @return float timestamp in seconds since the Unix epoch with floating milliseconds
      */
-    public function getTimestamp(): int;
+    public function getUnix(): float;
 
     /**
      * @internal

@@ -44,7 +44,7 @@ final class Timestamp implements TimestampInterface
 
     public function laterThan(TimestampInterface $moment): bool
     {
-        return $this->seconds > $moment->getTimestamp();
+        return $this->seconds > $moment->getUnix();
     }
 
     /**
@@ -83,14 +83,40 @@ final class Timestamp implements TimestampInterface
         return self::fromUnix($dateTime->getTimestamp());
     }
 
-    public function getTimestamp(): int
+    public function getUnix(): float
+    {
+        return $this->seconds;
+    }
+
+    public function getSeconds(): int
     {
         return (int) $this->seconds;
     }
 
+    public function getMilliseconds(): int
+    {
+        return (int) ($this->seconds * TimeInterval::MILLISECONDS_IN_SECOND);
+    }
+
+    /**
+     * @return int amount of minutes since unix epoch
+     */
+    public function getMinutes(): int
+    {
+        return (int) floor($this->getSeconds() / TimeInterval::SECONDS_IN_MINUTE);
+    }
+
+    /**
+     * @return int amount of hours since unix epoch
+     */
+    public function getHours(): int
+    {
+        return (int) floor($this->getMinutes() / TimeInterval::SECONDS_IN_MINUTE);
+    }
+
     public function toNativeDateTime(): DateTimeImmutable
     {
-        $timestamp = $this->getTimestamp();
+        $timestamp = $this->getUnix();
 
         try {
             return new DateTimeImmutable("@$timestamp", TimeZone::UTC->toNativeDateTimeZone());
