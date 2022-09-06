@@ -70,7 +70,7 @@ final class Moment implements MomentInterface
         return new self(seconds: $this->getFloatingSeconds() - $interval->getFloatingSeconds());
     }
 
-    public function withTimeZone(TimeZone $timeZone): TimeZoneMoment
+    public function withTimeZone(TimeZone $timeZone): LocalTime
     {
         return $timeZone->getTimeZoned($this);
     }

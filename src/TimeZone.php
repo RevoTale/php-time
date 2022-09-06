@@ -18,7 +18,7 @@ enum TimeZone: string
         return new DateTimeZone($this->value);
     }
 
-    public function now(): TimeZoneMoment
+    public function now(): LocalTime
     {
         return $this->getTimeZoned(Moment::now());
     }
@@ -26,13 +26,13 @@ enum TimeZone: string
     /**
      * @param int $unix in seconds
      */
-    public function fromUnix(int $unix): TimeZoneMoment
+    public function fromUnix(int $unix): LocalTime
     {
         return $this->getTimeZoned(Moment::fromUnix($unix));
     }
 
-    public function getTimeZoned(Moment $time): TimeZoneMoment
+    public function getTimeZoned(Moment $time): LocalTime
     {
-        return new TimeZoneMoment(timeZone: $this, moment: $time);
+        return new LocalTime(timeZone: $this, moment: $time);
     }
 }

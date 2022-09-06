@@ -10,9 +10,9 @@ use Exception;
 use UnexpectedValueException;
 
 /**
- * Class TimeZoneMoment.
+ * Class LocalTime.
  */
-final class TimeZoneMoment implements MomentInterface
+final class LocalTime implements MomentInterface
 {
     /**
      * @internal
