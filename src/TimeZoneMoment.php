@@ -36,6 +36,11 @@ final class TimeZoneMoment implements MomentInterface
         return (int) $this->toNativeDateTime()->format('G');
     }
 
+    public function format(string $format): string
+    {
+        return $this->toNativeDateTime()->format($format);
+    }
+
     public function toNativeDateTime(): DateTimeImmutable
     {
         $timestamp = $this->moment->getUnix();
