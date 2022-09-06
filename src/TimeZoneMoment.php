@@ -94,4 +94,14 @@ final class TimeZoneMoment implements MomentInterface
     {
         return $this->moment->getTimestamp();
     }
+
+    public function getMoment(): Moment
+    {
+        return $this->moment;
+    }
+
+    public function getTimeZone(): TimeZone
+    {
+        return $this->timeZone;
+    }
 }
