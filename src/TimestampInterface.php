@@ -19,19 +19,19 @@ interface TimestampInterface
 
     public function sub(TimeInterval $interval): TimestampInterface;
 
-    public function diff(TimestampInterface $moment): TimeInterval;
+    public function diff(TimestampInterface $timestamp): TimeInterval;
 
     public function isBetween(TimestampInterface $timestamp1, TimestampInterface $timestamp2): bool;
+
+    /**
+     * @param float $accuracy Accuracy in seconds. To specify milliseconds do 0.0001. Minimum is 1 millisecond
+     */
+    public function equals(TimestampInterface $timestamp, float $accuracy = 1): bool;
 
     /**
      * @return float timestamp in seconds since the Unix epoch with floating milliseconds
      */
     public function getUnix(): float;
-
-    /**
-     * @internal
-     */
-    public function getFloatingSeconds(): float;
 
     public function toNativeDateTime(): DateTimeImmutable;
 }

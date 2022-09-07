@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace BladL\Time;
 
+use InvalidArgumentException;
+
 /**
  * Day of week.
  */
@@ -28,7 +30,8 @@ enum DayOfWeek
             4 => self::Thursday,
             5 => self::Friday,
             6 => self::Saturday,
-            7 => self::Sunday
+            7 => self::Sunday,
+            default => throw new InvalidArgumentException()
         };
     }
 

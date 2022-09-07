@@ -15,8 +15,10 @@ use UnexpectedValueException;
 /**
  * Class Moment.
  */
-final class Timestamp implements TimestampInterface
+final class Timestamp implements TimestampInterface,TimeValueInterface
 {
+    use OperatorsTrait;
+
     /**
      * @internal
      */
@@ -42,41 +44,14 @@ final class Timestamp implements TimestampInterface
         return new self($time);
     }
 
-    public function isBetween(TimestampInterface $timestamp1, TimestampInterface $timestamp2): bool
-    {
-        $seconds1 = $timestamp1->getFloatingSeconds();
-        $seconds2 = $timestamp2->getFloatingSeconds();
-        $current = $this->getFloatingSeconds();
-
-        return min($seconds1, $seconds2) < $current && $current < max($seconds1, $seconds2);
-    }
-
-    public function laterThan(TimestampInterface $moment): bool
-    {
-        return $this->seconds > $moment->getUnix();
-    }
-
-    /**
-     * @internal
-     */
-    public function getFloatingSeconds(): float
-    {
-        return $this->seconds;
-    }
-
-    public function earlierThan(TimestampInterface $moment): bool
-    {
-        return $this->getFloatingSeconds() < $moment->getFloatingSeconds();
-    }
-
     public function add(TimeInterval $interval): self
     {
-        return new self(seconds: $this->getFloatingSeconds() + $interval->getFloatingSeconds());
+        return new self(seconds: $this->getUnix() + $interval->getTimeValue());
     }
 
     public function sub(TimeInterval $interval): self
     {
-        return new self(seconds: $this->getFloatingSeconds() - $interval->getFloatingSeconds());
+        return new self(seconds: $this->getUnix() - $interval->getTimeValue());
     }
 
     public function withTimeZone(TimeZone $timeZone): LocalTimestamp
@@ -134,8 +109,8 @@ final class Timestamp implements TimestampInterface
         }
     }
 
-    public function diff(TimestampInterface $moment): TimeInterval
+    public function getTimeValue(): float
     {
-        return TimeInterval::fromFloatingSeconds($moment->getFloatingSeconds() - $this->getFloatingSeconds());
+       return $this->seconds;
     }
 }

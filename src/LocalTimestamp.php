@@ -12,8 +12,10 @@ use UnexpectedValueException;
 /**
  * Class LocalTimestamp.
  */
-final class LocalTimestamp implements TimestampInterface
+final class LocalTimestamp implements TimestampInterface,TimeValueInterface
 {
+    use OperatorsTrait;
+
     /**
      * @internal
      */
@@ -80,11 +82,6 @@ final class LocalTimestamp implements TimestampInterface
         return new self(timeZone: $this->timeZone, timestamp: $this->timestamp->add($interval));
     }
 
-    public function getFloatingSeconds(): float
-    {
-        return $this->timestamp->getFloatingSeconds();
-    }
-
     public function sub(TimeInterval $interval): self
     {
         return new self(timeZone: $this->timeZone, timestamp: $this->timestamp->sub($interval));
@@ -105,8 +102,8 @@ final class LocalTimestamp implements TimestampInterface
         return $this->timeZone;
     }
 
-    public function diff(TimestampInterface $moment): TimeInterval
+    public function getTimeValue(): float
     {
-        return $this->timestamp->diff($this);
+       return $this->timestamp->getTimeValue();
     }
 }

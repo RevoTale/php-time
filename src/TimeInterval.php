@@ -6,15 +6,15 @@ declare(strict_types=1);
 
 namespace BladL\Time;
 
+use function assert;
 use DateInterval;
 use Error;
 use Exception;
-use function assert;
 
 /**
  * Class TimeInterval.
  */
-final class TimeInterval
+final class TimeInterval implements TimeValueInterface
 {
     public const MILLISECONDS_IN_SECOND = 1000;
     public const MICROSECONDS_IN_MILLISECOND = 1000;
@@ -34,6 +34,11 @@ final class TimeInterval
         assert($this->seconds >= 0.0);
     }
 
+    public static function millisecond(int $amount = 1): self
+    {
+        return new TimeInterval($amount * self::MILLISECONDS_IN_SECOND);
+    }
+
     public function getMicroseconds(): int
     {
         return self::MICROSECONDS_IN_MILLISECOND * $this->getMilliseconds();
@@ -47,14 +52,6 @@ final class TimeInterval
     public function getSeconds(): int
     {
         return (int) ($this->seconds);
-    }
-
-    /**
-     * @internal
-     */
-    public function getFloatingSeconds(): float
-    {
-        return $this->seconds;
     }
 
     public function getMinutes(): int
@@ -109,5 +106,10 @@ final class TimeInterval
     public function format(string $format): string
     {
         return $this->toNativeDateInterval()->format($format);
+    }
+
+    public function getTimeValue(): float
+    {
+        return $this->seconds;
     }
 }
