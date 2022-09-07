@@ -38,4 +38,13 @@ final class TimestampTest extends TestCase
         self::assertTrue($restoredNow->equals($now, 0.0001));
         self::assertTrue($restoredNow->equals($now, 0.00000001));
     }
+
+    public function testNative(): void
+    {
+        $now = Timestamp::now();
+        self::assertSame($now->toNativeDateTime()->getTimestamp(), $now->getUnixSeconds());
+        $format = 'Y-m-d H:i:s';
+        self::assertSame($now->toNativeDateTime()->setTimezone(TimeZone::UTC->toNativeDateTimeZone())->format($format), $now->withTimeZone(TimeZone::UTC)->format($format));
+        self::assertSame($now->toNativeDateTime()->setTimezone(TimeZone::UTC->toNativeDateTimeZone())->setTime(3, 2, 4)->format($format), $now->withTimeZone(TimeZone::UTC)->setTime(3, 2, 4)->format($format));
+    }
 }

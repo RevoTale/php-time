@@ -72,7 +72,7 @@ final class Timestamp implements TimestampInterface
         return $this->seconds;
     }
 
-    public function getMilliseconds(): int
+    public function getUnixMilliseconds(): int
     {
         return (int) ($this->seconds * TimeInterval::MILLISECONDS_IN_SECOND);
     }
