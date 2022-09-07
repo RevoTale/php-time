@@ -108,7 +108,7 @@ final class TimeInterval implements TimeValueInterface
         return $this->toNativeDateInterval()->format($format);
     }
 
-    public function getTimeValue(): float
+    public function _getInternalTimeValue(): float
     {
         return $this->seconds;
     }

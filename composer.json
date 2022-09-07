@@ -15,7 +15,7 @@
         }
     },
     "scripts": {
-        "psalm": "vendor/bin/psalm --output-format=phpstorm",
+        "psalm": "vendor/bin/psalm --output-format=phpstorm --no-cache",
         "php-cs": "vendor/bin/php-cs-fixer fix",
         "phpunit": "./vendor/bin/phpunit tests",
         "phpstan": "./vendor/bin/phpstan",

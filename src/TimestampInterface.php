@@ -9,7 +9,7 @@ use DateTimeImmutable;
 /**
  * Basic methods of moment.
  */
-interface TimestampInterface
+interface TimestampInterface extends TimeValueInterface
 {
     public function laterThan(TimestampInterface $moment): bool;
 
@@ -29,7 +29,7 @@ interface TimestampInterface
     public function equals(TimestampInterface $timestamp, float $accuracy = 1): bool;
 
     /**
-     * @return float timestamp in seconds since the Unix epoch with floating milliseconds
+     * @return float most accurate timestamp in seconds
      */
     public function getUnix(): float;
 

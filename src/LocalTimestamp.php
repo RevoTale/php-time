@@ -12,9 +12,9 @@ use UnexpectedValueException;
 /**
  * Class LocalTimestamp.
  */
-final class LocalTimestamp implements TimestampInterface,TimeValueInterface
+final class LocalTimestamp implements TimestampInterface
 {
-    use OperatorsTrait;
+    use TimeTrait;
 
     /**
      * @internal
@@ -45,7 +45,7 @@ final class LocalTimestamp implements TimestampInterface,TimeValueInterface
 
     public function toNativeDateTime(): DateTimeImmutable
     {
-        $timestamp = $this->timestamp->getUnix();
+        $timestamp = $this->timestamp->getUnixSeconds();
 
         try {
             return new DateTimeImmutable("@$timestamp", $this->timeZone->toNativeDateTimeZone());
@@ -64,17 +64,7 @@ final class LocalTimestamp implements TimestampInterface,TimeValueInterface
         $datetime = $this->toNativeDateTime()->setTime(hour: $hour, minute: $minute, second: $second);
         assert(false !== $datetime);
 
-        return new self(timeZone: $this->timeZone, timestamp: Timestamp::fromUnix($datetime->getTimestamp()));
-    }
-
-    public function laterThan(TimestampInterface $moment): bool
-    {
-        return $this->timestamp->laterThan($moment);
-    }
-
-    public function earlierThan(TimestampInterface $moment): bool
-    {
-        return $this->timestamp->earlierThan($moment);
+        return new self(timeZone: $this->timeZone, timestamp: new Timestamp(seconds: $datetime->getTimestamp()));
     }
 
     public function add(TimeInterval $interval): self
@@ -102,8 +92,8 @@ final class LocalTimestamp implements TimestampInterface,TimeValueInterface
         return $this->timeZone;
     }
 
-    public function getTimeValue(): float
+    public function _getInternalTimeValue(): float
     {
-       return $this->timestamp->getTimeValue();
+        return $this->timestamp->_getInternalTimeValue();
     }
 }

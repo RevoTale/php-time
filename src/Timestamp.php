@@ -15,9 +15,9 @@ use UnexpectedValueException;
 /**
  * Class Moment.
  */
-final class Timestamp implements TimestampInterface,TimeValueInterface
+final class Timestamp implements TimestampInterface
 {
-    use OperatorsTrait;
+    use TimeTrait;
 
     /**
      * @internal
@@ -46,12 +46,12 @@ final class Timestamp implements TimestampInterface,TimeValueInterface
 
     public function add(TimeInterval $interval): self
     {
-        return new self(seconds: $this->getUnix() + $interval->getTimeValue());
+        return new self(seconds: $this->_getInternalTimeValue() + $interval->_getInternalTimeValue());
     }
 
     public function sub(TimeInterval $interval): self
     {
-        return new self(seconds: $this->getUnix() - $interval->getTimeValue());
+        return new self(seconds: $this->getUnix() - $interval->_getInternalTimeValue());
     }
 
     public function withTimeZone(TimeZone $timeZone): LocalTimestamp
@@ -72,35 +72,14 @@ final class Timestamp implements TimestampInterface,TimeValueInterface
         return $this->seconds;
     }
 
-    public function getSeconds(): int
-    {
-        return (int) $this->seconds;
-    }
-
     public function getMilliseconds(): int
     {
         return (int) ($this->seconds * TimeInterval::MILLISECONDS_IN_SECOND);
     }
 
-    /**
-     * @return int amount of minutes since unix epoch
-     */
-    public function getMinutes(): int
-    {
-        return (int) floor($this->getSeconds() / TimeInterval::SECONDS_IN_MINUTE);
-    }
-
-    /**
-     * @return int amount of hours since unix epoch
-     */
-    public function getHours(): int
-    {
-        return (int) floor($this->getMinutes() / TimeInterval::SECONDS_IN_MINUTE);
-    }
-
     public function toNativeDateTime(): DateTimeImmutable
     {
-        $timestamp = $this->getUnix();
+        $timestamp = $this->getUnixSeconds();
 
         try {
             return new DateTimeImmutable("@$timestamp", TimeZone::UTC->toNativeDateTimeZone());
@@ -109,8 +88,8 @@ final class Timestamp implements TimestampInterface,TimeValueInterface
         }
     }
 
-    public function getTimeValue(): float
+    public function _getInternalTimeValue(): float
     {
-       return $this->seconds;
+        return $this->seconds;
     }
 }

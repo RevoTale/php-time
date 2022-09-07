@@ -7,9 +7,9 @@ namespace BladL\Time;
 interface TimeValueInterface
 {
     /**
-     * @return float value in seconds for Interfalc =, Timstamps etc
+     * @return float value in seconds
      *
      * @internal
      */
-    public function getTimeValue(): float;
+    public function _getInternalTimeValue(): float;
 }
