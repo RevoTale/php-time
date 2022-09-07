@@ -61,7 +61,7 @@ final class TimeInterval implements TimeValueInterface
 
     public static function inSeconds(int $amount): self
     {
-        return new self(seconds: self::MILLISECONDS_IN_SECOND * $amount);
+        return new self(seconds: $amount);
     }
 
     public static function fromFloatingSeconds(float $seconds): self
