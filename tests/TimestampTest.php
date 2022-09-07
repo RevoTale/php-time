@@ -8,6 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class TimestampTest extends TestCase
 {
+    private const TEST_TIME_ZONE = TimeZone::UTC;
+
     public function testOperations(): void
     {
         $now = Timestamp::now();
@@ -37,6 +39,7 @@ final class TimestampTest extends TestCase
         self::assertTrue($restoredNow->equals($now));
         self::assertTrue($restoredNow->equals($now, 0.0001));
         self::assertTrue($restoredNow->equals($now, 0.00000001));
+        self::assertSame($now->withTimeZone(self::TEST_TIME_ZONE)->setTime(6, 20)->sub(TimeInterval::hour(5))->getUnix(), $now->withTimeZone(self::TEST_TIME_ZONE)->setTime(1, 20)->getUnix());
     }
 
     public function testNative(): void
@@ -44,7 +47,12 @@ final class TimestampTest extends TestCase
         $now = Timestamp::now();
         self::assertSame($now->toNativeDateTime()->getTimestamp(), $now->getUnixSeconds());
         $format = 'Y-m-d H:i:s';
-        self::assertSame($now->toNativeDateTime()->setTimezone(TimeZone::UTC->toNativeDateTimeZone())->format($format), $now->withTimeZone(TimeZone::UTC)->format($format));
-        self::assertSame($now->toNativeDateTime()->setTimezone(TimeZone::UTC->toNativeDateTimeZone())->setTime(3, 2, 4)->format($format), $now->withTimeZone(TimeZone::UTC)->setTime(3, 2, 4)->format($format));
+        $nativeNowUTC = $now->toNativeDateTime()->setTimezone(self::TEST_TIME_ZONE->toNativeDateTimeZone());
+        $nowUTC = $now->withTimeZone(self::TEST_TIME_ZONE);
+        self::assertSame($nativeNowUTC->format($format), $nowUTC->format($format));
+        self::assertSame($nativeNowUTC->setTime(3, 2, 4)->format($format), $nowUTC->setTime(3, 2, 4)->format($format));
+
+        self::assertNotSame($nativeNowUTC->setTime(3, 1, 4)->format($format), $nowUTC->setTime(3, 2, 4)->format($format));
+        self::assertSame($nativeNowUTC->getTimestamp(), $nowUTC->getUnixSeconds());
     }
 }
