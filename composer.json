@@ -17,16 +17,19 @@
     "scripts": {
         "psalm": "vendor/bin/psalm --output-format=phpstorm",
         "php-cs": "vendor/bin/php-cs-fixer fix",
+        "phpunit": "./vendor/bin/phpunit tests",
         "test": [
             "@psalm",
-            "@php-cs"
+            "@php-cs",
+            "@phpunit"
         ]
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
     "require-dev": {
         "friendsofphp/php-cs-fixer": ">=2.18",
-        "vimeo/psalm": ">=4.6"
+        "vimeo/psalm": ">=4.6",
+        "phpunit/phpunit": "^9.5"
     },
     "require": {
         "php": ">=8.1",

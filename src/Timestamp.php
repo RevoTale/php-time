@@ -42,6 +42,15 @@ final class Timestamp implements TimestampInterface
         return new self($time);
     }
 
+    public function isBetween(TimestampInterface $timestamp1, TimestampInterface $timestamp2): bool
+    {
+        $seconds1 = $timestamp1->getFloatingSeconds();
+        $seconds2 = $timestamp2->getFloatingSeconds();
+        $current = $this->getFloatingSeconds();
+
+        return min($seconds1, $seconds2) < $current && $current < max($seconds1, $seconds2);
+    }
+
     public function laterThan(TimestampInterface $moment): bool
     {
         return $this->seconds > $moment->getUnix();

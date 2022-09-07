@@ -9,6 +9,7 @@ namespace BladL\Time;
 use DateInterval;
 use Error;
 use Exception;
+use function assert;
 
 /**
  * Class TimeInterval.
@@ -24,10 +25,13 @@ final class TimeInterval
     public const SECONDS_IN_WEEK = self::SECONDS_IN_DAY * 7;
 
     /**
+     * @param float $seconds
+     *
      * @internal
      */
     private function __construct(private readonly float $seconds)
     {
+        assert($this->seconds >= 0.0);
     }
 
     public function getMicroseconds(): int

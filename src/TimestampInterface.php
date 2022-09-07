@@ -21,6 +21,8 @@ interface TimestampInterface
 
     public function diff(TimestampInterface $moment): TimeInterval;
 
+    public function isBetween(TimestampInterface $timestamp1, TimestampInterface $timestamp2): bool;
+
     /**
      * @return float timestamp in seconds since the Unix epoch with floating milliseconds
      */
