@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace BladL\Time;
 
+use DateTimeImmutable;
+use DateTimeZone;
+use Exception;
 use PHPUnit\Framework\TestCase;
 
 final class TimestampTest extends TestCase
@@ -42,6 +45,9 @@ final class TimestampTest extends TestCase
         self::assertSame($now->withTimeZone(self::TEST_TIME_ZONE)->setTime(6, 20)->sub(TimeInterval::hour(5))->getUnix(), $now->withTimeZone(self::TEST_TIME_ZONE)->setTime(1, 20)->getUnix());
     }
 
+    /**
+     * @throws Exception
+     */
     public function testNative(): void
     {
         $now = Timestamp::now();
@@ -54,6 +60,14 @@ final class TimestampTest extends TestCase
 
         self::assertNotSame($nativeNowUTC->setTime(3, 1, 4)->format($format), $nowUTC->setTime(3, 2, 4)->format($format));
         self::assertSame($nativeNowUTC->getTimestamp(), $nowUTC->getUnixSeconds());
+    }
 
+    /**
+     * @throws Exception
+     */
+    public function testTimeZones(): void
+    {
+        $target = 10000000;
+        self::assertSame((new DateTimeImmutable("@$target", timezone: new DateTimeZone('Europe/Kiev')))->format('Y-m-d H:i:s'), self::TEST_TIME_ZONE->fromUnix($target));
     }
 }
