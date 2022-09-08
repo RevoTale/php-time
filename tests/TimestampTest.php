@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 final class TimestampTest extends TestCase
 {
-    private const TEST_TIME_ZONE = TimeZone::UTC;
+    private const TEST_TIME_ZONE = TimeZone::EuropeKyiv;
 
     public function testOperations(): void
     {
@@ -54,5 +54,6 @@ final class TimestampTest extends TestCase
 
         self::assertNotSame($nativeNowUTC->setTime(3, 1, 4)->format($format), $nowUTC->setTime(3, 2, 4)->format($format));
         self::assertSame($nativeNowUTC->getTimestamp(), $nowUTC->getUnixSeconds());
+
     }
 }
