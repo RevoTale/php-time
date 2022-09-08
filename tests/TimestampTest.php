@@ -53,13 +53,17 @@ final class TimestampTest extends TestCase
         $now = Timestamp::now();
         self::assertSame($now->toNativeDateTime()->getTimestamp(), $now->getUnixSeconds());
         $format = 'Y-m-d H:i:s';
-        $nativeNowUTC = $now->toNativeDateTime()->setTimezone(self::TEST_TIME_ZONE->toNativeDateTimeZone());
-        $nowUTC = $now->withTimeZone(self::TEST_TIME_ZONE);
-        self::assertSame($nativeNowUTC->format($format), $nowUTC->format($format));
-        self::assertSame($nativeNowUTC->setTime(3, 2, 4)->format($format), $nowUTC->setTime(3, 2, 4)->format($format));
+        $nativeNowTimeZoned = $now->toNativeDateTime()->setTimezone(self::TEST_TIME_ZONE->toNativeDateTimeZone());
+        $nowTimeZoned = $now->withTimeZone(self::TEST_TIME_ZONE);
+        self::assertSame($nativeNowTimeZoned->getTimestamp(), $nowTimeZoned->getUnixSeconds());
+        self::assertSame($nativeNowTimeZoned->getTimezone()->getName(), $nowTimeZoned->getTimeZone()->toNativeDateTimeZone()->getName());
+        self::assertSame($nativeNowTimeZoned->getTimezone()->getName(), $nowTimeZoned->toNativeDateTime()->getTimezone()->getName());
 
-        self::assertNotSame($nativeNowUTC->setTime(3, 1, 4)->format($format), $nowUTC->setTime(3, 2, 4)->format($format));
-        self::assertSame($nativeNowUTC->getTimestamp(), $nowUTC->getUnixSeconds());
+        self::assertSame($nativeNowTimeZoned->format($format), $nowTimeZoned->format($format));
+        self::assertSame($nativeNowTimeZoned->setTime(3, 2, 4)->format($format), $nowTimeZoned->setTime(3, 2, 4)->format($format));
+
+        self::assertNotSame($nativeNowTimeZoned->setTime(3, 1, 4)->format($format), $nowTimeZoned->setTime(3, 2, 4)->format($format));
+        self::assertSame($nativeNowTimeZoned->getTimestamp(), $nowTimeZoned->getUnixSeconds());
     }
 
     /**
@@ -68,6 +72,12 @@ final class TimestampTest extends TestCase
     public function testTimeZones(): void
     {
         $target = 10000000;
-        self::assertSame((new DateTimeImmutable("@$target", timezone: new DateTimeZone('Europe/Kiev')))->format('Y-m-d H:i:s'), self::TEST_TIME_ZONE->fromUnix($target));
+        $format = 'Y-m-d H:i:s';
+        $native = (new DateTimeImmutable("@$target", timezone: new DateTimeZone('Europe/Kiev')));
+        $lib = self::TEST_TIME_ZONE->fromUnix($target);
+        self::assertSame($native->getTimestamp(), $lib->toNativeDateTime()->getTimestamp());
+        self::assertSame($native->getTimezone()->getName(), $lib->toNativeDateTime()->getTimezone()->getName());
+
+        self::assertSame($native->format($format), $lib->format($format));
     }
 }

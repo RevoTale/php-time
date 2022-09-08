@@ -46,7 +46,6 @@ final class LocalTimestamp implements TimestampInterface
     public function toNativeDateTime(): DateTimeImmutable
     {
         $timestamp = $this->timestamp->getUnixSeconds();
-
         try {
             return new DateTimeImmutable("@$timestamp", $this->timeZone->toNativeDateTimeZone());
         } catch (Exception) {
