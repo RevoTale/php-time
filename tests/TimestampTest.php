@@ -73,11 +73,12 @@ final class TimestampTest extends TestCase
     {
         $target = 10000000;
         $format = 'Y-m-d H:i:s';
-        $native = (new DateTimeImmutable("@$target", timezone: new DateTimeZone('Europe/Kiev')));
+        $native = (new DateTimeImmutable("@$target"))->setTimezone(new DateTimeZone('Europe/Kiev'));
         $lib = self::TEST_TIME_ZONE->fromUnix($target);
         self::assertSame($native->getTimestamp(), $lib->toNativeDateTime()->getTimestamp());
         self::assertSame($native->getTimezone()->getName(), $lib->toNativeDateTime()->getTimezone()->getName());
 
         self::assertSame($native->format($format), $lib->format($format));
+
     }
 }
