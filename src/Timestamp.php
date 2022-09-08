@@ -82,7 +82,7 @@ final class Timestamp implements TimestampInterface
         $timestamp = $this->getUnixSeconds();
 
         try {
-            return new DateTimeImmutable("@$timestamp", TimeZone::UTC->toNativeDateTimeZone());
+            return new DateTimeImmutable("@$timestamp");
         } catch (Exception) {
             throw new UnexpectedValueException('Exception never thrown');
         }
