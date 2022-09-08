@@ -11,7 +11,7 @@ use DateTimeZone;
  */
 enum TimeZone: string
 {
-    case EuropeKyiv = 'Europe/Kyiv';
+    case EuropeKyiv = 'Europe/Kiev';
     case UTC = 'UTC';
     public function toNativeDateTimeZone(): DateTimeZone
     {
