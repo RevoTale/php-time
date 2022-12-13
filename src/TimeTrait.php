@@ -25,7 +25,7 @@ trait TimeTrait
 
     public function diff(TimestampInterface $timestamp): TimeInterval
     {
-        return TimeInterval::fromFloatingSeconds($timestamp->_getInternalTimeValue() - $this->_getInternalTimeValue());
+        return TimeInterval::fromFloatingSeconds(abs($timestamp->_getInternalTimeValue() - $this->_getInternalTimeValue()));
     }
 
     public function laterThan(TimestampInterface $moment): bool

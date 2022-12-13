@@ -79,6 +79,5 @@ final class TimestampTest extends TestCase
         self::assertSame($native->getTimezone()->getName(), $lib->toNativeDateTime()->getTimezone()->getName());
 
         self::assertSame($native->format($format), $lib->format($format));
-
     }
 }
