@@ -3,11 +3,11 @@
     "description": "PHP built-in DateTime classes alternative. Strict types, no exceptions and latest PHP 8.1 features.",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "BladL"
-        }
-    ],
+    "authors": [{
+        "homepage": "https://github.com/rusted-love",
+        "name": "Liakhovskyi Vladyslav",
+        "email": "vlad@rusted-labs.org"
+    }],
     "keywords": ["PHP Date Time"],
     "autoload": {
         "psr-4": {
