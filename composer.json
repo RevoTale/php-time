@@ -15,6 +15,7 @@
         }
     },
     "scripts": {
+        "phpmd": "vendor/bin/phpmd ./src/ text phpmd.ruleset.xml",
         "psalm": "vendor/bin/psalm --output-format=phpstorm --no-cache",
         "php-cs": "vendor/bin/php-cs-fixer fix",
         "phpunit": "./vendor/bin/phpunit tests",
@@ -22,7 +23,8 @@
         "test": [
             "@psalm",
             "@php-cs",
-            "@phpunit"
+            "@phpunit",
+            "@phpmd"
         ]
     },
     "prefer-stable": true,
@@ -31,7 +33,9 @@
         "friendsofphp/php-cs-fixer": ">=2.18",
         "vimeo/psalm": ">=4.6",
         "phpunit/phpunit": "^9.5",
-        "phpstan/phpstan": "^1.8"
+        "phpstan/phpstan": "^1.8",
+        "phpmd/phpmd" : "@stable"
+
     },
     "require": {
         "php": ">=8.2",

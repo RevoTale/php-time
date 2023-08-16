@@ -18,6 +18,7 @@ enum DayOfWeek
     case Friday;
     case Saturday;
     case Sunday;
+
     /**
      * @psalm-pure
      */

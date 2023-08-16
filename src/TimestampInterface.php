@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Grisaia\Time;
 
-use DateTimeImmutable;
-
 /**
  * Basic methods of moment.
  */
@@ -33,5 +31,5 @@ interface TimestampInterface extends TimeValueInterface
      */
     public function getUnix(): float;
 
-    public function toNativeDateTime(): DateTimeImmutable;
+    public function toNativeDateTime(): \DateTimeImmutable;
 }

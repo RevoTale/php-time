@@ -1,9 +1,9 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Grisaia\Time;
 
-use function assert;
 use DateInterval;
 use Error;
 use Exception;
@@ -22,13 +22,11 @@ final readonly class TimeInterval implements TimeValueInterface
     public const SECONDS_IN_WEEK = self::SECONDS_IN_DAY * 7;
 
     /**
-     * @param float $seconds
-     *
      * @internal
      */
     private function __construct(private readonly float $seconds)
     {
-        assert($this->seconds >= 0.0);
+        \assert($this->seconds >= 0.0);
     }
 
     public static function millisecond(int $amount = 1): self
@@ -48,7 +46,7 @@ final readonly class TimeInterval implements TimeValueInterface
 
     public function getSeconds(): int
     {
-        return (int) ($this->seconds);
+        return (int) $this->seconds;
     }
 
     public function getMinutes(): int
@@ -105,7 +103,7 @@ final readonly class TimeInterval implements TimeValueInterface
         return $this->toNativeDateInterval()->format($format);
     }
 
-    public function _getInternalTimeValue(): float
+    public function getInternalTimeValue(): float
     {
         return $this->seconds;
     }

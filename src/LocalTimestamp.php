@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Grisaia\Time;
 
-use function assert;
 use DateTimeImmutable;
 use Exception;
 use UnexpectedValueException;
@@ -61,7 +60,6 @@ final readonly class LocalTimestamp implements TimestampInterface
     public function setTime(int $hour, int $minute, int $second = 0): self
     {
         $datetime = $this->toNativeDateTime()->setTime(hour: $hour, minute: $minute, second: $second);
-        assert(false !== $datetime);
 
         return new self(timeZone: $this->timeZone, timestamp: new Timestamp(seconds: $datetime->getTimestamp()));
     }
@@ -91,8 +89,8 @@ final readonly class LocalTimestamp implements TimestampInterface
         return $this->timeZone;
     }
 
-    public function _getInternalTimeValue(): float
+    public function getInternalTimeValue(): float
     {
-        return $this->timestamp->_getInternalTimeValue();
+        return $this->timestamp->getInternalTimeValue();
     }
 }

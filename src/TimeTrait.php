@@ -8,39 +8,39 @@ trait TimeTrait
 {
     public function equals(TimestampInterface $timestamp, float $accuracy = 1): bool
     {
-        $a = $this->_getInternalTimeValue();
-        $b = $timestamp->_getInternalTimeValue();
+        $timeA = $this->getInternalTimeValue();
+        $timeB = $timestamp->getInternalTimeValue();
 
-        return abs(($a - $b) / $b) <= $accuracy;
+        return abs(($timeA - $timeB) / $timeB) <= $accuracy;
     }
 
     public function isBetween(TimestampInterface $timestamp1, TimestampInterface $timestamp2): bool
     {
-        $seconds1 = $timestamp1->_getInternalTimeValue();
-        $seconds2 = $timestamp2->_getInternalTimeValue();
-        $current = $this->_getInternalTimeValue();
+        $seconds1 = $timestamp1->getInternalTimeValue();
+        $seconds2 = $timestamp2->getInternalTimeValue();
+        $current = $this->getInternalTimeValue();
 
         return min($seconds1, $seconds2) < $current && $current < max($seconds1, $seconds2);
     }
 
     public function diff(TimestampInterface $timestamp): TimeInterval
     {
-        return TimeInterval::fromFloatingSeconds(abs($timestamp->_getInternalTimeValue() - $this->_getInternalTimeValue()));
+        return TimeInterval::fromFloatingSeconds(abs($timestamp->getInternalTimeValue() - $this->getInternalTimeValue()));
     }
 
     public function laterThan(TimestampInterface $moment): bool
     {
-        return $this->_getInternalTimeValue() > $moment->_getInternalTimeValue();
+        return $this->getInternalTimeValue() > $moment->getInternalTimeValue();
     }
 
     public function earlierThan(TimestampInterface $moment): bool
     {
-        return $this->_getInternalTimeValue() < $moment->_getInternalTimeValue();
+        return $this->getInternalTimeValue() < $moment->getInternalTimeValue();
     }
 
     public function getUnixSeconds(): int
     {
-        return (int) $this->_getInternalTimeValue();
+        return (int) $this->getInternalTimeValue();
     }
 
     /**

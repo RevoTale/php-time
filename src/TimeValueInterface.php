@@ -11,5 +11,5 @@ interface TimeValueInterface
      *
      * @internal
      */
-    public function _getInternalTimeValue(): float;
+    public function getInternalTimeValue(): float;
 }

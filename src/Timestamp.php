@@ -1,11 +1,10 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Grisaia\Time;
 
-use function assert;
 use DateTimeImmutable;
-use DateTimeInterface;
 use Exception;
 use UnexpectedValueException;
 
@@ -28,7 +27,7 @@ final class Timestamp implements TimestampInterface
         return new self(time());
     }
 
-    public static function fromDateTime(DateTimeInterface $object): self
+    public static function fromDateTime(\DateTimeInterface $object): self
     {
         return self::fromUnix($object->getTimestamp());
     }
@@ -43,12 +42,12 @@ final class Timestamp implements TimestampInterface
 
     public function add(TimeInterval $interval): self
     {
-        return new self(seconds: $this->_getInternalTimeValue() + $interval->_getInternalTimeValue());
+        return new self(seconds: $this->getInternalTimeValue() + $interval->getInternalTimeValue());
     }
 
     public function sub(TimeInterval $interval): self
     {
-        return new self(seconds: $this->getUnix() - $interval->_getInternalTimeValue());
+        return new self(seconds: $this->getUnix() - $interval->getInternalTimeValue());
     }
 
     public function withTimeZone(TimeZone $timeZone): LocalTimestamp
@@ -59,7 +58,7 @@ final class Timestamp implements TimestampInterface
     public static function fromFormat(string $format, string $datetime, TimeZone $timeZone): self
     {
         $dateTime = DateTimeImmutable::createFromFormat($format, $datetime, $timeZone->toNativeDateTimeZone());
-        assert(false !== $dateTime);
+        \assert(false !== $dateTime);
 
         return self::fromUnix($dateTime->getTimestamp());
     }
@@ -85,7 +84,7 @@ final class Timestamp implements TimestampInterface
         }
     }
 
-    public function _getInternalTimeValue(): float
+    public function getInternalTimeValue(): float
     {
         return $this->seconds;
     }
