@@ -11,7 +11,7 @@ use Exception;
 /**
  * Class TimeInterval.
  */
-final class TimeInterval implements TimeValueInterface
+final readonly class TimeInterval implements TimeValueInterface
 {
     public const MILLISECONDS_IN_SECOND = 1000;
     public const MICROSECONDS_IN_MILLISECOND = 1000;

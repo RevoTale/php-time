@@ -7,9 +7,9 @@ namespace Grisaia\Time;
 /**
  * Period of time for common purposes.
  */
-final class PeriodOfTime
+final readonly class PeriodOfTime
 {
-    public function __construct(public readonly Timestamp $from, public readonly Timestamp $to)
+    public function __construct(public Timestamp $from, public Timestamp $to)
     {
     }
 }

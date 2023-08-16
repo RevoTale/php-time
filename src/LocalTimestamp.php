@@ -12,14 +12,14 @@ use UnexpectedValueException;
 /**
  * Class LocalTimestamp.
  */
-final class LocalTimestamp implements TimestampInterface
+final readonly class LocalTimestamp implements TimestampInterface
 {
     use TimeTrait;
 
     /**
      * @internal
      */
-    public function __construct(private readonly TimeZone $timeZone, private readonly Timestamp $timestamp)
+    public function __construct(private TimeZone $timeZone, private Timestamp $timestamp)
     {
     }
 

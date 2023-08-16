@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Grisaia\Time;
 
 use DateTimeImmutable;
-use DateTimeZone;
-use Exception;
 use PHPUnit\Framework\TestCase;
 
 final class TimestampTest extends TestCase
@@ -46,7 +44,7 @@ final class TimestampTest extends TestCase
     }
 
     /**
-     * @throws Exception
+     * @throws \Exception
      */
     public function testNative(): void
     {
@@ -67,13 +65,13 @@ final class TimestampTest extends TestCase
     }
 
     /**
-     * @throws Exception
+     * @throws \Exception
      */
     public function testTimeZones(): void
     {
         $target = 10000000;
         $format = 'Y-m-d H:i:s';
-        $native = (new DateTimeImmutable("@$target"))->setTimezone(new DateTimeZone('Europe/Kiev'));
+        $native = (new DateTimeImmutable("@$target"))->setTimezone(new \DateTimeZone('Europe/Kiev'));
         $lib = self::TEST_TIME_ZONE->fromUnix($target);
         self::assertSame($native->getTimestamp(), $lib->toNativeDateTime()->getTimestamp());
         self::assertSame($native->getTimezone()->getName(), $lib->toNativeDateTime()->getTimezone()->getName());
