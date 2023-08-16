@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-namespace BladL\Time;
+namespace Grisaia\Time;
 
 use function assert;
 use DateTimeImmutable;

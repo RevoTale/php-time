@@ -1,5 +1,5 @@
 {
-    "name": "bladl/time",
+    "name": "grisaia/time",
     "description": "PHP built-in DateTime classes alternative. Strict types, no exceptions and latest PHP 8.1 features.",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     "keywords": ["PHP Date Time"],
     "autoload": {
         "psr-4": {
-            "BladL\\Time\\": "src"
+            "Grisaia\\Time\\": "src"
         }
     },
     "scripts": {
