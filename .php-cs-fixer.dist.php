@@ -9,7 +9,8 @@ $config = new PhpCsFixer\Config();
 
 return $config
     ->setRules([
-        '@Symfony' => true,
+        '@PSR12' => true,
+        'yoda_style'=>true
     ])
     ->setFinder($finder)
 ;
