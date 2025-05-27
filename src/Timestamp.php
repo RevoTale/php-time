@@ -15,9 +15,7 @@ final class Timestamp implements TimestampInterface
 {
     use TimeTrait;
 
-    /**
-     * @internal
-     */
+ 
     public function __construct(private readonly float $seconds)
     {
     }
