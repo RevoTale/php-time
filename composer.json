@@ -19,7 +19,7 @@
         "php-cs:test": "vendor/bin/php-cs-fixer fix --dry-run",
         "phpunit": "./vendor/bin/phpunit tests",
         "phpstan": "vendor/bin/phpstan analyse -c phpstan.neon",
-
+        "docs":"vendor/bin/phpdoc",
         "test": [
             "@phpstan",
             "@php-cs:test",
@@ -31,11 +31,18 @@
     "require-dev": {
         "friendsofphp/php-cs-fixer": ">=3.88.2",
         "phpunit/phpunit": "^12.0",
-        "phpstan/phpstan": "^2.0"
+        "phpstan/phpstan": "^2.0",
+        "phpdocumentor/shim": "^3.9"
+
     },
     "require": {
         "php": ">=8.3",
         "ext-curl": "*",
         "ext-json": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpdocumentor/shim": true
+        }
     }
 }
