@@ -591,7 +591,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PHPUnit-Framework-TestCase.html#property_numberOfAssertionsPerformed">$numberOfAssertionsPerformed</a>
     <span>
-                        &nbsp;: 0|positive-int            </span>
+                        &nbsp;: int            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -2266,7 +2266,7 @@ to the contents of a file (ignoring case).</dd>
 <dd>This method is called after the last test of this test class is run.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PHPUnit-Framework-TestCase.html#method_any">any()</a>
+    <a class="-deprecated" href="classes/PHPUnit-Framework-TestCase.html#method_any">any()</a>
     <span>
                                 &nbsp;: <abbr title="\PHPUnit\Framework\MockObject\Rule\AnyInvokedCount">AnyInvokedCount</abbr>    </span>
 </dt>
@@ -3799,12 +3799,14 @@ exactly $count times.</dd>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">0|positive-int</span>
+            <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$numberOfAssertionsPerformed</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
     
-    
+        <section class="phpdocumentor-description"><p>non-negative-int</p>
+</section>
+
     
 
         
@@ -19980,7 +19982,7 @@ to the contents of a file (ignoring case).</p>
         class="phpdocumentor-element
             -method
             -protected
-                                                -final        "
+            -deprecated                                    -final        "
 >
     <h4 class="phpdocumentor-element__name" id="method_any">
         any()
@@ -19990,18 +19992,25 @@ to the contents of a file (ignoring case).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">982</span>
+    <span class="phpdocumentor-element-found-in__line">988</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Returns a matcher that matches when the method is executed
 zero or more times.</p>
 
-    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <code class="phpdocumentor-code phpdocumentor-signature -deprecated">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__final">final</span>            <span class="phpdocumentor-signature__name">any</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\PHPUnit\Framework\MockObject\Rule\AnyInvokedCount">AnyInvokedCount</abbr></span></code>
 
     <div class="phpdocumentor-label-line">
+        </div>
+                <div class="phpdocumentor-admonition">
+        <svg class="phpdocumentor-admonition__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            <article>
+                <p>https://github.com/sebastianbergmann/phpunit/issues/6461</p>
+
+            </article>
         </div>
     
     
@@ -20132,7 +20141,7 @@ zero or more times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">999</span>
+    <span class="phpdocumentor-element-found-in__line">1005</span>
 
     </aside>
 
@@ -20182,7 +20191,7 @@ at least N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1009</span>
+    <span class="phpdocumentor-element-found-in__line">1015</span>
 
     </aside>
 
@@ -20221,7 +20230,7 @@ at least N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1035</span>
+    <span class="phpdocumentor-element-found-in__line">1041</span>
 
     </aside>
 
@@ -20271,7 +20280,7 @@ at most N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1223</span>
+    <span class="phpdocumentor-element-found-in__line">1229</span>
 
     </aside>
 
@@ -20365,7 +20374,7 @@ at most N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2539</span>
+    <span class="phpdocumentor-element-found-in__line">2547</span>
 
     </aside>
 
@@ -20459,7 +20468,7 @@ at most N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1167</span>
+    <span class="phpdocumentor-element-found-in__line">1173</span>
 
     </aside>
 
@@ -20546,7 +20555,7 @@ at most N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1192</span>
+    <span class="phpdocumentor-element-found-in__line">1198</span>
 
     </aside>
 
@@ -20609,7 +20618,7 @@ at most N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1247</span>
+    <span class="phpdocumentor-element-found-in__line">1253</span>
 
     </aside>
 
@@ -20695,7 +20704,7 @@ at most N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2489</span>
+    <span class="phpdocumentor-element-found-in__line">2497</span>
 
     </aside>
 
@@ -20782,7 +20791,7 @@ at most N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2512</span>
+    <span class="phpdocumentor-element-found-in__line">2520</span>
 
     </aside>
 
@@ -20845,7 +20854,7 @@ at most N times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1026</span>
+    <span class="phpdocumentor-element-found-in__line">1032</span>
 
     </aside>
 
@@ -20895,7 +20904,7 @@ exactly $count times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1062</span>
+    <span class="phpdocumentor-element-found-in__line">1068</span>
 
     </aside>
 
@@ -20929,7 +20938,7 @@ exactly $count times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1070</span>
+    <span class="phpdocumentor-element-found-in__line">1076</span>
 
     </aside>
 
@@ -20973,7 +20982,7 @@ exactly $count times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1075</span>
+    <span class="phpdocumentor-element-found-in__line">1081</span>
 
     </aside>
 
@@ -21017,7 +21026,7 @@ exactly $count times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1080</span>
+    <span class="phpdocumentor-element-found-in__line">1086</span>
 
     </aside>
 
@@ -21061,7 +21070,7 @@ exactly $count times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1085</span>
+    <span class="phpdocumentor-element-found-in__line">1091</span>
 
     </aside>
 
@@ -21105,7 +21114,7 @@ exactly $count times.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1095</span>
+    <span class="phpdocumentor-element-found-in__line">1101</span>
 
     </aside>
 
@@ -21153,7 +21162,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1102</span>
+    <span class="phpdocumentor-element-found-in__line">1108</span>
 
     </aside>
 
@@ -21187,7 +21196,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1052</span>
+    <span class="phpdocumentor-element-found-in__line">1058</span>
 
     </aside>
 
@@ -21231,7 +21240,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1057</span>
+    <span class="phpdocumentor-element-found-in__line">1063</span>
 
     </aside>
 
@@ -21275,7 +21284,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1110</span>
+    <span class="phpdocumentor-element-found-in__line">1116</span>
 
     </aside>
 
@@ -21319,7 +21328,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1118</span>
+    <span class="phpdocumentor-element-found-in__line">1124</span>
 
     </aside>
 
@@ -21363,7 +21372,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1045</span>
+    <span class="phpdocumentor-element-found-in__line">1051</span>
 
     </aside>
 
@@ -21401,7 +21410,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1132</span>
+    <span class="phpdocumentor-element-found-in__line">1138</span>
 
     </aside>
 
@@ -21464,7 +21473,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2471</span>
+    <span class="phpdocumentor-element-found-in__line">2479</span>
 
     </aside>
 
@@ -21527,7 +21536,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">990</span>
+    <span class="phpdocumentor-element-found-in__line">996</span>
 
     </aside>
 
@@ -21566,7 +21575,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1017</span>
+    <span class="phpdocumentor-element-found-in__line">1023</span>
 
     </aside>
 
@@ -21605,7 +21614,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1289</span>
+    <span class="phpdocumentor-element-found-in__line">1295</span>
 
     </aside>
 
@@ -21669,7 +21678,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1271</span>
+    <span class="phpdocumentor-element-found-in__line">1277</span>
 
     </aside>
 
@@ -21713,7 +21722,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1137</span>
+    <span class="phpdocumentor-element-found-in__line">1143</span>
 
     </aside>
 
@@ -21757,7 +21766,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1149</span>
+    <span class="phpdocumentor-element-found-in__line">1155</span>
 
     </aside>
 
@@ -21899,7 +21908,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1040</span>
+    <span class="phpdocumentor-element-found-in__line">1046</span>
 
     </aside>
 
@@ -21947,7 +21956,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1279</span>
+    <span class="phpdocumentor-element-found-in__line">1285</span>
 
     </aside>
 
@@ -21995,7 +22004,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1676</span>
+    <span class="phpdocumentor-element-found-in__line">1682</span>
 
     </aside>
 
@@ -22033,7 +22042,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1722</span>
+    <span class="phpdocumentor-element-found-in__line">1728</span>
 
     </aside>
 
@@ -22071,7 +22080,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2457</span>
+    <span class="phpdocumentor-element-found-in__line">2465</span>
 
     </aside>
 
@@ -22109,7 +22118,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1432</span>
+    <span class="phpdocumentor-element-found-in__line">1438</span>
 
     </aside>
 
@@ -22158,7 +22167,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1866</span>
+    <span class="phpdocumentor-element-found-in__line">1872</span>
 
     </aside>
 
@@ -22216,7 +22225,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1835</span>
+    <span class="phpdocumentor-element-found-in__line">1841</span>
 
     </aside>
 
@@ -22267,7 +22276,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1783</span>
+    <span class="phpdocumentor-element-found-in__line">1789</span>
 
     </aside>
 
@@ -22315,7 +22324,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2285</span>
+    <span class="phpdocumentor-element-found-in__line">2293</span>
 
     </aside>
 
@@ -22364,7 +22373,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2550</span>
+    <span class="phpdocumentor-element-found-in__line">2558</span>
 
     </aside>
 
@@ -22402,7 +22411,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1448</span>
+    <span class="phpdocumentor-element-found-in__line">1454</span>
 
     </aside>
 
@@ -22440,7 +22449,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1884</span>
+    <span class="phpdocumentor-element-found-in__line">1892</span>
 
     </aside>
 
@@ -22474,7 +22483,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2419</span>
+    <span class="phpdocumentor-element-found-in__line">2427</span>
 
     </aside>
 
@@ -22508,7 +22517,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2354</span>
+    <span class="phpdocumentor-element-found-in__line">2362</span>
 
     </aside>
 
@@ -22567,7 +22576,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2143</span>
+    <span class="phpdocumentor-element-found-in__line">2151</span>
 
     </aside>
 
@@ -22640,7 +22649,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2124</span>
+    <span class="phpdocumentor-element-found-in__line">2132</span>
 
     </aside>
 
@@ -22706,7 +22715,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2055</span>
+    <span class="phpdocumentor-element-found-in__line">2063</span>
 
     </aside>
 
@@ -22779,7 +22788,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2073</span>
+    <span class="phpdocumentor-element-found-in__line">2081</span>
 
     </aside>
 
@@ -22845,7 +22854,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2164</span>
+    <span class="phpdocumentor-element-found-in__line">2172</span>
 
     </aside>
 
@@ -22946,7 +22955,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2107</span>
+    <span class="phpdocumentor-element-found-in__line">2115</span>
 
     </aside>
 
@@ -23012,7 +23021,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2090</span>
+    <span class="phpdocumentor-element-found-in__line">2098</span>
 
     </aside>
 
@@ -23078,7 +23087,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1999</span>
+    <span class="phpdocumentor-element-found-in__line">2007</span>
 
     </aside>
 
@@ -23126,7 +23135,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2322</span>
+    <span class="phpdocumentor-element-found-in__line">2330</span>
 
     </aside>
 
@@ -23174,7 +23183,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1529</span>
+    <span class="phpdocumentor-element-found-in__line">1535</span>
 
     </aside>
 
@@ -23241,7 +23250,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1550</span>
+    <span class="phpdocumentor-element-found-in__line">1556</span>
 
     </aside>
 
@@ -23285,7 +23294,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2232</span>
+    <span class="phpdocumentor-element-found-in__line">2240</span>
 
     </aside>
 
@@ -23333,7 +23342,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2027</span>
+    <span class="phpdocumentor-element-found-in__line">2035</span>
 
     </aside>
 
@@ -23398,7 +23407,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2341</span>
+    <span class="phpdocumentor-element-found-in__line">2349</span>
 
     </aside>
 
@@ -23436,7 +23445,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2346</span>
+    <span class="phpdocumentor-element-found-in__line">2354</span>
 
     </aside>
 
@@ -23474,7 +23483,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1909</span>
+    <span class="phpdocumentor-element-found-in__line">1917</span>
 
     </aside>
 
@@ -23508,7 +23517,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1610</span>
+    <span class="phpdocumentor-element-found-in__line">1616</span>
 
     </aside>
 
@@ -23542,7 +23551,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1757</span>
+    <span class="phpdocumentor-element-found-in__line">1763</span>
 
     </aside>
 
@@ -23576,7 +23585,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1318</span>
+    <span class="phpdocumentor-element-found-in__line">1324</span>
 
     </aside>
 
@@ -23649,7 +23658,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1947</span>
+    <span class="phpdocumentor-element-found-in__line">1955</span>
 
     </aside>
 
@@ -23712,7 +23721,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1918</span>
+    <span class="phpdocumentor-element-found-in__line">1926</span>
 
     </aside>
 
@@ -23760,7 +23769,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1982</span>
+    <span class="phpdocumentor-element-found-in__line">1990</span>
 
     </aside>
 
@@ -23798,7 +23807,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1604</span>
+    <span class="phpdocumentor-element-found-in__line">1610</span>
 
     </aside>
 
@@ -23832,7 +23841,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1745</span>
+    <span class="phpdocumentor-element-found-in__line">1751</span>
 
     </aside>
 
@@ -23866,7 +23875,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2367</span>
+    <span class="phpdocumentor-element-found-in__line">2375</span>
 
     </aside>
 
@@ -23900,7 +23909,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1565</span>
+    <span class="phpdocumentor-element-found-in__line">1571</span>
 
     </aside>
 
@@ -23934,7 +23943,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2436</span>
+    <span class="phpdocumentor-element-found-in__line">2444</span>
 
     </aside>
 
@@ -23968,7 +23977,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1573</span>
+    <span class="phpdocumentor-element-found-in__line">1579</span>
 
     </aside>
 
@@ -24006,7 +24015,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1348</span>
+    <span class="phpdocumentor-element-found-in__line">1354</span>
 
     </aside>
 
@@ -24054,7 +24063,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1933</span>
+    <span class="phpdocumentor-element-found-in__line">1941</span>
 
     </aside>
 
@@ -24088,7 +24097,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1357</span>
+    <span class="phpdocumentor-element-found-in__line">1363</span>
 
     </aside>
 
@@ -24137,7 +24146,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2394</span>
+    <span class="phpdocumentor-element-found-in__line">2402</span>
 
     </aside>
 
@@ -24186,7 +24195,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2243</span>
+    <span class="phpdocumentor-element-found-in__line">2251</span>
 
     </aside>
 
@@ -24245,7 +24254,7 @@ expected exception code are retrieved from a given Exception object.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/TestCase.php"><a href="files/vendor-phpunit-phpunit-src-framework-testcase.html"><abbr title="vendor/phpunit/phpunit/src/Framework/TestCase.php">TestCase.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1399</span>
+    <span class="phpdocumentor-element-found-in__line">1405</span>
 
     </aside>
 
@@ -24677,7 +24686,7 @@ expected exception code are retrieved from a given Exception object.</p>
                                             <li class=""><a href="classes/PHPUnit-Framework-Assert.html#method_stringEqualsStringIgnoringLineEndings">stringEqualsStringIgnoringLineEndings()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Assert.html#method_stringStartsWith">stringStartsWith()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-TestCase.html#method_tearDownAfterClass">tearDownAfterClass()</a></li>
-                                            <li class=""><a href="classes/PHPUnit-Framework-TestCase.html#method_any">any()</a></li>
+                                            <li class="-deprecated"><a href="classes/PHPUnit-Framework-TestCase.html#method_any">any()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-TestCase.html#method_assertPostConditions">assertPostConditions()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-TestCase.html#method_assertPreConditions">assertPreConditions()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-TestCase.html#method_atLeast">atLeast()</a></li>
