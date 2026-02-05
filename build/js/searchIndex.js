@@ -32821,6 +32821,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Source.html#property_ignoreIndirectDeprecations"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Source\u003A\u003A\u0024identifyIssueTrigger",
+            "name": "identifyIssueTrigger",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Source.html#property_identifyIssueTrigger"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Source\u003A\u003A\u0024ignoreBaseline",
             "name": "ignoreBaseline",
             "summary": "",
