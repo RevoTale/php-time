@@ -22271,89 +22271,74 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Telemetry-Snapshot.html#property_garbageCollectorStatus"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\DirectTrigger",
-            "name": "DirectTrigger",
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code",
+            "name": "Code",
             "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-DirectTrigger.html"
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-Code.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\DirectTrigger\u003A\u003AisDirect\u0028\u0029",
-            "name": "isDirect",
-            "summary": "Your\u0020own\u0020code\u0020triggers\u0020an\u0020issue\u0020in\u0020third\u002Dparty\u0020code.",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-DirectTrigger.html#method_isDirect"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\DirectTrigger\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code\u003A\u003AisFirstPartyOrTest\u0028\u0029",
+            "name": "isFirstPartyOrTest",
             "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-DirectTrigger.html#method_asString"
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-Code.html#method_isFirstPartyOrTest"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IndirectTrigger",
-            "name": "IndirectTrigger",
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code\u003A\u003AisThirdPartyOrPhpunitOrPhp\u0028\u0029",
+            "name": "isThirdPartyOrPhpunitOrPhp",
             "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IndirectTrigger.html"
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-Code.html#method_isThirdPartyOrPhpunitOrPhp"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IndirectTrigger\u003A\u003AisIndirect\u0028\u0029",
-            "name": "isIndirect",
-            "summary": "Third\u002Dparty\u0020code\u0020triggers\u0020an\u0020issue\u0020either\u0020in\u0020your\u0020own\u0020code\u0020or\u0020in\u0020third\u002Dparty\u0020code.",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IndirectTrigger.html#method_isIndirect"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IndirectTrigger\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code\u003A\u003AFirstParty",
+            "name": "FirstParty",
             "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IndirectTrigger.html#method_asString"
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-Code.html#enumcase_FirstParty"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code\u003A\u003AThirdParty",
+            "name": "ThirdParty",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-Code.html#enumcase_ThirdParty"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code\u003A\u003ATest",
+            "name": "Test",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-Code.html#enumcase_Test"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code\u003A\u003APHP",
+            "name": "PHP",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-Code.html#enumcase_PHP"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code\u003A\u003APHPUnit",
+            "name": "PHPUnit",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-Code.html#enumcase_PHPUnit"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger",
             "name": "IssueTrigger",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003Atest\u0028\u0029",
-            "name": "test",
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003Afrom\u0028\u0029",
+            "name": "from",
             "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_test"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003Aself\u0028\u0029",
-            "name": "self",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_self"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003Adirect\u0028\u0029",
-            "name": "direct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_direct"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003Aindirect\u0028\u0029",
-            "name": "indirect",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_indirect"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003Aunknown\u0028\u0029",
-            "name": "unknown",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_unknown"
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_from"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method___construct"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AisTest\u0028\u0029",
-            "name": "isTest",
-            "summary": "Your\u0020test\u0020code\u0020triggers\u0020an\u0020issue.",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_isTest"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AisSelf\u0028\u0029",
             "name": "isSelf",
-            "summary": "Your\u0020own\u0020code\u0020triggers\u0020an\u0020issue\u0020in\u0020your\u0020own\u0020code.",
+            "summary": "An\u0020issue\u0020is\u0020triggered\u0020in\u0020first\u002Dparty\u0020code\u0020or\u0020in\u0020test\u0020code.",
             "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_isSelf"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AisDirect\u0028\u0029",
             "name": "isDirect",
-            "summary": "Your\u0020own\u0020code\u0020triggers\u0020an\u0020issue\u0020in\u0020third\u002Dparty\u0020code.",
+            "summary": "First\u002Dparty\u0020code\u0020triggers\u0020an\u0020issue\u0020in\u0020third\u002Dparty\u0020code.",
             "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_isDirect"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AisIndirect\u0028\u0029",
             "name": "isIndirect",
-            "summary": "Third\u002Dparty\u0020code\u0020triggers\u0020an\u0020issue\u0020either\u0020in\u0020your\u0020own\u0020code\u0020or\u0020in\u0020third\u002Dparty\u0020code.",
+            "summary": "Third\u002Dparty\u0020code\u0020triggers\u0020an\u0020issue.",
             "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_isIndirect"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AisUnknown\u0028\u0029",
@@ -22366,50 +22351,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_asString"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\SelfTrigger",
-            "name": "SelfTrigger",
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003A\u0024callee",
+            "name": "callee",
             "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-SelfTrigger.html"
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#property_callee"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\SelfTrigger\u003A\u003AisSelf\u0028\u0029",
-            "name": "isSelf",
-            "summary": "Your\u0020own\u0020code\u0020triggers\u0020an\u0020issue\u0020in\u0020your\u0020own\u0020code.",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-SelfTrigger.html#method_isSelf"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\SelfTrigger\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003A\u0024caller",
+            "name": "caller",
             "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-SelfTrigger.html#method_asString"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\TestTrigger",
-            "name": "TestTrigger",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-TestTrigger.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\TestTrigger\u003A\u003AisTest\u0028\u0029",
-            "name": "isTest",
-            "summary": "Your\u0020test\u0020code\u0020triggers\u0020an\u0020issue.",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-TestTrigger.html#method_isTest"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\TestTrigger\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-TestTrigger.html#method_asString"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\UnknownTrigger",
-            "name": "UnknownTrigger",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-UnknownTrigger.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\UnknownTrigger\u003A\u003AisUnknown\u0028\u0029",
-            "name": "isUnknown",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-UnknownTrigger.html#method_isUnknown"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\UnknownTrigger\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-IssueTrigger-UnknownTrigger.html#method_asString"
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#property_caller"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\Phpt",
             "name": "Phpt",
