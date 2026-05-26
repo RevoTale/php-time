@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -389,23 +392,21 @@
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">immutable</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">immutable</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        
                                     </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">no-named-arguments</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>Parameter names are not covered by the backward compatibility promise for PHPUnit</p>
+                                <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">no-named-arguments</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>Parameter names are not covered by the backward compatibility promise for PHPUnit</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
     
     
@@ -430,25 +431,25 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/PHPUnit-TextUI-Configuration-Configuration.html#constant_COLOR_ALWAYS">COLOR_ALWAYS</a>
     <span>
-        &nbsp;= &#039;always&#039;                            </span>
+        &nbsp;: string&nbsp;= &#039;always&#039;                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/PHPUnit-TextUI-Configuration-Configuration.html#constant_COLOR_AUTO">COLOR_AUTO</a>
     <span>
-        &nbsp;= &#039;auto&#039;                            </span>
+        &nbsp;: string&nbsp;= &#039;auto&#039;                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/PHPUnit-TextUI-Configuration-Configuration.html#constant_COLOR_DEFAULT">COLOR_DEFAULT</a>
     <span>
-        &nbsp;= self::COLOR_NEVER                            </span>
+        &nbsp;: string&nbsp;= self::COLOR_NEVER                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/PHPUnit-TextUI-Configuration-Configuration.html#constant_COLOR_NEVER">COLOR_NEVER</a>
     <span>
-        &nbsp;= &#039;never&#039;                            </span>
+        &nbsp;: string&nbsp;= &#039;never&#039;                            </span>
 </dt>
 
     </dl>
@@ -2285,7 +2286,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">COLOR_ALWAYS</span>
     = <span class="phpdocumentor-signature__default-value">&#039;always&#039;</span>
 </code>
@@ -2315,7 +2316,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">COLOR_AUTO</span>
     = <span class="phpdocumentor-signature__default-value">&#039;auto&#039;</span>
 </code>
@@ -2345,7 +2346,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">COLOR_DEFAULT</span>
     = <span class="phpdocumentor-signature__default-value">self::COLOR_NEVER</span>
 </code>
@@ -2375,7 +2376,7 @@
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">COLOR_NEVER</span>
     = <span class="phpdocumentor-signature__default-value">&#039;never&#039;</span>
 </code>
@@ -8350,19 +8351,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_bootstrap_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_bootstrap#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_bootstrap_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\NoBootstrapException">NoBootstrapException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -8441,19 +8441,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_cacheDirectory_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_cacheDirectory#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_cacheDirectory_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\NoCacheDirectoryException">NoCacheDirectoryException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -8646,19 +8645,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_configurationFile_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_configurationFile#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_configurationFile_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\NoConfigurationFileException">NoConfigurationFileException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -8737,19 +8735,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageCacheDirectory_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageCacheDirectory#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageCacheDirectory_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\NoCoverageCacheDirectoryException">NoCoverageCacheDirectoryException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -8790,19 +8787,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageClover_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageClover#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageClover_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\CodeCoverageReportNotConfiguredException">CodeCoverageReportNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -8843,19 +8839,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageCobertura_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageCobertura#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageCobertura_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\CodeCoverageReportNotConfiguredException">CodeCoverageReportNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -8896,19 +8891,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageCrap4j_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageCrap4j#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageCrap4j_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\CodeCoverageReportNotConfiguredException">CodeCoverageReportNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -8987,19 +8981,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageHtml_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageHtml#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageHtml_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\CodeCoverageReportNotConfiguredException">CodeCoverageReportNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -9230,19 +9223,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageHtmlCustomCssFile_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageHtmlCustomCssFile#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageHtmlCustomCssFile_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\NoCustomCssFileException">NoCustomCssFileException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -9359,19 +9351,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageOpenClover_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageOpenClover#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageOpenClover_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\CodeCoverageReportNotConfiguredException">CodeCoverageReportNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -9412,19 +9403,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coveragePhp_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coveragePhp#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coveragePhp_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\CodeCoverageReportNotConfiguredException">CodeCoverageReportNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -9465,19 +9455,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageText_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageText#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageText_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\CodeCoverageReportNotConfiguredException">CodeCoverageReportNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -9594,19 +9583,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_coverageXml_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageXml#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_coverageXml_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\CodeCoverageReportNotConfiguredException">CodeCoverageReportNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -9723,19 +9711,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_defaultTestSuite_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_defaultTestSuite#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_defaultTestSuite_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\NoDefaultTestSuiteException">NoDefaultTestSuiteException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -10650,19 +10637,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_excludeFilter_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_excludeFilter#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_excludeFilter_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\FilterNotConfiguredException">FilterNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -10703,19 +10689,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_excludeGroups_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_excludeGroups#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_excludeGroups_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\FilterNotConfiguredException">FilterNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -11371,19 +11356,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_filter_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_filter#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_filter_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\FilterNotConfiguredException">FilterNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -11424,19 +11408,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_generateBaseline_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_generateBaseline#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_generateBaseline_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\NoBaselineException">NoBaselineException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -11477,19 +11460,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_groups_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_groups#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_groups_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\FilterNotConfiguredException">FilterNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -11530,22 +11512,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasBootstrap_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasBootstrap#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasBootstrap_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;bootstrap</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;bootstrap</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11584,22 +11565,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCacheDirectory_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCacheDirectory#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCacheDirectory_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;cacheDirectory</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;cacheDirectory</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11638,22 +11618,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCliArguments_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCliArguments#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCliArguments_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!empty $this-&gt;cliArguments</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!empty $this-&gt;cliArguments</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11692,22 +11671,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasConfigurationFile_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasConfigurationFile#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasConfigurationFile_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;configurationFile</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;configurationFile</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11746,22 +11724,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageCacheDirectory_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageCacheDirectory#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageCacheDirectory_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageCacheDirectory</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageCacheDirectory</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11800,22 +11777,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageClover_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageClover#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageClover_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageClover</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageClover</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11854,22 +11830,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageCobertura_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageCobertura#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageCobertura_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageCobertura</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageCobertura</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11908,22 +11883,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageCrap4j_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageCrap4j#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageCrap4j_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageCrap4j</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageCrap4j</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -11962,22 +11936,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageHtml_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageHtml#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageHtml_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageHtml</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageHtml</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12016,22 +11989,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageHtmlCustomCssFile_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageHtmlCustomCssFile#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageHtmlCustomCssFile_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageHtmlCustomCssFile</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageHtmlCustomCssFile</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12070,22 +12042,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageOpenClover_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageOpenClover#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageOpenClover_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageOpenClover</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageOpenClover</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12124,22 +12095,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoveragePhp_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoveragePhp#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoveragePhp_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coveragePhp</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coveragePhp</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12216,22 +12186,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageText_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageText#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageText_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageText</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageText</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12270,22 +12239,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasCoverageXml_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageXml#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageXml_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;coverageXml</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;coverageXml</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12324,22 +12292,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasDefaultTestSuite_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasDefaultTestSuite#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasDefaultTestSuite_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;defaultTestSuite</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;defaultTestSuite</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12378,22 +12345,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasExcludeFilter_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasExcludeFilter#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasExcludeFilter_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;excludeFilter</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;excludeFilter</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12432,22 +12398,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasExcludeGroups_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasExcludeGroups#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasExcludeGroups_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!empty $this-&gt;excludeGroups</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!empty $this-&gt;excludeGroups</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12486,22 +12451,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasFilter_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasFilter#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasFilter_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;filter</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;filter</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12540,22 +12504,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasGenerateBaseline_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasGenerateBaseline#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasGenerateBaseline_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;generateBaseline</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;generateBaseline</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12594,22 +12557,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasGroups_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasGroups#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasGroups_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!empty $this-&gt;groups</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!empty $this-&gt;groups</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12648,22 +12610,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasLogEventsText_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogEventsText#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogEventsText_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;logEventsText</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;logEventsText</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12702,22 +12663,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasLogEventsVerboseText_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogEventsVerboseText#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogEventsVerboseText_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;logEventsVerboseText</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;logEventsVerboseText</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12756,22 +12716,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasLogfileJunit_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileJunit#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileJunit_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;logfileJunit</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;logfileJunit</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12810,22 +12769,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasLogfileOtr_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileOtr#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileOtr_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;logfileOtr</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;logfileOtr</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12864,22 +12822,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasLogfileTeamcity_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileTeamcity#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileTeamcity_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;logfileTeamcity</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;logfileTeamcity</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12918,22 +12875,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasLogfileTestdoxHtml_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileTestdoxHtml#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileTestdoxHtml_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;logfileTestdoxHtml</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;logfileTestdoxHtml</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -12972,22 +12928,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasLogfileTestdoxText_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileTestdoxText#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasLogfileTestdoxText_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;logfileTestdoxText</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;logfileTestdoxText</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -13026,22 +12981,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasPharExtensionDirectory_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasPharExtensionDirectory#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasPharExtensionDirectory_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;pharExtensionDirectory</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;pharExtensionDirectory</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -13080,22 +13034,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasSpecificDeprecationToStopOn_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasSpecificDeprecationToStopOn#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasSpecificDeprecationToStopOn_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!null $this-&gt;specificDeprecationToStopOn</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!null $this-&gt;specificDeprecationToStopOn</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -13134,22 +13087,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasTestsCovering_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestsCovering#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestsCovering_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!empty $this-&gt;testsCovering</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!empty $this-&gt;testsCovering</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -13188,22 +13140,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasTestsRequiringPhpExtension_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestsRequiringPhpExtension#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestsRequiringPhpExtension_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!empty $this-&gt;testsRequiringPhpExtension</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!empty $this-&gt;testsRequiringPhpExtension</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -13242,22 +13193,21 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_hasTestsUsing_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestsUsing#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestsUsing_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>!empty $this-&gt;testsUsing</p>
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">phpstan-assert-if-true</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>!empty $this-&gt;testsUsing</p>
 </section>
 
                                     </dd>
-                                            </dl>
+                        </dl>
 
         
     
@@ -13531,19 +13481,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_logEventsText_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logEventsText#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logEventsText_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\LoggingNotConfiguredException">LoggingNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -13584,19 +13533,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_logEventsVerboseText_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logEventsVerboseText#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logEventsVerboseText_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\LoggingNotConfiguredException">LoggingNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -13637,19 +13585,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_logfileJunit_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileJunit#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileJunit_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\LoggingNotConfiguredException">LoggingNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -13690,19 +13637,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_logfileOtr_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileOtr#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileOtr_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\LoggingNotConfiguredException">LoggingNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -13743,19 +13689,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_logfileTeamcity_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileTeamcity#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileTeamcity_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\LoggingNotConfiguredException">LoggingNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -13796,19 +13741,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_logfileTestdoxHtml_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileTestdoxHtml#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileTestdoxHtml_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\LoggingNotConfiguredException">LoggingNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -13849,19 +13793,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_logfileTestdoxText_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileTestdoxText#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_logfileTestdoxText_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\LoggingNotConfiguredException">LoggingNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -14244,19 +14187,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_pharExtensionDirectory_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_pharExtensionDirectory#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_pharExtensionDirectory_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\NoPharExtensionDirectoryException">NoPharExtensionDirectoryException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -14639,19 +14581,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_specificDeprecationToStopOn_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_specificDeprecationToStopOn#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_specificDeprecationToStopOn_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\SpecificDeprecationToStopOnNotConfiguredException">SpecificDeprecationToStopOnNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -15148,19 +15089,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_testsCovering_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_testsCovering#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_testsCovering_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\FilterNotConfiguredException">FilterNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -15201,19 +15141,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_testsRequiringPhpExtension_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_testsRequiringPhpExtension#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_testsRequiringPhpExtension_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\FilterNotConfiguredException">FilterNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -15330,19 +15269,18 @@
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+    <h5 class="phpdocumentor-tag-list__heading" id="method_testsUsing_tags">
         Tags
-        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_testsUsing#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-TextUI-Configuration-Configuration.html#method_testsUsing_tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\TextUI\Configuration\FilterNotConfiguredException">FilterNotConfiguredException</abbr></span>
-                                                            
-                                             
+                                                                                    
                                     </dd>
                         </dl>
 
@@ -15508,100 +15446,7 @@
 </article>
             </section>
 
-        <div class="phpdocumentor-modal" id="source-view">
-    <div class="phpdocumentor-modal-bg" data-exit-button></div>
-    <div class="phpdocumentor-modal-container">
-        <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/vendor/phpunit/phpunit/src/TextUI/Configuration/Configuration.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
-        </div>
-        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
-    </div>
-</div>
-
-    <script type="text/javascript">
-        (function () {
-            function loadExternalCodeSnippet(el, url, line) {
-                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
-                    const language = 'php';
-
-                    const code = document.createElement('code');
-                    code.className = 'language-' + language;
-                    pre.textContent = '';
-                    pre.setAttribute('data-line', line)
-                    code.textContent = 'Loading…';
-                    pre.appendChild(code);
-
-                    var xhr = new XMLHttpRequest();
-
-                    xhr.open('GET', src, true);
-
-                    xhr.onreadystatechange = function () {
-                        if (xhr.readyState !== 4) {
-                            return;
-                        }
-
-                        if (xhr.status < 400 && xhr.responseText) {
-                            code.textContent = xhr.responseText;
-                            Prism.highlightElement(code);
-                            d=document.getElementsByClassName("line-numbers");
-                            d[0].scrollTop = d[0].children[1].offsetTop;
-                            return;
-                        }
-
-                        if (xhr.status === 404) {
-                            code.textContent = '✖ Error: File could not be found';
-                            return;
-                        }
-
-                        if (xhr.status >= 400) {
-                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
-                            return;
-                        }
-
-                        code.textContent = '✖ Error: An unknown error occurred';
-                    };
-
-                    xhr.send(null);
-                });
-            }
-
-            const modalButtons = document.querySelectorAll("[data-modal]");
-            const openedAsLocalFile = window.location.protocol === 'file:';
-            if (modalButtons.length > 0 && openedAsLocalFile) {
-                console.warn(
-                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
-                    'browsers block XHR requests when a page is opened this way'
-                );
-            }
-
-            modalButtons.forEach(function (trigger) {
-                if (openedAsLocalFile) {
-                    trigger.setAttribute("hidden", "hidden");
-                }
-
-                trigger.addEventListener("click", function (event) {
-                    event.preventDefault();
-                    const modal = document.getElementById(trigger.dataset.modal);
-                    if (!modal) {
-                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
-                        return;
-                    }
-                    modal.classList.add("phpdocumentor-modal__open");
-
-                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
-                    const exits = modal.querySelectorAll("[data-exit-button]");
-                    exits.forEach(function (exit) {
-                        exit.addEventListener("click", function (event) {
-                            event.preventDefault();
-                            modal.classList.remove("phpdocumentor-modal__open");
-                        });
-                    });
-                });
-            });
-        })();
-    </script>
-
+        
     </article>
                                 </section>
                 <section class="phpdocumentor-on-this-page__sidebar">

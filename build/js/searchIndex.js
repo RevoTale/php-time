@@ -18081,11 +18081,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Application-Finished.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Application\\Finished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Application-Finished.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Application\\Finished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18115,11 +18110,6 @@ Search.appendIndex(
             "name": "Started",
             "summary": "",
             "url": "classes/PHPUnit-Event-Application-Started.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Application\\Started\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Application-Started.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Application\\Started\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18206,11 +18196,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-EventCollectionIterator.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\EventCollectionIterator\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-EventCollectionIterator.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\EventCollectionIterator\u003A\u003Arewind\u0028\u0029",
             "name": "rewind",
             "summary": "",
@@ -18251,11 +18236,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AdditionalInformationProvided.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AdditionalInformationProvided\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AdditionalInformationProvided.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AdditionalInformationProvided\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18291,11 +18271,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-ComparatorRegistered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\ComparatorRegistered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-ComparatorRegistered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\ComparatorRegistered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18321,15 +18296,45 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-ComparatorRegisteredSubscriber.html#method_notify"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\CustomTestMethodInvocationUsed",
+            "name": "CustomTestMethodInvocationUsed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-CustomTestMethodInvocationUsed.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\CustomTestMethodInvocationUsed\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-CustomTestMethodInvocationUsed.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\CustomTestMethodInvocationUsed\u003A\u003A\u0024test",
+            "name": "test",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-CustomTestMethodInvocationUsed.html#property_test"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\CustomTestMethodInvocationUsed\u003A\u003A\u0024customTestMethodInvocation",
+            "name": "customTestMethodInvocation",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-CustomTestMethodInvocationUsed.html#property_customTestMethodInvocation"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\CustomTestMethodInvocationUsed\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-CustomTestMethodInvocationUsed.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\CustomTestMethodInvocationUsedSubscriber",
+            "name": "CustomTestMethodInvocationUsedSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-CustomTestMethodInvocationUsedSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\CustomTestMethodInvocationUsedSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-CustomTestMethodInvocationUsedSubscriber.html#method_notify"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodCalled",
             "name": "AfterLastTestMethodCalled",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterLastTestMethodCalled.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodCalled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterLastTestMethodCalled.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodCalled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18365,11 +18370,6 @@ Search.appendIndex(
             "name": "AfterLastTestMethodErrored",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterLastTestMethodErrored.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodErrored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterLastTestMethodErrored.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodErrored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18411,11 +18411,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterLastTestMethodFailed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodFailed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterLastTestMethodFailed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodFailed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18456,11 +18451,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterLastTestMethodFinished.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterLastTestMethodFinished.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterLastTestMethodFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18495,11 +18485,6 @@ Search.appendIndex(
             "name": "AfterTestMethodCalled",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterTestMethodCalled.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodCalled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterTestMethodCalled.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodCalled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18540,11 +18525,6 @@ Search.appendIndex(
             "name": "AfterTestMethodErrored",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterTestMethodErrored.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodErrored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterTestMethodErrored.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodErrored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18591,11 +18571,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterTestMethodFailed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodFailed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterTestMethodFailed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodFailed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18635,11 +18610,6 @@ Search.appendIndex(
             "name": "AfterTestMethodFinished",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterTestMethodFinished.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterTestMethodFinished.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18681,11 +18651,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeFirstTestMethodCalled.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeFirstTestMethodCalled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeFirstTestMethodCalled.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeFirstTestMethodCalled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18720,11 +18685,6 @@ Search.appendIndex(
             "name": "BeforeFirstTestMethodErrored",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeFirstTestMethodErrored.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeFirstTestMethodErrored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeFirstTestMethodErrored.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeFirstTestMethodErrored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18766,11 +18726,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeFirstTestMethodFailed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeFirstTestMethodFailed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeFirstTestMethodFailed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeFirstTestMethodFailed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18811,11 +18766,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeFirstTestMethodFinished.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeFirstTestMethodFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeFirstTestMethodFinished.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeFirstTestMethodFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18850,11 +18800,6 @@ Search.appendIndex(
             "name": "BeforeTestMethodCalled",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeTestMethodCalled.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodCalled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeTestMethodCalled.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodCalled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18895,11 +18840,6 @@ Search.appendIndex(
             "name": "BeforeTestMethodErrored",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeTestMethodErrored.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodErrored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeTestMethodErrored.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodErrored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -18946,11 +18886,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeTestMethodFailed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodFailed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeTestMethodFailed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodFailed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -18990,11 +18925,6 @@ Search.appendIndex(
             "name": "BeforeTestMethodFinished",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeTestMethodFinished.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeTestMethodFinished.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19036,11 +18966,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PostConditionCalled.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionCalled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PostConditionCalled.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionCalled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19080,11 +19005,6 @@ Search.appendIndex(
             "name": "PostConditionErrored",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PostConditionErrored.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionErrored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PostConditionErrored.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionErrored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19131,11 +19051,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PostConditionFailed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionFailed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PostConditionFailed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionFailed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19175,11 +19090,6 @@ Search.appendIndex(
             "name": "PostConditionFinished",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PostConditionFinished.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PostConditionFinished.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19221,11 +19131,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreConditionCalled.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionCalled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreConditionCalled.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionCalled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19265,11 +19170,6 @@ Search.appendIndex(
             "name": "PreConditionErrored",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreConditionErrored.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionErrored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreConditionErrored.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionErrored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19316,11 +19216,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreConditionFailed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionFailed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreConditionFailed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionFailed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19360,11 +19255,6 @@ Search.appendIndex(
             "name": "PreConditionFinished",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreConditionFinished.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreConditionFinished.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19406,11 +19296,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-ConsideredRisky.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\ConsideredRisky\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-ConsideredRisky.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\ConsideredRisky\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19445,11 +19330,6 @@ Search.appendIndex(
             "name": "DeprecationTriggered",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-DeprecationTriggered.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\DeprecationTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-DeprecationTriggered.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\DeprecationTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19526,11 +19406,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-ErrorTriggered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\ErrorTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-ErrorTriggered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\ErrorTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19585,11 +19460,6 @@ Search.appendIndex(
             "name": "NoticeTriggered",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-NoticeTriggered.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\NoticeTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-NoticeTriggered.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\NoticeTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19650,11 +19520,6 @@ Search.appendIndex(
             "name": "PhpDeprecationTriggered",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PhpDeprecationTriggered.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PhpDeprecationTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PhpDeprecationTriggered.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PhpDeprecationTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19726,11 +19591,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PhpNoticeTriggered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PhpNoticeTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PhpNoticeTriggered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PhpNoticeTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19791,11 +19651,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PhpunitDeprecationTriggered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PhpunitDeprecationTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PhpunitDeprecationTriggered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PhpunitDeprecationTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19830,11 +19685,6 @@ Search.appendIndex(
             "name": "PhpunitErrorTriggered",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PhpunitErrorTriggered.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PhpunitErrorTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PhpunitErrorTriggered.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PhpunitErrorTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19871,11 +19721,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PhpunitNoticeTriggered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PhpunitNoticeTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PhpunitNoticeTriggered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PhpunitNoticeTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -19910,11 +19755,6 @@ Search.appendIndex(
             "name": "PhpunitWarningTriggered",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PhpunitWarningTriggered.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PhpunitWarningTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PhpunitWarningTriggered.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PhpunitWarningTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -19955,11 +19795,6 @@ Search.appendIndex(
             "name": "PhpWarningTriggered",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PhpWarningTriggered.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PhpWarningTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PhpWarningTriggered.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PhpWarningTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20021,11 +19856,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-WarningTriggered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\WarningTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-WarningTriggered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\WarningTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20086,11 +19916,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-DataProviderMethodCalled.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\DataProviderMethodCalled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-DataProviderMethodCalled.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\DataProviderMethodCalled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20125,11 +19950,6 @@ Search.appendIndex(
             "name": "DataProviderMethodFinished",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-DataProviderMethodFinished.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\DataProviderMethodFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-DataProviderMethodFinished.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\DataProviderMethodFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20166,11 +19986,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-Finished.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\Finished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-Finished.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\Finished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20205,11 +20020,6 @@ Search.appendIndex(
             "name": "PreparationErrored",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreparationErrored.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreparationErrored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreparationErrored.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreparationErrored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20246,11 +20056,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreparationFailed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreparationFailed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreparationFailed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreparationFailed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20286,11 +20091,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreparationStarted.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreparationStarted\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreparationStarted.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreparationStarted\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20321,11 +20121,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-Prepared.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\Prepared\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-Prepared.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\Prepared\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20355,11 +20150,6 @@ Search.appendIndex(
             "name": "Errored",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-Errored.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\Errored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-Errored.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\Errored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20395,11 +20185,6 @@ Search.appendIndex(
             "name": "Failed",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-Failed.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\Failed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-Failed.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\Failed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20446,11 +20231,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-MarkedIncomplete.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\MarkedIncomplete\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-MarkedIncomplete.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\MarkedIncomplete\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20486,11 +20266,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-Passed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\Passed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-Passed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\Passed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20520,11 +20295,6 @@ Search.appendIndex(
             "name": "Skipped",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-Skipped.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\Skipped\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-Skipped.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\Skipped\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20561,11 +20331,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PrintedUnexpectedOutput.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PrintedUnexpectedOutput\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PrintedUnexpectedOutput.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PrintedUnexpectedOutput\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20595,11 +20360,6 @@ Search.appendIndex(
             "name": "MockObjectCreated",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-MockObjectCreated.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\MockObjectCreated\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-MockObjectCreated.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\MockObjectCreated\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20631,11 +20391,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-MockObjectForIntersectionOfInterfacesCreated.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\MockObjectForIntersectionOfInterfacesCreated\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-MockObjectForIntersectionOfInterfacesCreated.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\MockObjectForIntersectionOfInterfacesCreated\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20665,11 +20420,6 @@ Search.appendIndex(
             "name": "PartialMockObjectCreated",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PartialMockObjectCreated.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PartialMockObjectCreated\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PartialMockObjectCreated.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PartialMockObjectCreated\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20706,11 +20456,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-TestStubCreated.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\TestStubCreated\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-TestStubCreated.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\TestStubCreated\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20740,11 +20485,6 @@ Search.appendIndex(
             "name": "TestStubForIntersectionOfInterfacesCreated",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-TestStubForIntersectionOfInterfacesCreated.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\TestStubForIntersectionOfInterfacesCreated\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-TestStubForIntersectionOfInterfacesCreated.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\TestStubForIntersectionOfInterfacesCreated\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20776,11 +20516,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-BootstrapFinished.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\BootstrapFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-BootstrapFinished.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\BootstrapFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20811,11 +20546,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ChildProcessErrored.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessErrored\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessErrored.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessErrored\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20840,11 +20570,6 @@ Search.appendIndex(
             "name": "ChildProcessFinished",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ChildProcessFinished.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessFinished.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20881,11 +20606,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ChildProcessStarted.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessStarted\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessStarted.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessStarted\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20910,11 +20630,6 @@ Search.appendIndex(
             "name": "Configured",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-Configured.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Configured\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-Configured.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\Configured\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -20946,11 +20661,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-DeprecationTriggered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\DeprecationTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-DeprecationTriggered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\DeprecationTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -20981,11 +20691,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-EventFacadeSealed.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\EventFacadeSealed\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-EventFacadeSealed.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\EventFacadeSealed\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21010,11 +20715,6 @@ Search.appendIndex(
             "name": "ExecutionAborted",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ExecutionAborted.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExecutionAborted\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-ExecutionAborted.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExecutionAborted\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21041,11 +20741,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ExecutionFinished.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExecutionFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-ExecutionFinished.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExecutionFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21070,11 +20765,6 @@ Search.appendIndex(
             "name": "ExecutionStarted",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ExecutionStarted.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExecutionStarted\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-ExecutionStarted.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExecutionStarted\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21105,11 +20795,6 @@ Search.appendIndex(
             "name": "ExtensionBootstrapped",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ExtensionBootstrapped.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExtensionBootstrapped\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-ExtensionBootstrapped.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExtensionBootstrapped\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21145,11 +20830,6 @@ Search.appendIndex(
             "name": "ExtensionLoadedFromPhar",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ExtensionLoadedFromPhar.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExtensionLoadedFromPhar\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-ExtensionLoadedFromPhar.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ExtensionLoadedFromPhar\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21191,11 +20871,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-Finished.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Finished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-Finished.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\Finished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21220,11 +20895,6 @@ Search.appendIndex(
             "name": "GarbageCollectionDisabled",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-GarbageCollectionDisabled.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\GarbageCollectionDisabled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-GarbageCollectionDisabled.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\GarbageCollectionDisabled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21251,11 +20921,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-GarbageCollectionEnabled.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\GarbageCollectionEnabled\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-GarbageCollectionEnabled.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\GarbageCollectionEnabled\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21281,11 +20946,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-GarbageCollectionTriggered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\GarbageCollectionTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-GarbageCollectionTriggered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\GarbageCollectionTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21310,11 +20970,6 @@ Search.appendIndex(
             "name": "NoticeTriggered",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-NoticeTriggered.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\NoticeTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-NoticeTriggered.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\NoticeTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21346,11 +21001,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-Started.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Started\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-Started.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\Started\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21375,11 +21025,6 @@ Search.appendIndex(
             "name": "StaticAnalysisForCodeCoverageFinished",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-StaticAnalysisForCodeCoverageFinished.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\StaticAnalysisForCodeCoverageFinished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-StaticAnalysisForCodeCoverageFinished.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\StaticAnalysisForCodeCoverageFinished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21416,11 +21061,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-StaticAnalysisForCodeCoverageStarted.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\StaticAnalysisForCodeCoverageStarted\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-StaticAnalysisForCodeCoverageStarted.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\StaticAnalysisForCodeCoverageStarted\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21445,11 +21085,6 @@ Search.appendIndex(
             "name": "WarningTriggered",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-WarningTriggered.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestRunner\\WarningTriggered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestRunner-WarningTriggered.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\WarningTriggered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21481,11 +21116,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-Filtered.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\Filtered\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-Filtered.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\Filtered\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21515,11 +21145,6 @@ Search.appendIndex(
             "name": "Finished",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-Finished.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\Finished\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-Finished.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\Finished\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21551,11 +21176,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-Loaded.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\Loaded\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-Loaded.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\Loaded\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
             "summary": "",
@@ -21585,11 +21205,6 @@ Search.appendIndex(
             "name": "Skipped",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-Skipped.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\Skipped\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-Skipped.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\Skipped\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21625,11 +21240,6 @@ Search.appendIndex(
             "name": "Sorted",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-Sorted.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\Sorted\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-Sorted.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\Sorted\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21670,11 +21280,6 @@ Search.appendIndex(
             "name": "Started",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-Started.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\Started\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-Started.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\Started\u003A\u003A\u0024telemetryInfo",
             "name": "telemetryInfo",
@@ -21801,11 +21406,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-ClassMethod.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\ClassMethod\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-ClassMethod.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\ClassMethod\u003A\u003A\u0024className",
             "name": "className",
             "summary": "",
@@ -21820,11 +21420,6 @@ Search.appendIndex(
             "name": "ComparisonFailure",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-ComparisonFailure.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\ComparisonFailure\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-ComparisonFailure.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\ComparisonFailure\u003A\u003A\u0024expected",
             "name": "expected",
@@ -21846,11 +21441,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Runtime-OperatingSystem.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Runtime\\OperatingSystem\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Runtime-OperatingSystem.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Runtime\\OperatingSystem\u003A\u003A\u0024operatingSystem",
             "name": "operatingSystem",
             "summary": "",
@@ -21865,11 +21455,6 @@ Search.appendIndex(
             "name": "PHP",
             "summary": "",
             "url": "classes/PHPUnit-Event-Runtime-PHP.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Runtime\\PHP\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Runtime-PHP.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Runtime\\PHP\u003A\u003A\u0024version",
             "name": "version",
@@ -21916,11 +21501,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Runtime-PHPUnit.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Runtime\\PHPUnit\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Runtime-PHPUnit.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Runtime\\PHPUnit\u003A\u003A\u0024versionId",
             "name": "versionId",
             "summary": "",
@@ -21935,11 +21515,6 @@ Search.appendIndex(
             "name": "Runtime",
             "summary": "",
             "url": "classes/PHPUnit-Event-Runtime-Runtime.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Runtime\\Runtime\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Runtime-Runtime.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Runtime\\Runtime\u003A\u003AasString\u0028\u0029",
             "name": "asString",
@@ -22025,11 +21600,6 @@ Search.appendIndex(
             "name": "GarbageCollectorStatus",
             "summary": "",
             "url": "classes/PHPUnit-Event-Telemetry-GarbageCollectorStatus.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Telemetry\\GarbageCollectorStatus\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Telemetry-GarbageCollectorStatus.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Telemetry\\GarbageCollectorStatus\u003A\u003A\u0024runs",
             "name": "runs",
@@ -22151,11 +21721,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Telemetry-Info.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Telemetry-Info.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003Atime\u0028\u0029",
             "name": "time",
             "summary": "",
@@ -22245,11 +21810,6 @@ Search.appendIndex(
             "name": "Snapshot",
             "summary": "",
             "url": "classes/PHPUnit-Event-Telemetry-Snapshot.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Snapshot\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Telemetry-Snapshot.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Telemetry\\Snapshot\u003A\u003A\u0024time",
             "name": "time",
@@ -22386,11 +21946,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-Test.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\Test\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-Test.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\Test\u003A\u003A\u0024file",
             "name": "file",
             "summary": "",
@@ -22455,11 +22010,6 @@ Search.appendIndex(
             "name": "TestCollectionIterator",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-TestCollectionIterator.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\TestCollectionIterator\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-TestCollectionIterator.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\TestCollectionIterator\u003A\u003Arewind\u0028\u0029",
             "name": "rewind",
@@ -22621,11 +22171,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestData-TestDataCollectionIterator.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestData\\TestDataCollectionIterator\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestData-TestDataCollectionIterator.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestData\\TestDataCollectionIterator\u003A\u003Arewind\u0028\u0029",
             "name": "rewind",
             "summary": "",
@@ -22666,11 +22211,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-TestDox.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\TestDox\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-TestDox.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\TestDox\u003A\u003A\u0024prettifiedClassName",
             "name": "prettifiedClassName",
             "summary": "",
@@ -22690,11 +22230,6 @@ Search.appendIndex(
             "name": "TestMethod",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-TestMethod.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-TestMethod.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003A\u0024className",
             "name": "className",
@@ -22751,11 +22286,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-TestSuite.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuite\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-TestSuite.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuite\u003A\u003A\u0024name",
             "name": "name",
             "summary": "",
@@ -22791,11 +22321,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForTestClass.html"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForTestClass\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForTestClass.html#method___construct"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForTestClass\u003A\u003A\u0024className",
             "name": "className",
             "summary": "",
@@ -22820,11 +22345,6 @@ Search.appendIndex(
             "name": "TestSuiteForTestMethodWithDataProvider",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForTestMethodWithDataProvider.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForTestMethodWithDataProvider\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForTestMethodWithDataProvider.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForTestMethodWithDataProvider\u003A\u003A\u0024className",
             "name": "className",
@@ -22865,11 +22385,6 @@ Search.appendIndex(
             "name": "Throwable",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-Throwable.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Code\\Throwable\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Code-Throwable.html#method___construct"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\Throwable\u003A\u003AasString\u0028\u0029",
             "name": "asString",
@@ -28106,6 +27621,11 @@ Search.appendIndex(
             "summary": "This\u0020method\u0020is\u0020called\u0020when\u0020a\u0020test\u0020method\u0020did\u0020not\u0020execute\u0020successfully.",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_onNotSuccessfulTest"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AinvokeTestMethod\u0028\u0029",
+            "name": "invokeTestMethod",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_invokeTestMethod"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003ArunTest\u0028\u0029",
             "name": "runTest",
             "summary": "",
@@ -28335,6 +27855,11 @@ Search.appendIndex(
             "name": "allowsMockObjectsWithoutExpectations",
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_allowsMockObjectsWithoutExpectations"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AemitEventForCustomTestMethodInvocation\u0028\u0029",
+            "name": "emitEventForCustomTestMethodInvocation",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_emitEventForCustomTestMethodInvocation"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AgetStubBuilder\u0028\u0029",
             "name": "getStubBuilder",
@@ -33466,6 +32991,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Comparator-ComparisonFailure.html#method___construct"
         },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\ComparisonFailure\u003A\u003A__serialize\u0028\u0029",
+            "name": "__serialize",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-ComparisonFailure.html#method___serialize"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\ComparisonFailure\u003A\u003A__unserialize\u0028\u0029",
+            "name": "__unserialize",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-ComparisonFailure.html#method___unserialize"
+        },                {
             "fqsen": "\\SebastianBergmann\\Comparator\\ComparisonFailure\u003A\u003AgetActual\u0028\u0029",
             "name": "getActual",
             "summary": "",
@@ -34378,13 +33913,28 @@ Search.appendIndex(
         },                {
             "fqsen": "\\SebastianBergmann\\Environment\\Runtime\u003A\u003AgetCurrentSettings\u0028\u0029",
             "name": "getCurrentSettings",
-            "summary": "Parses\u0020the\u0020loaded\u0020php.ini\u0020file\u0020\u0028if\u0020any\u0029\u0020as\u0020well\u0020as\u0020all\nadditional\u0020php.ini\u0020files\u0020from\u0020the\u0020additional\u0020ini\u0020dir\u0020for\na\u0020list\u0020of\u0020all\u0020configuration\u0020settings\u0020loaded\u0020from\u0020files\nat\u0020startup.\u0020Then\u0020checks\u0020for\u0020each\u0020php.ini\u0020setting\u0020passed\nvia\u0020the\u0020\u0060\u0024values\u0060\u0020parameter\u0020whether\u0020this\u0020setting\u0020has\nbeen\u0020changed\u0020at\u0020runtime.\u0020Returns\u0020an\u0020array\u0020of\u0020strings\nwhere\u0020each\u0020string\u0020has\u0020the\u0020format\u0020\u0060key\u003Dvalue\u0060\u0020denoting\nthe\u0020name\u0020of\u0020a\u0020changed\u0020php.ini\u0020setting\u0020with\u0020its\u0020new\u0020value.",
+            "summary": "Parses\u0020the\u0020loaded\u0020php.ini\u0020file\u0020\u0028if\u0020any\u0029\u0020as\u0020well\u0020as\u0020all\nadditional\u0020php.ini\u0020files\u0020from\u0020the\u0020additional\u0020ini\u0020dir\u0020into\u0020a\nsingle\u0020merged\u0020map\u0020of\u0020settings,\u0020and\u0020also\u0020obtains\u0020the\u0020compiled\u002Din\ndefaults\u0020by\u0020spawning\u0020a\u0020\u0060php\u0020\u002Dn\u0060\u0020child\u0020once\u0020per\u0020process.",
             "url": "classes/SebastianBergmann-Environment-Runtime.html#method_getCurrentSettings"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Environment\\Runtime\u003A\u003AgetSettingsNotChangeableAtRuntime\u0028\u0029",
+            "name": "getSettingsNotChangeableAtRuntime",
+            "summary": "Returns\u0020INI\u0020settings\u0020that\u0020cannot\u0020be\u0020changed\u0020via\u0020ini_set\u0028\u0029\n\u0028PHP_INI_SYSTEM\u0020and\u0020PHP_INI_PERDIR\u0029\u0020and\u0020whose\u0020current\u0020value\ndiffers\u0020from\u0020the\u0020value\u0020configured\u0020in\u0020INI\u0020files.",
+            "url": "classes/SebastianBergmann-Environment-Runtime.html#method_getSettingsNotChangeableAtRuntime"
         },                {
             "fqsen": "\\SebastianBergmann\\Environment\\Runtime\u003A\u003AisOpcacheActive\u0028\u0029",
             "name": "isOpcacheActive",
             "summary": "",
             "url": "classes/SebastianBergmann-Environment-Runtime.html#method_isOpcacheActive"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Environment\\Runtime\u003A\u003AparseLoadedIniFiles\u0028\u0029",
+            "name": "parseLoadedIniFiles",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Environment-Runtime.html#method_parseLoadedIniFiles"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Environment\\Runtime\u003A\u003A\u0024compiledDefaults",
+            "name": "compiledDefaults",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Environment-Runtime.html#property_compiledDefaults"
         },                {
             "fqsen": "\\SebastianBergmann\\Exporter\\Exporter",
             "name": "Exporter",
@@ -34420,6 +33970,11 @@ Search.appendIndex(
             "name": "countProperties",
             "summary": "",
             "url": "classes/SebastianBergmann-Exporter-Exporter.html#method_countProperties"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\Exporter\u003A\u003AshadowedPropertyNames\u0028\u0029",
+            "name": "shadowedPropertyNames",
+            "summary": "Returns,\u0020as\u0020keys\u0020of\u0020the\u0020returned\u0020array,\u0020the\u0020names\u0020of\u0020properties\u0020that\nare\u0020declared\u0020more\u0020than\u0020once\u0020in\u0020the\u0020inheritance\u0020chain\u0020of\u0020an\u0020object.",
+            "url": "classes/SebastianBergmann-Exporter-Exporter.html#method_shadowedPropertyNames"
         },                {
             "fqsen": "\\SebastianBergmann\\Exporter\\Exporter\u003A\u003AshortenedCountedRecursiveExport\u0028\u0029",
             "name": "shortenedCountedRecursiveExport",
@@ -35295,6 +34850,11 @@ Search.appendIndex(
             "name": "isObject",
             "summary": "",
             "url": "classes/SebastianBergmann-Type-ObjectType.html#method_isObject"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Type\\ObjectType\u003A\u003AcanonicalClassName\u0028\u0029",
+            "name": "canonicalClassName",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Type-ObjectType.html#method_canonicalClassName"
         },                {
             "fqsen": "\\SebastianBergmann\\Type\\SimpleType",
             "name": "SimpleType",

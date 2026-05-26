@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -402,7 +405,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a class="" href="classes/TheSeer-Tokenizer-Tokenizer.html#constant_MAP">MAP</a>
     <span>
-        &nbsp;= [&#039;(&#039; =&gt; &#039;T_OPEN_BRACKET&#039;, &#039;)&#039; =&gt; &#039;T_CLOSE_BRACKET&#039;, &#039;[&#039; =&gt; &#039;T_OPEN_SQUARE&#039;, &#039;]&#039; =&gt; &#039;T_CLOSE_SQUARE&#039;, &#039;{&#039; =&gt; &#039;T_OPEN_CURLY&#039;, &#039;}&#039; =&gt; &#039;T_CLOSE_CURLY&#039;, &#039;;&#039; =&gt; &#039;T_SEMICOLON&#039;, &#039;.&#039; =&gt; &#039;T_DOT&#039;, &#039;,&#039; =&gt; &#039;T_COMMA&#039;, &#039;=&#039; =&gt; &#039;T_EQUAL&#039;, &#039;&lt;&#039; =&gt; &#039;T_LT&#039;, &#039;&gt;&#039; =&gt; &#039;T_GT&#039;, &#039;+&#039; =&gt; &#039;T_PLUS&#039;, &#039;-&#039; =&gt; &#039;T_MINUS&#039;, &#039;*&#039; =&gt; &#039;T_MULT&#039;, &#039;/&#039; =&gt; &#039;T_DIV&#039;, &#039;?&#039; =&gt; &#039;T_QUESTION_MARK&#039;, &#039;!&#039; =&gt; &#039;T_EXCLAMATION_MARK&#039;, &#039;:&#039; =&gt; &#039;T_COLON&#039;, &#039;&quot;&#039; =&gt; &#039;T_DOUBLE_QUOTES&#039;, &#039;@&#039; =&gt; &#039;T_AT&#039;, &#039;%&#039; =&gt; &#039;T_PERCENT&#039;, &#039;|&#039; =&gt; &#039;T_PIPE&#039;, &#039;$&#039; =&gt; &#039;T_DOLLAR&#039;, &#039;^&#039; =&gt; &#039;T_CARET&#039;, &#039;~&#039; =&gt; &#039;T_TILDE&#039;, &#039;`&#039; =&gt; &#039;T_BACKTICK&#039;]                            </span>
+        &nbsp;: array&lt;string|int, mixed&gt;&nbsp;= [&#039;(&#039; =&gt; &#039;T_OPEN_BRACKET&#039;, &#039;)&#039; =&gt; &#039;T_CLOSE_BRACK...                            </span>
 </dt>
 <dd>Token Map for &quot;non-tokens&quot;</dd>
 
@@ -585,100 +588,7 @@
 </article>
             </section>
 
-        <div class="phpdocumentor-modal" id="source-view">
-    <div class="phpdocumentor-modal-bg" data-exit-button></div>
-    <div class="phpdocumentor-modal-container">
-        <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/vendor/theseer/tokenizer/src/Tokenizer.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
-        </div>
-        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
-    </div>
-</div>
-
-    <script type="text/javascript">
-        (function () {
-            function loadExternalCodeSnippet(el, url, line) {
-                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
-                    const language = 'php';
-
-                    const code = document.createElement('code');
-                    code.className = 'language-' + language;
-                    pre.textContent = '';
-                    pre.setAttribute('data-line', line)
-                    code.textContent = 'Loading…';
-                    pre.appendChild(code);
-
-                    var xhr = new XMLHttpRequest();
-
-                    xhr.open('GET', src, true);
-
-                    xhr.onreadystatechange = function () {
-                        if (xhr.readyState !== 4) {
-                            return;
-                        }
-
-                        if (xhr.status < 400 && xhr.responseText) {
-                            code.textContent = xhr.responseText;
-                            Prism.highlightElement(code);
-                            d=document.getElementsByClassName("line-numbers");
-                            d[0].scrollTop = d[0].children[1].offsetTop;
-                            return;
-                        }
-
-                        if (xhr.status === 404) {
-                            code.textContent = '✖ Error: File could not be found';
-                            return;
-                        }
-
-                        if (xhr.status >= 400) {
-                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
-                            return;
-                        }
-
-                        code.textContent = '✖ Error: An unknown error occurred';
-                    };
-
-                    xhr.send(null);
-                });
-            }
-
-            const modalButtons = document.querySelectorAll("[data-modal]");
-            const openedAsLocalFile = window.location.protocol === 'file:';
-            if (modalButtons.length > 0 && openedAsLocalFile) {
-                console.warn(
-                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
-                    'browsers block XHR requests when a page is opened this way'
-                );
-            }
-
-            modalButtons.forEach(function (trigger) {
-                if (openedAsLocalFile) {
-                    trigger.setAttribute("hidden", "hidden");
-                }
-
-                trigger.addEventListener("click", function (event) {
-                    event.preventDefault();
-                    const modal = document.getElementById(trigger.dataset.modal);
-                    if (!modal) {
-                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
-                        return;
-                    }
-                    modal.classList.add("phpdocumentor-modal__open");
-
-                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
-                    const exits = modal.querySelectorAll("[data-exit-button]");
-                    exits.forEach(function (exit) {
-                        exit.addEventListener("click", function (event) {
-                            event.preventDefault();
-                            modal.classList.remove("phpdocumentor-modal__open");
-                        });
-                    });
-                });
-            });
-        })();
-    </script>
-
+        
     </article>
                                 </section>
                 <section class="phpdocumentor-on-this-page__sidebar">

@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -372,7 +375,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -397,6 +400,19 @@
 
 
 
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/SebastianBergmann-Environment-Runtime.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/SebastianBergmann-Environment-Runtime.html#property_compiledDefaults">$compiledDefaults</a>
+    <span>
+                        &nbsp;: array&lt;string, string&gt;|null            </span>
+</dt>
+
+    </dl>
 
 <h4 id="toc-methods">
     Methods
@@ -433,13 +449,9 @@ and is configured to discard comments.</dd>
                                 &nbsp;: array&lt;string, string&gt;    </span>
 </dt>
 <dd>Parses the loaded php.ini file (if any) as well as all
-additional php.ini files from the additional ini dir for
-a list of all configuration settings loaded from files
-at startup. Then checks for each php.ini setting passed
-via the `$values` parameter whether this setting has
-been changed at runtime. Returns an array of strings
-where each string has the format `key=value` denoting
-the name of a changed php.ini setting with its new value.</dd>
+additional php.ini files from the additional ini dir into a
+single merged map of settings, and also obtains the compiled-in
+defaults by spawning a `php -n` child once per process.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-Environment-Runtime.html#method_getName">getName()</a>
@@ -465,6 +477,15 @@ the name of a changed php.ini setting with its new value.</dd>
                                 &nbsp;: string    </span>
 </dt>
 <dd>Returns the raw path to the binary of the current runtime.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-Environment-Runtime.html#method_getSettingsNotChangeableAtRuntime">getSettingsNotChangeableAtRuntime()</a>
+    <span>
+                                &nbsp;: array&lt;string, string&gt;    </span>
+</dt>
+<dd>Returns INI settings that cannot be changed via ini_set()
+(PHP_INI_SYSTEM and PHP_INI_PERDIR) and whose current value
+differs from the value configured in INI files.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-Environment-Runtime.html#method_getVendorUrl">getVendorUrl()</a>
@@ -528,6 +549,23 @@ and the phpdbg_*_oplog() functions are available (PHP &gt;= 7.0).</dd>
 <dd>Returns true when Zend OPcache is loaded, enabled,
 and is configured to perform just-in-time compilation.</dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/SebastianBergmann-Environment-Runtime.html#method_compiledDefaults">compiledDefaults()</a>
+    <span>
+                                &nbsp;: array&lt;string, string&gt;    </span>
+</dt>
+<dd>Returns the compiled-in default values of every ini setting by
+spawning a `php -n` child process once and caching the result
+for the lifetime of the PHP process. When the child cannot be
+launched or its output is unusable, an empty array is returned
+and cached so the failure is not retried.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/SebastianBergmann-Environment-Runtime.html#method_parseLoadedIniFiles">parseLoadedIniFiles()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, string&gt;    </span>
+</dt>
+
     </dl>
 
 
@@ -535,6 +573,50 @@ and is configured to perform just-in-time compilation.</dd>
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/SebastianBergmann-Environment-Runtime.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_compiledDefaults">
+        $compiledDefaults
+        <a href="classes/SebastianBergmann-Environment-Runtime.html#property_compiledDefaults" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string, string&gt;|null</span>
+    <span class="phpdocumentor-signature__name">$compiledDefaults</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
@@ -556,7 +638,7 @@ and is configured to perform just-in-time compilation.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
@@ -596,7 +678,7 @@ the runtime used is PHPDBG.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">90</span>
 
     </aside>
 
@@ -636,7 +718,7 @@ and is configured to discard comments.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">145</span>
 
     </aside>
 
@@ -681,18 +763,14 @@ and is configured to discard comments.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">246</span>
+    <span class="phpdocumentor-element-found-in__line">270</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Parses the loaded php.ini file (if any) as well as all
-additional php.ini files from the additional ini dir for
-a list of all configuration settings loaded from files
-at startup. Then checks for each php.ini setting passed
-via the `$values` parameter whether this setting has
-been changed at runtime. Returns an array of strings
-where each string has the format `key=value` denoting
-the name of a changed php.ini setting with its new value.</p>
+additional php.ini files from the additional ini dir into a
+single merged map of settings, and also obtains the compiled-in
+defaults by spawning a `php -n` child once per process.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -701,7 +779,21 @@ the name of a changed php.ini setting with its new value.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
-    
+        <section class="phpdocumentor-description"><p>Then checks for each setting passed via the <code class="prettyprint">$values</code> parameter
+whether the runtime value (<code class="prettyprint">ini_get()</code>) differs from what the
+ini files specified or, when a setting is not configured in any
+ini file, from the compiled-in default. Returns an array of
+<code class="prettyprint">key=value</code> strings for the changed settings.</p>
+<p>A setting whose runtime value is the empty string but that is
+absent from both the ini files and the compiled-in defaults is
+left alone: there is no evidence that it was overridden, so it
+is not forwarded. This avoids spurious empty overrides for
+settings of extensions that are not visible to the compiled-in
+defaults probe (e.g. extensions loaded only via php.ini), which
+would otherwise break child processes (see
+https://github.com/sebastianbergmann/environment/issues/99).</p>
+</section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -737,7 +829,7 @@ the name of a changed php.ini setting with its new value.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">170</span>
+    <span class="phpdocumentor-element-found-in__line">184</span>
 
     </aside>
 
@@ -775,7 +867,7 @@ the name of a changed php.ini setting with its new value.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">136</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
     </aside>
 
@@ -813,7 +905,7 @@ the name of a changed php.ini setting with its new value.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">155</span>
 
     </aside>
 
@@ -851,7 +943,7 @@ the name of a changed php.ini setting with its new value.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">121</span>
+    <span class="phpdocumentor-element-found-in__line">135</span>
 
     </aside>
 
@@ -888,6 +980,51 @@ the name of a changed php.ini setting with its new value.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getSettingsNotChangeableAtRuntime">
+        getSettingsNotChangeableAtRuntime()
+        <a href="classes/SebastianBergmann-Environment-Runtime.html#method_getSettingsNotChangeableAtRuntime" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">314</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns INI settings that cannot be changed via ini_set()
+(PHP_INI_SYSTEM and PHP_INI_PERDIR) and whose current value
+differs from the value configured in INI files.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getSettingsNotChangeableAtRuntime</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>These settings can only have been changed via CLI -d flags
+and must be forwarded as -d flags to child processes because
+ini_set() cannot change them at runtime.</p>
+</section>
+
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getVendorUrl">
         getVendorUrl()
         <a href="classes/SebastianBergmann-Environment-Runtime.html#method_getVendorUrl" class="headerlink"><i class="fas fa-link"></i></a>
@@ -896,7 +1033,7 @@ the name of a changed php.ini setting with its new value.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">181</span>
+    <span class="phpdocumentor-element-found-in__line">195</span>
 
     </aside>
 
@@ -934,7 +1071,7 @@ the name of a changed php.ini setting with its new value.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">186</span>
+    <span class="phpdocumentor-element-found-in__line">200</span>
 
     </aside>
 
@@ -972,7 +1109,7 @@ the name of a changed php.ini setting with its new value.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">227</span>
+    <span class="phpdocumentor-element-found-in__line">241</span>
 
     </aside>
 
@@ -1011,7 +1148,7 @@ the name of a changed php.ini setting with its new value.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">219</span>
+    <span class="phpdocumentor-element-found-in__line">233</span>
 
     </aside>
 
@@ -1051,7 +1188,7 @@ and the phpdbg_*_oplog() functions are available (PHP &gt;= 7.0).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">194</span>
+    <span class="phpdocumentor-element-found-in__line">208</span>
 
     </aside>
 
@@ -1090,7 +1227,7 @@ and the phpdbg_*_oplog() functions are available (PHP &gt;= 7.0).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">288</span>
+    <span class="phpdocumentor-element-found-in__line">345</span>
 
     </aside>
 
@@ -1128,7 +1265,7 @@ and the phpdbg_*_oplog() functions are available (PHP &gt;= 7.0).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">202</span>
+    <span class="phpdocumentor-element-found-in__line">216</span>
 
     </aside>
 
@@ -1167,7 +1304,7 @@ and the phpdbg_*_oplog() functions are available (PHP &gt;= 7.0).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">210</span>
+    <span class="phpdocumentor-element-found-in__line">224</span>
 
     </aside>
 
@@ -1206,7 +1343,7 @@ and the phpdbg_*_oplog() functions are available (PHP &gt;= 7.0).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">93</span>
+    <span class="phpdocumentor-element-found-in__line">107</span>
 
     </aside>
 
@@ -1232,102 +1369,90 @@ and is configured to perform just-in-time compilation.</p>
             </section>
 
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_compiledDefaults">
+        compiledDefaults()
+        <a href="classes/SebastianBergmann-Environment-Runtime.html#method_compiledDefaults" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">415</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the compiled-in default values of every ini setting by
+spawning a `php -n` child process once and caching the result
+for the lifetime of the PHP process. When the child cannot be
+launched or its output is unusable, an empty array is returned
+and cached so the failure is not retried.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">compiledDefaults</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span>
             </section>
 
-        <div class="phpdocumentor-modal" id="source-view">
-    <div class="phpdocumentor-modal-bg" data-exit-button></div>
-    <div class="phpdocumentor-modal-container">
-        <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/vendor/sebastian/environment/src/Runtime.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_parseLoadedIniFiles">
+        parseLoadedIniFiles()
+        <a href="classes/SebastianBergmann-Environment-Runtime.html#method_parseLoadedIniFiles" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/environment/src/Runtime.php"><a href="files/vendor-sebastian-environment-src-runtime.html"><abbr title="vendor/sebastian/environment/src/Runtime.php">Runtime.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">365</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">parseLoadedIniFiles</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
         </div>
-        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
-    </div>
-</div>
+    
+    
+    
+    
 
-    <script type="text/javascript">
-        (function () {
-            function loadExternalCodeSnippet(el, url, line) {
-                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
-                    const language = 'php';
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span>
+            </section>
 
-                    const code = document.createElement('code');
-                    code.className = 'language-' + language;
-                    pre.textContent = '';
-                    pre.setAttribute('data-line', line)
-                    code.textContent = 'Loading…';
-                    pre.appendChild(code);
+</article>
+            </section>
 
-                    var xhr = new XMLHttpRequest();
-
-                    xhr.open('GET', src, true);
-
-                    xhr.onreadystatechange = function () {
-                        if (xhr.readyState !== 4) {
-                            return;
-                        }
-
-                        if (xhr.status < 400 && xhr.responseText) {
-                            code.textContent = xhr.responseText;
-                            Prism.highlightElement(code);
-                            d=document.getElementsByClassName("line-numbers");
-                            d[0].scrollTop = d[0].children[1].offsetTop;
-                            return;
-                        }
-
-                        if (xhr.status === 404) {
-                            code.textContent = '✖ Error: File could not be found';
-                            return;
-                        }
-
-                        if (xhr.status >= 400) {
-                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
-                            return;
-                        }
-
-                        code.textContent = '✖ Error: An unknown error occurred';
-                    };
-
-                    xhr.send(null);
-                });
-            }
-
-            const modalButtons = document.querySelectorAll("[data-modal]");
-            const openedAsLocalFile = window.location.protocol === 'file:';
-            if (modalButtons.length > 0 && openedAsLocalFile) {
-                console.warn(
-                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
-                    'browsers block XHR requests when a page is opened this way'
-                );
-            }
-
-            modalButtons.forEach(function (trigger) {
-                if (openedAsLocalFile) {
-                    trigger.setAttribute("hidden", "hidden");
-                }
-
-                trigger.addEventListener("click", function (event) {
-                    event.preventDefault();
-                    const modal = document.getElementById(trigger.dataset.modal);
-                    if (!modal) {
-                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
-                        return;
-                    }
-                    modal.classList.add("phpdocumentor-modal__open");
-
-                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
-                    const exits = modal.querySelectorAll("[data-exit-button]");
-                    exits.forEach(function (exit) {
-                        exit.addEventListener("click", function (event) {
-                            event.preventDefault();
-                            modal.classList.remove("phpdocumentor-modal__open");
-                        });
-                    });
-                });
-            });
-        })();
-    </script>
-
+        
     </article>
                                 </section>
                 <section class="phpdocumentor-on-this-page__sidebar">
@@ -1339,10 +1464,17 @@ and is configured to perform just-in-time compilation.</p>
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/SebastianBergmann-Environment-Runtime.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/SebastianBergmann-Environment-Runtime.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/SebastianBergmann-Environment-Runtime.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#property_compiledDefaults">$compiledDefaults</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
@@ -1355,6 +1487,7 @@ and is configured to perform just-in-time compilation.</p>
                                             <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_getNameWithVersion">getNameWithVersion()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_getNameWithVersionAndCodeCoverageDriver">getNameWithVersionAndCodeCoverageDriver()</a></li>
                                             <li class="-deprecated"><a href="classes/SebastianBergmann-Environment-Runtime.html#method_getRawBinary">getRawBinary()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_getSettingsNotChangeableAtRuntime">getSettingsNotChangeableAtRuntime()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_getVendorUrl">getVendorUrl()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_getVersion">getVersion()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_hasPCOV">hasPCOV()</a></li>
@@ -1364,6 +1497,8 @@ and is configured to perform just-in-time compilation.</p>
                                             <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_isPHP">isPHP()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_isPHPDBG">isPHPDBG()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_performsJustInTimeCompilation">performsJustInTimeCompilation()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_compiledDefaults">compiledDefaults()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Environment-Runtime.html#method_parseLoadedIniFiles">parseLoadedIniFiles()</a></li>
                                     </ul>
             </li>
                     </ul>
