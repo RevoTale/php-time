@@ -23148,32 +23148,32 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertXmlFileEqualsXmlFile\u0028\u0029",
             "name": "assertXmlFileEqualsXmlFile",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020equal,\u0020ignoring\u0020comments.",
             "url": "namespaces/phpunit-framework.html#function_assertXmlFileEqualsXmlFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertXmlFileNotEqualsXmlFile\u0028\u0029",
             "name": "assertXmlFileNotEqualsXmlFile",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020not\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020not\u0020equal,\u0020ignoring\u0020comments.",
             "url": "namespaces/phpunit-framework.html#function_assertXmlFileNotEqualsXmlFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertXmlStringEqualsXmlFile\u0028\u0029",
             "name": "assertXmlStringEqualsXmlFile",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal,\u0020ignoring\u0020comments.",
             "url": "namespaces/phpunit-framework.html#function_assertXmlStringEqualsXmlFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertXmlStringNotEqualsXmlFile\u0028\u0029",
             "name": "assertXmlStringNotEqualsXmlFile",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020ignoring\u0020comments.",
             "url": "namespaces/phpunit-framework.html#function_assertXmlStringNotEqualsXmlFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertXmlStringEqualsXmlString\u0028\u0029",
             "name": "assertXmlStringEqualsXmlString",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal,\u0020ignoring\u0020comments.",
             "url": "namespaces/phpunit-framework.html#function_assertXmlStringEqualsXmlString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertXmlStringNotEqualsXmlString\u0028\u0029",
             "name": "assertXmlStringNotEqualsXmlString",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020ignoring\u0020comments.",
             "url": "namespaces/phpunit-framework.html#function_assertXmlStringNotEqualsXmlString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertThat\u0028\u0029",
@@ -24323,32 +24323,32 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlFileEqualsXmlFile\u0028\u0029",
             "name": "assertXmlFileEqualsXmlFile",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020equal,\u0020ignoring\u0020comments.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlFileEqualsXmlFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlFileNotEqualsXmlFile\u0028\u0029",
             "name": "assertXmlFileNotEqualsXmlFile",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020not\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020not\u0020equal,\u0020ignoring\u0020comments.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlFileNotEqualsXmlFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlStringEqualsXmlFile\u0028\u0029",
             "name": "assertXmlStringEqualsXmlFile",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal,\u0020ignoring\u0020comments.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringEqualsXmlFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlStringNotEqualsXmlFile\u0028\u0029",
             "name": "assertXmlStringNotEqualsXmlFile",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020ignoring\u0020comments.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringNotEqualsXmlFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlStringEqualsXmlString\u0028\u0029",
             "name": "assertXmlStringEqualsXmlString",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal,\u0020ignoring\u0020comments.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringEqualsXmlString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlStringNotEqualsXmlString\u0028\u0029",
             "name": "assertXmlStringNotEqualsXmlString",
-            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal.",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020ignoring\u0020comments.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringNotEqualsXmlString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertThat\u0028\u0029",
@@ -27860,6 +27860,11 @@ Search.appendIndex(
             "name": "emitEventForCustomTestMethodInvocation",
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_emitEventForCustomTestMethodInvocation"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AwarnAboutMultipleOutputExpectations\u0028\u0029",
+            "name": "warnAboutMultipleOutputExpectations",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_warnAboutMultipleOutputExpectations"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AgetStubBuilder\u0028\u0029",
             "name": "getStubBuilder",
