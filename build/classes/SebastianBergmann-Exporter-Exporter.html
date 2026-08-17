@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -377,7 +385,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
@@ -415,6 +423,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/SebastianBergmann-Exporter-Exporter.html#property_objectExporter">$objectExporter</a>
+    <span>
+                        &nbsp;: <a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a>|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-Exporter-Exporter.html#property_shortenArraysLongerThan">$shortenArraysLongerThan</a>
     <span>
                         &nbsp;: int            </span>
@@ -446,6 +460,14 @@
                                 &nbsp;: string    </span>
 </dt>
 <dd>Exports a value as a string.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-Exporter-Exporter.html#method_hasCustomRepresentationFor">hasCustomRepresentationFor()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Returns whether a custom object exporter provides the representation
+for an object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedExport">shortenedExport()</a>
@@ -513,6 +535,14 @@ and public properties.</dd>
 are declared more than once in the inheritance chain of an object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/SebastianBergmann-Exporter-Exporter.html#method_shorten">shorten()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Collapses a representation to a single line and shortens it when it is
+longer than $maxLengthForStrings.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedCountedRecursiveExport">shortenedCountedRecursiveExport()</a>
     <span>
                                 &nbsp;: string    </span>
@@ -548,7 +578,7 @@ are declared more than once in the inheritance chain of an object.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
@@ -558,6 +588,43 @@ are declared more than once in the inheritance chain of an object.</dd>
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type">positive-int</span>
     <span class="phpdocumentor-signature__name">$maxLengthForStrings</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_objectExporter">
+        $objectExporter
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#property_objectExporter" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">64</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a>|null</span>
+    <span class="phpdocumentor-signature__name">$objectExporter</span>
     </code>
 
     
@@ -585,7 +652,7 @@ are declared more than once in the inheritance chain of an object.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
@@ -629,14 +696,14 @@ are declared more than once in the inheritance chain of an object.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shortenArraysLongerThan</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">positive-int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxLengthForStrings</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">40</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shortenArraysLongerThan</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">positive-int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxLengthForStrings</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">40</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objectExporter</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -655,6 +722,13 @@ are declared more than once in the inheritance chain of an object.</dd>
                 <span class="phpdocumentor-argument-list__argument__name">$maxLengthForStrings</span>
                 : <span class="phpdocumentor-argument-list__argument__type">positive-int</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">40</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$objectExporter</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a>|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -680,7 +754,7 @@ are declared more than once in the inheritance chain of an object.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">243</span>
+    <span class="phpdocumentor-element-found-in__line">302</span>
 
     </aside>
 
@@ -728,7 +802,7 @@ are declared more than once in the inheritance chain of an object.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">96</span>
 
     </aside>
 
@@ -736,7 +810,7 @@ are declared more than once in the inheritance chain of an object.</dd>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">export</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indentation</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">export</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indentation</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-Exporter-ExportContext.html"><abbr title="\SebastianBergmann\Exporter\ExportContext">ExportContext</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -751,6 +825,9 @@ improved in various aspects:</p>
 <li>Carriage returns and newlines are normalized to \n</li>
 <li>Recursion and repeated rendering is treated properly</li>
 </ul>
+<p>An implementation of ObjectExporter must pass the ExportContext it is
+given to this method when it exports values that are nested in the
+object it handles.</p>
 </section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -769,6 +846,83 @@ improved in various aspects:</p>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$context</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-Exporter-ExportContext.html"><abbr title="\SebastianBergmann\Exporter\ExportContext">ExportContext</abbr></a>|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="method_export_tags">
+        Tags
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_export_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-Exporter-ObjectNotSupportedException.html"><abbr title="\SebastianBergmann\Exporter\ObjectNotSupportedException">ObjectNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                        </dl>
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_hasCustomRepresentationFor">
+        hasCustomRepresentationFor()
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_hasCustomRepresentationFor" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">216</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns whether a custom object exporter provides the representation
+for an object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">hasCustomRepresentationFor</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>This is intended for code that renders objects itself and wants to use
+the representation a custom object exporter provides when there is one.</p>
+<p>Bear in mind that an object that is (indirectly) nested in itself is
+replaced with a reference to the object instead of being exported by a
+custom object exporter again.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -777,7 +931,7 @@ improved in various aspects:</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
+        <span class="phpdocumentor-signature__response_type">bool</span>
             </section>
 
 </article>
@@ -795,7 +949,7 @@ improved in various aspects:</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">147</span>
 
     </aside>
 
@@ -812,6 +966,9 @@ improved in various aspects:</p>
 SebastianBergmann\Exporter\Exporter::export().</p>
 <p>Newlines are replaced by the visible string '\n'.
 Contents of arrays and objects (if any) are replaced by '...'.</p>
+<p>The representation a custom object exporter provides for an object is
+used, but it is collapsed to a single line and shortened when it is
+longer than $maxLengthForStrings.</p>
 </section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -833,6 +990,20 @@ Contents of arrays and objects (if any) are replaced by '...'.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_shortenedExport_tags">
+        Tags
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedExport_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-Exporter-ObjectNotSupportedException.html"><abbr title="\SebastianBergmann\Exporter\ObjectNotSupportedException">ObjectNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                        </dl>
 
         
     
@@ -856,7 +1027,7 @@ Contents of arrays and objects (if any) are replaced by '...'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">89</span>
+    <span class="phpdocumentor-element-found-in__line">107</span>
 
     </aside>
 
@@ -895,6 +1066,20 @@ Contents of arrays and objects (if any) are replaced by '...'.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_shortenedRecursiveExport_tags">
+        Tags
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedRecursiveExport_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-Exporter-ObjectNotSupportedException.html"><abbr title="\SebastianBergmann\Exporter\ObjectNotSupportedException">ObjectNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                        </dl>
 
         
     
@@ -918,7 +1103,7 @@ Contents of arrays and objects (if any) are replaced by '...'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">180</span>
+    <span class="phpdocumentor-element-found-in__line">231</span>
 
     </aside>
 
@@ -968,7 +1153,7 @@ and public properties.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">502</span>
+    <span class="phpdocumentor-element-found-in__line">650</span>
 
     </aside>
 
@@ -1016,14 +1201,14 @@ and public properties.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">440</span>
+    <span class="phpdocumentor-element-found-in__line">535</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">exportArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-RecursionContext-Context.html"><abbr title="\SebastianBergmann\RecursionContext\Context">Context</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$processed</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indentation</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">exportArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-Exporter-ExportContext.html"><abbr title="\SebastianBergmann\Exporter\ExportContext">ExportContext</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indentation</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1039,8 +1224,8 @@ and public properties.</p>
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$processed</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-RecursionContext-Context.html"><abbr title="\SebastianBergmann\RecursionContext\Context">Context</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$context</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-Exporter-ExportContext.html"><abbr title="\SebastianBergmann\Exporter\ExportContext">ExportContext</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1055,6 +1240,20 @@ and public properties.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_exportArray_tags">
+        Tags
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_exportArray_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-Exporter-ObjectNotSupportedException.html"><abbr title="\SebastianBergmann\Exporter\ObjectNotSupportedException">ObjectNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                        </dl>
 
         
     
@@ -1078,7 +1277,7 @@ and public properties.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">400</span>
+    <span class="phpdocumentor-element-found-in__line">462</span>
 
     </aside>
 
@@ -1126,14 +1325,14 @@ and public properties.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">470</span>
+    <span class="phpdocumentor-element-found-in__line">568</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">exportObject</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-RecursionContext-Context.html"><abbr title="\SebastianBergmann\RecursionContext\Context">Context</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$processed</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indentation</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">exportObject</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-Exporter-ExportContext.html"><abbr title="\SebastianBergmann\Exporter\ExportContext">ExportContext</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indentation</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1149,8 +1348,8 @@ and public properties.</p>
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$processed</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-RecursionContext-Context.html"><abbr title="\SebastianBergmann\RecursionContext\Context">Context</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$context</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-Exporter-ExportContext.html"><abbr title="\SebastianBergmann\Exporter\ExportContext">ExportContext</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1165,6 +1364,20 @@ and public properties.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_exportObject_tags">
+        Tags
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_exportObject_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-Exporter-ObjectNotSupportedException.html"><abbr title="\SebastianBergmann\Exporter\ObjectNotSupportedException">ObjectNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                        </dl>
 
         
     
@@ -1188,7 +1401,7 @@ and public properties.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">417</span>
+    <span class="phpdocumentor-element-found-in__line">488</span>
 
     </aside>
 
@@ -1236,14 +1449,14 @@ and public properties.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">335</span>
+    <span class="phpdocumentor-element-found-in__line">399</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">recursiveExport</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indentation</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-RecursionContext-Context.html"><abbr title="\SebastianBergmann\RecursionContext\Context">Context</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$processed</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">recursiveExport</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indentation</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-Exporter-ExportContext.html"><abbr title="\SebastianBergmann\Exporter\ExportContext">ExportContext</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1266,8 +1479,8 @@ and public properties.</p>
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$processed</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-RecursionContext-Context.html"><abbr title="\SebastianBergmann\RecursionContext\Context">Context</abbr></a>|null</span>
+                <span class="phpdocumentor-argument-list__argument__name">$context</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-Exporter-ExportContext.html"><abbr title="\SebastianBergmann\Exporter\ExportContext">ExportContext</abbr></a>|null</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1275,6 +1488,20 @@ and public properties.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_recursiveExport_tags">
+        Tags
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_recursiveExport_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-Exporter-ObjectNotSupportedException.html"><abbr title="\SebastianBergmann\Exporter\ObjectNotSupportedException">ObjectNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                        </dl>
 
         
     
@@ -1298,7 +1525,7 @@ and public properties.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">270</span>
+    <span class="phpdocumentor-element-found-in__line">329</span>
 
     </aside>
 
@@ -1343,6 +1570,63 @@ that one of its parent classes also declares.</p>
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_shorten">
+        shorten()
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shorten" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">451</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Collapses a representation to a single line and shortens it when it is
+longer than $maxLengthForStrings.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">shorten</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$string</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">positive-int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxLengthForStrings</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$string</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$maxLengthForStrings</span>
+                : <span class="phpdocumentor-argument-list__argument__type">positive-int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_shortenedCountedRecursiveExport">
         shortenedCountedRecursiveExport()
         <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedCountedRecursiveExport" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1351,7 +1635,7 @@ that one of its parent classes also declares.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/exporter/src/Exporter.php"><a href="files/vendor-sebastian-exporter-src-exporter.html"><abbr title="vendor/sebastian/exporter/src/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">300</span>
+    <span class="phpdocumentor-element-found-in__line">361</span>
 
     </aside>
 
@@ -1397,6 +1681,20 @@ that one of its parent classes also declares.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_shortenedCountedRecursiveExport_tags">
+        Tags
+        <a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedCountedRecursiveExport_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-Exporter-ObjectNotSupportedException.html"><abbr title="\SebastianBergmann\Exporter\ObjectNotSupportedException">ObjectNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                        </dl>
 
         
     
@@ -1429,6 +1727,7 @@ that one of its parent classes also declares.</p>
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#property_maxLengthForStrings">$maxLengthForStrings</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#property_objectExporter">$objectExporter</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#property_shortenArraysLongerThan">$shortenArraysLongerThan</a></li>
                                             </ul>
                 </li>
@@ -1439,6 +1738,7 @@ that one of its parent classes also declares.</p>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_countProperties">countProperties()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_export">export()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_hasCustomRepresentationFor">hasCustomRepresentationFor()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedExport">shortenedExport()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedRecursiveExport">shortenedRecursiveExport()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_toArray">toArray()</a></li>
@@ -1449,6 +1749,7 @@ that one of its parent classes also declares.</p>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_exportString">exportString()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_recursiveExport">recursiveExport()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shadowedPropertyNames">shadowedPropertyNames()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shorten">shorten()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedCountedRecursiveExport">shortenedCountedRecursiveExport()</a></li>
                                     </ul>
             </li>

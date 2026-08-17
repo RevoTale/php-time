@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -379,7 +387,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestStubBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-teststubbuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestStubBuilder.php">TestStubBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -395,6 +403,12 @@
     <dl class="phpdocumentor-tag-list">
                     <dt class="phpdocumentor-tag-list__entry">
                 <span class="phpdocumentor-tag__name">template</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        
+                                    </dd>
+                                <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">template-extends</span>
             </dt>
                             <dd class="phpdocumentor-tag-list__definition">
                                                                                                         
@@ -438,6 +452,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_doubledProperties">$doubledProperties</a>
+    <span>
+                        &nbsp;: array&lt;int, non-empty-string&gt;            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_emptyMethodsArray">$emptyMethodsArray</a>
     <span>
                         &nbsp;: bool            </span>
@@ -470,7 +490,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_type">$type</a>
     <span>
-                        &nbsp;: class-string|trait-string            </span>
+                        &nbsp;: <abbr title="class-string<\PHPUnit\Framework\MockObject\T>">T></abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -512,6 +532,13 @@
                                 &nbsp;: $this    </span>
 </dt>
 <dd>Disables the invocation of the original constructor.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_doubleProperties">doubleProperties()</a>
+    <span>
+                                &nbsp;: $this    </span>
+</dt>
+<dd>Specifies properties that do not declare property hooks for which property hooks should be doubled.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_enableAutoReturnValueGeneration">enableAutoReturnValueGeneration()</a>
@@ -597,7 +624,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -607,6 +634,43 @@
         <span class="phpdocumentor-signature__visibility">protected</span>
             <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$constructorArgs</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_doubledProperties">
+        $doubledProperties
+        <a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_doubledProperties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">array&lt;int, non-empty-string&gt;</span>
+    <span class="phpdocumentor-signature__name">$doubledProperties</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
     
@@ -634,7 +698,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -671,7 +735,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -708,7 +772,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -745,7 +809,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -782,7 +846,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -819,7 +883,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -827,7 +891,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">protected</span>
-            <span class="phpdocumentor-signature__type">class-string|trait-string</span>
+            <span class="phpdocumentor-signature__type"><abbr title="class-string<\PHPUnit\Framework\MockObject\T>">T></abbr></span>
     <span class="phpdocumentor-signature__name">$type</span>
     </code>
 
@@ -856,7 +920,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestStubBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-teststubbuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestStubBuilder.php">TestStubBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -898,14 +962,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">class-string|trait-string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="class-string<\PHPUnit\Framework\MockObject\T>">T></abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -915,7 +979,7 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$type</span>
-                : <span class="phpdocumentor-argument-list__argument__type">class-string|trait-string</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="class-string<\PHPUnit\Framework\MockObject\T>">T></abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -942,7 +1006,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">167</span>
+    <span class="phpdocumentor-element-found-in__line">231</span>
 
     </aside>
 
@@ -980,7 +1044,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">199</span>
 
     </aside>
 
@@ -1019,7 +1083,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">111</span>
+    <span class="phpdocumentor-element-found-in__line">175</span>
 
     </aside>
 
@@ -1050,6 +1114,73 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_doubleProperties">
+        doubleProperties()
+        <a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_doubleProperties" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">108</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Specifies properties that do not declare property hooks for which property hooks should be doubled.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">doubleProperties</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;int, non-empty-string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$properties</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$properties</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, non-empty-string&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="method_doubleProperties_tags">
+        Tags
+        <a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_doubleProperties_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\Framework\MockObject\PropertyCannotBeDoubledException">PropertyCannotBeDoubledException</abbr></span>
+                                                                                    
+                                    </dd>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\Framework\MockObject\Generator\ReflectionException">ReflectionException</abbr></span>
+                                                                                    
+                                    </dd>
+                        </dl>
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">$this</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_enableAutoReturnValueGeneration">
         enableAutoReturnValueGeneration()
         <a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_enableAutoReturnValueGeneration" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1058,7 +1189,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">157</span>
+    <span class="phpdocumentor-element-found-in__line">221</span>
 
     </aside>
 
@@ -1096,7 +1227,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">211</span>
 
     </aside>
 
@@ -1135,7 +1266,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">187</span>
 
     </aside>
 
@@ -1174,7 +1305,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestStubBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-teststubbuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestStubBuilder.php">TestStubBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
@@ -1263,7 +1394,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">66</span>
 
     </aside>
 
@@ -1330,7 +1461,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">99</span>
+    <span class="phpdocumentor-element-found-in__line">163</span>
 
     </aside>
 
@@ -1379,7 +1510,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestStubBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-teststubbuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestStubBuilder.php">TestStubBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -1428,7 +1559,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php"><a href="files/vendor-phpunit-phpunit-src-framework-mockobject-testdoublebuilder.html"><abbr title="vendor/phpunit/phpunit/src/Framework/MockObject/TestDoubleBuilder.php">TestDoubleBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">174</span>
+    <span class="phpdocumentor-element-found-in__line">238</span>
 
     </aside>
 
@@ -1492,6 +1623,7 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_constructorArgs">$constructorArgs</a></li>
+                                                    <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_doubledProperties">$doubledProperties</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_emptyMethodsArray">$emptyMethodsArray</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_methods">$methods</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_originalClone">$originalClone</a></li>
@@ -1509,6 +1641,7 @@
                                             <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_disableAutoReturnValueGeneration">disableAutoReturnValueGeneration()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_disableOriginalClone">disableOriginalClone()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_disableOriginalConstructor">disableOriginalConstructor()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_doubleProperties">doubleProperties()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_enableAutoReturnValueGeneration">enableAutoReturnValueGeneration()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_enableOriginalClone">enableOriginalClone()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_enableOriginalConstructor">enableOriginalConstructor()</a></li>

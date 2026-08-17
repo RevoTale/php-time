@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -381,7 +389,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -434,6 +442,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#property_attempt">$attempt</a>
+    <span>
+                        &nbsp;: positive-int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#property_className">$className</a>
     <span>
                         &nbsp;: class-string            </span>
@@ -443,6 +457,12 @@
     <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#property_line">$line</a>
     <span>
                         &nbsp;: int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#property_maxAttempts">$maxAttempts</a>
+    <span>
+                        &nbsp;: positive-int            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -458,6 +478,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#property_repetition">$repetition</a>
+    <span>
+                        &nbsp;: positive-int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#property_testData">$testData</a>
     <span>
                         &nbsp;: <a href="classes/PHPUnit-Event-TestData-TestDataCollection.html"><abbr title="\PHPUnit\Event\TestData\TestDataCollection">TestDataCollection</abbr></a>            </span>
@@ -469,6 +495,12 @@
                         &nbsp;: <a href="classes/PHPUnit-Event-Code-TestDox.html"><abbr title="\PHPUnit\Event\Code\TestDox">TestDox</abbr></a>            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#property_totalRepetitions">$totalRepetitions</a>
+    <span>
+                        &nbsp;: positive-int            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -477,6 +509,12 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_attempt">attempt()</a>
+    <span>
+                                &nbsp;: positive-int    </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_className">className()</a>
     <span>
@@ -502,6 +540,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_isRepeated">isRepeated()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_isRetried">isRetried()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_isTestMethod">isTestMethod()</a>
     <span>
                                 &nbsp;: true    </span>
@@ -511,6 +561,12 @@
     <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_line">line()</a>
     <span>
                                 &nbsp;: int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_maxAttempts">maxAttempts()</a>
+    <span>
+                                &nbsp;: positive-int    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -538,6 +594,19 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_repetition">repetition()</a>
+    <span>
+                                &nbsp;: positive-int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_sortId">sortId()</a>
+    <span>
+                                &nbsp;: non-empty-string    </span>
+</dt>
+<dd>Identifier that is stable across repetitions and attempts of the same test.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_testData">testData()</a>
     <span>
                                 &nbsp;: <a href="classes/PHPUnit-Event-TestData-TestDataCollection.html"><abbr title="\PHPUnit\Event\TestData\TestDataCollection">TestDataCollection</abbr></a>    </span>
@@ -547,6 +616,18 @@
     <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_testDox">testDox()</a>
     <span>
                                 &nbsp;: <a href="classes/PHPUnit-Event-Code-TestDox.html"><abbr title="\PHPUnit\Event\Code\TestDox">TestDox</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_totalRepetitions">totalRepetitions()</a>
+    <span>
+                                &nbsp;: positive-int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PHPUnit-Event-Code-TestMethod.html#method_nameWithDataSet">nameWithDataSet()</a>
+    <span>
+                                &nbsp;: non-empty-string    </span>
 </dt>
 
     </dl>
@@ -569,6 +650,43 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_attempt">
+        $attempt
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#property_attempt" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">56</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">positive-int</span>
+    <span class="phpdocumentor-signature__name">$attempt</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_className">
         $className
         <a href="classes/PHPUnit-Event-Code-TestMethod.html#property_className" class="headerlink"><i class="fas fa-link"></i></a>
@@ -579,7 +697,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -616,7 +734,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -645,6 +763,43 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_maxAttempts">
+        $maxAttempts
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#property_maxAttempts" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">61</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">positive-int</span>
+    <span class="phpdocumentor-signature__name">$maxAttempts</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_metadata">
         $metadata
         <a href="classes/PHPUnit-Event-Code-TestMethod.html#property_metadata" class="headerlink"><i class="fas fa-link"></i></a>
@@ -655,7 +810,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -692,7 +847,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -702,6 +857,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type">non-empty-string</span>
     <span class="phpdocumentor-signature__name">$methodName</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_repetition">
+        $repetition
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#property_repetition" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">positive-int</span>
+    <span class="phpdocumentor-signature__name">$repetition</span>
     </code>
 
     
@@ -729,7 +921,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -766,7 +958,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -776,6 +968,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PHPUnit-Event-Code-TestDox.html"><abbr title="\PHPUnit\Event\Code\TestDox">TestDox</abbr></a></span>
     <span class="phpdocumentor-signature__name">$testDox</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_totalRepetitions">
+        $totalRepetitions
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#property_totalRepetitions" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">51</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">positive-int</span>
+    <span class="phpdocumentor-signature__name">$totalRepetitions</span>
     </code>
 
     
@@ -800,6 +1029,44 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_attempt">
+        attempt()
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_attempt" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">154</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">attempt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">positive-int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">positive-int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_className">
         className()
         <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_className" class="headerlink"><i class="fas fa-link"></i></a>
@@ -808,7 +1075,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">94</span>
 
     </aside>
 
@@ -884,7 +1151,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">109</span>
+    <span class="phpdocumentor-element-found-in__line">180</span>
 
     </aside>
 
@@ -967,6 +1234,82 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_isRepeated">
+        isRepeated()
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_isRepeated" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">146</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isRepeated</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isRetried">
+        isRetried()
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_isRetried" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">167</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isRetried</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_isTestMethod">
         isTestMethod()
         <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_isTestMethod" class="headerlink"><i class="fas fa-link"></i></a>
@@ -975,7 +1318,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">172</span>
 
     </aside>
 
@@ -1013,7 +1356,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">110</span>
 
     </aside>
 
@@ -1043,6 +1386,44 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_maxAttempts">
+        maxAttempts()
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_maxAttempts" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">162</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">maxAttempts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">positive-int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">positive-int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_metadata">
         metadata()
         <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_metadata" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1051,7 +1432,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">120</span>
 
     </aside>
 
@@ -1089,7 +1470,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -1127,7 +1508,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">218</span>
 
     </aside>
 
@@ -1165,7 +1546,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">210</span>
 
     </aside>
 
@@ -1173,6 +1554,83 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">nameWithClass</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">non-empty-string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">non-empty-string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_repetition">
+        repetition()
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_repetition" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">133</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">repetition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">positive-int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">positive-int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_sortId">
+        sortId()
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_sortId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">244</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Identifier that is stable across repetitions and attempts of the same test.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">sortId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">non-empty-string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1203,7 +1661,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">125</span>
 
     </aside>
 
@@ -1241,7 +1699,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">86</span>
+    <span class="phpdocumentor-element-found-in__line">115</span>
 
     </aside>
 
@@ -1262,6 +1720,82 @@
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type"><a href="classes/PHPUnit-Event-Code-TestDox.html"><abbr title="\PHPUnit\Event\Code\TestDox">TestDox</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_totalRepetitions">
+        totalRepetitions()
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_totalRepetitions" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">141</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">totalRepetitions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">positive-int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">positive-int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_nameWithDataSet">
+        nameWithDataSet()
+        <a href="classes/PHPUnit-Event-Code-TestMethod.html#method_nameWithDataSet" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php"><a href="files/vendor-phpunit-phpunit-src-event-value-test-testmethod.html"><abbr title="vendor/phpunit/phpunit/src/Event/Value/Test/TestMethod.php">TestMethod.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">252</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">nameWithDataSet</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">non-empty-string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">non-empty-string</span>
             </section>
 
 </article>
@@ -1287,30 +1821,42 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_attempt">$attempt</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_className">$className</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_line">$line</a></li>
+                                                    <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_maxAttempts">$maxAttempts</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_metadata">$metadata</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_methodName">$methodName</a></li>
+                                                    <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_repetition">$repetition</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_testData">$testData</a></li>
                                                     <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_testDox">$testDox</a></li>
+                                                    <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#property_totalRepetitions">$totalRepetitions</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_attempt">attempt()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_className">className()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-Test.html#method_file">file()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_id">id()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-Test.html#method_isPhpt">isPhpt()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_isRepeated">isRepeated()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_isRetried">isRetried()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_isTestMethod">isTestMethod()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_line">line()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_maxAttempts">maxAttempts()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_metadata">metadata()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_methodName">methodName()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_name">name()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_nameWithClass">nameWithClass()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_repetition">repetition()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_sortId">sortId()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_testData">testData()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_testDox">testDox()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_totalRepetitions">totalRepetitions()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Event-Code-TestMethod.html#method_nameWithDataSet">nameWithDataSet()</a></li>
                                     </ul>
             </li>
                     </ul>

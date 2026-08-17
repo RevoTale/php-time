@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -416,6 +424,15 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/SebastianBergmann-CliParser-Parser.html#method_exactMatch">exactMatch()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>An option that is spelled out in full is never ambiguous, no matter how many
+other options begin with it: &quot;--html&quot; unambiguously means &quot;html&quot; even when
+&quot;html-views&quot; is also declared.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/SebastianBergmann-CliParser-Parser.html#method_formatSimilarOptions">formatSimilarOptions()</a>
     <span>
                                 &nbsp;: array&lt;string|int, string&gt;    </span>
@@ -541,6 +558,64 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_exactMatch">
+        exactMatch()
+        <a href="classes/SebastianBergmann-CliParser-Parser.html#method_exactMatch" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/cli-parser/src/Parser.php"><a href="files/vendor-sebastian-cli-parser-src-parser.html"><abbr title="vendor/sebastian/cli-parser/src/Parser.php">Parser.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">243</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">An option that is spelled out in full is never ambiguous, no matter how many
+other options begin with it: &quot;--html&quot; unambiguously means &quot;html&quot; even when
+&quot;html-views&quot; is also declared.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">exactMatch</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$option</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$longOptions</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$option</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$longOptions</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, string&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_formatSimilarOptions">
         formatSimilarOptions()
         <a href="classes/SebastianBergmann-CliParser-Parser.html#method_formatSimilarOptions" class="headerlink"><i class="fas fa-link"></i></a>
@@ -549,7 +624,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/cli-parser/src/Parser.php"><a href="files/vendor-sebastian-cli-parser-src-parser.html"><abbr title="vendor/sebastian/cli-parser/src/Parser.php">Parser.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">234</span>
+    <span class="phpdocumentor-element-found-in__line">259</span>
 
     </aside>
 
@@ -776,6 +851,7 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/SebastianBergmann-CliParser-Parser.html#method_parse">parse()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-CliParser-Parser.html#method_exactMatch">exactMatch()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CliParser-Parser.html#method_formatSimilarOptions">formatSimilarOptions()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CliParser-Parser.html#method_parseLongOption">parseLongOption()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CliParser-Parser.html#method_parseShortOption">parseShortOption()</a></li>

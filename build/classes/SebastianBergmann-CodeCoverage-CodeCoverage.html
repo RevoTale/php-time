@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -375,7 +383,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -400,6 +408,14 @@
                                     </dd>
                             <dd class="phpdocumentor-tag-list__definition">
                                                                                                             <section class="phpdocumentor-description"><p>TargetedLines array&lt;non-empty-string, list<positive-int>&gt;</p>
+</section>
+
+                                    </dd>
+                                <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">no-named-arguments</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>Parameter names are not covered by the backward compatibility promise for phpunit/php-code-coverage</p>
 </section>
 
                                     </dd>
@@ -441,15 +457,9 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_analyser">$analyser</a>
-    <span>
-                        &nbsp;: <abbr title="\SebastianBergmann\CodeCoverage\StaticAnalysis\FileAnalyser">FileAnalyser</abbr>|null            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_cacheDirectory">$cacheDirectory</a>
     <span>
-                        &nbsp;: string|null            </span>
+                        &nbsp;: non-empty-string|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -465,21 +475,15 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_collectBranchAndPathCoverage">$collectBranchAndPathCoverage</a>
-    <span>
-                        &nbsp;: bool            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_currentId">$currentId</a>
     <span>
-                        &nbsp;: string|null            </span>
+                        &nbsp;: non-empty-string|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_currentSize">$currentSize</a>
     <span>
-                        &nbsp;: <a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize\TestSize">TestSize</abbr></a>|null            </span>
+                        &nbsp;: <a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize">TestSize</abbr></a>|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -527,7 +531,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_tests">$tests</a>
     <span>
-                        &nbsp;: array&lt;string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;            </span>
+                        &nbsp;: array&lt;non-empty-string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -551,12 +555,6 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method___serialize">__serialize()</a>
-    <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_append">append()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -565,7 +563,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_cacheDirectory">cacheDirectory()</a>
     <span>
-                                &nbsp;: string    </span>
+                                &nbsp;: non-empty-string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -588,7 +586,7 @@
 <dd>Clears collected code coverage data.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_collectsBranchAndPathCoverage">collectsBranchAndPathCoverage()</a>
+    <a class="-deprecated" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_collectsBranchAndPathCoverage">collectsBranchAndPathCoverage()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
@@ -600,7 +598,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_disableBranchAndPathCoverage">disableBranchAndPathCoverage()</a>
+    <a class="-deprecated" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_disableBranchAndPathCoverage">disableBranchAndPathCoverage()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -630,7 +628,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_enableBranchAndPathCoverage">enableBranchAndPathCoverage()</a>
+    <a class="-deprecated" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_enableBranchAndPathCoverage">enableBranchAndPathCoverage()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -668,16 +666,9 @@
 <dd>Returns the collected code coverage data.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getReport">getReport()</a>
-    <span>
-                                &nbsp;: <abbr title="\SebastianBergmann\CodeCoverage\Node\Directory">Directory</abbr>    </span>
-</dt>
-<dd>Returns the code coverage information as a graph of node objects.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getTests">getTests()</a>
     <span>
-                                &nbsp;: array&lt;string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;    </span>
+                                &nbsp;: array&lt;non-empty-string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -697,7 +688,14 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Merges the data from another instance.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_parseErrors">parseErrors()</a>
+    <span>
+                                &nbsp;: array&lt;non-empty-string, non-empty-string&gt;    </span>
+</dt>
+<dd>Returns the files that could not be parsed for static analysis,
+mapped to the parser&#039;s error message.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_setData">setData()</a>
@@ -743,48 +741,6 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyCoversAndUsesFilter">applyCoversAndUsesFilter()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyExecutableLinesFilter">applyExecutableLinesFilter()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyFilter">applyFilter()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyIgnoredLinesFilter">applyIgnoredLinesFilter()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getAllowedLines">getAllowedLines()</a>
-    <span>
-                                &nbsp;: <abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_performUnintentionallyCoveredCodeCheck">performUnintentionallyCoveredCodeCheck()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_processUnintentionallyCoveredUnits">processUnintentionallyCoveredUnits()</a>
-    <span>
-                                &nbsp;: array&lt;int, string&gt;    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_targetMapper">targetMapper()</a>
     <span>
                                 &nbsp;: <abbr title="\SebastianBergmann\CodeCoverage\Test\Target\Mapper">Mapper</abbr>    </span>
@@ -811,7 +767,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -847,43 +803,6 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_analyser">
-        $analyser
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_analyser" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">50</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\SebastianBergmann\CodeCoverage\StaticAnalysis\FileAnalyser">FileAnalyser</abbr>|null</span>
-    <span class="phpdocumentor-signature__name">$analyser</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
-
-    
-    
-    
-
-        
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
     <h4 class="phpdocumentor-element__name" id="property_cacheDirectory">
         $cacheDirectory
         <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_cacheDirectory" class="headerlink"><i class="fas fa-link"></i></a>
@@ -894,7 +813,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
     </aside>
 
@@ -902,7 +821,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">string|null</span>
+            <span class="phpdocumentor-signature__type">non-empty-string|null</span>
     <span class="phpdocumentor-signature__name">$cacheDirectory</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
@@ -931,7 +850,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
     </aside>
 
@@ -968,7 +887,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -978,43 +897,6 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type">bool</span>
     <span class="phpdocumentor-signature__name">$checkForUnintentionallyCoveredCode</span>
-     = <span class="phpdocumentor-signature__default-value">false</span></code>
-
-    
-    
-    
-
-        
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_collectBranchAndPathCoverage">
-        $collectBranchAndPathCoverage
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_collectBranchAndPathCoverage" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">54</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">bool</span>
-    <span class="phpdocumentor-signature__name">$collectBranchAndPathCoverage</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
     
@@ -1042,7 +924,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -1050,7 +932,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">string|null</span>
+            <span class="phpdocumentor-signature__type">non-empty-string|null</span>
     <span class="phpdocumentor-signature__name">$currentId</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
@@ -1079,7 +961,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
     </aside>
 
@@ -1087,7 +969,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize\TestSize">TestSize</abbr></a>|null</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize">TestSize</abbr></a>|null</span>
     <span class="phpdocumentor-signature__name">$currentSize</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
@@ -1116,7 +998,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
@@ -1153,7 +1035,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -1190,7 +1072,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -1227,7 +1109,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
@@ -1264,7 +1146,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -1301,7 +1183,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
     </aside>
 
@@ -1338,7 +1220,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -1375,7 +1257,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 
     </aside>
 
@@ -1383,7 +1265,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">array&lt;string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;</span>
+            <span class="phpdocumentor-signature__type">array&lt;non-empty-string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;</span>
     <span class="phpdocumentor-signature__name">$tests</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -1412,7 +1294,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
@@ -1454,7 +1336,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
     </aside>
 
@@ -1497,44 +1379,6 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method___serialize">
-        __serialize()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method___serialize" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">80</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__serialize</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_append">
         append()
         <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_append" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1543,14 +1387,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">210</span>
+    <span class="phpdocumentor-element-found-in__line">208</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">append</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rawData</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$append</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestStatus\TestStatus">TestStatus</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">null|false|<a href="classes/SebastianBergmann-CodeCoverage-Test-Target-TargetCollection.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\Target\TargetCollection">TargetCollection</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$covers</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-Target-TargetCollection.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\Target\TargetCollection">TargetCollection</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$time</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0.0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">append</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rawData</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">non-empty-string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$append</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestStatus">TestStatus</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">null|false|<a href="classes/SebastianBergmann-CodeCoverage-Test-Target-TargetCollection.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\Target\TargetCollection">TargetCollection</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$covers</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-Target-TargetCollection.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\Target\TargetCollection">TargetCollection</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$time</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0.0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1567,7 +1411,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$id</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                : <span class="phpdocumentor-argument-list__argument__type">non-empty-string|null</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1581,7 +1425,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$status</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestStatus\TestStatus">TestStatus</abbr></a>|null</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestStatus">TestStatus</abbr></a>|null</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1651,14 +1495,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">366</span>
+    <span class="phpdocumentor-element-found-in__line">383</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">cacheDirectory</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">cacheDirectory</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">non-empty-string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1685,7 +1529,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
+        <span class="phpdocumentor-signature__response_type">non-empty-string</span>
             </section>
 
 </article>
@@ -1703,7 +1547,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">348</span>
+    <span class="phpdocumentor-element-found-in__line">360</span>
 
     </aside>
 
@@ -1756,14 +1600,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">353</span>
+    <span class="phpdocumentor-element-found-in__line">368</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">cacheStaticAnalysis</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$directory</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">cacheStaticAnalysis</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">non-empty-string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$directory</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1773,7 +1617,7 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$directory</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                : <span class="phpdocumentor-argument-list__argument__type">non-empty-string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1800,7 +1644,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">93</span>
 
     </aside>
 
@@ -1825,7 +1669,7 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+            -deprecated                                            "
 >
     <h4 class="phpdocumentor-element__name" id="method_collectsBranchAndPathCoverage">
         collectsBranchAndPathCoverage()
@@ -1835,16 +1679,22 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">399</span>
+    <span class="phpdocumentor-element-found-in__line">424</span>
 
     </aside>
 
     
-    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <code class="phpdocumentor-code phpdocumentor-signature -deprecated">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">collectsBranchAndPathCoverage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
+        </div>
+                <div class="phpdocumentor-admonition">
+        <svg class="phpdocumentor-admonition__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            <article>
+                
+            </article>
         </div>
     
     
@@ -1873,7 +1723,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">330</span>
+    <span class="phpdocumentor-element-found-in__line">342</span>
 
     </aside>
 
@@ -1897,7 +1747,7 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+            -deprecated                                            "
 >
     <h4 class="phpdocumentor-element__name" id="method_disableBranchAndPathCoverage">
         disableBranchAndPathCoverage()
@@ -1907,16 +1757,22 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">392</span>
+    <span class="phpdocumentor-element-found-in__line">416</span>
 
     </aside>
 
     
-    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <code class="phpdocumentor-code phpdocumentor-signature -deprecated">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">disableBranchAndPathCoverage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
+        </div>
+                <div class="phpdocumentor-admonition">
+        <svg class="phpdocumentor-admonition__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            <article>
+                
+            </article>
         </div>
     
     
@@ -1941,7 +1797,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">310</span>
+    <span class="phpdocumentor-element-found-in__line">322</span>
 
     </aside>
 
@@ -1975,7 +1831,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">358</span>
+    <span class="phpdocumentor-element-found-in__line">373</span>
 
     </aside>
 
@@ -2009,7 +1865,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">340</span>
+    <span class="phpdocumentor-element-found-in__line">352</span>
 
     </aside>
 
@@ -2043,7 +1899,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">325</span>
+    <span class="phpdocumentor-element-found-in__line">337</span>
 
     </aside>
 
@@ -2067,7 +1923,7 @@
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+            -deprecated                                            "
 >
     <h4 class="phpdocumentor-element__name" id="method_enableBranchAndPathCoverage">
         enableBranchAndPathCoverage()
@@ -2077,21 +1933,45 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">385</span>
+    <span class="phpdocumentor-element-found-in__line">408</span>
 
     </aside>
 
     
-    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <code class="phpdocumentor-code phpdocumentor-signature -deprecated">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">enableBranchAndPathCoverage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
+                <div class="phpdocumentor-admonition">
+        <svg class="phpdocumentor-admonition__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            <article>
+                
+            </article>
+        </div>
     
     
     
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_enableBranchAndPathCoverage_tags">
+        Tags
+        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_enableBranchAndPathCoverage_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-CodeCoverage-BranchCoverageNotSupportedException.html"><abbr title="\SebastianBergmann\CodeCoverage\BranchCoverageNotSupportedException">BranchCoverageNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-CodeCoverage-PathCoverageNotSupportedException.html"><abbr title="\SebastianBergmann\CodeCoverage\PathCoverageNotSupportedException">PathCoverageNotSupportedException</abbr></a></span>
+                                                                                    
+                                    </dd>
+                        </dl>
 
         
     
@@ -2111,7 +1991,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">305</span>
+    <span class="phpdocumentor-element-found-in__line">317</span>
 
     </aside>
 
@@ -2145,7 +2025,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">380</span>
+    <span class="phpdocumentor-element-found-in__line">397</span>
 
     </aside>
 
@@ -2189,7 +2069,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">320</span>
+    <span class="phpdocumentor-element-found-in__line">332</span>
 
     </aside>
 
@@ -2223,7 +2103,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
@@ -2262,7 +2142,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">143</span>
+    <span class="phpdocumentor-element-found-in__line">121</span>
 
     </aside>
 
@@ -2303,45 +2183,6 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getReport">
-        getReport()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getReport" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">103</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns the code coverage information as a graph of node objects.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getReport</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\SebastianBergmann\CodeCoverage\Node\Directory">Directory</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\SebastianBergmann\CodeCoverage\Node\Directory">Directory</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getTests">
         getTests()
         <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getTests" class="headerlink"><i class="fas fa-link"></i></a>
@@ -2350,14 +2191,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">165</span>
+    <span class="phpdocumentor-element-found-in__line">143</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getTests</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getTests</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;non-empty-string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2370,7 +2211,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;</span>
+        <span class="phpdocumentor-signature__response_type">array&lt;non-empty-string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;</span>
             </section>
 
 </article>
@@ -2388,7 +2229,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">335</span>
+    <span class="phpdocumentor-element-found-in__line">347</span>
 
     </aside>
 
@@ -2422,7 +2263,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">315</span>
+    <span class="phpdocumentor-element-found-in__line">327</span>
 
     </aside>
 
@@ -2456,12 +2297,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">292</span>
+    <span class="phpdocumentor-element-found-in__line">304</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Merges the data from another instance.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">merge</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">self&nbsp;</span><span class="phpdocumentor-signature__argument__name">$that</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -2493,6 +2333,50 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_parseErrors">
+        parseErrors()
+        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_parseErrors" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">166</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the files that could not be parsed for static analysis,
+mapped to the parser&#039;s error message.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">parseErrors</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;non-empty-string, non-empty-string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Code coverage for these files is based on the raw data reported by the
+driver: no refinement of executable lines, no dead code detection, and
+no information about code units.</p>
+</section>
+
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;non-empty-string, non-empty-string&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_setData">
         setData()
         <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_setData" class="headerlink"><i class="fas fa-link"></i></a>
@@ -2501,7 +2385,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">157</span>
+    <span class="phpdocumentor-element-found-in__line">135</span>
 
     </aside>
 
@@ -2546,14 +2430,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">173</span>
+    <span class="phpdocumentor-element-found-in__line">151</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">setTests</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tests</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">setTests</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;non-empty-string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tests</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2563,7 +2447,7 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$tests</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;non-empty-string, <abbr title="\SebastianBergmann\CodeCoverage\TestType">TestType</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2590,14 +2474,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">178</span>
+    <span class="phpdocumentor-element-found-in__line">174</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">start</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize\TestSize">TestSize</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$size</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$clear</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">start</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">non-empty-string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize">TestSize</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$size</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$clear</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2607,14 +2491,14 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$id</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                : <span class="phpdocumentor-argument-list__argument__type">non-empty-string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$size</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize\TestSize">TestSize</abbr></a>|null</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize">TestSize</abbr></a>|null</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2648,14 +2532,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">192</span>
+    <span class="phpdocumentor-element-found-in__line">188</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">stop</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$append</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestStatus\TestStatus">TestStatus</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">null|false|<a href="classes/SebastianBergmann-CodeCoverage-Test-Target-TargetCollection.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\Target\TargetCollection">TargetCollection</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$covers</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-Target-TargetCollection.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\Target\TargetCollection">TargetCollection</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$time</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0.0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">stop</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$append</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestStatus">TestStatus</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">null|false|<a href="classes/SebastianBergmann-CodeCoverage-Test-Target-TargetCollection.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\Target\TargetCollection">TargetCollection</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$covers</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-Target-TargetCollection.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\Target\TargetCollection">TargetCollection</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uses</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$time</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0.0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2672,7 +2556,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$status</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestStatus\TestStatus">TestStatus</abbr></a>|null</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestStatus">TestStatus</abbr></a>|null</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -2724,7 +2608,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">404</span>
+    <span class="phpdocumentor-element-found-in__line">429</span>
 
     </aside>
 
@@ -2772,7 +2656,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">514</span>
+    <span class="phpdocumentor-element-found-in__line">454</span>
 
     </aside>
 
@@ -2820,7 +2704,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">668</span>
+    <span class="phpdocumentor-element-found-in__line">480</span>
 
     </aside>
 
@@ -2850,414 +2734,6 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_applyCoversAndUsesFilter">
-        applyCoversAndUsesFilter()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyCoversAndUsesFilter" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">434</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">applyCoversAndUsesFilter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rawData</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">false|<abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linesToBeCovered</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linesToBeUsed</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize\TestSize">TestSize</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$size</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$rawData</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$linesToBeCovered</span>
-                : <span class="phpdocumentor-argument-list__argument__type">false|<abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$linesToBeUsed</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$size</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html"><abbr title="\SebastianBergmann\CodeCoverage\Test\TestSize\TestSize">TestSize</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="method_applyCoversAndUsesFilter_tags">
-        Tags
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyCoversAndUsesFilter_tags" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                    <dt class="phpdocumentor-tag-list__entry">
-                <span class="phpdocumentor-tag__name">throws</span>
-            </dt>
-                            <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-CodeCoverage-ReflectionException.html"><abbr title="\SebastianBergmann\CodeCoverage\ReflectionException">ReflectionException</abbr></a></span>
-                                                                                    
-                                    </dd>
-                            <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-CodeCoverage-UnintentionallyCoveredCodeException.html"><abbr title="\SebastianBergmann\CodeCoverage\UnintentionallyCoveredCodeException">UnintentionallyCoveredCodeException</abbr></a></span>
-                                                                                    
-                                    </dd>
-                        </dl>
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_applyExecutableLinesFilter">
-        applyExecutableLinesFilter()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyExecutableLinesFilter" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">476</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">applyExecutableLinesFilter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$data</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_applyFilter">
-        applyFilter()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyFilter" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">463</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">applyFilter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$data</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_applyIgnoredLinesFilter">
-        applyIgnoredLinesFilter()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyIgnoredLinesFilter" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">497</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">applyIgnoredLinesFilter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$data</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getAllowedLines">
-        getAllowedLines()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getAllowedLines" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">573</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">getAllowedLines</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linesToBeCovered</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linesToBeUsed</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$linesToBeCovered</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$linesToBeUsed</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_performUnintentionallyCoveredCodeCheck">
-        performUnintentionallyCoveredCodeCheck()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_performUnintentionallyCoveredCodeCheck" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">541</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">performUnintentionallyCoveredCodeCheck</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linesToBeCovered</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linesToBeUsed</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$data</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\Data\RawCodeCoverageData">RawCodeCoverageData</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$linesToBeCovered</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$linesToBeUsed</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\SebastianBergmann\CodeCoverage\TargetedLines">TargetedLines</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="method_performUnintentionallyCoveredCodeCheck_tags">
-        Tags
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_performUnintentionallyCoveredCodeCheck_tags" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                    <dt class="phpdocumentor-tag-list__entry">
-                <span class="phpdocumentor-tag__name">throws</span>
-            </dt>
-                            <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-CodeCoverage-ReflectionException.html"><abbr title="\SebastianBergmann\CodeCoverage\ReflectionException">ReflectionException</abbr></a></span>
-                                                                                    
-                                    </dd>
-                            <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-CodeCoverage-UnintentionallyCoveredCodeException.html"><abbr title="\SebastianBergmann\CodeCoverage\UnintentionallyCoveredCodeException">UnintentionallyCoveredCodeException</abbr></a></span>
-                                                                                    
-                                    </dd>
-                        </dl>
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_processUnintentionallyCoveredUnits">
-        processUnintentionallyCoveredUnits()
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_processUnintentionallyCoveredUnits" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">615</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">processUnintentionallyCoveredUnits</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$unintentionallyCoveredUnits</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, string&gt;</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$unintentionallyCoveredUnits</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, string&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="method_processUnintentionallyCoveredUnits_tags">
-        Tags
-        <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_processUnintentionallyCoveredUnits_tags" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                    <dt class="phpdocumentor-tag-list__entry">
-                <span class="phpdocumentor-tag__name">throws</span>
-            </dt>
-                            <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-CodeCoverage-ReflectionException.html"><abbr title="\SebastianBergmann\CodeCoverage\ReflectionException">ReflectionException</abbr></a></span>
-                                                                                    
-                                    </dd>
-                        </dl>
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;int, string&gt;</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_targetMapper">
         targetMapper()
         <a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_targetMapper" class="headerlink"><i class="fas fa-link"></i></a>
@@ -3266,7 +2742,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php"><a href="files/vendor-phpunit-php-code-coverage-src-codecoverage.html"><abbr title="vendor/phpunit/php-code-coverage/src/CodeCoverage.php">CodeCoverage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">655</span>
+    <span class="phpdocumentor-element-found-in__line">467</span>
 
     </aside>
 
@@ -3319,11 +2795,9 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_analyser">$analyser</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_cacheDirectory">$cacheDirectory</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_cachedReport">$cachedReport</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_checkForUnintentionallyCoveredCode">$checkForUnintentionallyCoveredCode</a></li>
-                                                    <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_collectBranchAndPathCoverage">$collectBranchAndPathCoverage</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_currentId">$currentId</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_currentSize">$currentSize</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_data">$data</a></li>
@@ -3342,30 +2816,29 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method___serialize">__serialize()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_append">append()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_cacheDirectory">cacheDirectory()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_cachesStaticAnalysis">cachesStaticAnalysis()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_cacheStaticAnalysis">cacheStaticAnalysis()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_clear">clear()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_collectsBranchAndPathCoverage">collectsBranchAndPathCoverage()</a></li>
+                                            <li class="-deprecated"><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_collectsBranchAndPathCoverage">collectsBranchAndPathCoverage()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_disableAnnotationsForIgnoringCode">disableAnnotationsForIgnoringCode()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_disableBranchAndPathCoverage">disableBranchAndPathCoverage()</a></li>
+                                            <li class="-deprecated"><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_disableBranchAndPathCoverage">disableBranchAndPathCoverage()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_disableCheckForUnintentionallyCoveredCode">disableCheckForUnintentionallyCoveredCode()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_doNotCacheStaticAnalysis">doNotCacheStaticAnalysis()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_doNotIgnoreDeprecatedCode">doNotIgnoreDeprecatedCode()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_enableAnnotationsForIgnoringCode">enableAnnotationsForIgnoringCode()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_enableBranchAndPathCoverage">enableBranchAndPathCoverage()</a></li>
+                                            <li class="-deprecated"><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_enableBranchAndPathCoverage">enableBranchAndPathCoverage()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_enableCheckForUnintentionallyCoveredCode">enableCheckForUnintentionallyCoveredCode()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_excludeSubclassesOfThisClassFromUnintentionallyCoveredCodeCheck">excludeSubclassesOfThisClassFromUnintentionallyCoveredCodeCheck()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_excludeUncoveredFiles">excludeUncoveredFiles()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_filter">filter()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getData">getData()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getReport">getReport()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getTests">getTests()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_ignoreDeprecatedCode">ignoreDeprecatedCode()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_includeUncoveredFiles">includeUncoveredFiles()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_merge">merge()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_parseErrors">parseErrors()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_setData">setData()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_setTests">setTests()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_start">start()</a></li>
@@ -3373,13 +2846,6 @@
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_validate">validate()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_addUncoveredFilesFromFilter">addUncoveredFilesFromFilter()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_analyser">analyser()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyCoversAndUsesFilter">applyCoversAndUsesFilter()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyExecutableLinesFilter">applyExecutableLinesFilter()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyFilter">applyFilter()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyIgnoredLinesFilter">applyIgnoredLinesFilter()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getAllowedLines">getAllowedLines()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_performUnintentionallyCoveredCodeCheck">performUnintentionallyCoveredCodeCheck()</a></li>
-                                            <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_processUnintentionallyCoveredUnits">processUnintentionallyCoveredUnits()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_targetMapper">targetMapper()</a></li>
                                     </ul>
             </li>

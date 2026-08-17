@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -375,7 +383,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -427,6 +435,18 @@
                         &nbsp;: <a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a>|null            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPUnit-Util-Exporter.html#property_exporterOfComparatorFactory">$exporterOfComparatorFactory</a>
+    <span>
+                        &nbsp;: <a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a>|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPUnit-Util-Exporter.html#property_objectExporters">$objectExporters</a>
+    <span>
+                        &nbsp;: array&lt;int, <a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a>&gt;            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -442,6 +462,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Util-Exporter.html#method_registerObjectExporter">registerObjectExporter()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PHPUnit-Util-Exporter.html#method_shortenedExport">shortenedExport()</a>
     <span>
                                 &nbsp;: string    </span>
@@ -453,10 +479,22 @@
                                 &nbsp;: string    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPUnit-Util-Exporter.html#method_unregisterObjectExporter">unregisterObjectExporter()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PHPUnit-Util-Exporter.html#method_exporter">exporter()</a>
     <span>
                                 &nbsp;: <a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PHPUnit-Util-Exporter.html#method_updateComparatorFactory">updateComparatorFactory()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
     </dl>
@@ -489,7 +527,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -500,6 +538,80 @@
         <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a>|null</span>
     <span class="phpdocumentor-signature__name">$exporter</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_exporterOfComparatorFactory">
+        $exporterOfComparatorFactory
+        <a href="classes/PHPUnit-Util-Exporter.html#property_exporterOfComparatorFactory" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a>|null</span>
+    <span class="phpdocumentor-signature__name">$exporterOfComparatorFactory</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_objectExporters">
+        $objectExporters
+        <a href="classes/PHPUnit-Util-Exporter.html#property_objectExporters" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;int, <a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a>&gt;</span>
+    <span class="phpdocumentor-signature__name">$objectExporters</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
     
     
@@ -531,7 +643,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
@@ -571,6 +683,50 @@
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_registerObjectExporter">
+        registerObjectExporter()
+        <a href="classes/PHPUnit-Util-Exporter.html#method_registerObjectExporter" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">registerObjectExporter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objectExporter</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$objectExporter</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_shortenedExport">
         shortenedExport()
         <a href="classes/PHPUnit-Util-Exporter.html#method_shortenedExport" class="headerlink"><i class="fas fa-link"></i></a>
@@ -579,7 +735,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -627,7 +783,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
     </aside>
 
@@ -664,6 +820,50 @@
                     <article
         class="phpdocumentor-element
             -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_unregisterObjectExporter">
+        unregisterObjectExporter()
+        <a href="classes/PHPUnit-Util-Exporter.html#method_unregisterObjectExporter" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">unregisterObjectExporter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objectExporter</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$objectExporter</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-Exporter-ObjectExporter.html"><abbr title="\SebastianBergmann\Exporter\ObjectExporter">ObjectExporter</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
             -private
                                     -static                    "
 >
@@ -675,7 +875,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -698,6 +898,40 @@
         <span class="phpdocumentor-signature__response_type"><a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a></span>
             </section>
 
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_updateComparatorFactory">
+        updateComparatorFactory()
+        <a href="classes/PHPUnit-Util-Exporter.html#method_updateComparatorFactory" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Util/Exporter.php"><a href="files/vendor-phpunit-phpunit-src-util-exporter.html"><abbr title="vendor/phpunit/phpunit/src/Util/Exporter.php">Exporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">79</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">updateComparatorFactory</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
 </article>
             </section>
 
@@ -722,6 +956,8 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PHPUnit-Util-Exporter.html#property_exporter">$exporter</a></li>
+                                                    <li class=""><a href="classes/PHPUnit-Util-Exporter.html#property_exporterOfComparatorFactory">$exporterOfComparatorFactory</a></li>
+                                                    <li class=""><a href="classes/PHPUnit-Util-Exporter.html#property_objectExporters">$objectExporters</a></li>
                                             </ul>
                 </li>
             
@@ -729,9 +965,12 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PHPUnit-Util-Exporter.html#method_export">export()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Util-Exporter.html#method_registerObjectExporter">registerObjectExporter()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Util-Exporter.html#method_shortenedExport">shortenedExport()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Util-Exporter.html#method_shortenedRecursiveExport">shortenedRecursiveExport()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Util-Exporter.html#method_unregisterObjectExporter">unregisterObjectExporter()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Util-Exporter.html#method_exporter">exporter()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Util-Exporter.html#method_updateComparatorFactory">updateComparatorFactory()</a></li>
                                     </ul>
             </li>
                     </ul>

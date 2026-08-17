@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -375,7 +383,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -422,6 +430,18 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#property_closureComparisonOccurred">$closureComparisonOccurred</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#property_contextLines">$contextLines</a>
+    <span>
+                        &nbsp;: positive-int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#property_customComparators">$customComparators</a>
     <span>
                         &nbsp;: array&lt;string|int, mixed&gt;            </span>
@@ -431,6 +451,12 @@
     <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#property_defaultComparators">$defaultComparators</a>
     <span>
                         &nbsp;: array&lt;int, <a href="classes/SebastianBergmann-Comparator-Comparator.html"><abbr title="\SebastianBergmann\Comparator\Comparator">Comparator</abbr></a>&gt;            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#property_exporter">$exporter</a>
+    <span>
+                        &nbsp;: <a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -454,6 +480,24 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#method_closureComparisonOccurred">closureComparisonOccurred()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#method_contextLines">contextLines()</a>
+    <span>
+                                &nbsp;: positive-int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#method_exporter">exporter()</a>
+    <span>
+                                &nbsp;: <a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#method_getComparatorFor">getComparatorFor()</a>
     <span>
                                 &nbsp;: <a href="classes/SebastianBergmann-Comparator-Comparator.html"><abbr title="\SebastianBergmann\Comparator\Comparator">Comparator</abbr></a>    </span>
@@ -474,6 +518,24 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#method_reset">reset()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#method_resetClosureComparisonTracking">resetClosureComparisonTracking()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#method_setContextLines">setContextLines()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/SebastianBergmann-Comparator-Factory.html#method_setExporter">setExporter()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -517,6 +579,80 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_closureComparisonOccurred">
+        $closureComparisonOccurred
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#property_closureComparisonOccurred" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$closureComparisonOccurred</span>
+     = <span class="phpdocumentor-signature__default-value">false</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_contextLines">
+        $contextLines
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#property_contextLines" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">positive-int</span>
+    <span class="phpdocumentor-signature__name">$contextLines</span>
+     = <span class="phpdocumentor-signature__default-value">3</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_customComparators">
         $customComparators
         <a href="classes/SebastianBergmann-Comparator-Factory.html#property_customComparators" class="headerlink"><i class="fas fa-link"></i></a>
@@ -527,7 +663,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -566,7 +702,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -577,6 +713,43 @@
             <span class="phpdocumentor-signature__type">array&lt;int, <a href="classes/SebastianBergmann-Comparator-Comparator.html"><abbr title="\SebastianBergmann\Comparator\Comparator">Comparator</abbr></a>&gt;</span>
     <span class="phpdocumentor-signature__name">$defaultComparators</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_exporter">
+        $exporter
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#property_exporter" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$exporter</span>
+    </code>
 
     
     
@@ -603,7 +776,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -645,7 +818,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -671,6 +844,120 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_closureComparisonOccurred">
+        closureComparisonOccurred()
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#method_closureComparisonOccurred" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">90</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">closureComparisonOccurred</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_contextLines">
+        contextLines()
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#method_contextLines" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">59</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">contextLines</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">positive-int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">positive-int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_exporter">
+        exporter()
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#method_exporter" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">72</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">exporter</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getComparatorFor">
         getComparatorFor()
         <a href="classes/SebastianBergmann-Comparator-Factory.html#method_getComparatorFor" class="headerlink"><i class="fas fa-link"></i></a>
@@ -679,7 +966,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 
     </aside>
 
@@ -734,7 +1021,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -772,7 +1059,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
+    <span class="phpdocumentor-element-found-in__line">127</span>
 
     </aside>
 
@@ -822,7 +1109,7 @@ before those of the other comparators.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">148</span>
 
     </aside>
 
@@ -848,6 +1135,128 @@ before those of the other comparators.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_resetClosureComparisonTracking">
+        resetClosureComparisonTracking()
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#method_resetClosureComparisonTracking" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">95</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">resetClosureComparisonTracking</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setContextLines">
+        setContextLines()
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#method_setContextLines" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">67</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setContextLines</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">positive-int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$contextLines</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$contextLines</span>
+                : <span class="phpdocumentor-argument-list__argument__type">positive-int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setExporter">
+        setExporter()
+        <a href="classes/SebastianBergmann-Comparator-Factory.html#method_setExporter" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">77</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setExporter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$exporter</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$exporter</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/SebastianBergmann-Exporter-Exporter.html"><abbr title="\SebastianBergmann\Exporter\Exporter">Exporter</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_unregister">
         unregister()
         <a href="classes/SebastianBergmann-Comparator-Factory.html#method_unregister" class="headerlink"><i class="fas fa-link"></i></a>
@@ -856,7 +1265,7 @@ before those of the other comparators.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">87</span>
+    <span class="phpdocumentor-element-found-in__line">139</span>
 
     </aside>
 
@@ -903,7 +1312,7 @@ before those of the other comparators.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">176</span>
 
     </aside>
 
@@ -947,7 +1356,7 @@ before those of the other comparators.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/comparator/src/Factory.php"><a href="files/vendor-sebastian-comparator-src-factory.html"><abbr title="vendor/sebastian/comparator/src/Factory.php">Factory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">153</span>
 
     </aside>
 
@@ -989,8 +1398,11 @@ before those of the other comparators.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#property_closureComparisonOccurred">$closureComparisonOccurred</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#property_contextLines">$contextLines</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#property_customComparators">$customComparators</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#property_defaultComparators">$defaultComparators</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#property_exporter">$exporter</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#property_instance">$instance</a></li>
                                             </ul>
                 </li>
@@ -999,10 +1411,16 @@ before those of the other comparators.</p>
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_closureComparisonOccurred">closureComparisonOccurred()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_contextLines">contextLines()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_exporter">exporter()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_getComparatorFor">getComparatorFor()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_getInstance">getInstance()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_register">register()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_reset">reset()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_resetClosureComparisonTracking">resetClosureComparisonTracking()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_setContextLines">setContextLines()</a></li>
+                                            <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_setExporter">setExporter()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_unregister">unregister()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_registerDefaultComparator">registerDefaultComparator()</a></li>
                                             <li class=""><a href="classes/SebastianBergmann-Comparator-Factory.html#method_registerDefaultComparators">registerDefaultComparators()</a></li>

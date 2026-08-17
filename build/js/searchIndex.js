@@ -531,55 +531,55 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Grisaia-Time-TimestampTest.html#constant_TEST_TIME_ZONE"
         },                {
-            "fqsen": "\\ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001",
-            "name": "ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001",
+            "fqsen": "\\ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03",
+            "name": "ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03",
             "summary": "",
-            "url": "classes/ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001.html"
+            "url": "classes/ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03.html"
         },                {
-            "fqsen": "\\ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001\u003A\u003AloadClassLoader\u0028\u0029",
+            "fqsen": "\\ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03\u003A\u003AloadClassLoader\u0028\u0029",
             "name": "loadClassLoader",
             "summary": "",
-            "url": "classes/ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001.html#method_loadClassLoader"
+            "url": "classes/ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03.html#method_loadClassLoader"
         },                {
-            "fqsen": "\\ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001\u003A\u003AgetLoader\u0028\u0029",
+            "fqsen": "\\ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03\u003A\u003AgetLoader\u0028\u0029",
             "name": "getLoader",
             "summary": "",
-            "url": "classes/ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001.html#method_getLoader"
+            "url": "classes/ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03.html#method_getLoader"
         },                {
-            "fqsen": "\\ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001\u003A\u003A\u0024loader",
+            "fqsen": "\\ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03\u003A\u003A\u0024loader",
             "name": "loader",
             "summary": "",
-            "url": "classes/ComposerAutoloaderInitf1611ab19ccdb8cdab9798fcfeeda001.html#property_loader"
+            "url": "classes/ComposerAutoloaderInitda3dd7267ce15d5fe26366ae6c3a6e03.html#property_loader"
         },                {
-            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001",
-            "name": "ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001",
+            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03",
+            "name": "ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03",
             "summary": "",
-            "url": "classes/Composer-Autoload-ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001.html"
+            "url": "classes/Composer-Autoload-ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03.html"
         },                {
-            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001\u003A\u003AgetInitializer\u0028\u0029",
+            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03\u003A\u003AgetInitializer\u0028\u0029",
             "name": "getInitializer",
             "summary": "",
-            "url": "classes/Composer-Autoload-ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001.html#method_getInitializer"
+            "url": "classes/Composer-Autoload-ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03.html#method_getInitializer"
         },                {
-            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001\u003A\u003A\u0024files",
+            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03\u003A\u003A\u0024files",
             "name": "files",
             "summary": "",
-            "url": "classes/Composer-Autoload-ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001.html#property_files"
+            "url": "classes/Composer-Autoload-ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03.html#property_files"
         },                {
-            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001\u003A\u003A\u0024prefixLengthsPsr4",
+            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03\u003A\u003A\u0024prefixLengthsPsr4",
             "name": "prefixLengthsPsr4",
             "summary": "",
-            "url": "classes/Composer-Autoload-ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001.html#property_prefixLengthsPsr4"
+            "url": "classes/Composer-Autoload-ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03.html#property_prefixLengthsPsr4"
         },                {
-            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001\u003A\u003A\u0024prefixDirsPsr4",
+            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03\u003A\u003A\u0024prefixDirsPsr4",
             "name": "prefixDirsPsr4",
             "summary": "",
-            "url": "classes/Composer-Autoload-ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001.html#property_prefixDirsPsr4"
+            "url": "classes/Composer-Autoload-ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03.html#property_prefixDirsPsr4"
         },                {
-            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001\u003A\u003A\u0024classMap",
+            "fqsen": "\\Composer\\Autoload\\ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03\u003A\u003A\u0024classMap",
             "name": "classMap",
             "summary": "",
-            "url": "classes/Composer-Autoload-ComposerStaticInitf1611ab19ccdb8cdab9798fcfeeda001.html#property_classMap"
+            "url": "classes/Composer-Autoload-ComposerStaticInitda3dd7267ce15d5fe26366ae6c3a6e03.html#property_classMap"
         },                {
             "fqsen": "\\Composer\\Autoload\\ClassLoader",
             "name": "ClassLoader",
@@ -2991,6 +2991,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpParser-Lexer-TokenEmulator-ExplicitOctalEmulator.html#method_reverseEmulate"
         },                {
+            "fqsen": "\\PhpParser\\Lexer\\TokenEmulator\\FnTokenEmulator",
+            "name": "FnTokenEmulator",
+            "summary": "",
+            "url": "classes/PhpParser-Lexer-TokenEmulator-FnTokenEmulator.html"
+        },                {
+            "fqsen": "\\PhpParser\\Lexer\\TokenEmulator\\FnTokenEmulator\u003A\u003AgetPhpVersion\u0028\u0029",
+            "name": "getPhpVersion",
+            "summary": "",
+            "url": "classes/PhpParser-Lexer-TokenEmulator-FnTokenEmulator.html#method_getPhpVersion"
+        },                {
+            "fqsen": "\\PhpParser\\Lexer\\TokenEmulator\\FnTokenEmulator\u003A\u003AgetKeywordString\u0028\u0029",
+            "name": "getKeywordString",
+            "summary": "",
+            "url": "classes/PhpParser-Lexer-TokenEmulator-FnTokenEmulator.html#method_getKeywordString"
+        },                {
+            "fqsen": "\\PhpParser\\Lexer\\TokenEmulator\\FnTokenEmulator\u003A\u003AgetKeywordToken\u0028\u0029",
+            "name": "getKeywordToken",
+            "summary": "",
+            "url": "classes/PhpParser-Lexer-TokenEmulator-FnTokenEmulator.html#method_getKeywordToken"
+        },                {
             "fqsen": "\\PhpParser\\Lexer\\TokenEmulator\\KeywordEmulator",
             "name": "KeywordEmulator",
             "summary": "",
@@ -3021,10 +3041,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpParser-Lexer-TokenEmulator-KeywordEmulator.html#method_emulate"
         },                {
-            "fqsen": "\\PhpParser\\Lexer\\TokenEmulator\\KeywordEmulator\u003A\u003AgetPreviousNonSpaceToken\u0028\u0029",
-            "name": "getPreviousNonSpaceToken",
+            "fqsen": "\\PhpParser\\Lexer\\TokenEmulator\\KeywordEmulator\u003A\u003AgetPreviousNonIgnorableToken\u0028\u0029",
+            "name": "getPreviousNonIgnorableToken",
             "summary": "",
-            "url": "classes/PhpParser-Lexer-TokenEmulator-KeywordEmulator.html#method_getPreviousNonSpaceToken"
+            "url": "classes/PhpParser-Lexer-TokenEmulator-KeywordEmulator.html#method_getPreviousNonIgnorableToken"
         },                {
             "fqsen": "\\PhpParser\\Lexer\\TokenEmulator\\KeywordEmulator\u003A\u003AreverseEmulate\u0028\u0029",
             "name": "reverseEmulate",
@@ -16221,16 +16241,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method___construct"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003A__serialize\u0028\u0029",
-            "name": "__serialize",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method___serialize"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AgetReport\u0028\u0029",
-            "name": "getReport",
-            "summary": "Returns\u0020the\u0020code\u0020coverage\u0020information\u0020as\u0020a\u0020graph\u0020of\u0020node\u0020objects.",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getReport"
-        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003Aclear\u0028\u0029",
             "name": "clear",
             "summary": "Clears\u0020collected\u0020code\u0020coverage\u0020data.",
@@ -16261,6 +16271,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_setTests"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AparseErrors\u0028\u0029",
+            "name": "parseErrors",
+            "summary": "Returns\u0020the\u0020files\u0020that\u0020could\u0020not\u0020be\u0020parsed\u0020for\u0020static\u0020analysis,\nmapped\u0020to\u0020the\u0020parser\u0027s\u0020error\u0020message.",
+            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_parseErrors"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003Astart\u0028\u0029",
             "name": "start",
             "summary": "",
@@ -16278,7 +16293,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003Amerge\u0028\u0029",
             "name": "merge",
-            "summary": "Merges\u0020the\u0020data\u0020from\u0020another\u0020instance.",
+            "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_merge"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AenableCheckForUnintentionallyCoveredCode\u0028\u0029",
@@ -16366,55 +16381,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_validate"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AapplyCoversAndUsesFilter\u0028\u0029",
-            "name": "applyCoversAndUsesFilter",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyCoversAndUsesFilter"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AapplyFilter\u0028\u0029",
-            "name": "applyFilter",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyFilter"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AapplyExecutableLinesFilter\u0028\u0029",
-            "name": "applyExecutableLinesFilter",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyExecutableLinesFilter"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AapplyIgnoredLinesFilter\u0028\u0029",
-            "name": "applyIgnoredLinesFilter",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_applyIgnoredLinesFilter"
-        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AaddUncoveredFilesFromFilter\u0028\u0029",
             "name": "addUncoveredFilesFromFilter",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_addUncoveredFilesFromFilter"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AperformUnintentionallyCoveredCodeCheck\u0028\u0029",
-            "name": "performUnintentionallyCoveredCodeCheck",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_performUnintentionallyCoveredCodeCheck"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AgetAllowedLines\u0028\u0029",
-            "name": "getAllowedLines",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_getAllowedLines"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AprocessUnintentionallyCoveredUnits\u0028\u0029",
-            "name": "processUnintentionallyCoveredUnits",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_processUnintentionallyCoveredUnits"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003A\u0024targetMapper",
             "name": "targetMapper",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_targetMapper"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003A\u0024analyser",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003Aanalyser\u0028\u0029",
             "name": "analyser",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_analyser"
+            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#method_analyser"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003AUNCOVERED_FILES",
             "name": "UNCOVERED_FILES",
@@ -16430,11 +16410,6 @@ Search.appendIndex(
             "name": "checkForUnintentionallyCoveredCode",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_checkForUnintentionallyCoveredCode"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003A\u0024collectBranchAndPathCoverage",
-            "name": "collectBranchAndPathCoverage",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_collectBranchAndPathCoverage"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\CodeCoverage\u003A\u003A\u0024useAnnotationsForIgnoringCode",
             "name": "useAnnotationsForIgnoringCode",
@@ -16471,10 +16446,35 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-CodeCoverage.html#property_cachedReport"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Driver\\Granularity",
+            "name": "Granularity",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Driver-Granularity.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Driver\\Granularity\u003A\u003ALine",
+            "name": "Line",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Driver-Granularity.html#enumcase_Line"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Driver\\Granularity\u003A\u003ALineAndBranch",
+            "name": "LineAndBranch",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Driver-Granularity.html#enumcase_LineAndBranch"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Driver\\Granularity\u003A\u003ALineBranchAndPath",
+            "name": "LineBranchAndPath",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Driver-Granularity.html#enumcase_LineBranchAndPath"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Driver\\Selector",
             "name": "Selector",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Driver-Selector.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Driver\\Selector\u003A\u003Aselect\u0028\u0029",
+            "name": "select",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Driver-Selector.html#method_select"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Driver\\Selector\u003A\u003AforLineCoverage\u0028\u0029",
             "name": "forLineCoverage",
@@ -16491,20 +16491,60 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-BranchAndPathCoverageNotSupportedException.html"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\BranchCoverageNotSupportedException",
+            "name": "BranchCoverageNotSupportedException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-BranchCoverageNotSupportedException.html"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Util\\DirectoryCouldNotBeCreatedException",
             "name": "DirectoryCouldNotBeCreatedException",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Util-DirectoryCouldNotBeCreatedException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\DriverMismatchException",
+            "name": "DriverMismatchException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-DriverMismatchException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\DriverMismatchException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-DriverMismatchException.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\EmptyPathListException",
+            "name": "EmptyPathListException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-EmptyPathListException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\EmptyPathListException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-EmptyPathListException.html#method___construct"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Exception",
             "name": "Exception",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Exception.html"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\FileCouldNotBeReadException",
+            "name": "FileCouldNotBeReadException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-FileCouldNotBeReadException.html"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\FileCouldNotBeWrittenException",
             "name": "FileCouldNotBeWrittenException",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-FileCouldNotBeWrittenException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\GitInformationMismatchException",
+            "name": "GitInformationMismatchException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-GitInformationMismatchException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\GitInformationMismatchException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-GitInformationMismatchException.html#method___construct"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\InvalidArgumentException",
             "name": "InvalidArgumentException",
@@ -16521,30 +16561,45 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-InvalidCodeCoverageTargetException.html#method___construct"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\NoCodeCoverageDriverAvailableException",
-            "name": "NoCodeCoverageDriverAvailableException",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\InvalidCoverageDataException",
+            "name": "InvalidCoverageDataException",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-NoCodeCoverageDriverAvailableException.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-InvalidCoverageDataException.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\NoCodeCoverageDriverAvailableException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\MethodNotImplementedException",
+            "name": "MethodNotImplementedException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-MethodNotImplementedException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\MixedGitInformationException",
+            "name": "MixedGitInformationException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-MixedGitInformationException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\MixedGitInformationException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-NoCodeCoverageDriverAvailableException.html#method___construct"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-MixedGitInformationException.html#method___construct"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\NoCodeCoverageDriverWithPathCoverageSupportAvailableException",
-            "name": "NoCodeCoverageDriverWithPathCoverageSupportAvailableException",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\NoSupportedDriverAvailableException",
+            "name": "NoSupportedDriverAvailableException",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-NoCodeCoverageDriverWithPathCoverageSupportAvailableException.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-NoSupportedDriverAvailableException.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\NoCodeCoverageDriverWithPathCoverageSupportAvailableException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\NoSupportedDriverAvailableException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-NoCodeCoverageDriverWithPathCoverageSupportAvailableException.html#method___construct"
+            "url": "classes/SebastianBergmann-CodeCoverage-NoSupportedDriverAvailableException.html#method___construct"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\ParserException",
             "name": "ParserException",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-ParserException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\PathCoverageNotSupportedException",
+            "name": "PathCoverageNotSupportedException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-PathCoverageNotSupportedException.html"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\PathExistsButIsNotDirectoryException",
             "name": "PathExistsButIsNotDirectoryException",
@@ -16566,6 +16621,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Driver-PcovNotAvailableException.html#method___construct"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\PharPrefixCouldNotBeStrippedException",
+            "name": "PharPrefixCouldNotBeStrippedException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-PharPrefixCouldNotBeStrippedException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\PharPrefixCouldNotBeStrippedException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-PharPrefixCouldNotBeStrippedException.html#method___construct"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\ReflectionException",
             "name": "ReflectionException",
             "summary": "",
@@ -16580,6 +16645,16 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-ReportAlreadyFinalizedException.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\RuntimeMismatchException",
+            "name": "RuntimeMismatchException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-RuntimeMismatchException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\RuntimeMismatchException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-RuntimeMismatchException.html#method___construct"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\StaticAnalysisCacheNotConfiguredException",
             "name": "StaticAnalysisCacheNotConfiguredException",
@@ -16620,6 +16695,16 @@ Search.appendIndex(
             "name": "unintentionallyCoveredUnits",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-UnintentionallyCoveredCodeException.html#property_unintentionallyCoveredUnits"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\VersionMismatchException",
+            "name": "VersionMismatchException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-VersionMismatchException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\VersionMismatchException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-VersionMismatchException.html#method___construct"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\WriteOperationFailedException",
             "name": "WriteOperationFailedException",
@@ -16706,55 +16791,80 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Filter.html#property_isFileCache"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Clover",
-            "name": "Clover",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade",
+            "name": "Facade",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Clover.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Clover\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003AfromObject\u0028\u0029",
+            "name": "fromObject",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Clover.html#method_process"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_fromObject"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Cobertura",
-            "name": "Cobertura",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003AfromSerializedData\u0028\u0029",
+            "name": "fromSerializedData",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Cobertura.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_fromSerializedData"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Cobertura\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Cobertura.html#method_process"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Crap4j",
-            "name": "Crap4j",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Crap4j.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Crap4j\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Crap4j.html#method___construct"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method___construct"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Crap4j\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003ArenderHtml\u0028\u0029",
+            "name": "renderHtml",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Crap4j.html#method_process"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_renderHtml"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Crap4j\u003A\u003AcrapLoad\u0028\u0029",
-            "name": "crapLoad",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003ArenderXml\u0028\u0029",
+            "name": "renderXml",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Crap4j.html#method_crapLoad"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_renderXml"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Crap4j\u003A\u003AroundValue\u0028\u0029",
-            "name": "roundValue",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003ArenderClover\u0028\u0029",
+            "name": "renderClover",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Crap4j.html#method_roundValue"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_renderClover"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Crap4j\u003A\u003A\u0024threshold",
-            "name": "threshold",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003ArenderOpenClover\u0028\u0029",
+            "name": "renderOpenClover",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Crap4j.html#property_threshold"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_renderOpenClover"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003ArenderCobertura\u0028\u0029",
+            "name": "renderCobertura",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_renderCobertura"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003ArenderCrap4j\u0028\u0029",
+            "name": "renderCrap4j",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_renderCrap4j"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003Asummary\u0028\u0029",
+            "name": "summary",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_summary"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003ArenderText\u0028\u0029",
+            "name": "renderText",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_renderText"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003AbuildReport\u0028\u0029",
+            "name": "buildReport",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#method_buildReport"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003A\u0024report",
+            "name": "report",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#property_report"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Facade\u003A\u003A\u0024testResults",
+            "name": "testResults",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Facade.html#property_testResults"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors",
             "name": "Colors",
@@ -16781,25 +16891,90 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_successLow"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024successLowDark",
+            "name": "successLowDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_successLowDark"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024successMedium",
             "name": "successMedium",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_successMedium"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024successMediumDark",
+            "name": "successMediumDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_successMediumDark"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024successHigh",
             "name": "successHigh",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_successHigh"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024successHighDark",
+            "name": "successHighDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_successHighDark"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024successBar",
+            "name": "successBar",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_successBar"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024successBarDark",
+            "name": "successBarDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_successBarDark"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024warning",
             "name": "warning",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_warning"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024warningDark",
+            "name": "warningDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_warningDark"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024warningBar",
+            "name": "warningBar",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_warningBar"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024warningBarDark",
+            "name": "warningBarDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_warningBarDark"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024danger",
             "name": "danger",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_danger"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024dangerDark",
+            "name": "dangerDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_dangerDark"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024dangerBar",
+            "name": "dangerBar",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_dangerBar"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024dangerBarDark",
+            "name": "dangerBarDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_dangerBarDark"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024breadcrumbs",
+            "name": "breadcrumbs",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_breadcrumbs"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Colors\u003A\u003A\u0024breadcrumbsDark",
+            "name": "breadcrumbsDark",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Colors.html#property_breadcrumbsDark"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\CustomCssFile",
             "name": "CustomCssFile",
@@ -16826,150 +17001,110 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-CustomCssFile.html#property_path"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade",
-            "name": "Facade",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Views",
+            "name": "Views",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Views.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Views\u003A\u003AfileView\u0028\u0029",
+            "name": "fileView",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Views.html#method_fileView"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Views\u003A\u003AclassView\u0028\u0029",
+            "name": "classView",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Views.html#method_classView"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Views\u003A\u003AFileViewAndClassView",
+            "name": "FileViewAndClassView",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Views.html#enumcase_FileViewAndClassView"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Views\u003A\u003AOnlyFileView",
+            "name": "OnlyFileView",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Views.html#enumcase_OnlyFileView"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Views\u003A\u003AOnlyClassView",
+            "name": "OnlyClassView",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Views.html#enumcase_OnlyClassView"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary",
+            "name": "Summary",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#method___construct"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#method___construct"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003A\u0024numberOfExecutableLines",
+            "name": "numberOfExecutableLines",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#method_process"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#property_numberOfExecutableLines"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003AcopyFiles\u0028\u0029",
-            "name": "copyFiles",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003A\u0024numberOfExecutedLines",
+            "name": "numberOfExecutedLines",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#method_copyFiles"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#property_numberOfExecutedLines"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003ArenderCss\u0028\u0029",
-            "name": "renderCss",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003AlineCoverageAsPercentage\u0028\u0029",
+            "name": "lineCoverageAsPercentage",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#method_renderCss"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#method_lineCoverageAsPercentage"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003Adirectory\u0028\u0029",
-            "name": "directory",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003AhasBranchAndPathCoverage\u0028\u0029",
+            "name": "hasBranchAndPathCoverage",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#method_directory"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#method_hasBranchAndPathCoverage"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003A\u0024templatePath",
-            "name": "templatePath",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003A\u0024numberOfExecutableBranches",
+            "name": "numberOfExecutableBranches",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#property_templatePath"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#property_numberOfExecutableBranches"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003A\u0024generator",
-            "name": "generator",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003A\u0024numberOfExecutedBranches",
+            "name": "numberOfExecutedBranches",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#property_generator"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#property_numberOfExecutedBranches"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003A\u0024colors",
-            "name": "colors",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003AbranchCoverageAsPercentage\u0028\u0029",
+            "name": "branchCoverageAsPercentage",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#property_colors"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#method_branchCoverageAsPercentage"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003A\u0024thresholds",
-            "name": "thresholds",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003A\u0024numberOfExecutablePaths",
+            "name": "numberOfExecutablePaths",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#property_thresholds"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#property_numberOfExecutablePaths"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Html\\Facade\u003A\u003A\u0024customCssFile",
-            "name": "customCssFile",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003A\u0024numberOfExecutedPaths",
+            "name": "numberOfExecutedPaths",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Html-Facade.html#property_customCssFile"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#property_numberOfExecutedPaths"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\OpenClover",
-            "name": "OpenClover",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003ApathCoverageAsPercentage\u0028\u0029",
+            "name": "pathCoverageAsPercentage",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-OpenClover.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#method_pathCoverageAsPercentage"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\OpenClover\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003A\u0024numberOfFilesWithoutBranchCoverageData",
+            "name": "numberOfFilesWithoutBranchCoverageData",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-OpenClover.html#method_process"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#property_numberOfFilesWithoutBranchCoverageData"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\PHP",
-            "name": "PHP",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-PHP.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#method_asString"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\PHP\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Summary\u003A\u003Apercentage\u0028\u0029",
+            "name": "percentage",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-PHP.html#method_process"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text",
-            "name": "Text",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#method___construct"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#method_process"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003AcoverageColor\u0028\u0029",
-            "name": "coverageColor",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#method_coverageColor"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003AprintCoverageCounts\u0028\u0029",
-            "name": "printCoverageCounts",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#method_printCoverageCounts"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003Aformat\u0028\u0029",
-            "name": "format",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#method_format"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003ACOLOR_GREEN",
-            "name": "COLOR_GREEN",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#constant_COLOR_GREEN"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003ACOLOR_YELLOW",
-            "name": "COLOR_YELLOW",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#constant_COLOR_YELLOW"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003ACOLOR_RED",
-            "name": "COLOR_RED",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#constant_COLOR_RED"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003ACOLOR_HEADER",
-            "name": "COLOR_HEADER",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#constant_COLOR_HEADER"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003ACOLOR_RESET",
-            "name": "COLOR_RESET",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#constant_COLOR_RESET"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003A\u0024thresholds",
-            "name": "thresholds",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#property_thresholds"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003A\u0024showUncoveredFiles",
-            "name": "showUncoveredFiles",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#property_showUncoveredFiles"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Text\u003A\u003A\u0024showOnlySummary",
-            "name": "showOnlySummary",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Text.html#property_showOnlySummary"
+            "url": "classes/SebastianBergmann-CodeCoverage-Report-Summary.html#method_percentage"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Thresholds",
             "name": "Thresholds",
@@ -17001,95 +17136,65 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Report-Thresholds.html#property_highLowerBound"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade",
-            "name": "Facade",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Merger",
+            "name": "Merger",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Merger.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Merger\u003A\u003Amerge\u0028\u0029",
+            "name": "merge",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method___construct"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Merger.html#method_merge"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Merger\u003A\u003AassertPhpVersionMatches\u0028\u0029",
+            "name": "assertPhpVersionMatches",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_process"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Merger.html#method_assertPhpVersionMatches"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AsetBuildInformation\u0028\u0029",
-            "name": "setBuildInformation",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Merger\u003A\u003AassertDriverMatches\u0028\u0029",
+            "name": "assertDriverMatches",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_setBuildInformation"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Merger.html#method_assertDriverMatches"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AinitTargetDirectory\u0028\u0029",
-            "name": "initTargetDirectory",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Merger\u003A\u003AassertGitInformationMatches\u0028\u0029",
+            "name": "assertGitInformationMatches",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_initTargetDirectory"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Merger.html#method_assertGitInformationMatches"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AprocessDirectory\u0028\u0029",
-            "name": "processDirectory",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Serializer",
+            "name": "Serializer",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_processDirectory"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Serializer.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AprocessFile\u0028\u0029",
-            "name": "processFile",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Serializer\u003A\u003Aserialize\u0028\u0029",
+            "name": "serialize",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_processFile"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Serializer.html#method_serialize"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AprocessUnit\u0028\u0029",
-            "name": "processUnit",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Serializer\u003A\u003AstripPharPrefix\u0028\u0029",
+            "name": "stripPharPrefix",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_processUnit"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Serializer.html#method_stripPharPrefix"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AprocessFunction\u0028\u0029",
-            "name": "processFunction",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Serializer\u003A\u003ASERIALIZATION_FORMAT",
+            "name": "SERIALIZATION_FORMAT",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_processFunction"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Serializer.html#constant_SERIALIZATION_FORMAT"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AprocessTests\u0028\u0029",
-            "name": "processTests",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Unserializer",
+            "name": "Unserializer",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_processTests"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Unserializer.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AsetTotals\u0028\u0029",
-            "name": "setTotals",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Unserializer\u003A\u003Aunserialize\u0028\u0029",
+            "name": "unserialize",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_setTotals"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Unserializer.html#method_unserialize"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AtargetDirectory\u0028\u0029",
-            "name": "targetDirectory",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization\\Unserializer\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_targetDirectory"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AtargetFilePath\u0028\u0029",
-            "name": "targetFilePath",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#method_targetFilePath"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003AXML_NAMESPACE",
-            "name": "XML_NAMESPACE",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#constant_XML_NAMESPACE"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003A\u0024target",
-            "name": "target",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#property_target"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003A\u0024project",
-            "name": "project",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#property_project"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003A\u0024phpUnitVersion",
-            "name": "phpUnitVersion",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#property_phpUnitVersion"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml\\Facade\u003A\u003A\u0024includeSource",
-            "name": "includeSource",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Report-Xml-Facade.html#property_includeSource"
+            "url": "classes/SebastianBergmann-CodeCoverage-Serialization-Unserializer.html#method_validate"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Class_",
             "name": "Class_",
@@ -17195,6 +17300,121 @@ Search.appendIndex(
             "name": "description",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-ClassesThatImplementInterface.html#method_description"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Directory",
+            "name": "Directory",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Directory.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Directory\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Directory.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Directory\u003A\u003AisDirectory\u0028\u0029",
+            "name": "isDirectory",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Directory.html#method_isDirectory"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Directory\u003A\u003Apath\u0028\u0029",
+            "name": "path",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Directory.html#method_path"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Directory\u003A\u003Akey\u0028\u0029",
+            "name": "key",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Directory.html#method_key"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Directory\u003A\u003Atarget\u0028\u0029",
+            "name": "target",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Directory.html#method_target"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Directory\u003A\u003Adescription\u0028\u0029",
+            "name": "description",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Directory.html#method_description"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Directory\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Directory.html#property_directory"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\DirectoryRecursively",
+            "name": "DirectoryRecursively",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-DirectoryRecursively.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\DirectoryRecursively\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-DirectoryRecursively.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\DirectoryRecursively\u003A\u003AisDirectoryRecursively\u0028\u0029",
+            "name": "isDirectoryRecursively",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-DirectoryRecursively.html#method_isDirectoryRecursively"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\DirectoryRecursively\u003A\u003Apath\u0028\u0029",
+            "name": "path",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-DirectoryRecursively.html#method_path"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\DirectoryRecursively\u003A\u003Akey\u0028\u0029",
+            "name": "key",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-DirectoryRecursively.html#method_key"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\DirectoryRecursively\u003A\u003Atarget\u0028\u0029",
+            "name": "target",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-DirectoryRecursively.html#method_target"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\DirectoryRecursively\u003A\u003Adescription\u0028\u0029",
+            "name": "description",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-DirectoryRecursively.html#method_description"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\DirectoryRecursively\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-DirectoryRecursively.html#property_directory"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\File",
+            "name": "File",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-File.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\File\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-File.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\File\u003A\u003AisFile\u0028\u0029",
+            "name": "isFile",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-File.html#method_isFile"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\File\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-File.html#property_path"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\File\u003A\u003Akey\u0028\u0029",
+            "name": "key",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-File.html#method_key"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\File\u003A\u003Atarget\u0028\u0029",
+            "name": "target",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-File.html#method_target"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\File\u003A\u003Adescription\u0028\u0029",
+            "name": "description",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-File.html#method_description"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Function_",
             "name": "Function_",
@@ -17346,6 +17566,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Target.html#method_forTrait"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Target\u003A\u003AforFile\u0028\u0029",
+            "name": "forFile",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Target.html#method_forFile"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Target\u003A\u003AforDirectory\u0028\u0029",
+            "name": "forDirectory",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Target.html#method_forDirectory"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Target\u003A\u003AforDirectoryRecursively\u0028\u0029",
+            "name": "forDirectoryRecursively",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Target.html#method_forDirectoryRecursively"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Target\u003A\u003AisNamespace\u0028\u0029",
             "name": "isNamespace",
             "summary": "",
@@ -17380,6 +17615,21 @@ Search.appendIndex(
             "name": "isTrait",
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Target.html#method_isTrait"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Target\u003A\u003AisFile\u0028\u0029",
+            "name": "isFile",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Target.html#method_isFile"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Target\u003A\u003AisDirectory\u0028\u0029",
+            "name": "isDirectory",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Target.html#method_isDirectory"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Target\u003A\u003AisDirectoryRecursively\u0028\u0029",
+            "name": "isDirectoryRecursively",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-Target.html#method_isDirectoryRecursively"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target\\Target\u003A\u003Akey\u0028\u0029",
             "name": "key",
@@ -17576,250 +17826,115 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CodeCoverage-Test-Target-ValidationSuccess.html#method_isSuccess"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Known",
-            "name": "Known",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Known.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Known\u003A\u003AisKnown\u0028\u0029",
-            "name": "isKnown",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Known.html#method_isKnown"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Known\u003A\u003AisGreaterThan\u0028\u0029",
-            "name": "isGreaterThan",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Known.html#method_isGreaterThan"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Large",
-            "name": "Large",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Large.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Large\u003A\u003AisLarge\u0028\u0029",
-            "name": "isLarge",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Large.html#method_isLarge"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Large\u003A\u003AisGreaterThan\u0028\u0029",
-            "name": "isGreaterThan",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Large.html#method_isGreaterThan"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Large\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Large.html#method_asString"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Medium",
-            "name": "Medium",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Medium.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Medium\u003A\u003AisMedium\u0028\u0029",
-            "name": "isMedium",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Medium.html#method_isMedium"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Medium\u003A\u003AisGreaterThan\u0028\u0029",
-            "name": "isGreaterThan",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Medium.html#method_isGreaterThan"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Medium\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Medium.html#method_asString"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Small",
-            "name": "Small",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Small.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Small\u003A\u003AisSmall\u0028\u0029",
-            "name": "isSmall",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Small.html#method_isSmall"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Small\u003A\u003AisGreaterThan\u0028\u0029",
-            "name": "isGreaterThan",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Small.html#method_isGreaterThan"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Small\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Small.html#method_asString"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize",
             "name": "TestSize",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003Aunknown\u0028\u0029",
-            "name": "unknown",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_unknown"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003Asmall\u0028\u0029",
-            "name": "small",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_small"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003Amedium\u0028\u0029",
-            "name": "medium",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_medium"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003Alarge\u0028\u0029",
-            "name": "large",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_large"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003AisKnown\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AisKnown\u0028\u0029",
             "name": "isKnown",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_isKnown"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#method_isKnown"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003AisUnknown\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AisUnknown\u0028\u0029",
             "name": "isUnknown",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_isUnknown"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#method_isUnknown"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003AisSmall\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AisSmall\u0028\u0029",
             "name": "isSmall",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_isSmall"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#method_isSmall"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003AisMedium\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AisMedium\u0028\u0029",
             "name": "isMedium",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_isMedium"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#method_isMedium"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003AisLarge\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AisLarge\u0028\u0029",
             "name": "isLarge",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_isLarge"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#method_isLarge"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\TestSize\u003A\u003AasString\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AisGreaterThan\u0028\u0029",
+            "name": "isGreaterThan",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#method_isGreaterThan"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AasString\u0028\u0029",
             "name": "asString",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-TestSize.html#method_asString"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#method_asString"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Unknown",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003Aorder\u0028\u0029",
+            "name": "order",
+            "summary": "",
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#method_order"
+        },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AUnknown",
             "name": "Unknown",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Unknown.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#enumcase_Unknown"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Unknown\u003A\u003AisUnknown\u0028\u0029",
-            "name": "isUnknown",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003ASmall",
+            "name": "Small",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Unknown.html#method_isUnknown"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#enumcase_Small"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\\Unknown\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003AMedium",
+            "name": "Medium",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize-Unknown.html#method_asString"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#enumcase_Medium"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Failure",
-            "name": "Failure",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize\u003A\u003ALarge",
+            "name": "Large",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Failure.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestSize.html#enumcase_Large"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Failure\u003A\u003AisFailure\u0028\u0029",
-            "name": "isFailure",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Failure.html#method_isFailure"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Failure\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Failure.html#method_asString"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Known",
-            "name": "Known",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Known.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Known\u003A\u003AisKnown\u0028\u0029",
-            "name": "isKnown",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Known.html#method_isKnown"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Success",
-            "name": "Success",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Success.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Success\u003A\u003AisSuccess\u0028\u0029",
-            "name": "isSuccess",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Success.html#method_isSuccess"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Success\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Success.html#method_asString"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus",
             "name": "TestStatus",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus\u003A\u003Aunknown\u0028\u0029",
-            "name": "unknown",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html#method_unknown"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus\u003A\u003Asuccess\u0028\u0029",
-            "name": "success",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html#method_success"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus\u003A\u003Afailure\u0028\u0029",
-            "name": "failure",
-            "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html#method_failure"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus\u003A\u003AisKnown\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\u003A\u003AisKnown\u0028\u0029",
             "name": "isKnown",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html#method_isKnown"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html#method_isKnown"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus\u003A\u003AisUnknown\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\u003A\u003AisUnknown\u0028\u0029",
             "name": "isUnknown",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html#method_isUnknown"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html#method_isUnknown"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus\u003A\u003AisSuccess\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\u003A\u003AisSuccess\u0028\u0029",
             "name": "isSuccess",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html#method_isSuccess"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html#method_isSuccess"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus\u003A\u003AisFailure\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\u003A\u003AisFailure\u0028\u0029",
             "name": "isFailure",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html#method_isFailure"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html#method_isFailure"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\TestStatus\u003A\u003AasString\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\u003A\u003AasString\u0028\u0029",
             "name": "asString",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-TestStatus.html#method_asString"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html#method_asString"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Unknown",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\u003A\u003AUnknown",
             "name": "Unknown",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Unknown.html"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html#enumcase_Unknown"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Unknown\u003A\u003AisUnknown\u0028\u0029",
-            "name": "isUnknown",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\u003A\u003ASuccess",
+            "name": "Success",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Unknown.html#method_isUnknown"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html#enumcase_Success"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\\Unknown\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus\u003A\u003AFailure",
+            "name": "Failure",
             "summary": "",
-            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus-Unknown.html#method_asString"
+            "url": "classes/SebastianBergmann-CodeCoverage-Test-TestStatus.html#enumcase_Failure"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Version",
             "name": "Version",
@@ -18496,11 +18611,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterTestMethodCalled.html#property_test"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodCalled\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterTestMethodCalled.html#method_testClassName"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodCalled\u003A\u003A\u0024calledMethod",
             "name": "calledMethod",
             "summary": "",
@@ -18535,11 +18645,6 @@ Search.appendIndex(
             "name": "test",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterTestMethodErrored.html#property_test"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodErrored\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterTestMethodErrored.html#method_testClassName"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodErrored\u003A\u003A\u0024calledMethod",
             "name": "calledMethod",
@@ -18620,11 +18725,6 @@ Search.appendIndex(
             "name": "test",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-AfterTestMethodFinished.html#property_test"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodFinished\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-AfterTestMethodFinished.html#method_testClassName"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\AfterTestMethodFinished\u003A\u003A\u0024calledMethods",
             "name": "calledMethods",
@@ -18811,11 +18911,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeTestMethodCalled.html#property_test"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodCalled\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeTestMethodCalled.html#method_testClassName"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodCalled\u003A\u003A\u0024calledMethod",
             "name": "calledMethod",
             "summary": "",
@@ -18850,11 +18945,6 @@ Search.appendIndex(
             "name": "test",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeTestMethodErrored.html#property_test"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodErrored\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeTestMethodErrored.html#method_testClassName"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodErrored\u003A\u003A\u0024calledMethod",
             "name": "calledMethod",
@@ -18936,11 +19026,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-BeforeTestMethodFinished.html#property_test"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodFinished\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-BeforeTestMethodFinished.html#method_testClassName"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\BeforeTestMethodFinished\u003A\u003A\u0024calledMethods",
             "name": "calledMethods",
             "summary": "",
@@ -18976,11 +19061,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PostConditionCalled.html#property_test"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionCalled\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PostConditionCalled.html#method_testClassName"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionCalled\u003A\u003A\u0024calledMethod",
             "name": "calledMethod",
             "summary": "",
@@ -19015,11 +19095,6 @@ Search.appendIndex(
             "name": "test",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PostConditionErrored.html#property_test"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionErrored\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PostConditionErrored.html#method_testClassName"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionErrored\u003A\u003A\u0024calledMethod",
             "name": "calledMethod",
@@ -19101,11 +19176,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PostConditionFinished.html#property_test"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionFinished\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PostConditionFinished.html#method_testClassName"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PostConditionFinished\u003A\u003A\u0024calledMethods",
             "name": "calledMethods",
             "summary": "",
@@ -19141,11 +19211,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreConditionCalled.html#property_test"
         },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionCalled\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreConditionCalled.html#method_testClassName"
-        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionCalled\u003A\u003A\u0024calledMethod",
             "name": "calledMethod",
             "summary": "",
@@ -19180,11 +19245,6 @@ Search.appendIndex(
             "name": "test",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreConditionErrored.html#property_test"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionErrored\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreConditionErrored.html#method_testClassName"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionErrored\u003A\u003A\u0024calledMethod",
             "name": "calledMethod",
@@ -19265,11 +19325,6 @@ Search.appendIndex(
             "name": "test",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreConditionFinished.html#property_test"
-        },                {
-            "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionFinished\u003A\u003AtestClassName\u0028\u0029",
-            "name": "testClassName",
-            "summary": "",
-            "url": "classes/PHPUnit-Event-Test-PreConditionFinished.html#method_testClassName"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PreConditionFinished\u003A\u003A\u0024calledMethods",
             "name": "calledMethods",
@@ -19370,6 +19425,11 @@ Search.appendIndex(
             "name": "ignoredByTest",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-DeprecationTriggered.html#property_ignoredByTest"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\DeprecationTriggered\u003A\u003A\u0024ignoredByFilter",
+            "name": "ignoredByFilter",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-DeprecationTriggered.html#property_ignoredByFilter"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\DeprecationTriggered\u003A\u003A\u0024trigger",
             "name": "trigger",
@@ -19560,6 +19620,11 @@ Search.appendIndex(
             "name": "ignoredByTest",
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PhpDeprecationTriggered.html#property_ignoredByTest"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\PhpDeprecationTriggered\u003A\u003A\u0024ignoredByFilter",
+            "name": "ignoredByFilter",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-PhpDeprecationTriggered.html#property_ignoredByFilter"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\PhpDeprecationTriggered\u003A\u003A\u0024trigger",
             "name": "trigger",
@@ -20146,6 +20211,96 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Test-PreparedSubscriber.html#method_notify"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptErrored",
+            "name": "AttemptErrored",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptErrored.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptErrored\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptErrored.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptErrored\u003A\u003A\u0024duration",
+            "name": "duration",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptErrored.html#property_duration"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptErrored\u003A\u003A\u0024test",
+            "name": "test",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptErrored.html#property_test"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptErrored\u003A\u003A\u0024throwable",
+            "name": "throwable",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptErrored.html#property_throwable"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptErrored\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptErrored.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptErroredSubscriber",
+            "name": "AttemptErroredSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptErroredSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptErroredSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptErroredSubscriber.html#method_notify"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailed",
+            "name": "AttemptFailed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailed.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailed\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailed.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailed\u003A\u003A\u0024duration",
+            "name": "duration",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailed.html#property_duration"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailed\u003A\u003A\u0024test",
+            "name": "test",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailed.html#property_test"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailed\u003A\u003A\u0024throwable",
+            "name": "throwable",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailed.html#property_throwable"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailed\u003A\u003AhasComparisonFailure\u0028\u0029",
+            "name": "hasComparisonFailure",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailed.html#method_hasComparisonFailure"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailed\u003A\u003A\u0024comparisonFailure",
+            "name": "comparisonFailure",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailed.html#property_comparisonFailure"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailed\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailed.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailedSubscriber",
+            "name": "AttemptFailedSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailedSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Test\\AttemptFailedSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Test-AttemptFailedSubscriber.html#method_notify"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\Test\\Errored",
             "name": "Errored",
             "summary": "",
@@ -20551,6 +20706,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ChildProcessErrored.html#property_telemetryInfo"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessErrored\u003A\u003A\u0024reason",
+            "name": "reason",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessErrored.html#property_reason"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessErrored\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessErrored.html#property_message"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessErrored\u003A\u003AasString\u0028\u0029",
             "name": "asString",
             "summary": "",
@@ -20575,6 +20740,11 @@ Search.appendIndex(
             "name": "telemetryInfo",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ChildProcessFinished.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessFinished\u003A\u003A\u0024reason",
+            "name": "reason",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessFinished.html#property_reason"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessFinished\u003A\u003A\u0024stdout",
             "name": "stdout",
@@ -20610,6 +20780,11 @@ Search.appendIndex(
             "name": "telemetryInfo",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-ChildProcessStarted.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessStarted\u003A\u003A\u0024reason",
+            "name": "reason",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessStarted.html#property_reason"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessStarted\u003A\u003AasString\u0028\u0029",
             "name": "asString",
@@ -20685,6 +20860,56 @@ Search.appendIndex(
             "name": "notify",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-DeprecationTriggeredSubscriber.html#method_notify"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggered",
+            "name": "ErrorTriggered",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggered.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggered\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggered.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggered\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggered.html#property_message"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggered\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggered.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggered\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggered.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggered\u003A\u003AwasSuppressed\u0028\u0029",
+            "name": "wasSuppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggered.html#method_wasSuppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggered\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggered.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggered\u003A\u003A\u0024suppressed",
+            "name": "suppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggered.html#property_suppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggeredSubscriber",
+            "name": "ErrorTriggeredSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggeredSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ErrorTriggeredSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ErrorTriggeredSubscriber.html#method_notify"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\EventFacadeSealed",
             "name": "EventFacadeSealed",
@@ -20966,6 +21191,186 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-GarbageCollectionTriggeredSubscriber.html#method_notify"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered",
+            "name": "DeprecationTriggered",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_message"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003AwasSuppressed\u0028\u0029",
+            "name": "wasSuppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#method_wasSuppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024ignoredByBaseline",
+            "name": "ignoredByBaseline",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_ignoredByBaseline"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024ignoredByFilter",
+            "name": "ignoredByFilter",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_ignoredByFilter"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024trigger",
+            "name": "trigger",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_trigger"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024stackTrace",
+            "name": "stackTrace",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_stackTrace"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggered\u003A\u003A\u0024suppressed",
+            "name": "suppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggered.html#property_suppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggeredSubscriber",
+            "name": "DeprecationTriggeredSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggeredSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\DeprecationTriggeredSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-DeprecationTriggeredSubscriber.html#method_notify"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered",
+            "name": "NoticeTriggered",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html#property_message"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered\u003A\u003AwasSuppressed\u0028\u0029",
+            "name": "wasSuppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html#method_wasSuppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered\u003A\u003A\u0024ignoredByBaseline",
+            "name": "ignoredByBaseline",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html#property_ignoredByBaseline"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggered\u003A\u003A\u0024suppressed",
+            "name": "suppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggered.html#property_suppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggeredSubscriber",
+            "name": "NoticeTriggeredSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggeredSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\NoticeTriggeredSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-NoticeTriggeredSubscriber.html#method_notify"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered",
+            "name": "WarningTriggered",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html#property_message"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered\u003A\u003AwasSuppressed\u0028\u0029",
+            "name": "wasSuppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html#method_wasSuppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered\u003A\u003A\u0024ignoredByBaseline",
+            "name": "ignoredByBaseline",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html#property_ignoredByBaseline"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggered\u003A\u003A\u0024suppressed",
+            "name": "suppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggered.html#property_suppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggeredSubscriber",
+            "name": "WarningTriggeredSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggeredSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue\\WarningTriggeredSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-Issue-WarningTriggeredSubscriber.html#method_notify"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\NoticeTriggered",
             "name": "NoticeTriggered",
             "summary": "",
@@ -20995,6 +21400,181 @@ Search.appendIndex(
             "name": "notify",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestRunner-NoticeTriggeredSubscriber.html#method_notify"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered",
+            "name": "PhpDeprecationTriggered",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#property_message"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003AwasSuppressed\u0028\u0029",
+            "name": "wasSuppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#method_wasSuppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003A\u0024ignoredByBaseline",
+            "name": "ignoredByBaseline",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#property_ignoredByBaseline"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003A\u0024ignoredByFilter",
+            "name": "ignoredByFilter",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#property_ignoredByFilter"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003A\u0024trigger",
+            "name": "trigger",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#property_trigger"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggered\u003A\u003A\u0024suppressed",
+            "name": "suppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggered.html#property_suppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggeredSubscriber",
+            "name": "PhpDeprecationTriggeredSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggeredSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpDeprecationTriggeredSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpDeprecationTriggeredSubscriber.html#method_notify"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered",
+            "name": "PhpNoticeTriggered",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html#property_message"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered\u003A\u003AwasSuppressed\u0028\u0029",
+            "name": "wasSuppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html#method_wasSuppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered\u003A\u003A\u0024ignoredByBaseline",
+            "name": "ignoredByBaseline",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html#property_ignoredByBaseline"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggered\u003A\u003A\u0024suppressed",
+            "name": "suppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggered.html#property_suppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggeredSubscriber",
+            "name": "PhpNoticeTriggeredSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggeredSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpNoticeTriggeredSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpNoticeTriggeredSubscriber.html#method_notify"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered",
+            "name": "PhpWarningTriggered",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered\u003A\u003A\u0024telemetryInfo",
+            "name": "telemetryInfo",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html#property_telemetryInfo"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html#property_message"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered\u003A\u003AwasSuppressed\u0028\u0029",
+            "name": "wasSuppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html#method_wasSuppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered\u003A\u003A\u0024ignoredByBaseline",
+            "name": "ignoredByBaseline",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html#property_ignoredByBaseline"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggered\u003A\u003A\u0024suppressed",
+            "name": "suppressed",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggered.html#property_suppressed"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggeredSubscriber",
+            "name": "PhpWarningTriggeredSubscriber",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggeredSubscriber.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\PhpWarningTriggeredSubscriber\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-PhpWarningTriggeredSubscriber.html#method_notify"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestRunner\\Started",
             "name": "Started",
@@ -21316,6 +21896,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-EventFacadeIsSealedException.html"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\EventsAreAlreadyBeingCollectedException",
+            "name": "EventsAreAlreadyBeingCollectedException",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-EventsAreAlreadyBeingCollectedException.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\EventsAreNotBeingCollectedException",
+            "name": "EventsAreNotBeingCollectedException",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-EventsAreNotBeingCollectedException.html"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\Exception",
             "name": "Exception",
             "summary": "",
@@ -21400,6 +21990,31 @@ Search.appendIndex(
             "name": "trace",
             "summary": "",
             "url": "classes/PHPUnit-Event-Tracer-Tracer.html#method_trace"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessReason",
+            "name": "ChildProcessReason",
+            "summary": "The\u0020reason\u0020why\u0020a\u0020child\u0020process\u0020was\u0020started.",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessReason.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessReason\u003A\u003ATestRequiringProcessIsolation",
+            "name": "TestRequiringProcessIsolation",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessReason.html#enumcase_TestRequiringProcessIsolation"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessReason\u003A\u003APhptTest",
+            "name": "PhptTest",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessReason.html#enumcase_PhptTest"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessReason\u003A\u003APhptSkipIfSection",
+            "name": "PhptSkipIfSection",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessReason.html#enumcase_PhptSkipIfSection"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\ChildProcessReason\u003A\u003APhptCleanSection",
+            "name": "PhptCleanSection",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestRunner-ChildProcessReason.html#enumcase_PhptCleanSection"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\ClassMethod",
             "name": "ClassMethod",
@@ -21536,6 +22151,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Runtime-Runtime.html#property_phpunit"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime",
+            "name": "CpuTime",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003AfromSecondsAndNanoseconds\u0028\u0029",
+            "name": "fromSecondsAndNanoseconds",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#method_fromSecondsAndNanoseconds"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003A\u0024seconds",
+            "name": "seconds",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#property_seconds"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003A\u0024nanoseconds",
+            "name": "nanoseconds",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#property_nanoseconds"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003AasFloat\u0028\u0029",
+            "name": "asFloat",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#method_asFloat"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#method_add"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003Adiff\u0028\u0029",
+            "name": "diff",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#method_diff"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003AensureNotNegative\u0028\u0029",
+            "name": "ensureNotNegative",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#method_ensureNotNegative"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\CpuTime\u003A\u003AensureNanoSecondsInRange\u0028\u0029",
+            "name": "ensureNanoSecondsInRange",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-CpuTime.html#method_ensureNanoSecondsInRange"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\Telemetry\\Duration",
             "name": "Duration",
             "summary": "",
@@ -21565,6 +22230,11 @@ Search.appendIndex(
             "name": "asFloat",
             "summary": "",
             "url": "classes/PHPUnit-Event-Telemetry-Duration.html#method_asFloat"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Duration\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Duration.html#method_add"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Telemetry\\Duration\u003A\u003AasString\u0028\u0029",
             "name": "asString",
@@ -21761,6 +22431,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Telemetry-Info.html#method_garbageCollectorStatus"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003AuserCpuTime\u0028\u0029",
+            "name": "userCpuTime",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#method_userCpuTime"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003AsystemCpuTime\u0028\u0029",
+            "name": "systemCpuTime",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#method_systemCpuTime"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003AtotalCpuTime\u0028\u0029",
+            "name": "totalCpuTime",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#method_totalCpuTime"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003A\u0024userCpuTimeSinceStart",
+            "name": "userCpuTimeSinceStart",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#property_userCpuTimeSinceStart"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003A\u0024systemCpuTimeSinceStart",
+            "name": "systemCpuTimeSinceStart",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#property_systemCpuTimeSinceStart"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003A\u0024totalCpuTimeSinceStart",
+            "name": "totalCpuTimeSinceStart",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#property_totalCpuTimeSinceStart"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003A\u0024userCpuTimeSincePrevious",
+            "name": "userCpuTimeSincePrevious",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#property_userCpuTimeSincePrevious"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003A\u0024systemCpuTimeSincePrevious",
+            "name": "systemCpuTimeSincePrevious",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#property_systemCpuTimeSincePrevious"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003A\u0024totalCpuTimeSincePrevious",
+            "name": "totalCpuTimeSincePrevious",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Info.html#property_totalCpuTimeSincePrevious"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\Telemetry\\Info\u003A\u003AasString\u0028\u0029",
             "name": "asString",
             "summary": "",
@@ -21830,6 +22545,21 @@ Search.appendIndex(
             "name": "garbageCollectorStatus",
             "summary": "",
             "url": "classes/PHPUnit-Event-Telemetry-Snapshot.html#property_garbageCollectorStatus"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Snapshot\u003A\u003A\u0024userCpuTime",
+            "name": "userCpuTime",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Snapshot.html#property_userCpuTime"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Snapshot\u003A\u003A\u0024systemCpuTime",
+            "name": "systemCpuTime",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Snapshot.html#property_systemCpuTime"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Telemetry\\Snapshot\u003A\u003A\u0024totalCpuTime",
+            "name": "totalCpuTime",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Telemetry-Snapshot.html#property_totalCpuTime"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\Code",
             "name": "Code",
@@ -21906,10 +22636,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_isUnknown"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AcallerAsString\u0028\u0029",
+            "name": "callerAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_callerAsString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AcalleeAsString\u0028\u0029",
+            "name": "calleeAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_calleeAsString"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AasString\u0028\u0029",
             "name": "asString",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003AcodeAsString\u0028\u0029",
+            "name": "codeAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-IssueTrigger-IssueTrigger.html#method_codeAsString"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\IssueTrigger\\IssueTrigger\u003A\u003A\u0024callee",
             "name": "callee",
@@ -21931,6 +22676,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-Phpt.html#method_isPhpt"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003A\u0024repetition",
+            "name": "repetition",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-Phpt.html#property_repetition"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003A\u0024totalRepetitions",
+            "name": "totalRepetitions",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-Phpt.html#property_totalRepetitions"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003AisRepeated\u0028\u0029",
+            "name": "isRepeated",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-Phpt.html#method_isRepeated"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003A\u0024attempt",
+            "name": "attempt",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-Phpt.html#property_attempt"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003A\u0024maxAttempts",
+            "name": "maxAttempts",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-Phpt.html#property_maxAttempts"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003AisRetried\u0028\u0029",
+            "name": "isRetried",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-Phpt.html#method_isRetried"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003Aid\u0028\u0029",
             "name": "id",
             "summary": "",
@@ -21940,6 +22715,16 @@ Search.appendIndex(
             "name": "name",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-Phpt.html#method_name"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003AsortId\u0028\u0029",
+            "name": "sortId",
+            "summary": "Identifier\u0020that\u0020is\u0020stable\u0020across\u0020repetitions\u0020and\u0020attempts\u0020of\u0020the\u0020same\u0020test.",
+            "url": "classes/PHPUnit-Event-Code-Phpt.html#method_sortId"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Phpt\u003A\u003Aannotate\u0028\u0029",
+            "name": "annotate",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-Phpt.html#method_annotate"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\Test",
             "name": "Test",
@@ -21970,6 +22755,11 @@ Search.appendIndex(
             "name": "name",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-Test.html#method_name"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\Test\u003A\u003AsortId\u0028\u0029",
+            "name": "sortId",
+            "summary": "Identifier\u0020that\u0020is\u0020stable\u0020across\u0020repetitions\u0020and\u0020attempts\u0020of\u0020the\u0020same\u0020test.",
+            "url": "classes/PHPUnit-Event-Code-Test.html#method_sortId"
         },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\TestCollection",
             "name": "TestCollection",
@@ -22261,6 +23051,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-TestMethod.html#property_testData"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003A\u0024repetition",
+            "name": "repetition",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-TestMethod.html#property_repetition"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003A\u0024totalRepetitions",
+            "name": "totalRepetitions",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-TestMethod.html#property_totalRepetitions"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003AisRepeated\u0028\u0029",
+            "name": "isRepeated",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-TestMethod.html#method_isRepeated"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003A\u0024attempt",
+            "name": "attempt",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-TestMethod.html#property_attempt"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003A\u0024maxAttempts",
+            "name": "maxAttempts",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-TestMethod.html#property_maxAttempts"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003AisRetried\u0028\u0029",
+            "name": "isRetried",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-TestMethod.html#method_isRetried"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003AisTestMethod\u0028\u0029",
             "name": "isTestMethod",
             "summary": "",
@@ -22280,6 +23100,16 @@ Search.appendIndex(
             "name": "name",
             "summary": "",
             "url": "classes/PHPUnit-Event-Code-TestMethod.html#method_name"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003AsortId\u0028\u0029",
+            "name": "sortId",
+            "summary": "Identifier\u0020that\u0020is\u0020stable\u0020across\u0020repetitions\u0020and\u0020attempts\u0020of\u0020the\u0020same\u0020test.",
+            "url": "classes/PHPUnit-Event-Code-TestMethod.html#method_sortId"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\Code\\TestMethod\u003A\u003AnameWithDataSet\u0028\u0029",
+            "name": "nameWithDataSet",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-Code-TestMethod.html#method_nameWithDataSet"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuite",
             "name": "TestSuite",
@@ -22316,6 +23146,141 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-TestSuite.html#method_isForTestMethodWithDataProvider"
         },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuite\u003A\u003AisForRepeatedTestMethod\u0028\u0029",
+            "name": "isForRepeatedTestMethod",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuite.html#method_isForRepeatedTestMethod"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuite\u003A\u003AisForRetriedTestMethod\u0028\u0029",
+            "name": "isForRetriedTestMethod",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuite.html#method_isForRetriedTestMethod"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuite\u003A\u003AisForRepeatedPhpt\u0028\u0029",
+            "name": "isForRepeatedPhpt",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuite.html#method_isForRepeatedPhpt"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuite\u003A\u003AisForRetriedPhpt\u0028\u0029",
+            "name": "isForRetriedPhpt",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuite.html#method_isForRetriedPhpt"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedPhpt",
+            "name": "TestSuiteForRepeatedPhpt",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedPhpt.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedPhpt\u003A\u003AisForRepeatedPhpt\u0028\u0029",
+            "name": "isForRepeatedPhpt",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedPhpt.html#method_isForRepeatedPhpt"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedTestMethod",
+            "name": "TestSuiteForRepeatedTestMethod",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedTestMethod.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedTestMethod\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedTestMethod.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedTestMethod\u003A\u003A\u0024className",
+            "name": "className",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedTestMethod.html#property_className"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedTestMethod\u003A\u003A\u0024methodName",
+            "name": "methodName",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedTestMethod.html#property_methodName"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedTestMethod\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedTestMethod.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedTestMethod\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedTestMethod.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedTestMethod\u003A\u003A\u0024isForDataSet",
+            "name": "isForDataSet",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedTestMethod.html#property_isForDataSet"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRepeatedTestMethod\u003A\u003AisForRepeatedTestMethod\u0028\u0029",
+            "name": "isForRepeatedTestMethod",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRepeatedTestMethod.html#method_isForRepeatedTestMethod"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedPhpt",
+            "name": "TestSuiteForRetriedPhpt",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedPhpt.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedPhpt\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedPhpt.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedPhpt\u003A\u003A\u0024maxAttempts",
+            "name": "maxAttempts",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedPhpt.html#property_maxAttempts"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedPhpt\u003A\u003AisForRetriedPhpt\u0028\u0029",
+            "name": "isForRetriedPhpt",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedPhpt.html#method_isForRetriedPhpt"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod",
+            "name": "TestSuiteForRetriedTestMethod",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod\u003A\u003A\u0024className",
+            "name": "className",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html#property_className"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod\u003A\u003A\u0024methodName",
+            "name": "methodName",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html#property_methodName"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod\u003A\u003A\u0024file",
+            "name": "file",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html#property_file"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod\u003A\u003A\u0024line",
+            "name": "line",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html#property_line"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod\u003A\u003A\u0024isForDataSet",
+            "name": "isForDataSet",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html#property_isForDataSet"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod\u003A\u003A\u0024maxAttempts",
+            "name": "maxAttempts",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html#property_maxAttempts"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForRetriedTestMethod\u003A\u003AisForRetriedTestMethod\u0028\u0029",
+            "name": "isForRetriedTestMethod",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForRetriedTestMethod.html#method_isForRetriedTestMethod"
+        },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForTestClass",
             "name": "TestSuiteForTestClass",
             "summary": "",
@@ -22325,6 +23290,11 @@ Search.appendIndex(
             "name": "className",
             "summary": "",
             "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForTestClass.html#property_className"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForTestClass\u003A\u003A\u0024prettifiedName",
+            "name": "prettifiedName",
+            "summary": "",
+            "url": "classes/PHPUnit-Event-TestSuite-TestSuiteForTestClass.html#property_prettifiedName"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite\\TestSuiteForTestClass\u003A\u003A\u0024file",
             "name": "file",
@@ -22461,6 +23431,46 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phpunit-framework.html#function_assertIsList"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertArraysAreIdentical\u0028\u0029",
+            "name": "assertArraysAreIdentical",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020are\u0020identical.",
+            "url": "namespaces/phpunit-framework.html#function_assertArraysAreIdentical"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertArraysAreIdenticalIgnoringOrder\u0028\u0029",
+            "name": "assertArraysAreIdenticalIgnoringOrder",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020are\u0020identical\u0020while\u0020ignoring\u0020the\u0020order\u0020of\u0020their\u0020values.",
+            "url": "namespaces/phpunit-framework.html#function_assertArraysAreIdenticalIgnoringOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertArraysHaveIdenticalValues\u0028\u0029",
+            "name": "assertArraysHaveIdenticalValues",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020have\u0020identical\u0020values.",
+            "url": "namespaces/phpunit-framework.html#function_assertArraysHaveIdenticalValues"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertArraysHaveIdenticalValuesIgnoringOrder\u0028\u0029",
+            "name": "assertArraysHaveIdenticalValuesIgnoringOrder",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020have\u0020identical\u0020values\u0020while\u0020ignoring\u0020the\u0020order\u0020of\u0020these\u0020values.",
+            "url": "namespaces/phpunit-framework.html#function_assertArraysHaveIdenticalValuesIgnoringOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertArraysAreEqual\u0028\u0029",
+            "name": "assertArraysAreEqual",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020are\u0020equal.",
+            "url": "namespaces/phpunit-framework.html#function_assertArraysAreEqual"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertArraysAreEqualIgnoringOrder\u0028\u0029",
+            "name": "assertArraysAreEqualIgnoringOrder",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020are\u0020equal\u0020while\u0020ignoring\u0020the\u0020order\u0020of\u0020their\u0020values.",
+            "url": "namespaces/phpunit-framework.html#function_assertArraysAreEqualIgnoringOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertArraysHaveEqualValues\u0028\u0029",
+            "name": "assertArraysHaveEqualValues",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020have\u0020equal\u0020values.",
+            "url": "namespaces/phpunit-framework.html#function_assertArraysHaveEqualValues"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertArraysHaveEqualValuesIgnoringOrder\u0028\u0029",
+            "name": "assertArraysHaveEqualValuesIgnoringOrder",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020have\u0020equal\u0020values\u0020while\u0020ignoring\u0020the\u0020order\u0020of\u0020these\u0020values.",
+            "url": "namespaces/phpunit-framework.html#function_assertArraysHaveEqualValuesIgnoringOrder"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\assertContains\u0028\u0029",
             "name": "assertContains",
             "summary": "Asserts\u0020that\u0020a\u0020haystack\u0020contains\u0020a\u0020needle.",
@@ -22480,11 +23490,6 @@ Search.appendIndex(
             "name": "assertNotContainsEquals",
             "summary": "",
             "url": "namespaces/phpunit-framework.html#function_assertNotContainsEquals"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\assertContainsOnly\u0028\u0029",
-            "name": "assertContainsOnly",
-            "summary": "Asserts\u0020that\u0020a\u0020haystack\u0020contains\u0020only\u0020values\u0020of\u0020a\u0020given\u0020type.",
-            "url": "namespaces/phpunit-framework.html#function_assertContainsOnly"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertContainsOnlyArray\u0028\u0029",
             "name": "assertContainsOnlyArray",
@@ -22555,11 +23560,6 @@ Search.appendIndex(
             "name": "assertContainsOnlyInstancesOf",
             "summary": "Asserts\u0020that\u0020a\u0020haystack\u0020contains\u0020only\u0020instances\u0020of\u0020a\u0020specified\u0020interface\u0020or\u0020class\u0020name.",
             "url": "namespaces/phpunit-framework.html#function_assertContainsOnlyInstancesOf"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\assertNotContainsOnly\u0028\u0029",
-            "name": "assertNotContainsOnly",
-            "summary": "Asserts\u0020that\u0020a\u0020haystack\u0020does\u0020not\u0020contain\u0020only\u0020values\u0020of\u0020a\u0020given\u0020type.",
-            "url": "namespaces/phpunit-framework.html#function_assertNotContainsOnly"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertContainsNotOnlyArray\u0028\u0029",
             "name": "assertContainsNotOnlyArray",
@@ -22736,6 +23736,11 @@ Search.appendIndex(
             "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020equal\u0020to\u0020the\u0020contents\u0020of\u0020another\nfile\u0020\u0028ignoring\u0020case\u0029.",
             "url": "namespaces/phpunit-framework.html#function_assertFileEqualsIgnoringCase"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertFileEqualsFileIgnoringWhitespace\u0028\u0029",
+            "name": "assertFileEqualsFileIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020equal\u0020to\u0020the\u0020contents\u0020of\u0020another\nfile\u0020\u0028ignoring\u0020whitespace\u0029.",
+            "url": "namespaces/phpunit-framework.html#function_assertFileEqualsFileIgnoringWhitespace"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\assertFileNotEquals\u0028\u0029",
             "name": "assertFileNotEquals",
             "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020not\u0020equal\u0020to\u0020the\u0020contents\u0020of\nanother\u0020file.",
@@ -22750,6 +23755,11 @@ Search.appendIndex(
             "name": "assertFileNotEqualsIgnoringCase",
             "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020not\u0020equal\u0020to\u0020the\u0020contents\u0020of\u0020another\nfile\u0020\u0028ignoring\u0020case\u0029.",
             "url": "namespaces/phpunit-framework.html#function_assertFileNotEqualsIgnoringCase"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertFileNotEqualsFileIgnoringWhitespace\u0028\u0029",
+            "name": "assertFileNotEqualsFileIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020not\u0020equal\u0020to\u0020the\u0020contents\u0020of\u0020another\nfile\u0020\u0028ignoring\u0020whitespace\u0029.",
+            "url": "namespaces/phpunit-framework.html#function_assertFileNotEqualsFileIgnoringWhitespace"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertStringEqualsFile\u0028\u0029",
             "name": "assertStringEqualsFile",
@@ -22780,6 +23790,16 @@ Search.appendIndex(
             "name": "assertStringNotEqualsFileIgnoringCase",
             "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020a\u0020string\u0020is\u0020not\u0020equal\nto\u0020the\u0020contents\u0020of\u0020a\u0020file\u0020\u0028ignoring\u0020case\u0029.",
             "url": "namespaces/phpunit-framework.html#function_assertStringNotEqualsFileIgnoringCase"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertStringEqualsFileIgnoringWhitespace\u0028\u0029",
+            "name": "assertStringEqualsFileIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020a\u0020string\u0020is\u0020equal\nto\u0020the\u0020contents\u0020of\u0020a\u0020file\u0020\u0028ignoring\u0020whitespace\u0029.",
+            "url": "namespaces/phpunit-framework.html#function_assertStringEqualsFileIgnoringWhitespace"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertStringNotEqualsFileIgnoringWhitespace\u0028\u0029",
+            "name": "assertStringNotEqualsFileIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020a\u0020string\u0020is\u0020not\u0020equal\nto\u0020the\u0020contents\u0020of\u0020a\u0020file\u0020\u0028ignoring\u0020whitespace\u0029.",
+            "url": "namespaces/phpunit-framework.html#function_assertStringNotEqualsFileIgnoringWhitespace"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertIsReadable\u0028\u0029",
             "name": "assertIsReadable",
@@ -23086,6 +24106,16 @@ Search.appendIndex(
             "summary": "Asserts\u0020that\u0020two\u0020strings\u0020are\u0020equal\u0020except\u0020for\u0020line\u0020endings.",
             "url": "namespaces/phpunit-framework.html#function_assertStringEqualsStringIgnoringLineEndings"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertStringEqualsStringIgnoringWhitespace\u0028\u0029",
+            "name": "assertStringEqualsStringIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020two\u0020strings\u0020are\u0020equal\u0020ignoring\u0020whitespace.",
+            "url": "namespaces/phpunit-framework.html#function_assertStringEqualsStringIgnoringWhitespace"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertStringNotEqualsStringIgnoringWhitespace\u0028\u0029",
+            "name": "assertStringNotEqualsStringIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020two\u0020strings\u0020are\u0020not\u0020equal\u0020ignoring\u0020whitespace.",
+            "url": "namespaces/phpunit-framework.html#function_assertStringNotEqualsStringIgnoringWhitespace"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\assertFileMatchesFormat\u0028\u0029",
             "name": "assertFileMatchesFormat",
             "summary": "Asserts\u0020that\u0020a\u0020string\u0020matches\u0020a\u0020given\u0020format\u0020string.",
@@ -23175,6 +24205,36 @@ Search.appendIndex(
             "name": "assertXmlStringNotEqualsXmlString",
             "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020ignoring\u0020comments.",
             "url": "namespaces/phpunit-framework.html#function_assertXmlStringNotEqualsXmlString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertXmlFileEqualsXmlFileConsideringComments\u0028\u0029",
+            "name": "assertXmlFileEqualsXmlFileConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020equal,\u0020considering\u0020comments.",
+            "url": "namespaces/phpunit-framework.html#function_assertXmlFileEqualsXmlFileConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertXmlFileNotEqualsXmlFileConsideringComments\u0028\u0029",
+            "name": "assertXmlFileNotEqualsXmlFileConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020not\u0020equal,\u0020considering\u0020comments.",
+            "url": "namespaces/phpunit-framework.html#function_assertXmlFileNotEqualsXmlFileConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertXmlStringEqualsXmlFileConsideringComments\u0028\u0029",
+            "name": "assertXmlStringEqualsXmlFileConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal,\u0020considering\u0020comments.",
+            "url": "namespaces/phpunit-framework.html#function_assertXmlStringEqualsXmlFileConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertXmlStringNotEqualsXmlFileConsideringComments\u0028\u0029",
+            "name": "assertXmlStringNotEqualsXmlFileConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020considering\u0020comments.",
+            "url": "namespaces/phpunit-framework.html#function_assertXmlStringNotEqualsXmlFileConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertXmlStringEqualsXmlStringConsideringComments\u0028\u0029",
+            "name": "assertXmlStringEqualsXmlStringConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal,\u0020considering\u0020comments.",
+            "url": "namespaces/phpunit-framework.html#function_assertXmlStringEqualsXmlStringConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\assertXmlStringNotEqualsXmlStringConsideringComments\u0028\u0029",
+            "name": "assertXmlStringNotEqualsXmlStringConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020considering\u0020comments.",
+            "url": "namespaces/phpunit-framework.html#function_assertXmlStringNotEqualsXmlStringConsideringComments"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\assertThat\u0028\u0029",
             "name": "assertThat",
@@ -23285,11 +24345,6 @@ Search.appendIndex(
             "name": "containsIdentical",
             "summary": "",
             "url": "namespaces/phpunit-framework.html#function_containsIdentical"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\containsOnly\u0028\u0029",
-            "name": "containsOnly",
-            "summary": "",
-            "url": "namespaces/phpunit-framework.html#function_containsOnly"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\containsOnlyArray\u0028\u0029",
             "name": "containsOnlyArray",
@@ -23496,11 +24551,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phpunit-framework.html#function_isString"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\isType\u0028\u0029",
-            "name": "isType",
-            "summary": "",
-            "url": "namespaces/phpunit-framework.html#function_isType"
-        },                {
             "fqsen": "\\PHPUnit\\Framework\\lessThan\u0028\u0029",
             "name": "lessThan",
             "summary": "",
@@ -23540,6 +24590,11 @@ Search.appendIndex(
             "name": "stringEqualsStringIgnoringLineEndings",
             "summary": "",
             "url": "namespaces/phpunit-framework.html#function_stringEqualsStringIgnoringLineEndings"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\stringEqualsStringIgnoringWhitespace\u0028\u0029",
+            "name": "stringEqualsStringIgnoringWhitespace",
+            "summary": "",
+            "url": "namespaces/phpunit-framework.html#function_stringEqualsStringIgnoringWhitespace"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\countOf\u0028\u0029",
             "name": "countOf",
@@ -23636,6 +24691,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertIsList"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertArraysAreIdentical\u0028\u0029",
+            "name": "assertArraysAreIdentical",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020are\u0020identical.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertArraysAreIdentical"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertArraysAreIdenticalIgnoringOrder\u0028\u0029",
+            "name": "assertArraysAreIdenticalIgnoringOrder",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020are\u0020identical\u0020while\u0020ignoring\u0020the\u0020order\u0020of\u0020their\u0020values.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertArraysAreIdenticalIgnoringOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertArraysHaveIdenticalValues\u0028\u0029",
+            "name": "assertArraysHaveIdenticalValues",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020have\u0020identical\u0020values.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertArraysHaveIdenticalValues"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertArraysHaveIdenticalValuesIgnoringOrder\u0028\u0029",
+            "name": "assertArraysHaveIdenticalValuesIgnoringOrder",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020have\u0020identical\u0020values\u0020while\u0020ignoring\u0020the\u0020order\u0020of\u0020these\u0020values.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertArraysHaveIdenticalValuesIgnoringOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertArraysAreEqual\u0028\u0029",
+            "name": "assertArraysAreEqual",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020are\u0020equal.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertArraysAreEqual"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertArraysAreEqualIgnoringOrder\u0028\u0029",
+            "name": "assertArraysAreEqualIgnoringOrder",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020are\u0020equal\u0020while\u0020ignoring\u0020the\u0020order\u0020of\u0020their\u0020values.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertArraysAreEqualIgnoringOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertArraysHaveEqualValues\u0028\u0029",
+            "name": "assertArraysHaveEqualValues",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020have\u0020equal\u0020values.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertArraysHaveEqualValues"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertArraysHaveEqualValuesIgnoringOrder\u0028\u0029",
+            "name": "assertArraysHaveEqualValuesIgnoringOrder",
+            "summary": "Assert\u0020that\u0020two\u0020arrays\u0020have\u0020equal\u0020values\u0020while\u0020ignoring\u0020the\u0020order\u0020of\u0020these\u0020values.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertArraysHaveEqualValuesIgnoringOrder"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertContains\u0028\u0029",
             "name": "assertContains",
             "summary": "Asserts\u0020that\u0020a\u0020haystack\u0020contains\u0020a\u0020needle.",
@@ -23655,11 +24750,6 @@ Search.appendIndex(
             "name": "assertNotContainsEquals",
             "summary": "",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertNotContainsEquals"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertContainsOnly\u0028\u0029",
-            "name": "assertContainsOnly",
-            "summary": "Asserts\u0020that\u0020a\u0020haystack\u0020contains\u0020only\u0020values\u0020of\u0020a\u0020given\u0020type.",
-            "url": "classes/PHPUnit-Framework-Assert.html#method_assertContainsOnly"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertContainsOnlyArray\u0028\u0029",
             "name": "assertContainsOnlyArray",
@@ -23730,11 +24820,6 @@ Search.appendIndex(
             "name": "assertContainsOnlyInstancesOf",
             "summary": "Asserts\u0020that\u0020a\u0020haystack\u0020contains\u0020only\u0020instances\u0020of\u0020a\u0020specified\u0020interface\u0020or\u0020class\u0020name.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertContainsOnlyInstancesOf"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertNotContainsOnly\u0028\u0029",
-            "name": "assertNotContainsOnly",
-            "summary": "Asserts\u0020that\u0020a\u0020haystack\u0020does\u0020not\u0020contain\u0020only\u0020values\u0020of\u0020a\u0020given\u0020type.",
-            "url": "classes/PHPUnit-Framework-Assert.html#method_assertNotContainsOnly"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertContainsNotOnlyArray\u0028\u0029",
             "name": "assertContainsNotOnlyArray",
@@ -23911,6 +24996,11 @@ Search.appendIndex(
             "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020equal\u0020to\u0020the\u0020contents\u0020of\u0020another\nfile\u0020\u0028ignoring\u0020case\u0029.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertFileEqualsIgnoringCase"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertFileEqualsFileIgnoringWhitespace\u0028\u0029",
+            "name": "assertFileEqualsFileIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020equal\u0020to\u0020the\u0020contents\u0020of\u0020another\nfile\u0020\u0028ignoring\u0020whitespace\u0029.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertFileEqualsFileIgnoringWhitespace"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertFileNotEquals\u0028\u0029",
             "name": "assertFileNotEquals",
             "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020not\u0020equal\u0020to\u0020the\u0020contents\u0020of\nanother\u0020file.",
@@ -23925,6 +25015,11 @@ Search.appendIndex(
             "name": "assertFileNotEqualsIgnoringCase",
             "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020not\u0020equal\u0020to\u0020the\u0020contents\u0020of\u0020another\nfile\u0020\u0028ignoring\u0020case\u0029.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertFileNotEqualsIgnoringCase"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertFileNotEqualsFileIgnoringWhitespace\u0028\u0029",
+            "name": "assertFileNotEqualsFileIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020one\u0020file\u0020is\u0020not\u0020equal\u0020to\u0020the\u0020contents\u0020of\u0020another\nfile\u0020\u0028ignoring\u0020whitespace\u0029.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertFileNotEqualsFileIgnoringWhitespace"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertStringEqualsFile\u0028\u0029",
             "name": "assertStringEqualsFile",
@@ -23955,6 +25050,16 @@ Search.appendIndex(
             "name": "assertStringNotEqualsFileIgnoringCase",
             "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020a\u0020string\u0020is\u0020not\u0020equal\nto\u0020the\u0020contents\u0020of\u0020a\u0020file\u0020\u0028ignoring\u0020case\u0029.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertStringNotEqualsFileIgnoringCase"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertStringEqualsFileIgnoringWhitespace\u0028\u0029",
+            "name": "assertStringEqualsFileIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020a\u0020string\u0020is\u0020equal\nto\u0020the\u0020contents\u0020of\u0020a\u0020file\u0020\u0028ignoring\u0020whitespace\u0029.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertStringEqualsFileIgnoringWhitespace"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertStringNotEqualsFileIgnoringWhitespace\u0028\u0029",
+            "name": "assertStringNotEqualsFileIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020the\u0020contents\u0020of\u0020a\u0020string\u0020is\u0020not\u0020equal\nto\u0020the\u0020contents\u0020of\u0020a\u0020file\u0020\u0028ignoring\u0020whitespace\u0029.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertStringNotEqualsFileIgnoringWhitespace"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertIsReadable\u0028\u0029",
             "name": "assertIsReadable",
@@ -24261,6 +25366,16 @@ Search.appendIndex(
             "summary": "Asserts\u0020that\u0020two\u0020strings\u0020are\u0020equal\u0020except\u0020for\u0020line\u0020endings.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertStringEqualsStringIgnoringLineEndings"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertStringEqualsStringIgnoringWhitespace\u0028\u0029",
+            "name": "assertStringEqualsStringIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020two\u0020strings\u0020are\u0020equal\u0020ignoring\u0020whitespace.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertStringEqualsStringIgnoringWhitespace"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertStringNotEqualsStringIgnoringWhitespace\u0028\u0029",
+            "name": "assertStringNotEqualsStringIgnoringWhitespace",
+            "summary": "Asserts\u0020that\u0020two\u0020strings\u0020are\u0020not\u0020equal\u0020ignoring\u0020whitespace.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertStringNotEqualsStringIgnoringWhitespace"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertFileMatchesFormat\u0028\u0029",
             "name": "assertFileMatchesFormat",
             "summary": "Asserts\u0020that\u0020a\u0020string\u0020matches\u0020a\u0020given\u0020format\u0020string.",
@@ -24350,6 +25465,36 @@ Search.appendIndex(
             "name": "assertXmlStringNotEqualsXmlString",
             "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020ignoring\u0020comments.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringNotEqualsXmlString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlFileEqualsXmlFileConsideringComments\u0028\u0029",
+            "name": "assertXmlFileEqualsXmlFileConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020equal,\u0020considering\u0020comments.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlFileEqualsXmlFileConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlFileNotEqualsXmlFileConsideringComments\u0028\u0029",
+            "name": "assertXmlFileNotEqualsXmlFileConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020files\u0020are\u0020not\u0020equal,\u0020considering\u0020comments.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlFileNotEqualsXmlFileConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlStringEqualsXmlFileConsideringComments\u0028\u0029",
+            "name": "assertXmlStringEqualsXmlFileConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal,\u0020considering\u0020comments.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringEqualsXmlFileConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlStringNotEqualsXmlFileConsideringComments\u0028\u0029",
+            "name": "assertXmlStringNotEqualsXmlFileConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020considering\u0020comments.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringNotEqualsXmlFileConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlStringEqualsXmlStringConsideringComments\u0028\u0029",
+            "name": "assertXmlStringEqualsXmlStringConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020equal,\u0020considering\u0020comments.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringEqualsXmlStringConsideringComments"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertXmlStringNotEqualsXmlStringConsideringComments\u0028\u0029",
+            "name": "assertXmlStringNotEqualsXmlStringConsideringComments",
+            "summary": "Asserts\u0020that\u0020two\u0020XML\u0020documents\u0020are\u0020not\u0020equal,\u0020considering\u0020comments.",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_assertXmlStringNotEqualsXmlStringConsideringComments"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AassertThat\u0028\u0029",
             "name": "assertThat",
@@ -24465,11 +25610,6 @@ Search.appendIndex(
             "name": "containsIdentical",
             "summary": "",
             "url": "classes/PHPUnit-Framework-Assert.html#method_containsIdentical"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AcontainsOnly\u0028\u0029",
-            "name": "containsOnly",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-Assert.html#method_containsOnly"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AcontainsOnlyArray\u0028\u0029",
             "name": "containsOnlyArray",
@@ -24676,11 +25816,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Assert.html#method_isString"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AisType\u0028\u0029",
-            "name": "isType",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-Assert.html#method_isType"
-        },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AlessThan\u0028\u0029",
             "name": "lessThan",
             "summary": "",
@@ -24721,6 +25856,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Assert.html#method_stringEqualsStringIgnoringLineEndings"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AstringEqualsStringIgnoringWhitespace\u0028\u0029",
+            "name": "stringEqualsStringIgnoringWhitespace",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Assert.html#method_stringEqualsStringIgnoringWhitespace"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AcountOf\u0028\u0029",
             "name": "countOf",
             "summary": "",
@@ -24756,15 +25896,10 @@ Search.appendIndex(
             "summary": "Reset\u0020the\u0020assertion\u0020counter.",
             "url": "classes/PHPUnit-Framework-Assert.html#method_resetCount"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AisNativeType\u0028\u0029",
-            "name": "isNativeType",
+            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AcontentsOfFile\u0028\u0029",
+            "name": "contentsOfFile",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-Assert.html#method_isNativeType"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003AmapNativeType\u0028\u0029",
-            "name": "mapNativeType",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-Assert.html#method_mapNativeType"
+            "url": "classes/PHPUnit-Framework-Assert.html#method_contentsOfFile"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Assert\u003A\u003A\u0024count",
             "name": "count",
@@ -24911,6 +26046,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Attributes-CoversClassesThatImplementInterface.html#property_interfaceName"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversDirectory",
+            "name": "CoversDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversDirectory.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversDirectory\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversDirectory.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversDirectory\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversDirectory.html#property_directory"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversDirectoryRecursively",
+            "name": "CoversDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversDirectoryRecursively.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversDirectoryRecursively\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversDirectoryRecursively.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversDirectoryRecursively\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversDirectoryRecursively.html#property_directory"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversFile",
+            "name": "CoversFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversFile.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversFile\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversFile.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversFile\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-CoversFile.html#property_path"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Attributes\\CoversFunction",
             "name": "CoversFunction",
             "summary": "",
@@ -25001,6 +26181,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Attributes-DataProvider.html#property_validateArgumentCount"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\DataProvider\u003A\u003A\u0024skipWhenEmpty",
+            "name": "skipWhenEmpty",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-DataProvider.html#property_skipWhenEmpty"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\DataProviderClosure",
+            "name": "DataProviderClosure",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-DataProviderClosure.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\DataProviderClosure\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-DataProviderClosure.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\DataProviderClosure\u003A\u003A\u0024closure",
+            "name": "closure",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-DataProviderClosure.html#property_closure"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\DataProviderClosure\u003A\u003A\u0024validateArgumentCount",
+            "name": "validateArgumentCount",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-DataProviderClosure.html#property_validateArgumentCount"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Attributes\\DataProviderExternal",
             "name": "DataProviderExternal",
             "summary": "",
@@ -25025,6 +26230,11 @@ Search.appendIndex(
             "name": "validateArgumentCount",
             "summary": "",
             "url": "classes/PHPUnit-Framework-Attributes-DataProviderExternal.html#property_validateArgumentCount"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\DataProviderExternal\u003A\u003A\u0024skipWhenEmpty",
+            "name": "skipWhenEmpty",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-DataProviderExternal.html#property_skipWhenEmpty"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Attributes\\Depends",
             "name": "Depends",
@@ -25321,6 +26531,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Attributes-PreserveGlobalState.html#property_enabled"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\Repeat",
+            "name": "Repeat",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-Repeat.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\Repeat\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-Repeat.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\Repeat\u003A\u003A\u0024times",
+            "name": "times",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-Repeat.html#property_times"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\Repeat\u003A\u003A\u0024failureThreshold",
+            "name": "failureThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-Repeat.html#property_failureThreshold"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Attributes\\RequiresEnvironmentVariable",
             "name": "RequiresEnvironmentVariable",
             "summary": "",
@@ -25491,10 +26721,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Attributes-RequiresSetting.html#property_value"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\Attributes\\RunClassInSeparateProcess",
-            "name": "RunClassInSeparateProcess",
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\Retry",
+            "name": "Retry",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-Attributes-RunClassInSeparateProcess.html"
+            "url": "classes/PHPUnit-Framework-Attributes-Retry.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\Retry\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-Retry.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\Retry\u003A\u003A\u0024maxAttempts",
+            "name": "maxAttempts",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-Retry.html#property_maxAttempts"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Attributes\\RunInSeparateProcess",
             "name": "RunInSeparateProcess",
@@ -25666,6 +26906,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Attributes-UsesClassesThatImplementInterface.html#property_interfaceName"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesDirectory",
+            "name": "UsesDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesDirectory.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesDirectory\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesDirectory.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesDirectory\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesDirectory.html#property_directory"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesDirectoryRecursively",
+            "name": "UsesDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesDirectoryRecursively.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesDirectoryRecursively\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesDirectoryRecursively.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesDirectoryRecursively\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesDirectoryRecursively.html#property_directory"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesFile",
+            "name": "UsesFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesFile.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesFile\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesFile.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesFile\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Attributes-UsesFile.html#property_path"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Attributes\\UsesFunction",
             "name": "UsesFunction",
             "summary": "",
@@ -25756,6 +27041,186 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Attributes-WithoutErrorHandler.html"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison",
+            "name": "ArrayComparison",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003Aevaluate\u0028\u0029",
+            "name": "evaluate",
+            "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_evaluate"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AtoString\u0028\u0029",
+            "name": "toString",
+            "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AcomparisonType\u0028\u0029",
+            "name": "comparisonType",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_comparisonType"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AcompareLeaf\u0028\u0029",
+            "name": "compareLeaf",
+            "summary": "Compares\u0020two\u0020non\u002Darray\u0020values\u0020\u0028or\u0020two\u0020arrays\u0020in\u0020modes\u0020where\u0020order\u0020at\nevery\u0020level\u0020is\u0020significant\u0029\u0020using\u0020the\u0020strictness\u0020defined\u0020by\u0020the\nconcrete\u0020subclass.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_compareLeaf"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AcomparisonDescription\u0028\u0029",
+            "name": "comparisonDescription",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_comparisonDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003Acompare\u0028\u0029",
+            "name": "compare",
+            "summary": "Compares\u0020two\u0020values,\u0020recursing\u0020into\u0020arrays\u0020as\u0020needed.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_compare"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AcompareKeyedIgnoringOrder\u0028\u0029",
+            "name": "compareKeyedIgnoringOrder",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_compareKeyedIgnoringOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003AcompareIgnoringKeysAndOrder\u0028\u0029",
+            "name": "compareIgnoringKeysAndOrder",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#method_compareIgnoringKeysAndOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003A\u0024expected",
+            "name": "expected",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#property_expected"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003A\u0024keysMatter",
+            "name": "keysMatter",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#property_keysMatter"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayComparison\u003A\u003A\u0024orderMatters",
+            "name": "orderMatters",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayComparison.html#property_orderMatters"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey",
+            "name": "ArrayHasKey",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003AtoString\u0028\u0029",
+            "name": "toString",
+            "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003Amatches\u0028\u0029",
+            "name": "matches",
+            "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003A\u0024key",
+            "name": "key",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#property_key"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArraysAreEqual",
+            "name": "ArraysAreEqual",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArraysAreEqual.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArraysAreEqual\u003A\u003AcompareLeaf\u0028\u0029",
+            "name": "compareLeaf",
+            "summary": "Compares\u0020two\u0020non\u002Darray\u0020values\u0020\u0028or\u0020two\u0020arrays\u0020in\u0020modes\u0020where\u0020order\u0020at\nevery\u0020level\u0020is\u0020significant\u0029\u0020using\u0020the\u0020strictness\u0020defined\u0020by\u0020the\nconcrete\u0020subclass.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArraysAreEqual.html#method_compareLeaf"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArraysAreEqual\u003A\u003AcomparisonType\u0028\u0029",
+            "name": "comparisonType",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArraysAreEqual.html#method_comparisonType"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArraysAreIdentical",
+            "name": "ArraysAreIdentical",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArraysAreIdentical.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArraysAreIdentical\u003A\u003AcompareLeaf\u0028\u0029",
+            "name": "compareLeaf",
+            "summary": "Compares\u0020two\u0020non\u002Darray\u0020values\u0020\u0028or\u0020two\u0020arrays\u0020in\u0020modes\u0020where\u0020order\u0020at\nevery\u0020level\u0020is\u0020significant\u0029\u0020using\u0020the\u0020strictness\u0020defined\u0020by\u0020the\nconcrete\u0020subclass.",
+            "url": "classes/PHPUnit-Framework-Constraint-ArraysAreIdentical.html#method_compareLeaf"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArraysAreIdentical\u003A\u003AcomparisonType\u0028\u0029",
+            "name": "comparisonType",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ArraysAreIdentical.html#method_comparisonType"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList",
+            "name": "IsList",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsList.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList\u003A\u003AtoString\u0028\u0029",
+            "name": "toString",
+            "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsList.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList\u003A\u003Amatches\u0028\u0029",
+            "name": "matches",
+            "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsList.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsList.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsList.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsList.html#method_failureDescriptionInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsFalse",
             "name": "IsFalse",
             "summary": "",
@@ -25766,10 +27231,20 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsFalse.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsFalse\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsFalse.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsFalse\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
             "url": "classes/PHPUnit-Framework-Constraint-IsFalse.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsFalse\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsFalse.html#method_failureDescription"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsTrue",
             "name": "IsTrue",
@@ -25781,10 +27256,20 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsTrue.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsTrue\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsTrue.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsTrue\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
             "url": "classes/PHPUnit-Framework-Constraint-IsTrue.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsTrue\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsTrue.html#method_failureDescription"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\Callback",
             "name": "Callback",
@@ -25831,6 +27316,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Constraint-Count.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\Count\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-Count.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\Count\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -25845,6 +27335,11 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-Count.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\Count\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-Count.html#method_failureDescriptionInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\Count\u003A\u003A\u0024expectedCount",
             "name": "expectedCount",
@@ -25866,6 +27361,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-GreaterThan.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\GreaterThan\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-GreaterThan.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\GreaterThan\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -25886,6 +27386,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsEmpty.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEmpty\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEmpty.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEmpty\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -25895,6 +27400,16 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-IsEmpty.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEmpty\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEmpty.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEmpty\u003A\u003Adescribe\u0028\u0029",
+            "name": "describe",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEmpty.html#method_describe"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\LessThan",
             "name": "LessThan",
@@ -25910,6 +27425,11 @@ Search.appendIndex(
             "name": "toString",
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-LessThan.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\LessThan\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-LessThan.html#method_toStringInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\LessThan\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
@@ -25991,6 +27511,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Constraint-Constraint.html#method_valueToTypeStringFragment"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\Constraint\u003A\u003AassertEqualsUsingComparator\u0028\u0029",
+            "name": "assertEqualsUsingComparator",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-Constraint.html#method_assertEqualsUsingComparator"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqual",
             "name": "IsEqual",
             "summary": "",
@@ -26010,6 +27535,16 @@ Search.appendIndex(
             "name": "toString",
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsEqual.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqual\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here,\u0020instead\u0020of\u0020letting\nLogicalNot\u0020rewrite\u0020the\u0020affirmative\u0020description,\u0020keeps\u0020the\u0020exported\u0020value\nout\u0020of\u0020the\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\nLogicalOr,\u0020and\u0020LogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEqual.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqual\u003A\u003AvalueAsString\u0028\u0029",
+            "name": "valueAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEqual.html#method_valueAsString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqual\u003A\u003A\u0024value",
             "name": "value",
@@ -26036,6 +27571,16 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsEqualCanonicalizing.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualCanonicalizing\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here,\u0020instead\u0020of\u0020letting\nLogicalNot\u0020rewrite\u0020the\u0020affirmative\u0020description,\u0020keeps\u0020the\u0020exported\u0020value\nout\u0020of\u0020the\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\nLogicalOr,\u0020and\u0020LogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEqualCanonicalizing.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualCanonicalizing\u003A\u003AvalueAsString\u0028\u0029",
+            "name": "valueAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEqualCanonicalizing.html#method_valueAsString"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualCanonicalizing\u003A\u003A\u0024value",
             "name": "value",
             "summary": "",
@@ -26060,6 +27605,16 @@ Search.appendIndex(
             "name": "toString",
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsEqualIgnoringCase.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualIgnoringCase\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here,\u0020instead\u0020of\u0020letting\nLogicalNot\u0020rewrite\u0020the\u0020affirmative\u0020description,\u0020keeps\u0020the\u0020exported\u0020value\nout\u0020of\u0020the\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\nLogicalOr,\u0020and\u0020LogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEqualIgnoringCase.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualIgnoringCase\u003A\u003AvalueAsString\u0028\u0029",
+            "name": "valueAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEqualIgnoringCase.html#method_valueAsString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualIgnoringCase\u003A\u003A\u0024value",
             "name": "value",
@@ -26086,6 +27641,16 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsEqualWithDelta.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualWithDelta\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here,\u0020instead\u0020of\u0020letting\nLogicalNot\u0020rewrite\u0020the\u0020affirmative\u0020description,\u0020keeps\u0020the\u0020exported\u0020value\nout\u0020of\u0020the\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\nLogicalOr,\u0020and\u0020LogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEqualWithDelta.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualWithDelta\u003A\u003AvalueAsString\u0028\u0029",
+            "name": "valueAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsEqualWithDelta.html#method_valueAsString"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsEqualWithDelta\u003A\u003A\u0024value",
             "name": "value",
             "summary": "",
@@ -26106,6 +27671,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-DirectoryExists.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\DirectoryExists\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-DirectoryExists.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\DirectoryExists\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26115,6 +27685,16 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-DirectoryExists.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\DirectoryExists\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-DirectoryExists.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\DirectoryExists\u003A\u003Apath\u0028\u0029",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-DirectoryExists.html#method_path"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\FileExists",
             "name": "FileExists",
@@ -26126,6 +27706,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-FileExists.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\FileExists\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-FileExists.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\FileExists\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26135,6 +27720,16 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-FileExists.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\FileExists\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-FileExists.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\FileExists\u003A\u003Apath\u0028\u0029",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-FileExists.html#method_path"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsReadable",
             "name": "IsReadable",
@@ -26146,6 +27741,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsReadable.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsReadable\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsReadable.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsReadable\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26155,6 +27755,16 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-IsReadable.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsReadable\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsReadable.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsReadable\u003A\u003Apath\u0028\u0029",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsReadable.html#method_path"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsWritable",
             "name": "IsWritable",
@@ -26166,6 +27776,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsWritable.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsWritable\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsWritable.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsWritable\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26175,6 +27790,16 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-IsWritable.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsWritable\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsWritable.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsWritable\u003A\u003Apath\u0028\u0029",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsWritable.html#method_path"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsAnything",
             "name": "IsAnything",
@@ -26216,10 +27841,25 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsIdentical.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsIdentical\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsIdentical.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsIdentical\u003A\u003AfailureDescription\u0028\u0029",
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-IsIdentical.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsIdentical\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsIdentical.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsIdentical\u003A\u003AvalueAsString\u0028\u0029",
+            "name": "valueAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-IsIdentical.html#method_valueAsString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsIdentical\u003A\u003A\u0024value",
             "name": "value",
@@ -26240,6 +27880,11 @@ Search.appendIndex(
             "name": "toString",
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020object.",
             "url": "classes/PHPUnit-Framework-Constraint-JsonMatches.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\JsonMatches\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here\u0020keeps\u0020the\u0020expected\u0020JSON\nout\u0020of\u0020the\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\nLogicalOr,\u0020and\u0020LogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-JsonMatches.html#method_toStringInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\JsonMatches\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
@@ -26266,10 +27911,20 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsFinite.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsFinite\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsFinite.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsFinite\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
             "url": "classes/PHPUnit-Framework-Constraint-IsFinite.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsFinite\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsFinite.html#method_failureDescription"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsInfinite",
             "name": "IsInfinite",
@@ -26281,10 +27936,20 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsInfinite.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsInfinite\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsInfinite.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsInfinite\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
             "url": "classes/PHPUnit-Framework-Constraint-IsInfinite.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsInfinite\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsInfinite.html#method_failureDescription"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsNan",
             "name": "IsNan",
@@ -26296,10 +27961,20 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsNan.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsNan\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsNan.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsNan\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
             "url": "classes/PHPUnit-Framework-Constraint-IsNan.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsNan\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsNan.html#method_failureDescription"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectEquals",
             "name": "ObjectEquals",
@@ -26316,6 +27991,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Constraint-ObjectEquals.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectEquals\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-ObjectEquals.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectEquals\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26325,6 +28005,11 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-ObjectEquals.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectEquals\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-ObjectEquals.html#method_failureDescriptionInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectEquals\u003A\u003A\u0024expected",
             "name": "expected",
@@ -26351,6 +28036,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-ObjectHasProperty.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectHasProperty\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-ObjectHasProperty.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectHasProperty\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26360,6 +28050,16 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-ObjectHasProperty.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectHasProperty\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-ObjectHasProperty.html#method_failureDescriptionInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectHasProperty\u003A\u003Adescribe\u0028\u0029",
+            "name": "describe",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-ObjectHasProperty.html#method_describe"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\ObjectHasProperty\u003A\u003A\u0024propertyName",
             "name": "propertyName",
@@ -26606,6 +28306,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsJson.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsJson\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsJson.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsJson\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26615,6 +28320,11 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-IsJson.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsJson\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "When\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\u0020LogicalNot\u0020operator,\u0020the\u0020failure\nonly\u0020occurs\u0020for\u0020a\u0020value\u0020that\u0020\u002Ais\u002A\u0020valid\u0020JSON,\u0020so\u0020the\u0020parse\u002Derror\u0020detail\nthat\u0020the\u0020affirmative\u0020description\u0020carries\u0020is\u0020not\u0020applicable\u0020here.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsJson.html#method_failureDescriptionInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsJson\u003A\u003AdetermineJsonError\u0028\u0029",
             "name": "determineJsonError",
@@ -26635,6 +28345,11 @@ Search.appendIndex(
             "name": "toString",
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-RegularExpression.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\RegularExpression\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here\u0020keeps\u0020the\u0020pattern\u0020out\u0020of\nthe\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-RegularExpression.html#method_toStringInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\RegularExpression\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
@@ -26666,10 +28381,30 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-StringContains.html#method_failureDescription"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringContains\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here\u0020keeps\u0020the\u0020needle\u0020and\u0020the\nhaystack\u0020out\u0020of\u0020the\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\nLogicalOr,\u0020and\u0020LogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringContains.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringContains\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringContains.html#method_failureDescriptionInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringContains\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
             "url": "classes/PHPUnit-Framework-Constraint-StringContains.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringContains\u003A\u003AneedleAsString\u0028\u0029",
+            "name": "needleAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringContains.html#method_needleAsString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringContains\u003A\u003AhaystackAsString\u0028\u0029",
+            "name": "haystackAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringContains.html#method_haystackAsString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringContains\u003A\u003AdetectedEncoding\u0028\u0029",
             "name": "detectedEncoding",
@@ -26716,6 +28451,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-StringEndsWith.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEndsWith\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here\u0020keeps\u0020the\u0020suffix\u0020out\u0020of\nthe\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEndsWith.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEndsWith\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26741,10 +28481,20 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringLineEndings.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringLineEndings\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here\u0020keeps\u0020the\u0020expected\u0020value\nout\u0020of\u0020the\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\nLogicalOr,\u0020and\u0020LogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringLineEndings.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringLineEndings\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
             "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringLineEndings.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringLineEndings\u003A\u003AvalueAsString\u0028\u0029",
+            "name": "valueAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringLineEndings.html#method_valueAsString"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringLineEndings\u003A\u003AnormalizeLineEndings\u0028\u0029",
             "name": "normalizeLineEndings",
@@ -26755,6 +28505,46 @@ Search.appendIndex(
             "name": "string",
             "summary": "",
             "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringLineEndings.html#property_string"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringWhitespace",
+            "name": "StringEqualsStringIgnoringWhitespace",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringWhitespace.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringWhitespace\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringWhitespace.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringWhitespace\u003A\u003AtoString\u0028\u0029",
+            "name": "toString",
+            "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringWhitespace.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringWhitespace\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here\u0020keeps\u0020the\u0020expected\u0020value\nout\u0020of\u0020the\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\nLogicalOr,\u0020and\u0020LogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringWhitespace.html#method_toStringInContext"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringWhitespace\u003A\u003Amatches\u0028\u0029",
+            "name": "matches",
+            "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringWhitespace.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringWhitespace\u003A\u003AvalueAsString\u0028\u0029",
+            "name": "valueAsString",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringWhitespace.html#method_valueAsString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringWhitespace\u003A\u003AnormalizeWhitespace\u0028\u0029",
+            "name": "normalizeWhitespace",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringWhitespace.html#method_normalizeWhitespace"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringEqualsStringIgnoringWhitespace\u003A\u003A\u0024string",
+            "name": "string",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringEqualsStringIgnoringWhitespace.html#property_string"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription",
             "name": "StringMatchesFormatDescription",
@@ -26771,6 +28561,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26781,6 +28576,11 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_failureDescription"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_failureDescriptionInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription\u003A\u003AadditionalFailureDescription\u0028\u0029",
             "name": "additionalFailureDescription",
             "summary": "Returns\u0020a\u0020cleaned\u0020up\u0020diff.",
@@ -26790,6 +28590,21 @@ Search.appendIndex(
             "name": "regularExpressionForFormatDescription",
             "summary": "",
             "url": "classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_regularExpressionForFormatDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription\u003A\u003AisMultilineMatch\u0028\u0029",
+            "name": "isMultilineMatch",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_isMultilineMatch"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription\u003A\u003AfindNextAnchor\u0028\u0029",
+            "name": "findNextAnchor",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_findNextAnchor"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription\u003A\u003AfindAnchorInActual\u0028\u0029",
+            "name": "findAnchorInActual",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_findAnchorInActual"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringMatchesFormatDescription\u003A\u003AconvertNewlines\u0028\u0029",
             "name": "convertNewlines",
@@ -26821,6 +28636,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-StringStartsWith.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringStartsWith\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020Authoring\u0020the\u0020negation\u0020here\u0020keeps\u0020the\u0020prefix\u0020out\u0020of\nthe\u0020negation\u0020entirely.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-StringStartsWith.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\StringStartsWith\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26830,56 +28650,6 @@ Search.appendIndex(
             "name": "prefix",
             "summary": "",
             "url": "classes/PHPUnit-Framework-Constraint-StringStartsWith.html#property_prefix"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey",
-            "name": "ArrayHasKey",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method___construct"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003AtoString\u0028\u0029",
-            "name": "toString",
-            "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
-            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method_toString"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003Amatches\u0028\u0029",
-            "name": "matches",
-            "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
-            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method_matches"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003AfailureDescription\u0028\u0029",
-            "name": "failureDescription",
-            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
-            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#method_failureDescription"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\ArrayHasKey\u003A\u003A\u0024key",
-            "name": "key",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-Constraint-ArrayHasKey.html#property_key"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList",
-            "name": "IsList",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-Constraint-IsList.html"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList\u003A\u003AtoString\u0028\u0029",
-            "name": "toString",
-            "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
-            "url": "classes/PHPUnit-Framework-Constraint-IsList.html#method_toString"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList\u003A\u003Amatches\u0028\u0029",
-            "name": "matches",
-            "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
-            "url": "classes/PHPUnit-Framework-Constraint-IsList.html#method_matches"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsList\u003A\u003AfailureDescription\u0028\u0029",
-            "name": "failureDescription",
-            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
-            "url": "classes/PHPUnit-Framework-Constraint-IsList.html#method_failureDescription"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\TraversableContains",
             "name": "TraversableContains",
@@ -26896,10 +28666,20 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-TraversableContains.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\TraversableContains\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-TraversableContains.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\TraversableContains\u003A\u003AfailureDescription\u0028\u0029",
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-TraversableContains.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\TraversableContains\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-TraversableContains.html#method_failureDescriptionInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\TraversableContains\u003A\u003A\u0024value",
             "name": "value",
@@ -26956,6 +28736,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-TraversableContainsOnly.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\TraversableContainsOnly\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-TraversableContainsOnly.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\TraversableContainsOnly\u003A\u003A\u0024constraint",
             "name": "constraint",
             "summary": "",
@@ -26981,6 +28766,11 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsInstanceOf.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsInstanceOf\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsInstanceOf.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsInstanceOf\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
@@ -26990,6 +28780,11 @@ Search.appendIndex(
             "name": "failureDescription",
             "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
             "url": "classes/PHPUnit-Framework-Constraint-IsInstanceOf.html#method_failureDescription"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsInstanceOf\u003A\u003AfailureDescriptionInContext\u0028\u0029",
+            "name": "failureDescriptionInContext",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure\u0020when\u0020this\u0020constraint\u0020appears\u0020in\ncontext\u0020of\u0020an\u0020\u0024operator\u0020expression.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsInstanceOf.html#method_failureDescriptionInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsInstanceOf\u003A\u003A\u0024name",
             "name": "name",
@@ -27011,10 +28806,20 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsNull.html#method_toString"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsNull\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsNull.html#method_toStringInContext"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsNull\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
             "summary": "Evaluates\u0020the\u0020constraint\u0020for\u0020parameter\u0020\u0024other.\u0020Returns\u0020true\u0020if\u0020the\nconstraint\u0020is\u0020met,\u0020false\u0020otherwise.",
             "url": "classes/PHPUnit-Framework-Constraint-IsNull.html#method_matches"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsNull\u003A\u003AfailureDescription\u0028\u0029",
+            "name": "failureDescription",
+            "summary": "Returns\u0020the\u0020description\u0020of\u0020the\u0020failure.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsNull.html#method_failureDescription"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsType",
             "name": "IsType",
@@ -27030,6 +28835,11 @@ Search.appendIndex(
             "name": "toString",
             "summary": "Returns\u0020a\u0020string\u0020representation\u0020of\u0020the\u0020constraint.",
             "url": "classes/PHPUnit-Framework-Constraint-IsType.html#method_toString"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsType\u003A\u003AtoStringInContext\u0028\u0029",
+            "name": "toStringInContext",
+            "summary": "Returns\u0020the\u0020negated\u0020description\u0020when\u0020this\u0020constraint\u0020is\u0020wrapped\u0020in\u0020a\nLogicalNot\u0020operator.\u0020The\u0020guard\u0020ensures\u0020that\u0020LogicalAnd,\u0020LogicalOr,\u0020and\nLogicalXor\u0020keep\u0020using\u0020the\u0020affirmative\u0020toString\u0028\u0029.",
+            "url": "classes/PHPUnit-Framework-Constraint-IsType.html#method_toStringInContext"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\Constraint\\IsType\u003A\u003Amatches\u0028\u0029",
             "name": "matches",
@@ -27101,6 +28911,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-MockObject-MockBuilder.html#property_mockClassName"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationMocker",
+            "name": "InvocationMocker",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationMocker.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationMocker\u003A\u003Awith\u0028\u0029",
+            "name": "with",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationMocker.html#method_with"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationMocker\u003A\u003AwithParameterSetsInOrder\u0028\u0029",
+            "name": "withParameterSetsInOrder",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationMocker.html#method_withParameterSetsInOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationMocker\u003A\u003AwithParameterSetsInAnyOrder\u0028\u0029",
+            "name": "withParameterSetsInAnyOrder",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationMocker.html#method_withParameterSetsInAnyOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationMocker\u003A\u003AwithParameterSetsInPartialOrder\u0028\u0029",
+            "name": "withParameterSetsInPartialOrder",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationMocker.html#method_withParameterSetsInPartialOrder"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationMocker\u003A\u003AwithAnyParameters\u0028\u0029",
+            "name": "withAnyParameters",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationMocker.html#method_withAnyParameters"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationMocker\u003A\u003Aid\u0028\u0029",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationMocker.html#method_id"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationMocker\u003A\u003Aafter\u0028\u0029",
+            "name": "after",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationMocker.html#method_after"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber",
             "name": "InvocationStubber",
             "summary": "",
@@ -27110,26 +28960,6 @@ Search.appendIndex(
             "name": "method",
             "summary": "",
             "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_method"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber\u003A\u003Aid\u0028\u0029",
-            "name": "id",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_id"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber\u003A\u003Aafter\u0028\u0029",
-            "name": "after",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_after"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber\u003A\u003Awith\u0028\u0029",
-            "name": "with",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_with"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber\u003A\u003AwithAnyParameters\u0028\u0029",
-            "name": "withAnyParameters",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_withAnyParameters"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber\u003A\u003Awill\u0028\u0029",
             "name": "will",
@@ -27150,6 +28980,11 @@ Search.appendIndex(
             "name": "willReturnMap",
             "summary": "",
             "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_willReturnMap"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber\u003A\u003AwillReturnStrictMap\u0028\u0029",
+            "name": "willReturnStrictMap",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_willReturnStrictMap"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber\u003A\u003AwillReturnArgument\u0028\u0029",
             "name": "willReturnArgument",
@@ -27175,6 +29010,11 @@ Search.appendIndex(
             "name": "willThrowException",
             "summary": "",
             "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_willThrowException"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\InvocationStubber\u003A\u003Aseal\u0028\u0029",
+            "name": "seal",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-InvocationStubber.html#method_seal"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\MockObject\\MockObject",
             "name": "MockObject",
@@ -27246,6 +29086,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-MockObject-Rule-ParametersRule.html#method_verify"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\Rule\\UnorderedParameterSets",
+            "name": "UnorderedParameterSets",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-Rule-UnorderedParameterSets.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\Rule\\UnorderedParameterSets\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-Rule-UnorderedParameterSets.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\Rule\\UnorderedParameterSets\u003A\u003Aapply\u0028\u0029",
+            "name": "apply",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-Rule-UnorderedParameterSets.html#method_apply"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\Rule\\UnorderedParameterSets\u003A\u003Averify\u0028\u0029",
+            "name": "verify",
+            "summary": "Checks\u0020if\u0020the\u0020invocation\u0020\u0024invocation\u0020matches\u0020the\u0020current\u0020rules.\u0020If\u0020it\ndoes\u0020the\u0020rule\u0020will\u0020get\u0020the\u0020invoked\u0028\u0029\u0020method\u0020called\u0020which\u0020should\u0020check\nif\u0020an\u0020expectation\u0020is\u0020met.",
+            "url": "classes/PHPUnit-Framework-MockObject-Rule-UnorderedParameterSets.html#method_verify"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\Rule\\UnorderedParameterSets\u003A\u003A\u0024stack",
+            "name": "stack",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-Rule-UnorderedParameterSets.html#property_stack"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\Rule\\UnorderedParameterSets\u003A\u003A\u0024unapplied",
+            "name": "unapplied",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-Rule-UnorderedParameterSets.html#property_unapplied"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\Rule\\UnorderedParameterSets\u003A\u003A\u0024applied",
+            "name": "applied",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-Rule-UnorderedParameterSets.html#property_applied"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\Rule\\UnorderedParameterSets\u003A\u003A\u0024numberOfConfiguredParameterSets",
+            "name": "numberOfConfiguredParameterSets",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-Rule-UnorderedParameterSets.html#property_numberOfConfiguredParameterSets"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\MockObject\\TestDoubleBuilder",
             "name": "TestDoubleBuilder",
             "summary": "",
@@ -27260,6 +29140,11 @@ Search.appendIndex(
             "name": "onlyMethods",
             "summary": "Specifies\u0020the\u0020subset\u0020of\u0020methods\u0020to\u0020mock,\u0020requiring\u0020each\u0020to\u0020exist\u0020in\u0020the\u0020class.",
             "url": "classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_onlyMethods"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\TestDoubleBuilder\u003A\u003AdoubleProperties\u0028\u0029",
+            "name": "doubleProperties",
+            "summary": "Specifies\u0020properties\u0020that\u0020do\u0020not\u0020declare\u0020property\u0020hooks\u0020for\u0020which\u0020property\u0020hooks\u0020should\u0020be\u0020doubled.",
+            "url": "classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#method_doubleProperties"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\MockObject\\TestDoubleBuilder\u003A\u003AsetConstructorArgs\u0028\u0029",
             "name": "setConstructorArgs",
@@ -27335,6 +29220,11 @@ Search.appendIndex(
             "name": "returnValueGeneration",
             "summary": "",
             "url": "classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_returnValueGeneration"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\MockObject\\TestDoubleBuilder\u003A\u003A\u0024doubledProperties",
+            "name": "doubledProperties",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-MockObject-TestDoubleBuilder.html#property_doubledProperties"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\MockObject\\TestStubBuilder",
             "name": "TestStubBuilder",
@@ -27526,10 +29416,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_expectOutputString"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024expectErrorLog",
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AexpectErrorLog\u0028\u0029",
             "name": "expectErrorLog",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_expectErrorLog"
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_expectErrorLog"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AexpectException\u0028\u0029",
             "name": "expectException",
@@ -27545,6 +29435,16 @@ Search.appendIndex(
             "name": "expectExceptionMessage",
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_expectExceptionMessage"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AexpectExceptionMessageIs\u0028\u0029",
+            "name": "expectExceptionMessageIs",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_expectExceptionMessageIs"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AexpectExceptionMessageIsOrContains\u0028\u0029",
+            "name": "expectExceptionMessageIsOrContains",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_expectExceptionMessageIsOrContains"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AexpectExceptionMessageMatches\u0028\u0029",
             "name": "expectExceptionMessageMatches",
@@ -27580,6 +29480,11 @@ Search.appendIndex(
             "name": "registerComparator",
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_registerComparator"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AregisterObjectExporter\u0028\u0029",
+            "name": "registerObjectExporter",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_registerObjectExporter"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AregisterFailureType\u0028\u0029",
             "name": "registerFailureType",
@@ -27631,11 +29536,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_runTest"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AstripDateFromErrorLog\u0028\u0029",
-            "name": "stripDateFromErrorLog",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_stripDateFromErrorLog"
-        },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AverifyDeprecationExpectations\u0028\u0029",
             "name": "verifyDeprecationExpectations",
             "summary": "",
@@ -27666,61 +29566,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_markSkippedForMissingDependency"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AstartOutputBuffering\u0028\u0029",
-            "name": "startOutputBuffering",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_startOutputBuffering"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AstopOutputBuffering\u0028\u0029",
-            "name": "stopOutputBuffering",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_stopOutputBuffering"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AsnapshotGlobalErrorExceptionHandlers\u0028\u0029",
-            "name": "snapshotGlobalErrorExceptionHandlers",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_snapshotGlobalErrorExceptionHandlers"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003ArestoreGlobalErrorExceptionHandlers\u0028\u0029",
-            "name": "restoreGlobalErrorExceptionHandlers",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_restoreGlobalErrorExceptionHandlers"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AactiveErrorHandlers\u0028\u0029",
-            "name": "activeErrorHandlers",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_activeErrorHandlers"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AactiveExceptionHandlers\u0028\u0029",
-            "name": "activeExceptionHandlers",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_activeExceptionHandlers"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AsnapshotGlobalState\u0028\u0029",
-            "name": "snapshotGlobalState",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_snapshotGlobalState"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003ArestoreGlobalState\u0028\u0029",
-            "name": "restoreGlobalState",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_restoreGlobalState"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AcreateGlobalStateSnapshot\u0028\u0029",
-            "name": "createGlobalStateSnapshot",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_createGlobalStateSnapshot"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AcompareGlobalStateSnapshots\u0028\u0029",
-            "name": "compareGlobalStateSnapshots",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_compareGlobalStateSnapshots"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AcompareGlobalStateSnapshotPart\u0028\u0029",
-            "name": "compareGlobalStateSnapshotPart",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_compareGlobalStateSnapshotPart"
-        },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AhandleEnvironmentVariables\u0028\u0029",
             "name": "handleEnvironmentVariables",
             "summary": "",
@@ -27741,75 +29586,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_unregisterCustomComparators"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AshouldExceptionExpectationsBeVerified\u0028\u0029",
-            "name": "shouldExceptionExpectationsBeVerified",
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AunregisterCustomObjectExporters\u0028\u0029",
+            "name": "unregisterCustomObjectExporters",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_shouldExceptionExpectationsBeVerified"
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_unregisterCustomObjectExporters"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AshouldRunInSeparateProcess\u0028\u0029",
             "name": "shouldRunInSeparateProcess",
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_shouldRunInSeparateProcess"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AisCallableTestMethod\u0028\u0029",
-            "name": "isCallableTestMethod",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_isCallableTestMethod"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AperformAssertionsOnOutput\u0028\u0029",
-            "name": "performAssertionsOnOutput",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_performAssertionsOnOutput"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AinvokeBeforeClassHookMethods\u0028\u0029",
-            "name": "invokeBeforeClassHookMethods",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_invokeBeforeClassHookMethods"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AinvokeBeforeTestHookMethods\u0028\u0029",
-            "name": "invokeBeforeTestHookMethods",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_invokeBeforeTestHookMethods"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AinvokePreConditionHookMethods\u0028\u0029",
-            "name": "invokePreConditionHookMethods",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_invokePreConditionHookMethods"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AinvokePostConditionHookMethods\u0028\u0029",
-            "name": "invokePostConditionHookMethods",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_invokePostConditionHookMethods"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AinvokeAfterTestHookMethods\u0028\u0029",
-            "name": "invokeAfterTestHookMethods",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_invokeAfterTestHookMethods"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AinvokeAfterClassHookMethods\u0028\u0029",
-            "name": "invokeAfterClassHookMethods",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_invokeAfterClassHookMethods"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AinvokeHookMethods\u0028\u0029",
-            "name": "invokeHookMethods",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_invokeHookMethods"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AmethodDoesNotExistOrIsDeclaredInTestCase\u0028\u0029",
-            "name": "methodDoesNotExistOrIsDeclaredInTestCase",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_methodDoesNotExistOrIsDeclaredInTestCase"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AverifyExceptionExpectations\u0028\u0029",
-            "name": "verifyExceptionExpectations",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_verifyExceptionExpectations"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AexpectedExceptionWasNotRaised\u0028\u0029",
-            "name": "expectedExceptionWasNotRaised",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_expectedExceptionWasNotRaised"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AisRegisteredFailure\u0028\u0029",
             "name": "isRegisteredFailure",
@@ -27831,26 +29616,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_handleExceptionFromInvokedCountMockObjectRule"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AstartErrorLogCapture\u0028\u0029",
-            "name": "startErrorLogCapture",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_startErrorLogCapture"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AverifyErrorLogExpectation\u0028\u0029",
-            "name": "verifyErrorLogExpectation",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_verifyErrorLogExpectation"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AhandleErrorLogError\u0028\u0029",
-            "name": "handleErrorLogError",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_handleErrorLogError"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AstopErrorLogCapture\u0028\u0029",
-            "name": "stopErrorLogCapture",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_stopErrorLogCapture"
-        },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AallowsMockObjectsWithoutExpectations\u0028\u0029",
             "name": "allowsMockObjectsWithoutExpectations",
             "summary": "",
@@ -27861,10 +29626,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_emitEventForCustomTestMethodInvocation"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AwarnAboutMultipleOutputExpectations\u0028\u0029",
-            "name": "warnAboutMultipleOutputExpectations",
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AwarnAboutConflictingOutputStringExpectation\u0028\u0029",
+            "name": "warnAboutConflictingOutputStringExpectation",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#method_warnAboutMultipleOutputExpectations"
+            "url": "classes/PHPUnit-Framework-TestCase.html#method_warnAboutConflictingOutputStringExpectation"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003AgetStubBuilder\u0028\u0029",
             "name": "getStubBuilder",
@@ -27891,45 +29656,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#method_generateReturnValuesForTestDoubles"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024backupGlobals",
-            "name": "backupGlobals",
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024globalStateCapture",
+            "name": "globalStateCapture",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_backupGlobals"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024backupGlobalsExcludeList",
-            "name": "backupGlobalsExcludeList",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_backupGlobalsExcludeList"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024backupStaticProperties",
-            "name": "backupStaticProperties",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_backupStaticProperties"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024backupStaticPropertiesExcludeList",
-            "name": "backupStaticPropertiesExcludeList",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_backupStaticPropertiesExcludeList"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024snapshot",
-            "name": "snapshot",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_snapshot"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024backupGlobalErrorHandlers",
-            "name": "backupGlobalErrorHandlers",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_backupGlobalErrorHandlers"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024backupGlobalExceptionHandlers",
-            "name": "backupGlobalExceptionHandlers",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_backupGlobalExceptionHandlers"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024runClassInSeparateProcess",
-            "name": "runClassInSeparateProcess",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_runClassInSeparateProcess"
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_globalStateCapture"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024runTestInSeparateProcess",
             "name": "runTestInSeparateProcess",
@@ -27946,25 +29676,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#property_inIsolation"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024expectedException",
-            "name": "expectedException",
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024exceptionExpectation",
+            "name": "exceptionExpectation",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_expectedException"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024expectedExceptionMessage",
-            "name": "expectedExceptionMessage",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_expectedExceptionMessage"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024expectedExceptionMessageRegExp",
-            "name": "expectedExceptionMessageRegExp",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_expectedExceptionMessageRegExp"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024expectedExceptionCode",
-            "name": "expectedExceptionCode",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_expectedExceptionCode"
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_exceptionExpectation"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024backupEnvironmentVariables",
             "name": "backupEnvironmentVariables",
@@ -28026,45 +29741,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#property_testResult"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024output",
-            "name": "output",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_output"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024outputExpectedRegex",
-            "name": "outputExpectedRegex",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_outputExpectedRegex"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024outputExpectedString",
-            "name": "outputExpectedString",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_outputExpectedString"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024outputBufferingActive",
-            "name": "outputBufferingActive",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_outputBufferingActive"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024outputBufferingLevel",
-            "name": "outputBufferingLevel",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_outputBufferingLevel"
-        },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024outputRetrievedForAssertion",
-            "name": "outputRetrievedForAssertion",
-            "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_outputRetrievedForAssertion"
-        },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024doesNotPerformAssertions",
             "name": "doesNotPerformAssertions",
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#property_doesNotPerformAssertions"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024outputBuffer",
+            "name": "outputBuffer",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_outputBuffer"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024errorLogCapture",
+            "name": "errorLogCapture",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_errorLogCapture"
+        },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024customComparators",
             "name": "customComparators",
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#property_customComparators"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024customObjectExporters",
+            "name": "customObjectExporters",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_customObjectExporters"
         },                {
             "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024testValueObjectForEvents",
             "name": "testValueObjectForEvents",
@@ -28091,50 +29791,70 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Framework-TestCase.html#property_expectedUserDeprecationMessageRegularExpression"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024errorLogCapture",
-            "name": "errorLogCapture",
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024emptyDataProviderSkipMessage",
+            "name": "emptyDataProviderSkipMessage",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_errorLogCapture"
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_emptyDataProviderSkipMessage"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024previousErrorLogTarget",
-            "name": "previousErrorLogTarget",
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024throwableFromDeferredIssue",
+            "name": "throwableFromDeferredIssue",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-TestCase.html#property_previousErrorLogTarget"
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_throwableFromDeferredIssue"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\ChildProcessResultProcessor",
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024repetition",
+            "name": "repetition",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_repetition"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024totalRepetitions",
+            "name": "totalRepetitions",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_totalRepetitions"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024attempt",
+            "name": "attempt",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_attempt"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestCase\u003A\u003A\u0024maxAttempts",
+            "name": "maxAttempts",
+            "summary": "",
+            "url": "classes/PHPUnit-Framework-TestCase.html#property_maxAttempts"
+        },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestRunner\\ChildProcessResultProcessor",
             "name": "ChildProcessResultProcessor",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-ChildProcessResultProcessor.html"
+            "url": "classes/PHPUnit-Framework-TestRunner-ChildProcessResultProcessor.html"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\ChildProcessResultProcessor\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PHPUnit\\Framework\\TestRunner\\ChildProcessResultProcessor\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-ChildProcessResultProcessor.html#method___construct"
+            "url": "classes/PHPUnit-Framework-TestRunner-ChildProcessResultProcessor.html#method___construct"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\ChildProcessResultProcessor\u003A\u003Aprocess\u0028\u0029",
+            "fqsen": "\\PHPUnit\\Framework\\TestRunner\\ChildProcessResultProcessor\u003A\u003Aprocess\u0028\u0029",
             "name": "process",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-ChildProcessResultProcessor.html#method_process"
+            "url": "classes/PHPUnit-Framework-TestRunner-ChildProcessResultProcessor.html#method_process"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\ChildProcessResultProcessor\u003A\u003A\u0024eventFacade",
+            "fqsen": "\\PHPUnit\\Framework\\TestRunner\\ChildProcessResultProcessor\u003A\u003A\u0024eventFacade",
             "name": "eventFacade",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-ChildProcessResultProcessor.html#property_eventFacade"
+            "url": "classes/PHPUnit-Framework-TestRunner-ChildProcessResultProcessor.html#property_eventFacade"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\ChildProcessResultProcessor\u003A\u003A\u0024emitter",
+            "fqsen": "\\PHPUnit\\Framework\\TestRunner\\ChildProcessResultProcessor\u003A\u003A\u0024emitter",
             "name": "emitter",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-ChildProcessResultProcessor.html#property_emitter"
+            "url": "classes/PHPUnit-Framework-TestRunner-ChildProcessResultProcessor.html#property_emitter"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\ChildProcessResultProcessor\u003A\u003A\u0024passedTests",
+            "fqsen": "\\PHPUnit\\Framework\\TestRunner\\ChildProcessResultProcessor\u003A\u003A\u0024passedTests",
             "name": "passedTests",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-ChildProcessResultProcessor.html#property_passedTests"
+            "url": "classes/PHPUnit-Framework-TestRunner-ChildProcessResultProcessor.html#property_passedTests"
         },                {
-            "fqsen": "\\PHPUnit\\Framework\\ChildProcessResultProcessor\u003A\u003A\u0024codeCoverage",
+            "fqsen": "\\PHPUnit\\Framework\\TestRunner\\ChildProcessResultProcessor\u003A\u003A\u0024codeCoverage",
             "name": "codeCoverage",
             "summary": "",
-            "url": "classes/PHPUnit-Framework-ChildProcessResultProcessor.html#property_codeCoverage"
+            "url": "classes/PHPUnit-Framework-TestRunner-ChildProcessResultProcessor.html#property_codeCoverage"
         },                {
             "fqsen": "\\PHPUnit\\Logging\\OpenTestReporting\\CannotOpenUriForWritingException",
             "name": "CannotOpenUriForWritingException",
@@ -28336,6 +30056,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-CoversClassesThatImplementInterface.html#property_interfaceName"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversDirectory",
+            "name": "CoversDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversDirectory.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversDirectory\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversDirectory.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversDirectory\u003A\u003AisCoversDirectory\u0028\u0029",
+            "name": "isCoversDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversDirectory.html#method_isCoversDirectory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversDirectory\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversDirectory.html#property_directory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversDirectoryRecursively",
+            "name": "CoversDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversDirectoryRecursively.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversDirectoryRecursively\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversDirectoryRecursively.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversDirectoryRecursively\u003A\u003AisCoversDirectoryRecursively\u0028\u0029",
+            "name": "isCoversDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversDirectoryRecursively.html#method_isCoversDirectoryRecursively"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversDirectoryRecursively\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversDirectoryRecursively.html#property_directory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversFile",
+            "name": "CoversFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversFile.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversFile\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversFile.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversFile\u003A\u003AisCoversFile\u0028\u0029",
+            "name": "isCoversFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversFile.html#method_isCoversFile"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\CoversFile\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-CoversFile.html#property_path"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\CoversFunction",
             "name": "CoversFunction",
             "summary": "",
@@ -28460,6 +30240,36 @@ Search.appendIndex(
             "name": "validateArgumentCount",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-DataProvider.html#property_validateArgumentCount"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\DataProvider\u003A\u003A\u0024skipWhenEmpty",
+            "name": "skipWhenEmpty",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-DataProvider.html#property_skipWhenEmpty"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\DataProviderClosure",
+            "name": "DataProviderClosure",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-DataProviderClosure.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\DataProviderClosure\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-DataProviderClosure.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\DataProviderClosure\u003A\u003AisDataProviderClosure\u0028\u0029",
+            "name": "isDataProviderClosure",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-DataProviderClosure.html#method_isDataProviderClosure"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\DataProviderClosure\u003A\u003A\u0024closure",
+            "name": "closure",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-DataProviderClosure.html#property_closure"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\DataProviderClosure\u003A\u003A\u0024validateArgumentCount",
+            "name": "validateArgumentCount",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-DataProviderClosure.html#property_validateArgumentCount"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\DependsOnClass",
             "name": "DependsOnClass",
@@ -28666,6 +30476,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-IgnorePhpunitWarnings.html#property_messagePattern"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\InvalidAttribute",
+            "name": "InvalidAttribute",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-InvalidAttribute.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\InvalidAttribute\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-InvalidAttribute.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\InvalidAttribute\u003A\u003AisInvalidAttribute\u0028\u0029",
+            "name": "isInvalidAttribute",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-InvalidAttribute.html#method_isInvalidAttribute"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\InvalidAttribute\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-InvalidAttribute.html#property_message"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata",
             "name": "Metadata",
             "summary": "",
@@ -28756,6 +30586,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_coversFunction"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AcoversFile\u0028\u0029",
+            "name": "coversFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_coversFile"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AcoversDirectory\u0028\u0029",
+            "name": "coversDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_coversDirectory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AcoversDirectoryRecursively\u0028\u0029",
+            "name": "coversDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_coversDirectoryRecursively"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AcoversNothingOnClass\u0028\u0029",
             "name": "coversNothingOnClass",
             "summary": "",
@@ -28770,6 +30615,11 @@ Search.appendIndex(
             "name": "dataProvider",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_dataProvider"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AdataProviderClosure\u0028\u0029",
+            "name": "dataProviderClosure",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_dataProviderClosure"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AdependsOnClass\u0028\u0029",
             "name": "dependsOnClass",
@@ -28835,6 +30685,16 @@ Search.appendIndex(
             "name": "ignoreDeprecationsOnMethod",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_ignoreDeprecationsOnMethod"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AinvalidAttributeOnClass\u0028\u0029",
+            "name": "invalidAttributeOnClass",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_invalidAttributeOnClass"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AinvalidAttributeOnMethod\u0028\u0029",
+            "name": "invalidAttributeOnMethod",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_invalidAttributeOnMethod"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003ApostCondition\u0028\u0029",
             "name": "postCondition",
@@ -28966,15 +30826,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_requiresSettingOnMethod"
         },                {
-            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003ArunClassInSeparateProcess\u0028\u0029",
-            "name": "runClassInSeparateProcess",
-            "summary": "",
-            "url": "classes/PHPUnit-Metadata-Metadata.html#method_runClassInSeparateProcess"
-        },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003ArunTestsInSeparateProcesses\u0028\u0029",
             "name": "runTestsInSeparateProcesses",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_runTestsInSeparateProcesses"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003Arepeat\u0028\u0029",
+            "name": "repeat",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_repeat"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003Aretry\u0028\u0029",
+            "name": "retry",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_retry"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003ArunInSeparateProcess\u0028\u0029",
             "name": "runInSeparateProcess",
@@ -29040,6 +30905,21 @@ Search.appendIndex(
             "name": "usesMethod",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_usesMethod"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AusesFile\u0028\u0029",
+            "name": "usesFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_usesFile"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AusesDirectory\u0028\u0029",
+            "name": "usesDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_usesDirectory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AusesDirectoryRecursively\u0028\u0029",
+            "name": "usesDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_usesDirectoryRecursively"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AwithoutErrorHandler\u0028\u0029",
             "name": "withoutErrorHandler",
@@ -29136,6 +31016,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_isCoversMethod"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisCoversFile\u0028\u0029",
+            "name": "isCoversFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isCoversFile"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisCoversDirectory\u0028\u0029",
+            "name": "isCoversDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isCoversDirectory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisCoversDirectoryRecursively\u0028\u0029",
+            "name": "isCoversDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isCoversDirectoryRecursively"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisCoversNothing\u0028\u0029",
             "name": "isCoversNothing",
             "summary": "",
@@ -29145,6 +31040,11 @@ Search.appendIndex(
             "name": "isDataProvider",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_isDataProvider"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisDataProviderClosure\u0028\u0029",
+            "name": "isDataProviderClosure",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isDataProviderClosure"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisDependsOnClass\u0028\u0029",
             "name": "isDependsOnClass",
@@ -29186,10 +31086,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_isIgnoreDeprecations"
         },                {
-            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisRunClassInSeparateProcess\u0028\u0029",
-            "name": "isRunClassInSeparateProcess",
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisInvalidAttribute\u0028\u0029",
+            "name": "isInvalidAttribute",
             "summary": "",
-            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isRunClassInSeparateProcess"
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isInvalidAttribute"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisRepeat\u0028\u0029",
+            "name": "isRepeat",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isRepeat"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisRetry\u0028\u0029",
+            "name": "isRetry",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isRetry"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisRunInSeparateProcess\u0028\u0029",
             "name": "isRunInSeparateProcess",
@@ -29326,6 +31236,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_isUsesMethod"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisUsesFile\u0028\u0029",
+            "name": "isUsesFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isUsesFile"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisUsesDirectory\u0028\u0029",
+            "name": "isUsesDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isUsesDirectory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisUsesDirectoryRecursively\u0028\u0029",
+            "name": "isUsesDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Metadata.html#method_isUsesDirectoryRecursively"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AisWithoutErrorHandler\u0028\u0029",
             "name": "isWithoutErrorHandler",
             "summary": "",
@@ -29335,16 +31260,6 @@ Search.appendIndex(
             "name": "isIgnorePhpunitWarnings",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Metadata.html#method_isIgnorePhpunitWarnings"
-        },                {
-            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003ACLASS_LEVEL",
-            "name": "CLASS_LEVEL",
-            "summary": "",
-            "url": "classes/PHPUnit-Metadata-Metadata.html#constant_CLASS_LEVEL"
-        },                {
-            "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003AMETHOD_LEVEL",
-            "name": "METHOD_LEVEL",
-            "summary": "",
-            "url": "classes/PHPUnit-Metadata-Metadata.html#constant_METHOD_LEVEL"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\Metadata\u003A\u003A\u0024level",
             "name": "level",
@@ -29476,6 +31391,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isCoversMethod"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisCoversFile\u0028\u0029",
+            "name": "isCoversFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isCoversFile"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisCoversDirectory\u0028\u0029",
+            "name": "isCoversDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isCoversDirectory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisCoversDirectoryRecursively\u0028\u0029",
+            "name": "isCoversDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isCoversDirectoryRecursively"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisExcludeGlobalVariableFromBackup\u0028\u0029",
             "name": "isExcludeGlobalVariableFromBackup",
             "summary": "",
@@ -29495,6 +31425,11 @@ Search.appendIndex(
             "name": "isDataProvider",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isDataProvider"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisDataProviderClosure\u0028\u0029",
+            "name": "isDataProviderClosure",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isDataProviderClosure"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisDepends\u0028\u0029",
             "name": "isDepends",
@@ -29536,10 +31471,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isIgnorePhpunitWarnings"
         },                {
-            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisRunClassInSeparateProcess\u0028\u0029",
-            "name": "isRunClassInSeparateProcess",
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisInvalidAttribute\u0028\u0029",
+            "name": "isInvalidAttribute",
             "summary": "",
-            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isRunClassInSeparateProcess"
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isInvalidAttribute"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisRepeat\u0028\u0029",
+            "name": "isRepeat",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isRepeat"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisRetry\u0028\u0029",
+            "name": "isRetry",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isRetry"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisRunInSeparateProcess\u0028\u0029",
             "name": "isRunInSeparateProcess",
@@ -29676,6 +31621,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isUsesMethod"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisUsesFile\u0028\u0029",
+            "name": "isUsesFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isUsesFile"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisUsesDirectory\u0028\u0029",
+            "name": "isUsesDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isUsesDirectory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisUsesDirectoryRecursively\u0028\u0029",
+            "name": "isUsesDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-MetadataCollection.html#method_isUsesDirectoryRecursively"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\MetadataCollection\u003A\u003AisWithoutErrorHandler\u0028\u0029",
             "name": "isWithoutErrorHandler",
             "summary": "",
@@ -29790,6 +31750,31 @@ Search.appendIndex(
             "name": "enabled",
             "summary": "",
             "url": "classes/PHPUnit-Metadata-PreserveGlobalState.html#property_enabled"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Repeat",
+            "name": "Repeat",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Repeat.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Repeat\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Repeat.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Repeat\u003A\u003AisRepeat\u0028\u0029",
+            "name": "isRepeat",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Repeat.html#method_isRepeat"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Repeat\u003A\u003A\u0024times",
+            "name": "times",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Repeat.html#property_times"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Repeat\u003A\u003A\u0024failureThreshold",
+            "name": "failureThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Repeat.html#property_failureThreshold"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\RequiresEnvironmentVariable",
             "name": "RequiresEnvironmentVariable",
@@ -30016,15 +32001,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-RequiresSetting.html#property_value"
         },                {
-            "fqsen": "\\PHPUnit\\Metadata\\RunClassInSeparateProcess",
-            "name": "RunClassInSeparateProcess",
+            "fqsen": "\\PHPUnit\\Metadata\\Retry",
+            "name": "Retry",
             "summary": "",
-            "url": "classes/PHPUnit-Metadata-RunClassInSeparateProcess.html"
+            "url": "classes/PHPUnit-Metadata-Retry.html"
         },                {
-            "fqsen": "\\PHPUnit\\Metadata\\RunClassInSeparateProcess\u003A\u003AisRunClassInSeparateProcess\u0028\u0029",
-            "name": "isRunClassInSeparateProcess",
+            "fqsen": "\\PHPUnit\\Metadata\\Retry\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
             "summary": "",
-            "url": "classes/PHPUnit-Metadata-RunClassInSeparateProcess.html#method_isRunClassInSeparateProcess"
+            "url": "classes/PHPUnit-Metadata-Retry.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Retry\u003A\u003AisRetry\u0028\u0029",
+            "name": "isRetry",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Retry.html#method_isRetry"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Retry\u003A\u003A\u0024maxAttempts",
+            "name": "maxAttempts",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Retry.html#property_maxAttempts"
         },                {
             "fqsen": "\\PHPUnit\\Metadata\\RunInSeparateProcess",
             "name": "RunInSeparateProcess",
@@ -30191,6 +32186,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-UsesClassesThatImplementInterface.html#property_interfaceName"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesDirectory",
+            "name": "UsesDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesDirectory.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesDirectory\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesDirectory.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesDirectory\u003A\u003AisUsesDirectory\u0028\u0029",
+            "name": "isUsesDirectory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesDirectory.html#method_isUsesDirectory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesDirectory\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesDirectory.html#property_directory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesDirectoryRecursively",
+            "name": "UsesDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesDirectoryRecursively.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesDirectoryRecursively\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesDirectoryRecursively.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesDirectoryRecursively\u003A\u003AisUsesDirectoryRecursively\u0028\u0029",
+            "name": "isUsesDirectoryRecursively",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesDirectoryRecursively.html#method_isUsesDirectoryRecursively"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesDirectoryRecursively\u003A\u003A\u0024directory",
+            "name": "directory",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesDirectoryRecursively.html#property_directory"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesFile",
+            "name": "UsesFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesFile.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesFile\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesFile.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesFile\u003A\u003AisUsesFile\u0028\u0029",
+            "name": "isUsesFile",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesFile.html#method_isUsesFile"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\UsesFile\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-UsesFile.html#property_path"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\UsesFunction",
             "name": "UsesFunction",
             "summary": "",
@@ -30336,6 +32391,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-Version-ConstraintRequirement.html#property_constraint"
         },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Version\\InvalidVersionRequirement",
+            "name": "InvalidVersionRequirement",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Version-InvalidVersionRequirement.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Version\\InvalidVersionRequirement\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Version-InvalidVersionRequirement.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Version\\InvalidVersionRequirement\u003A\u003AisSatisfiedBy\u0028\u0029",
+            "name": "isSatisfiedBy",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Version-InvalidVersionRequirement.html#method_isSatisfiedBy"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Version\\InvalidVersionRequirement\u003A\u003AasString\u0028\u0029",
+            "name": "asString",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Version-InvalidVersionRequirement.html#method_asString"
+        },                {
+            "fqsen": "\\PHPUnit\\Metadata\\Version\\InvalidVersionRequirement\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PHPUnit-Metadata-Version-InvalidVersionRequirement.html#property_message"
+        },                {
             "fqsen": "\\PHPUnit\\Metadata\\Version\\Requirement",
             "name": "Requirement",
             "summary": "",
@@ -30396,6 +32476,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Metadata-WithoutErrorHandler.html#method_isWithoutErrorHandler"
         },                {
+            "fqsen": "\\PHPUnit\\Runner\\DeprecationFilter",
+            "name": "DeprecationFilter",
+            "summary": "",
+            "url": "classes/PHPUnit-Runner-DeprecationFilter.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\DeprecationFilter\u003A\u003Aignores\u0028\u0029",
+            "name": "ignores",
+            "summary": "Return\u0020true\u0020to\u0020ignore\u0020the\u0020deprecation,\u0020false\u0020to\u0020let\u0020PHPUnit\u0020process\u0020it.",
+            "url": "classes/PHPUnit-Runner-DeprecationFilter.html#method_ignores"
+        },                {
             "fqsen": "\\PHPUnit\\Runner\\Extension\\Extension",
             "name": "Extension",
             "summary": "",
@@ -30431,40 +32521,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Runner-Extension-Facade.html#method_replaceOutput"
         },                {
-            "fqsen": "\\PHPUnit\\Runner\\Extension\\Facade\u003A\u003A\u0024replacesOutput",
-            "name": "replacesOutput",
-            "summary": "",
-            "url": "classes/PHPUnit-Runner-Extension-Facade.html#property_replacesOutput"
-        },                {
             "fqsen": "\\PHPUnit\\Runner\\Extension\\Facade\u003A\u003AreplaceProgressOutput\u0028\u0029",
             "name": "replaceProgressOutput",
             "summary": "",
             "url": "classes/PHPUnit-Runner-Extension-Facade.html#method_replaceProgressOutput"
-        },                {
-            "fqsen": "\\PHPUnit\\Runner\\Extension\\Facade\u003A\u003A\u0024replacesProgressOutput",
-            "name": "replacesProgressOutput",
-            "summary": "",
-            "url": "classes/PHPUnit-Runner-Extension-Facade.html#property_replacesProgressOutput"
         },                {
             "fqsen": "\\PHPUnit\\Runner\\Extension\\Facade\u003A\u003AreplaceResultOutput\u0028\u0029",
             "name": "replaceResultOutput",
             "summary": "",
             "url": "classes/PHPUnit-Runner-Extension-Facade.html#method_replaceResultOutput"
         },                {
-            "fqsen": "\\PHPUnit\\Runner\\Extension\\Facade\u003A\u003A\u0024replacesResultOutput",
-            "name": "replacesResultOutput",
-            "summary": "",
-            "url": "classes/PHPUnit-Runner-Extension-Facade.html#property_replacesResultOutput"
-        },                {
             "fqsen": "\\PHPUnit\\Runner\\Extension\\Facade\u003A\u003ArequireCodeCoverageCollection\u0028\u0029",
             "name": "requireCodeCoverageCollection",
             "summary": "",
             "url": "classes/PHPUnit-Runner-Extension-Facade.html#method_requireCodeCoverageCollection"
-        },                {
-            "fqsen": "\\PHPUnit\\Runner\\Extension\\Facade\u003A\u003A\u0024requiresCodeCoverageCollection",
-            "name": "requiresCodeCoverageCollection",
-            "summary": "",
-            "url": "classes/PHPUnit-Runner-Extension-Facade.html#property_requiresCodeCoverageCollection"
         },                {
             "fqsen": "\\PHPUnit\\Runner\\Extension\\ParameterCollection",
             "name": "ParameterCollection",
@@ -30495,6 +32565,46 @@ Search.appendIndex(
             "name": "parameters",
             "summary": "",
             "url": "classes/PHPUnit-Runner-Extension-ParameterCollection.html#property_parameters"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver\\Resolution",
+            "name": "Resolution",
+            "summary": "",
+            "url": "classes/PHPUnit-Runner-IssueTriggerResolver-Resolution.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver\\Resolution\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-Runner-IssueTriggerResolver-Resolution.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver\\Resolution\u003A\u003AhasCallee\u0028\u0029",
+            "name": "hasCallee",
+            "summary": "",
+            "url": "classes/PHPUnit-Runner-IssueTriggerResolver-Resolution.html#method_hasCallee"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver\\Resolution\u003A\u003A\u0024callee",
+            "name": "callee",
+            "summary": "",
+            "url": "classes/PHPUnit-Runner-IssueTriggerResolver-Resolution.html#property_callee"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver\\Resolution\u003A\u003AhasCaller\u0028\u0029",
+            "name": "hasCaller",
+            "summary": "",
+            "url": "classes/PHPUnit-Runner-IssueTriggerResolver-Resolution.html#method_hasCaller"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver\\Resolution\u003A\u003A\u0024caller",
+            "name": "caller",
+            "summary": "",
+            "url": "classes/PHPUnit-Runner-IssueTriggerResolver-Resolution.html#property_caller"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver\\Resolver",
+            "name": "Resolver",
+            "summary": "",
+            "url": "classes/PHPUnit-Runner-IssueTriggerResolver-Resolver.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver\\Resolver\u003A\u003Aresolve\u0028\u0029",
+            "name": "resolve",
+            "summary": "Return\u0020null\u0020to\u0020defer\u0020to\u0020the\u0020next\u0020resolver\u0020in\u0020the\u0020chain.",
+            "url": "classes/PHPUnit-Runner-IssueTriggerResolver-Resolver.html#method_resolve"
         },                {
             "fqsen": "\\PHPUnit\\Runner\\Version",
             "name": "Version",
@@ -30561,6 +32671,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_cliArguments"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasTestFilesFile\u0028\u0029",
+            "name": "hasTestFilesFile",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestFilesFile"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024testFilesFile",
+            "name": "testFilesFile",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_testFilesFile"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasConfigurationFile\u0028\u0029",
             "name": "hasConfigurationFile",
             "summary": "",
@@ -30586,10 +32706,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_bootstrapForTestSuite"
         },                {
-            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024cacheResult",
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024recordTestRunHistory",
+            "name": "recordTestRunHistory",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_recordTestRunHistory"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AcacheResult\u0028\u0029",
             "name": "cacheResult",
             "summary": "",
-            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_cacheResult"
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_cacheResult"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasCacheDirectory\u0028\u0029",
             "name": "hasCacheDirectory",
@@ -30616,10 +32741,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_source"
         },                {
-            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024testResultCacheFile",
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024testRunHistoryFile",
+            "name": "testRunHistoryFile",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_testRunHistoryFile"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AtestResultCacheFile\u0028\u0029",
             "name": "testResultCacheFile",
             "summary": "",
-            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_testResultCacheFile"
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_testResultCacheFile"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024ignoreDeprecatedCodeUnitsFromCodeCoverage",
             "name": "ignoreDeprecatedCodeUnitsFromCodeCoverage",
@@ -30631,10 +32761,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_disableCodeCoverageIgnore"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024disableCoverageTargeting",
+            "name": "disableCoverageTargeting",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_disableCoverageTargeting"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024pathCoverage",
             "name": "pathCoverage",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_pathCoverage"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024branchCoverage",
+            "name": "branchCoverage",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_branchCoverage"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasCoverageDriver\u0028\u0029",
+            "name": "hasCoverageDriver",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasCoverageDriver"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageDriver",
+            "name": "coverageDriver",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageDriver"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasCoverageReport\u0028\u0029",
             "name": "hasCoverageReport",
@@ -30686,6 +32836,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtml"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlClassView",
+            "name": "coverageHtmlClassView",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlClassView"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlFileView",
+            "name": "coverageHtmlFileView",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlFileView"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlLowUpperBound",
             "name": "coverageHtmlLowUpperBound",
             "summary": "",
@@ -30701,25 +32861,90 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorSuccessLow"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorSuccessLowDark",
+            "name": "coverageHtmlColorSuccessLowDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorSuccessLowDark"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorSuccessMedium",
             "name": "coverageHtmlColorSuccessMedium",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorSuccessMedium"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorSuccessMediumDark",
+            "name": "coverageHtmlColorSuccessMediumDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorSuccessMediumDark"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorSuccessHigh",
             "name": "coverageHtmlColorSuccessHigh",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorSuccessHigh"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorSuccessHighDark",
+            "name": "coverageHtmlColorSuccessHighDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorSuccessHighDark"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorSuccessBar",
+            "name": "coverageHtmlColorSuccessBar",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorSuccessBar"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorSuccessBarDark",
+            "name": "coverageHtmlColorSuccessBarDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorSuccessBarDark"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorWarning",
             "name": "coverageHtmlColorWarning",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorWarning"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorWarningDark",
+            "name": "coverageHtmlColorWarningDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorWarningDark"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorWarningBar",
+            "name": "coverageHtmlColorWarningBar",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorWarningBar"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorWarningBarDark",
+            "name": "coverageHtmlColorWarningBarDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorWarningBarDark"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorDanger",
             "name": "coverageHtmlColorDanger",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorDanger"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorDangerDark",
+            "name": "coverageHtmlColorDangerDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorDangerDark"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorDangerBar",
+            "name": "coverageHtmlColorDangerBar",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorDangerBar"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorDangerBarDark",
+            "name": "coverageHtmlColorDangerBarDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorDangerBarDark"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorBreadcrumbs",
+            "name": "coverageHtmlColorBreadcrumbs",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorBreadcrumbs"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024coverageHtmlColorBreadcrumbsDark",
+            "name": "coverageHtmlColorBreadcrumbsDark",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_coverageHtmlColorBreadcrumbsDark"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasCoverageHtmlCustomCssFile\u0028\u0029",
             "name": "hasCoverageHtmlCustomCssFile",
@@ -30796,6 +33021,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_failOnDeprecation"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024failOnSelfDeprecation",
+            "name": "failOnSelfDeprecation",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_failOnSelfDeprecation"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024failOnDirectDeprecation",
+            "name": "failOnDirectDeprecation",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_failOnDirectDeprecation"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024failOnIndirectDeprecation",
+            "name": "failOnIndirectDeprecation",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_failOnIndirectDeprecation"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024failOnPhpunitDeprecation",
             "name": "failOnPhpunitDeprecation",
             "summary": "",
@@ -30845,6 +33085,21 @@ Search.appendIndex(
             "name": "doNotFailOnDeprecation",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_doNotFailOnDeprecation"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024doNotFailOnSelfDeprecation",
+            "name": "doNotFailOnSelfDeprecation",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_doNotFailOnSelfDeprecation"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024doNotFailOnDirectDeprecation",
+            "name": "doNotFailOnDirectDeprecation",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_doNotFailOnDirectDeprecation"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024doNotFailOnIndirectDeprecation",
+            "name": "doNotFailOnIndirectDeprecation",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_doNotFailOnIndirectDeprecation"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024doNotFailOnPhpunitDeprecation",
             "name": "doNotFailOnPhpunitDeprecation",
@@ -30896,10 +33151,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnDefect"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnDefectThreshold\u0028\u0029",
+            "name": "stopOnDefectThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnDefectThreshold"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024stopOnDeprecation",
             "name": "stopOnDeprecation",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnDeprecation"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnDeprecationThreshold\u0028\u0029",
+            "name": "stopOnDeprecationThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnDeprecationThreshold"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasSpecificDeprecationToStopOn\u0028\u0029",
             "name": "hasSpecificDeprecationToStopOn",
@@ -30916,35 +33181,70 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnError"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnErrorThreshold\u0028\u0029",
+            "name": "stopOnErrorThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnErrorThreshold"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024stopOnFailure",
             "name": "stopOnFailure",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnFailure"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnFailureThreshold\u0028\u0029",
+            "name": "stopOnFailureThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnFailureThreshold"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024stopOnIncomplete",
             "name": "stopOnIncomplete",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnIncomplete"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnIncompleteThreshold\u0028\u0029",
+            "name": "stopOnIncompleteThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnIncompleteThreshold"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024stopOnNotice",
             "name": "stopOnNotice",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnNotice"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnNoticeThreshold\u0028\u0029",
+            "name": "stopOnNoticeThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnNoticeThreshold"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024stopOnRisky",
             "name": "stopOnRisky",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnRisky"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnRiskyThreshold\u0028\u0029",
+            "name": "stopOnRiskyThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnRiskyThreshold"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024stopOnSkipped",
             "name": "stopOnSkipped",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnSkipped"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnSkippedThreshold\u0028\u0029",
+            "name": "stopOnSkippedThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnSkippedThreshold"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024stopOnWarning",
             "name": "stopOnWarning",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_stopOnWarning"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AstopOnWarningThreshold\u0028\u0029",
+            "name": "stopOnWarningThreshold",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_stopOnWarningThreshold"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024outputToStandardErrorStream",
             "name": "outputToStandardErrorStream",
@@ -31011,6 +33311,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_defaultTimeLimit"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024diffContext",
+            "name": "diffContext",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_diffContext"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024timeoutForSmallTests",
             "name": "timeoutForSmallTests",
             "summary": "",
@@ -31035,6 +33340,11 @@ Search.appendIndex(
             "name": "strictCoverage",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_strictCoverage"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024requireCoverageContribution",
+            "name": "requireCoverageContribution",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_requireCoverageContribution"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024disallowTestOutput",
             "name": "disallowTestOutput",
@@ -31095,6 +33405,11 @@ Search.appendIndex(
             "name": "requireCoverageMetadata",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_requireCoverageMetadata"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024requireSealedMockObjects",
+            "name": "requireSealedMockObjects",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_requireSealedMockObjects"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024noProgress",
             "name": "noProgress",
@@ -31161,6 +33476,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_includeGitInformationInOtrLogfile"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024includeGitInformation",
+            "name": "includeGitInformation",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_includeGitInformation"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasLogfileTestdoxHtml\u0028\u0029",
             "name": "hasLogfileTestdoxHtml",
             "summary": "",
@@ -31200,6 +33520,11 @@ Search.appendIndex(
             "name": "logEventsVerboseText",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_logEventsVerboseText"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AoutputIsCompact\u0028\u0029",
+            "name": "outputIsCompact",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_outputIsCompact"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AoutputIsTeamCity\u0028\u0029",
             "name": "outputIsTeamCity",
@@ -31266,6 +33591,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_excludeFilter"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasTestIdFilterFile\u0028\u0029",
+            "name": "hasTestIdFilterFile",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestIdFilterFile"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024testIdFilterFile",
+            "name": "testIdFilterFile",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_testIdFilterFile"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasTestIdFilter\u0028\u0029",
+            "name": "hasTestIdFilter",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_hasTestIdFilter"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024testIdFilter",
+            "name": "testIdFilter",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_testIdFilter"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AhasGroups\u0028\u0029",
             "name": "hasGroups",
             "summary": "",
@@ -31291,6 +33636,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_randomOrderSeed"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024repeat",
+            "name": "repeat",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_repeat"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024retry",
+            "name": "retry",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_retry"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024includeUncoveredFiles",
             "name": "includeUncoveredFiles",
             "summary": "",
@@ -31301,20 +33656,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_testSuite"
         },                {
-            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024includeTestSuite",
-            "name": "includeTestSuite",
-            "summary": "",
-            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_includeTestSuite"
-        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AincludeTestSuites\u0028\u0029",
             "name": "includeTestSuites",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#method_includeTestSuites"
-        },                {
-            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024excludeTestSuite",
-            "name": "excludeTestSuite",
-            "summary": "",
-            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_excludeTestSuite"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003AexcludeTestSuites\u0028\u0029",
             "name": "excludeTestSuites",
@@ -31381,6 +33726,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_shortenArraysForExportThreshold"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024warnWhenPhpIsNotConfiguredForDevelopment",
+            "name": "warnWhenPhpIsNotConfiguredForDevelopment",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_warnWhenPhpIsNotConfiguredForDevelopment"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003ACOLOR_NEVER",
             "name": "COLOR_NEVER",
             "summary": "",
@@ -31401,6 +33751,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#constant_COLOR_DEFAULT"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024compactOutput",
+            "name": "compactOutput",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_compactOutput"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024teamCityOutput",
             "name": "teamCityOutput",
             "summary": "",
@@ -31415,6 +33770,16 @@ Search.appendIndex(
             "name": "testDoxOutputSummary",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_testDoxOutputSummary"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024includeTestSuite",
+            "name": "includeTestSuite",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_includeTestSuite"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Configuration\u003A\u003A\u0024excludeTestSuite",
+            "name": "excludeTestSuite",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Configuration.html#property_excludeTestSuite"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Constant",
             "name": "Constant",
@@ -31836,6 +34201,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-FilterDirectory.html#property_suffix"
         },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterDirectory\u003A\u003A\u0024includeInCodeCoverage",
+            "name": "includeInCodeCoverage",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterDirectory.html#property_includeInCodeCoverage"
+        },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterDirectoryCollection",
             "name": "FilterDirectoryCollection",
             "summary": "",
@@ -31920,6 +34290,111 @@ Search.appendIndex(
             "name": "position",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-FilterDirectoryCollectionIterator.html#property_position"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFile",
+            "name": "FilterFile",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFile.html"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFile\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFile.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFile\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFile.html#property_path"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFile\u003A\u003A\u0024includeInCodeCoverage",
+            "name": "includeInCodeCoverage",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFile.html#property_includeInCodeCoverage"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollection",
+            "name": "FilterFileCollection",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollection.html"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollection\u003A\u003AfromArray\u0028\u0029",
+            "name": "fromArray",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollection.html#method_fromArray"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollection\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollection.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollection\u003A\u003AasArray\u0028\u0029",
+            "name": "asArray",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollection.html#method_asArray"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollection\u003A\u003Acount\u0028\u0029",
+            "name": "count",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollection.html#method_count"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollection\u003A\u003AnotEmpty\u0028\u0029",
+            "name": "notEmpty",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollection.html#method_notEmpty"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollection\u003A\u003AgetIterator\u0028\u0029",
+            "name": "getIterator",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollection.html#method_getIterator"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollection\u003A\u003A\u0024files",
+            "name": "files",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollection.html#property_files"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator",
+            "name": "FilterFileCollectionIterator",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html#method___construct"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator\u003A\u003Arewind\u0028\u0029",
+            "name": "rewind",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html#method_rewind"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator\u003A\u003Avalid\u0028\u0029",
+            "name": "valid",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html#method_valid"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator\u003A\u003Akey\u0028\u0029",
+            "name": "key",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html#method_key"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator\u003A\u003Acurrent\u0028\u0029",
+            "name": "current",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html#method_current"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator\u003A\u003Anext\u0028\u0029",
+            "name": "next",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html#method_next"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator\u003A\u003A\u0024files",
+            "name": "files",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html#property_files"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\FilterFileCollectionIterator\u003A\u003A\u0024position",
+            "name": "position",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-FilterFileCollectionIterator.html#property_position"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Group",
             "name": "Group",
@@ -32305,6 +34780,16 @@ Search.appendIndex(
             "name": "identifyIssueTrigger",
             "summary": "",
             "url": "classes/PHPUnit-TextUI-Configuration-Source.html#property_identifyIssueTrigger"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Source\u003A\u003A\u0024issueTriggerResolvers",
+            "name": "issueTriggerResolvers",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Source.html#property_issueTriggerResolvers"
+        },                {
+            "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Source\u003A\u003A\u0024deprecationFilters",
+            "name": "deprecationFilters",
+            "summary": "",
+            "url": "classes/PHPUnit-TextUI-Configuration-Source.html#property_deprecationFilters"
         },                {
             "fqsen": "\\PHPUnit\\TextUI\\Configuration\\Source\u003A\u003A\u0024ignoreBaseline",
             "name": "ignoreBaseline",
@@ -32846,6 +35331,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Util-Exporter.html"
         },                {
+            "fqsen": "\\PHPUnit\\Util\\Exporter\u003A\u003AregisterObjectExporter\u0028\u0029",
+            "name": "registerObjectExporter",
+            "summary": "",
+            "url": "classes/PHPUnit-Util-Exporter.html#method_registerObjectExporter"
+        },                {
+            "fqsen": "\\PHPUnit\\Util\\Exporter\u003A\u003AunregisterObjectExporter\u0028\u0029",
+            "name": "unregisterObjectExporter",
+            "summary": "",
+            "url": "classes/PHPUnit-Util-Exporter.html#method_unregisterObjectExporter"
+        },                {
             "fqsen": "\\PHPUnit\\Util\\Exporter\u003A\u003Aexport\u0028\u0029",
             "name": "export",
             "summary": "",
@@ -32861,10 +35356,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PHPUnit-Util-Exporter.html#method_shortenedExport"
         },                {
+            "fqsen": "\\PHPUnit\\Util\\Exporter\u003A\u003AupdateComparatorFactory\u0028\u0029",
+            "name": "updateComparatorFactory",
+            "summary": "",
+            "url": "classes/PHPUnit-Util-Exporter.html#method_updateComparatorFactory"
+        },                {
             "fqsen": "\\PHPUnit\\Util\\Exporter\u003A\u003A\u0024exporter",
             "name": "exporter",
             "summary": "",
             "url": "classes/PHPUnit-Util-Exporter.html#property_exporter"
+        },                {
+            "fqsen": "\\PHPUnit\\Util\\Exporter\u003A\u003A\u0024objectExporters",
+            "name": "objectExporters",
+            "summary": "",
+            "url": "classes/PHPUnit-Util-Exporter.html#property_objectExporters"
+        },                {
+            "fqsen": "\\PHPUnit\\Util\\Exporter\u003A\u003A\u0024exporterOfComparatorFactory",
+            "name": "exporterOfComparatorFactory",
+            "summary": "",
+            "url": "classes/PHPUnit-Util-Exporter.html#property_exporterOfComparatorFactory"
         },                {
             "fqsen": "\\PHPUnit\\Util\\VersionComparisonOperator",
             "name": "VersionComparisonOperator",
@@ -32956,6 +35466,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-CliParser-Parser.html#method_parseLongOption"
         },                {
+            "fqsen": "\\SebastianBergmann\\CliParser\\Parser\u003A\u003AexactMatch\u0028\u0029",
+            "name": "exactMatch",
+            "summary": "An\u0020option\u0020that\u0020is\u0020spelled\u0020out\u0020in\u0020full\u0020is\u0020never\u0020ambiguous,\u0020no\u0020matter\u0020how\u0020many\nother\u0020options\u0020begin\u0020with\u0020it\u003A\u0020\u0022\u002D\u002Dhtml\u0022\u0020unambiguously\u0020means\u0020\u0022html\u0022\u0020even\u0020when\n\u0022html\u002Dviews\u0022\u0020is\u0020also\u0020declared.",
+            "url": "classes/SebastianBergmann-CliParser-Parser.html#method_exactMatch"
+        },                {
             "fqsen": "\\SebastianBergmann\\CliParser\\Parser\u003A\u003AformatSimilarOptions\u0028\u0029",
             "name": "formatSimilarOptions",
             "summary": "",
@@ -32978,13 +35493,23 @@ Search.appendIndex(
         },                {
             "fqsen": "\\SebastianBergmann\\Comparator\\Comparator\u003A\u003AassertEquals\u0028\u0029",
             "name": "assertEquals",
-            "summary": "",
+            "summary": "ObjectNotSupportedException\u0020is\u0020thrown\u0020when\u0020an\u0020object\u0020exporter\u0020that\u0020is\nconfigured\u0020for\u0020the\u0020Exporter\u0020this\u0020comparator\u0020uses\u0020does\u0020not\u0020provide\u0020a\nrepresentation\u0020for\u0020an\u0020object\u0020it\u0020is\u0020asked\u0020to\u0020export.",
             "url": "classes/SebastianBergmann-Comparator-Comparator.html#method_assertEquals"
         },                {
             "fqsen": "\\SebastianBergmann\\Comparator\\Comparator\u003A\u003A\u0024factory",
             "name": "factory",
             "summary": "",
             "url": "classes/SebastianBergmann-Comparator-Comparator.html#property_factory"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\Comparator\u003A\u003AcontextLines\u0028\u0029",
+            "name": "contextLines",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-Comparator.html#method_contextLines"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\Comparator\u003A\u003Aexporter\u0028\u0029",
+            "name": "exporter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-Comparator.html#method_exporter"
         },                {
             "fqsen": "\\SebastianBergmann\\Comparator\\ComparisonFailure",
             "name": "ComparisonFailure",
@@ -33056,6 +35581,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Comparator-ComparisonFailure.html#property_actualAsString"
         },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\ComparisonFailure\u003A\u003A\u0024contextLines",
+            "name": "contextLines",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-ComparisonFailure.html#property_contextLines"
+        },                {
             "fqsen": "\\SebastianBergmann\\Comparator\\Exception",
             "name": "Exception",
             "summary": "",
@@ -33080,6 +35610,36 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/SebastianBergmann-Comparator-Factory.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\Factory\u003A\u003A\u0024contextLines",
+            "name": "contextLines",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-Factory.html#property_contextLines"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\Factory\u003A\u003AsetContextLines\u0028\u0029",
+            "name": "setContextLines",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-Factory.html#method_setContextLines"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\Factory\u003A\u003A\u0024exporter",
+            "name": "exporter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-Factory.html#property_exporter"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\Factory\u003A\u003AsetExporter\u0028\u0029",
+            "name": "setExporter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-Factory.html#method_setExporter"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\Factory\u003A\u003A\u0024closureComparisonOccurred",
+            "name": "closureComparisonOccurred",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-Factory.html#property_closureComparisonOccurred"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Comparator\\Factory\u003A\u003AresetClosureComparisonTracking\u0028\u0029",
+            "name": "resetClosureComparisonTracking",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Comparator-Factory.html#method_resetClosureComparisonTracking"
         },                {
             "fqsen": "\\SebastianBergmann\\Comparator\\Factory\u003A\u003AgetComparatorFor\u0028\u0029",
             "name": "getComparatorFor",
@@ -33456,16 +36016,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Diff-Differ.html#method_splitStringByLines"
         },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Differ\u003A\u003AselectLcsImplementation\u0028\u0029",
-            "name": "selectLcsImplementation",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Differ.html#method_selectLcsImplementation"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Differ\u003A\u003AcalculateEstimatedFootprint\u0028\u0029",
-            "name": "calculateEstimatedFootprint",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Differ.html#method_calculateEstimatedFootprint"
-        },                {
             "fqsen": "\\SebastianBergmann\\Diff\\Differ\u003A\u003AdetectUnmatchedLineEndings\u0028\u0029",
             "name": "detectUnmatchedLineEndings",
             "summary": "",
@@ -33526,10 +36076,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Diff-Exception.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\InvalidArgumentException",
-            "name": "InvalidArgumentException",
+            "fqsen": "\\SebastianBergmann\\Diff\\NoMiddleSnakeFoundException",
+            "name": "NoMiddleSnakeFoundException",
             "summary": "",
-            "url": "classes/SebastianBergmann-Diff-InvalidArgumentException.html"
+            "url": "classes/SebastianBergmann-Diff-NoMiddleSnakeFoundException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\NoMiddleSnakeFoundException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-NoMiddleSnakeFoundException.html#method___construct"
         },                {
             "fqsen": "\\SebastianBergmann\\Diff\\Line",
             "name": "Line",
@@ -33580,41 +36135,6 @@ Search.appendIndex(
             "name": "UNCHANGED",
             "summary": "",
             "url": "classes/SebastianBergmann-Diff-Line.html#constant_UNCHANGED"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\LongestCommonSubsequenceCalculator",
-            "name": "LongestCommonSubsequenceCalculator",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-LongestCommonSubsequenceCalculator.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\LongestCommonSubsequenceCalculator\u003A\u003Acalculate\u0028\u0029",
-            "name": "calculate",
-            "summary": "Calculates\u0020the\u0020longest\u0020common\u0020subsequence\u0020of\u0020two\u0020arrays.",
-            "url": "classes/SebastianBergmann-Diff-LongestCommonSubsequenceCalculator.html#method_calculate"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\MemoryEfficientLongestCommonSubsequenceCalculator",
-            "name": "MemoryEfficientLongestCommonSubsequenceCalculator",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-MemoryEfficientLongestCommonSubsequenceCalculator.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\MemoryEfficientLongestCommonSubsequenceCalculator\u003A\u003Acalculate\u0028\u0029",
-            "name": "calculate",
-            "summary": "Calculates\u0020the\u0020longest\u0020common\u0020subsequence\u0020of\u0020two\u0020arrays.",
-            "url": "classes/SebastianBergmann-Diff-MemoryEfficientLongestCommonSubsequenceCalculator.html#method_calculate"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\MemoryEfficientLongestCommonSubsequenceCalculator\u003A\u003Alength\u0028\u0029",
-            "name": "length",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-MemoryEfficientLongestCommonSubsequenceCalculator.html#method_length"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\AbstractChunkOutputBuilder",
-            "name": "AbstractChunkOutputBuilder",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-AbstractChunkOutputBuilder.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\AbstractChunkOutputBuilder\u003A\u003AgetCommonChunks\u0028\u0029",
-            "name": "getCommonChunks",
-            "summary": "Takes\u0020input\u0020of\u0020the\u0020diff\u0020array\u0020and\u0020returns\u0020the\u0020common\u0020parts.",
-            "url": "classes/SebastianBergmann-Diff-Output-AbstractChunkOutputBuilder.html#method_getCommonChunks"
         },                {
             "fqsen": "\\SebastianBergmann\\Diff\\Output\\DiffOnlyOutputBuilder",
             "name": "DiffOnlyOutputBuilder",
@@ -33686,6 +36206,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_default"
         },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Output\\StrictUnifiedDiffOutputBuilder\u003A\u003A\u0024addLineNumbers",
+            "name": "addLineNumbers",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_addLineNumbers"
+        },                {
             "fqsen": "\\SebastianBergmann\\Diff\\Output\\StrictUnifiedDiffOutputBuilder\u003A\u003A\u0024changed",
             "name": "changed",
             "summary": "",
@@ -33701,6 +36226,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_commonLineThreshold"
         },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Output\\StrictUnifiedDiffOutputBuilder\u003A\u003A\u0024emitDiffLineEndWarning",
+            "name": "emitDiffLineEndWarning",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_emitDiffLineEndWarning"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Output\\StrictUnifiedDiffOutputBuilder\u003A\u003A\u0024emitNoLineEndEofWarning",
+            "name": "emitNoLineEndEofWarning",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_emitNoLineEndEofWarning"
+        },                {
             "fqsen": "\\SebastianBergmann\\Diff\\Output\\StrictUnifiedDiffOutputBuilder\u003A\u003A\u0024header",
             "name": "header",
             "summary": "",
@@ -33710,56 +36245,6 @@ Search.appendIndex(
             "name": "contextLines",
             "summary": "",
             "url": "classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_contextLines"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder",
-            "name": "UnifiedDiffOutputBuilder",
-            "summary": "Builds\u0020a\u0020diff\u0020string\u0020representation\u0020in\u0020unified\u0020diff\u0020format\u0020in\u0020chunks.",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#method___construct"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003AgetDiff\u0028\u0029",
-            "name": "getDiff",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#method_getDiff"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003AwriteDiffHunks\u0028\u0029",
-            "name": "writeDiffHunks",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#method_writeDiffHunks"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003AwriteHunk\u0028\u0029",
-            "name": "writeHunk",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#method_writeHunk"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003A\u0024collapseRanges",
-            "name": "collapseRanges",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#property_collapseRanges"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003A\u0024commonLineThreshold",
-            "name": "commonLineThreshold",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#property_commonLineThreshold"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003A\u0024contextLines",
-            "name": "contextLines",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#property_contextLines"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003A\u0024header",
-            "name": "header",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#property_header"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder\u003A\u003A\u0024addLineNumbers",
-            "name": "addLineNumbers",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-Output-UnifiedDiffOutputBuilder.html#property_addLineNumbers"
         },                {
             "fqsen": "\\SebastianBergmann\\Diff\\Parser",
             "name": "Parser",
@@ -33775,16 +36260,6 @@ Search.appendIndex(
             "name": "parseFileDiff",
             "summary": "",
             "url": "classes/SebastianBergmann-Diff-Parser.html#method_parseFileDiff"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\TimeEfficientLongestCommonSubsequenceCalculator",
-            "name": "TimeEfficientLongestCommonSubsequenceCalculator",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Diff-TimeEfficientLongestCommonSubsequenceCalculator.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Diff\\TimeEfficientLongestCommonSubsequenceCalculator\u003A\u003Acalculate\u0028\u0029",
-            "name": "calculate",
-            "summary": "Calculates\u0020the\u0020longest\u0020common\u0020subsequence\u0020of\u0020two\u0020arrays.",
-            "url": "classes/SebastianBergmann-Diff-TimeEfficientLongestCommonSubsequenceCalculator.html#method_calculate"
         },                {
             "fqsen": "\\SebastianBergmann\\Environment\\Console",
             "name": "Console",
@@ -33835,6 +36310,26 @@ Search.appendIndex(
             "name": "STDERR",
             "summary": "",
             "url": "classes/SebastianBergmann-Environment-Console.html#constant_STDERR"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Environment\\Host",
+            "name": "Host",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Environment-Host.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Environment\\Host\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Environment-Host.html#method_name"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Environment\\Host\u003A\u003Auser\u0028\u0029",
+            "name": "user",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Environment-Host.html#method_user"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Environment\\Host\u003A\u003AoperatingSystem\u0028\u0029",
+            "name": "operatingSystem",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Environment-Host.html#method_operatingSystem"
         },                {
             "fqsen": "\\SebastianBergmann\\Environment\\Runtime",
             "name": "Runtime",
@@ -33941,6 +36436,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Environment-Runtime.html#property_compiledDefaults"
         },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\Exception",
+            "name": "Exception",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-Exception.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectNotSupportedException",
+            "name": "ObjectNotSupportedException",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ObjectNotSupportedException.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext",
+            "name": "ExportContext",
+            "summary": "Carries\u0020the\u0020state\u0020that\u0020is\u0020shared\u0020by\u0020all\u0020steps\u0020of\u0020a\u0020single\u0020export\u0020operation.",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html#method_add"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext\u003A\u003Acontains\u0028\u0029",
+            "name": "contains",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html#method_contains"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext\u003A\u003AisBeingExportedByObjectExporter\u0028\u0029",
+            "name": "isBeingExportedByObjectExporter",
+            "summary": "Whether\u0020the\u0020export\u0020of\u0020an\u0020object\u0020by\u0020an\u0020ObjectExporter\u0020is\u0020in\u0020progress.",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html#method_isBeingExportedByObjectExporter"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext\u003A\u003AbeginExportByObjectExporter\u0028\u0029",
+            "name": "beginExportByObjectExporter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html#method_beginExportByObjectExporter"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext\u003A\u003AendExportByObjectExporter\u0028\u0029",
+            "name": "endExportByObjectExporter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html#method_endExportByObjectExporter"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext\u003A\u003A\u0024recursionContext",
+            "name": "recursionContext",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html#property_recursionContext"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ExportContext\u003A\u003A\u0024exportedByObjectExporter",
+            "name": "exportedByObjectExporter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ExportContext.html#property_exportedByObjectExporter"
+        },                {
             "fqsen": "\\SebastianBergmann\\Exporter\\Exporter",
             "name": "Exporter",
             "summary": "",
@@ -33966,6 +36516,11 @@ Search.appendIndex(
             "summary": "Exports\u0020a\u0020value\u0020into\u0020a\u0020single\u002Dline\u0020string.",
             "url": "classes/SebastianBergmann-Exporter-Exporter.html#method_shortenedExport"
         },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\Exporter\u003A\u003AhasCustomRepresentationFor\u0028\u0029",
+            "name": "hasCustomRepresentationFor",
+            "summary": "Returns\u0020whether\u0020a\u0020custom\u0020object\u0020exporter\u0020provides\u0020the\u0020representation\nfor\u0020an\u0020object.",
+            "url": "classes/SebastianBergmann-Exporter-Exporter.html#method_hasCustomRepresentationFor"
+        },                {
             "fqsen": "\\SebastianBergmann\\Exporter\\Exporter\u003A\u003AtoArray\u0028\u0029",
             "name": "toArray",
             "summary": "Converts\u0020an\u0020object\u0020to\u0020an\u0020array\u0020containing\u0020all\u0020of\u0020its\u0020private,\u0020protected\nand\u0020public\u0020properties.",
@@ -33990,6 +36545,11 @@ Search.appendIndex(
             "name": "recursiveExport",
             "summary": "",
             "url": "classes/SebastianBergmann-Exporter-Exporter.html#method_recursiveExport"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\Exporter\u003A\u003Ashorten\u0028\u0029",
+            "name": "shorten",
+            "summary": "Collapses\u0020a\u0020representation\u0020to\u0020a\u0020single\u0020line\u0020and\u0020shortens\u0020it\u0020when\u0020it\u0020is\nlonger\u0020than\u0020\u0024maxLengthForStrings.",
+            "url": "classes/SebastianBergmann-Exporter-Exporter.html#method_shorten"
         },                {
             "fqsen": "\\SebastianBergmann\\Exporter\\Exporter\u003A\u003AexportFloat\u0028\u0029",
             "name": "exportFloat",
@@ -34025,6 +36585,181 @@ Search.appendIndex(
             "name": "maxLengthForStrings",
             "summary": "",
             "url": "classes/SebastianBergmann-Exporter-Exporter.html#property_maxLengthForStrings"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\Exporter\u003A\u003A\u0024objectExporter",
+            "name": "objectExporter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-Exporter.html#property_objectExporter"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectExporter",
+            "name": "ObjectExporter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ObjectExporter.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectExporter\u003A\u003Ahandles\u0028\u0029",
+            "name": "handles",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ObjectExporter.html#method_handles"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectExporter\u003A\u003Aexport\u0028\u0029",
+            "name": "export",
+            "summary": "Exports\u0020an\u0020object\u0020this\u0020object\u0020exporter\u0020handles.",
+            "url": "classes/SebastianBergmann-Exporter-ObjectExporter.html#method_export"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectExporterChain",
+            "name": "ObjectExporterChain",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ObjectExporterChain.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectExporterChain\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ObjectExporterChain.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectExporterChain\u003A\u003Ahandles\u0028\u0029",
+            "name": "handles",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ObjectExporterChain.html#method_handles"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectExporterChain\u003A\u003Aexport\u0028\u0029",
+            "name": "export",
+            "summary": "Exports\u0020an\u0020object\u0020this\u0020object\u0020exporter\u0020handles.",
+            "url": "classes/SebastianBergmann-Exporter-ObjectExporterChain.html#method_export"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Exporter\\ObjectExporterChain\u003A\u003A\u0024exporters",
+            "name": "exporters",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Exporter-ObjectExporterChain.html#property_exporters"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Builder",
+            "name": "Builder",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Builder.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Builder\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Builder.html#method_build"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Builder\u003A\u003Amatchers\u0028\u0029",
+            "name": "matchers",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Builder.html#method_matchers"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Builder\u003A\u003Amap\u0028\u0029",
+            "name": "map",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Builder.html#method_map"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Builder\u003A\u003AglobToRegularExpression\u0028\u0029",
+            "name": "globToRegularExpression",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Builder.html#method_globToRegularExpression"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter",
+            "name": "Filter",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter\u003A\u003Aaccepts\u0028\u0029",
+            "name": "accepts",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html#method_accepts"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter\u003A\u003AmatchesDirectory\u0028\u0029",
+            "name": "matchesDirectory",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html#method_matchesDirectory"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter\u003A\u003AisInHiddenSubdirectory\u0028\u0029",
+            "name": "isInHiddenSubdirectory",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html#method_isInHiddenSubdirectory"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter\u003A\u003A\u0024includeDirectoryMatchers",
+            "name": "includeDirectoryMatchers",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html#property_includeDirectoryMatchers"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter\u003A\u003A\u0024includeFilesMap",
+            "name": "includeFilesMap",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html#property_includeFilesMap"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter\u003A\u003A\u0024excludeDirectoryMatchers",
+            "name": "excludeDirectoryMatchers",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html#property_excludeDirectoryMatchers"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter\\Filter\u003A\u003A\u0024excludeFilesMap",
+            "name": "excludeFilesMap",
+            "summary": "",
+            "url": "classes/SebastianBergmann-FileFilter-Filter.html#property_excludeFilesMap"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\Builder",
+            "name": "Builder",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-Builder.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\Builder\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-Builder.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\Builder\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-Builder.html#method_build"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\Builder\u003A\u003A\u0024runner",
+            "name": "runner",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-Builder.html#property_runner"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\State",
+            "name": "State",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-State.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\State\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-State.html#method___construct"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\State\u003A\u003A\u0024originUrl",
+            "name": "originUrl",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-State.html#property_originUrl"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\State\u003A\u003A\u0024branch",
+            "name": "branch",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-State.html#property_branch"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\State\u003A\u003A\u0024commit",
+            "name": "commit",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-State.html#property_commit"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\State\u003A\u003AisClean\u0028\u0029",
+            "name": "isClean",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-State.html#method_isClean"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\State\u003A\u003A\u0024status",
+            "name": "status",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-State.html#property_status"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState\\State\u003A\u003A\u0024clean",
+            "name": "clean",
+            "summary": "",
+            "url": "classes/SebastianBergmann-GitState-State.html#property_clean"
         },                {
             "fqsen": "\\SebastianBergmann\\GlobalState\\CodeExporter",
             "name": "CodeExporter",
@@ -34516,6 +37251,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Type-ReflectionMapper.html#method_fromPropertyType"
         },                {
+            "fqsen": "\\SebastianBergmann\\Type\\ReflectionMapper\u003A\u003AmapType\u0028\u0029",
+            "name": "mapType",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Type-ReflectionMapper.html#method_mapType"
+        },                {
             "fqsen": "\\SebastianBergmann\\Type\\ReflectionMapper\u003A\u003AmapNamedType\u0028\u0029",
             "name": "mapNamedType",
             "summary": "",
@@ -34530,16 +37270,6 @@ Search.appendIndex(
             "name": "mapIntersectionType",
             "summary": "",
             "url": "classes/SebastianBergmann-Type-ReflectionMapper.html#method_mapIntersectionType"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Type\\ReflectionMapper\u003A\u003AhasReturnType\u0028\u0029",
-            "name": "hasReturnType",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Type-ReflectionMapper.html#method_hasReturnType"
-        },                {
-            "fqsen": "\\SebastianBergmann\\Type\\ReflectionMapper\u003A\u003AreturnType\u0028\u0029",
-            "name": "returnType",
-            "summary": "",
-            "url": "classes/SebastianBergmann-Type-ReflectionMapper.html#method_returnType"
         },                {
             "fqsen": "\\SebastianBergmann\\Type\\CallableType",
             "name": "CallableType",
@@ -35211,10 +37941,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Type-TypeName.html#property_simpleName"
         },                {
-            "fqsen": "\\SebastianBergmann\\Type\\TypeName\u003A\u003AqualifiedName\u0028\u0029",
+            "fqsen": "\\SebastianBergmann\\Type\\TypeName\u003A\u003A\u0024qualifiedName",
             "name": "qualifiedName",
             "summary": "",
-            "url": "classes/SebastianBergmann-Type-TypeName.html#method_qualifiedName"
+            "url": "classes/SebastianBergmann-Type-TypeName.html#property_qualifiedName"
         },                {
             "fqsen": "\\SebastianBergmann\\Type\\TypeName\u003A\u003AisNamespaced\u0028\u0029",
             "name": "isNamespaced",
@@ -35826,15 +38556,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/sebastianbergmann-codecoverage-util.html"
         },                {
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Serialization",
+            "name": "Serialization",
+            "summary": "",
+            "url": "namespaces/sebastianbergmann-codecoverage-serialization.html"
+        },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\Target",
             "name": "Target",
             "summary": "",
             "url": "namespaces/sebastianbergmann-codecoverage-test-target.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test",
-            "name": "Test",
-            "summary": "",
-            "url": "namespaces/sebastianbergmann-codecoverage-test.html"
         },                {
             "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report",
             "name": "Report",
@@ -35846,20 +38576,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/sebastianbergmann-codecoverage-report-html.html"
         },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Report\\Xml",
-            "name": "Xml",
+            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test",
+            "name": "Test",
             "summary": "",
-            "url": "namespaces/sebastianbergmann-codecoverage-report-xml.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestSize",
-            "name": "TestSize",
-            "summary": "",
-            "url": "namespaces/sebastianbergmann-codecoverage-test-testsize.html"
-        },                {
-            "fqsen": "\\SebastianBergmann\\CodeCoverage\\Test\\TestStatus",
-            "name": "TestStatus",
-            "summary": "",
-            "url": "namespaces/sebastianbergmann-codecoverage-test-teststatus.html"
+            "url": "namespaces/sebastianbergmann-codecoverage-test.html"
         },                {
             "fqsen": "\\SebastianBergmann\\FileIterator",
             "name": "FileIterator",
@@ -35900,6 +38620,11 @@ Search.appendIndex(
             "name": "TestRunner",
             "summary": "",
             "url": "namespaces/phpunit-event-testrunner.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Event\\TestRunner\\Issue",
+            "name": "Issue",
+            "summary": "",
+            "url": "namespaces/phpunit-event-testrunner-issue.html"
         },                {
             "fqsen": "\\PHPUnit\\Event\\TestSuite",
             "name": "TestSuite",
@@ -35971,6 +38696,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phpunit-framework-mockobject-rule.html"
         },                {
+            "fqsen": "\\PHPUnit\\Framework\\TestRunner",
+            "name": "TestRunner",
+            "summary": "",
+            "url": "namespaces/phpunit-framework-testrunner.html"
+        },                {
             "fqsen": "\\PHPUnit\\Logging",
             "name": "Logging",
             "summary": "",
@@ -36000,6 +38730,11 @@ Search.appendIndex(
             "name": "Extension",
             "summary": "",
             "url": "namespaces/phpunit-runner-extension.html"
+        },                {
+            "fqsen": "\\PHPUnit\\Runner\\IssueTriggerResolver",
+            "name": "IssueTriggerResolver",
+            "summary": "",
+            "url": "namespaces/phpunit-runner-issuetriggerresolver.html"
         },                {
             "fqsen": "\\PHPUnit\\TextUI",
             "name": "TextUI",
@@ -36060,6 +38795,16 @@ Search.appendIndex(
             "name": "Exporter",
             "summary": "",
             "url": "namespaces/sebastianbergmann-exporter.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\FileFilter",
+            "name": "FileFilter",
+            "summary": "",
+            "url": "namespaces/sebastianbergmann-filefilter.html"
+        },                {
+            "fqsen": "\\SebastianBergmann\\GitState",
+            "name": "GitState",
+            "summary": "",
+            "url": "namespaces/sebastianbergmann-gitstate.html"
         },                {
             "fqsen": "\\SebastianBergmann\\GlobalState",
             "name": "GlobalState",

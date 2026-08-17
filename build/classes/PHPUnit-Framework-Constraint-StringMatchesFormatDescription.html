@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -379,7 +387,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -479,6 +487,12 @@
 <dd>Returns a cleaned up diff.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_assertEqualsUsingComparator">assertEqualsUsingComparator()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a class="" href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_fail">fail()</a>
     <span>
                                 &nbsp;: never    </span>
@@ -493,7 +507,7 @@
 <dd>Returns the description of the failure.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_failureDescriptionInContext">failureDescriptionInContext()</a>
+    <a class="" href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_failureDescriptionInContext">failureDescriptionInContext()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
@@ -518,12 +532,13 @@ sub-expression and returns first descendant constraint that starts
 a non-reducible sub-expression.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_toStringInContext">toStringInContext()</a>
+    <a class="" href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_toStringInContext">toStringInContext()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd>Returns a custom string representation of the constraint object when it
-appears in context of an $operator expression.</dd>
+<dd>Returns the negated description when this constraint is wrapped in a
+LogicalNot operator. The guard ensures that LogicalAnd, LogicalOr, and
+LogicalXor keep using the affirmative toString().</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a class="" href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_valueToTypeStringFragment">valueToTypeStringFragment()</a>
@@ -541,6 +556,24 @@ appears in context of an $operator expression.</dd>
     <a class="" href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_differ">differ()</a>
     <span>
                                 &nbsp;: <a href="classes/SebastianBergmann-Diff-Differ.html"><abbr title="\SebastianBergmann\Diff\Differ">Differ</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_findAnchorInActual">findAnchorInActual()</a>
+    <span>
+                                &nbsp;: int|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_findNextAnchor">findNextAnchor()</a>
+    <span>
+                                &nbsp;: null|array{int, string}    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_isMultilineMatch">isMultilineMatch()</a>
+    <span>
+                                &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
@@ -579,7 +612,7 @@ appears in context of an $operator expression.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -621,7 +654,7 @@ appears in context of an $operator expression.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -665,7 +698,7 @@ appears in context of an $operator expression.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -726,7 +759,7 @@ appears in context of an $operator expression.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">86</span>
 
     </aside>
 
@@ -765,7 +798,7 @@ appears in context of an $operator expression.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
     </aside>
 
@@ -848,7 +881,7 @@ failure.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -886,7 +919,7 @@ failure.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">127</span>
 
     </aside>
 
@@ -904,11 +937,10 @@ By using 'diff' such placeholders compared to the real output will
 always be different, although we don't want to show them as different.
 This method removes the expected differences by figuring out if a difference
 is allowed by the use of a placeholder.</p>
-<p>The problem here are %A and %a multiline placeholders since we look at the
-expected and actual output line by line. If differences allowed by those placeholders
-stretch over multiple lines they will still end up in the final diff.
-And since they mess up the line sync between the expected and actual output
-all following allowed changes will not be detected/removed anymore.</p>
+<p>For %A and %a multiline placeholders that can match across multiple lines,
+we use anchor lookahead: find the next non-multiline expected line and search
+for it in the actual output to determine how many actual lines the placeholder
+consumed, keeping expected and actual in sync.</p>
 </section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -936,6 +968,96 @@ all following allowed changes will not be detected/removed anymore.</p>
         class="phpdocumentor-element
             -method
             -protected
+                                                -final        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_assertEqualsUsingComparator">
+        assertEqualsUsingComparator()
+        <a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_assertEqualsUsingComparator" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">305</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__final">final</span>            <span class="phpdocumentor-signature__name">assertEqualsUsingComparator</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expected</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$actual</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$delta</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0.0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$canonicalize</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ignoreCase</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$expected</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$actual</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$delta</span>
+                : <span class="phpdocumentor-argument-list__argument__type">float</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">0.0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$canonicalize</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$ignoreCase</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="method_assertEqualsUsingComparator_tags">
+        Tags
+        <a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_assertEqualsUsingComparator_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/SebastianBergmann-Comparator-ComparisonFailure.html"><abbr title="\SebastianBergmann\Comparator\ComparisonFailure">ComparisonFailure</abbr></a></span>
+                                                                                    
+                                    </dd>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\PHPUnit\Event\Code\NoTestCaseObjectOnCallStackException">NoTestCaseObjectOnCallStackException</abbr></span>
+                                                                                    
+                                    </dd>
+                        </dl>
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
                                                         "
 >
     <h4 class="phpdocumentor-element__name" id="method_fail">
@@ -946,7 +1068,7 @@ all following allowed changes will not be detected/removed anymore.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">107</span>
 
     </aside>
 
@@ -1023,7 +1145,7 @@ all following allowed changes will not be detected/removed anymore.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
+    <span class="phpdocumentor-element-found-in__line">97</span>
 
     </aside>
 
@@ -1071,13 +1193,13 @@ can be used.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_failureDescriptionInContext">
         failureDescriptionInContext()
-        <a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_failureDescriptionInContext" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_failureDescriptionInContext" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">180</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -1148,7 +1270,7 @@ customization by itself.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -1212,7 +1334,7 @@ constraint is met, false otherwise.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">255</span>
 
     </aside>
 
@@ -1295,18 +1417,19 @@ LogicalNot operators</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_toStringInContext">
         toStringInContext()
-        <a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_toStringInContext" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_toStringInContext" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">163</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Returns a custom string representation of the constraint object when it
-appears in context of an $operator expression.</p>
+        <p class="phpdocumentor-summary">Returns the negated description when this constraint is wrapped in a
+LogicalNot operator. The guard ensures that LogicalAnd, LogicalOr, and
+LogicalXor keep using the affirmative toString().</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
@@ -1315,14 +1438,7 @@ appears in context of an $operator expression.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
-        <section class="phpdocumentor-description"><p>The purpose of this method is to provide meaningful descriptive string
-in context of operators such as LogicalNot. Native PHPUnit constraints
-are supported out of the box by LogicalNot, but externally developed
-ones had no way to provide correct strings in this context.</p>
-<p>The method shall return empty string, when it does not handle
-customization by itself.</p>
-</section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1365,7 +1481,7 @@ customization by itself.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-constraint.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php">Constraint.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">259</span>
+    <span class="phpdocumentor-element-found-in__line">263</span>
 
     </aside>
 
@@ -1413,7 +1529,7 @@ customization by itself.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">169</span>
+    <span class="phpdocumentor-element-found-in__line">297</span>
 
     </aside>
 
@@ -1461,7 +1577,7 @@ customization by itself.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">174</span>
+    <span class="phpdocumentor-element-found-in__line">306</span>
 
     </aside>
 
@@ -1491,6 +1607,171 @@ customization by itself.</p>
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_findAnchorInActual">
+        findAnchorInActual()
+        <a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_findAnchorInActual" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">280</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">findAnchorInActual</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$anchorLine</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$actual</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$startIdx</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$anchorLine</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$actual</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, string&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$startIdx</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_findNextAnchor">
+        findNextAnchor()
+        <a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_findNextAnchor" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">262</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">findNextAnchor</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expected</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$startIdx</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">null|array{int, string}</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$expected</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, string&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$startIdx</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">null|array{int, string}</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isMultilineMatch">
+        isMultilineMatch()
+        <a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_isMultilineMatch" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">252</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">isMultilineMatch</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$line</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$line</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_regularExpressionForFormatDescription">
         regularExpressionForFormatDescription()
         <a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_regularExpressionForFormatDescription" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1499,7 +1780,7 @@ customization by itself.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php"><a href="files/vendor-phpunit-phpunit-src-framework-constraint-string-stringmatchesformatdescription.html"><abbr title="vendor/phpunit/phpunit/src/Framework/Constraint/String/StringMatchesFormatDescription.php">StringMatchesFormatDescription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">119</span>
+    <span class="phpdocumentor-element-found-in__line">202</span>
 
     </aside>
 
@@ -1568,15 +1849,19 @@ customization by itself.</p>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_evaluate">evaluate()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_toString">toString()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_additionalFailureDescription">additionalFailureDescription()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_assertEqualsUsingComparator">assertEqualsUsingComparator()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_fail">fail()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_failureDescription">failureDescription()</a></li>
-                                            <li class=""><a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_failureDescriptionInContext">failureDescriptionInContext()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_failureDescriptionInContext">failureDescriptionInContext()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_matches">matches()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_reduce">reduce()</a></li>
-                                            <li class=""><a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_toStringInContext">toStringInContext()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_toStringInContext">toStringInContext()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-Constraint.html#method_valueToTypeStringFragment">valueToTypeStringFragment()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_convertNewlines">convertNewlines()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_differ">differ()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_findAnchorInActual">findAnchorInActual()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_findNextAnchor">findNextAnchor()</a></li>
+                                            <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_isMultilineMatch">isMultilineMatch()</a></li>
                                             <li class=""><a href="classes/PHPUnit-Framework-Constraint-StringMatchesFormatDescription.html#method_regularExpressionForFormatDescription">regularExpressionForFormatDescription()</a></li>
                                     </ul>
             </li>

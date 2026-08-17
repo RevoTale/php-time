@@ -276,6 +276,14 @@
                 
             </li>
                     <li>
+                <a href="namespaces/sebastianbergmann-filefilter.html" class="">FileFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-gitstate.html" class="">GitState</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
                 
             </li>
@@ -379,7 +387,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -422,6 +430,12 @@ diff array and return a string representation of that diff.</dd>    </dl>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_addLineNumbers">$addLineNumbers</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_changed">$changed</a>
     <span>
                         &nbsp;: bool            </span>
@@ -442,13 +456,25 @@ diff array and return a string representation of that diff.</dd>    </dl>
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_contextLines">$contextLines</a>
     <span>
-                        &nbsp;: positive-int            </span>
+                        &nbsp;: int<0, max>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_default">$default</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: array{addLineNumbers: bool, collapseRanges: bool, commonLineThreshold: int, contextLines: int, emitDiffLineEndWarning: bool, emitNoLineEndEofWarning: bool, fromFile: null|string, fromFileDate: null|string, header: null|string, toFile: null|string, toFileDate: null|string}            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_emitDiffLineEndWarning">$emitDiffLineEndWarning</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_emitNoLineEndEofWarning">$emitNoLineEndEofWarning</a>
+    <span>
+                        &nbsp;: bool            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -521,6 +547,43 @@ diff array and return a string representation of that diff.</dd>    </dl>
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_addLineNumbers">
+        $addLineNumbers
+        <a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_addLineNumbers" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">55</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$addLineNumbers</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_changed">
         $changed
         <a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_changed" class="headerlink"><i class="fas fa-link"></i></a>
@@ -531,7 +594,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
     </aside>
 
@@ -568,7 +631,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
@@ -605,7 +668,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
     </aside>
 
@@ -642,7 +705,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -650,7 +713,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">positive-int</span>
+            <span class="phpdocumentor-signature__type">int<0, max></span>
     <span class="phpdocumentor-signature__name">$contextLines</span>
     </code>
 
@@ -679,7 +742,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -687,20 +750,102 @@ diff array and return a string representation of that diff.</dd>    </dl>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array{addLineNumbers: bool, collapseRanges: bool, commonLineThreshold: int, contextLines: int, emitDiffLineEndWarning: bool, emitNoLineEndEofWarning: bool, fromFile: null|string, fromFileDate: null|string, header: null|string, toFile: null|string, toFileDate: null|string}</span>
     <span class="phpdocumentor-signature__name">$default</span>
      = <span class="phpdocumentor-signature__default-value">[
+    &#039;addLineNumbers&#039; =&gt; true,
+    // when false, hunk header is rendered as `@@ @@` (no line numbers); when true, as `@@ -from,range +to,range @@`
     &#039;collapseRanges&#039; =&gt; true,
     // ranges of length one are rendered with the trailing `,1`
     &#039;commonLineThreshold&#039; =&gt; 6,
     // number of same lines before ending a new hunk and creating a new one (if needed)
     &#039;contextLines&#039; =&gt; 3,
     // like `diff:  -u, -U NUM, --unified[=NUM]`, for patch/git apply compatibility best to keep at least @ 3
+    &#039;emitDiffLineEndWarning&#039; =&gt; false,
+    // when true, the `#Warning: Strings contain different line endings!` line inserted by `Differ` is rendered (it is not part of strict unified diff format)
+    &#039;emitNoLineEndEofWarning&#039; =&gt; true,
+    // when false, the `\ No newline at end of file` marker is suppressed (useful for comparisons not related to files)
     &#039;fromFile&#039; =&gt; null,
     &#039;fromFileDate&#039; =&gt; null,
+    &#039;header&#039; =&gt; null,
+    // when provided, used verbatim as the header; otherwise built from `fromFile`/`fromFileDate`/`toFile`/`toFileDate`
     &#039;toFile&#039; =&gt; null,
     &#039;toFileDate&#039; =&gt; null,
 ]</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_emitDiffLineEndWarning">
+        $emitDiffLineEndWarning
+        <a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_emitDiffLineEndWarning" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">63</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$emitDiffLineEndWarning</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_emitNoLineEndEofWarning">
+        $emitNoLineEndEofWarning
+        <a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_emitNoLineEndEofWarning" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">64</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$emitNoLineEndEofWarning</span>
+    </code>
 
     
     
@@ -727,7 +872,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
     </aside>
 
@@ -769,14 +914,14 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -786,7 +931,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$options</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -813,14 +958,14 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getDiff</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diff</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getDiff</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;int, array{0: mixed, 1: int}&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diff</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -830,7 +975,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$diff</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, array{0: mixed, 1: int}&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -861,14 +1006,14 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">318</span>
+    <span class="phpdocumentor-element-found-in__line">394</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">assertString</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$option</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">assertString</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$option</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -878,7 +1023,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$options</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -912,14 +1057,14 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">325</span>
+    <span class="phpdocumentor-element-found-in__line">406</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">assertStringOrNull</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$option</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">assertStringOrNull</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$option</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -929,7 +1074,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$options</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -963,14 +1108,14 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">130</span>
+    <span class="phpdocumentor-element-found-in__line">182</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">writeDiffHunks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diff</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">writeDiffHunks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;int, array{0: mixed, 1: int}&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diff</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -987,7 +1132,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$diff</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, array{0: mixed, 1: int}&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1014,14 +1159,14 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php"><a href="files/vendor-sebastian-diff-src-output-strictunifieddiffoutputbuilder.html"><abbr title="vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php">StrictUnifiedDiffOutputBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">273</span>
+    <span class="phpdocumentor-element-found-in__line">335</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">writeHunk</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diff</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diffStartIndex</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diffEndIndex</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fromStart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fromRange</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$toStart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$toRange</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">writeHunk</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;int, array{0: mixed, 1: int}&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diff</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diffStartIndex</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$diffEndIndex</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fromStart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fromRange</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$toStart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$toRange</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1031,7 +1176,7 @@ diff array and return a string representation of that diff.</dd>    </dl>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$diff</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, array{0: mixed, 1: int}&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1115,11 +1260,14 @@ diff array and return a string representation of that diff.</dd>    </dl>
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_addLineNumbers">$addLineNumbers</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_changed">$changed</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_collapseRanges">$collapseRanges</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_commonLineThreshold">$commonLineThreshold</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_contextLines">$contextLines</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_default">$default</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_emitDiffLineEndWarning">$emitDiffLineEndWarning</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_emitNoLineEndEofWarning">$emitNoLineEndEofWarning</a></li>
                                                     <li class=""><a href="classes/SebastianBergmann-Diff-Output-StrictUnifiedDiffOutputBuilder.html#property_header">$header</a></li>
                                             </ul>
                 </li>
