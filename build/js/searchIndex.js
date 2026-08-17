@@ -946,10 +946,10 @@ Search.appendIndex(
             "summary": "Returns\u0020first\u0020element\u0020that\u0020matches\u0020predicate,\u0020\u0060null\u0060\u0020if\u0020no\u0020such\u0020element\u0020found.",
             "url": "classes/DeepCopy-DeepCopy.html#method_first"
         },                {
-            "fqsen": "\\DeepCopy\\DeepCopy\u003A\u003A\u0024hashMap",
-            "name": "hashMap",
+            "fqsen": "\\DeepCopy\\DeepCopy\u003A\u003A\u0024objectMap",
+            "name": "objectMap",
             "summary": "",
-            "url": "classes/DeepCopy-DeepCopy.html#property_hashMap"
+            "url": "classes/DeepCopy-DeepCopy.html#property_objectMap"
         },                {
             "fqsen": "\\DeepCopy\\DeepCopy\u003A\u003A\u0024filters",
             "name": "filters",
@@ -37135,6 +37135,11 @@ Search.appendIndex(
             "name": "enumerate",
             "summary": "",
             "url": "classes/SebastianBergmann-ObjectEnumerator-Enumerator.html#method_enumerate"
+        },                {
+            "fqsen": "\\SebastianBergmann\\ObjectEnumerator\\Enumerator\u003A\u003Aprocess\u0028\u0029",
+            "name": "process",
+            "summary": "",
+            "url": "classes/SebastianBergmann-ObjectEnumerator-Enumerator.html#method_process"
         },                {
             "fqsen": "\\SebastianBergmann\\ObjectReflector\\ObjectReflector",
             "name": "ObjectReflector",
