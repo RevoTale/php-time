@@ -407,6 +407,49 @@
 
 
 
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/SebastianBergmann-Diff-Parser.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Parser.html#constant_CHUNK_HEADER">CHUNK_HEADER</a>
+    <span>
+        &nbsp;: string&nbsp;= &#039;/^@@\s+-(?P&lt;start&gt;\d+)(?:,\s*(?P&lt;startrange&gt;\d...                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Parser.html#constant_CHUNK_LINE">CHUNK_LINE</a>
+    <span>
+        &nbsp;: string&nbsp;= &#039;/^(?P&lt;type&gt;[+ -])?(?P&lt;line&gt;.*)/&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Parser.html#constant_FROM_FILE_HEADER">FROM_FILE_HEADER</a>
+    <span>
+        &nbsp;: string&nbsp;= &#039;#^---\h+&quot;?(?P&lt;file&gt;[^\v\t&quot;]+)#&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Parser.html#constant_LINE_BREAK">LINE_BREAK</a>
+    <span>
+        &nbsp;: string&nbsp;= &#039;(\r\n|\r|\n)&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Parser.html#constant_METADATA_HEADER">METADATA_HEADER</a>
+    <span>
+        &nbsp;: string&nbsp;= &#039;/^(?:diff --git |index [\da-f.]+|(?:---|\+\+\+...                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/SebastianBergmann-Diff-Parser.html#constant_TO_FILE_HEADER">TO_FILE_HEADER</a>
+    <span>
+        &nbsp;: string&nbsp;= &#039;#^\+\+\+\h+&quot;?(?P&lt;file&gt;[^\v\t&quot;]+)#&#039;                            </span>
+</dt>
+
+    </dl>
 
 
 
@@ -433,6 +476,193 @@
 
 
         
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/SebastianBergmann-Diff-Parser.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_CHUNK_HEADER">
+        CHUNK_HEADER
+        <a href="classes/SebastianBergmann-Diff-Parser.html#constant_CHUNK_HEADER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Parser.php"><a href="files/vendor-sebastian-diff-src-parser.html"><abbr title="vendor/sebastian/diff/src/Parser.php">Parser.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">28</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">CHUNK_HEADER</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;/^@@\s+-(?P&lt;start&gt;\d+)(?:,\s*(?P&lt;startrange&gt;\d+))?\s+\+(?P&lt;end&gt;\d+)(?:,\s*(?P&lt;endrange&gt;\d+))?\s+@@/&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_CHUNK_LINE">
+        CHUNK_LINE
+        <a href="classes/SebastianBergmann-Diff-Parser.html#constant_CHUNK_LINE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Parser.php"><a href="files/vendor-sebastian-diff-src-parser.html"><abbr title="vendor/sebastian/diff/src/Parser.php">Parser.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">CHUNK_LINE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;/^(?P&lt;type&gt;[+ -])?(?P&lt;line&gt;.*)/&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_FROM_FILE_HEADER">
+        FROM_FILE_HEADER
+        <a href="classes/SebastianBergmann-Diff-Parser.html#constant_FROM_FILE_HEADER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Parser.php"><a href="files/vendor-sebastian-diff-src-parser.html"><abbr title="vendor/sebastian/diff/src/Parser.php">Parser.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">FROM_FILE_HEADER</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;#^---\h+&quot;?(?P&lt;file&gt;[^\v\t&quot;]+)#&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_LINE_BREAK">
+        LINE_BREAK
+        <a href="classes/SebastianBergmann-Diff-Parser.html#constant_LINE_BREAK" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Parser.php"><a href="files/vendor-sebastian-diff-src-parser.html"><abbr title="vendor/sebastian/diff/src/Parser.php">Parser.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">LINE_BREAK</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;(\r\n|\r|\n)&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_METADATA_HEADER">
+        METADATA_HEADER
+        <a href="classes/SebastianBergmann-Diff-Parser.html#constant_METADATA_HEADER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Parser.php"><a href="files/vendor-sebastian-diff-src-parser.html"><abbr title="vendor/sebastian/diff/src/Parser.php">Parser.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">METADATA_HEADER</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;/^(?:diff --git |index [\da-f.]+|(?:---|\+\+\+) [ab]\/)/&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_TO_FILE_HEADER">
+        TO_FILE_HEADER
+        <a href="classes/SebastianBergmann-Diff-Parser.html#constant_TO_FILE_HEADER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Parser.php"><a href="files/vendor-sebastian-diff-src-parser.html"><abbr title="vendor/sebastian/diff/src/Parser.php">Parser.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">TO_FILE_HEADER</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;#^\+\+\+\h+&quot;?(?P&lt;file&gt;[^\v\t&quot;]+)#&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+            </section>
 
         
 
@@ -456,7 +686,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Parser.php"><a href="files/vendor-sebastian-diff-src-parser.html"><abbr title="vendor/sebastian/diff/src/Parser.php">Parser.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -504,7 +734,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/sebastian/diff/src/Parser.php"><a href="files/vendor-sebastian-diff-src-parser.html"><abbr title="vendor/sebastian/diff/src/Parser.php">Parser.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">88</span>
+    <span class="phpdocumentor-element-found-in__line">127</span>
 
     </aside>
 
@@ -555,9 +785,21 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/SebastianBergmann-Diff-Parser.html#toc-constants">Constants</a></li>
                                                                                 <li><a href="classes/SebastianBergmann-Diff-Parser.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Parser.html#constant_CHUNK_HEADER">CHUNK_HEADER</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Parser.html#constant_CHUNK_LINE">CHUNK_LINE</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Parser.html#constant_FROM_FILE_HEADER">FROM_FILE_HEADER</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Parser.html#constant_LINE_BREAK">LINE_BREAK</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Parser.html#constant_METADATA_HEADER">METADATA_HEADER</a></li>
+                                                    <li class=""><a href="classes/SebastianBergmann-Diff-Parser.html#constant_TO_FILE_HEADER">TO_FILE_HEADER</a></li>
+                                            </ul>
+                </li>
             
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>

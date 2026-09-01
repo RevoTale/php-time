@@ -36261,6 +36261,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/SebastianBergmann-Diff-Parser.html#method_parseFileDiff"
         },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Parser\u003A\u003ALINE_BREAK",
+            "name": "LINE_BREAK",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Parser.html#constant_LINE_BREAK"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Parser\u003A\u003AFROM_FILE_HEADER",
+            "name": "FROM_FILE_HEADER",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Parser.html#constant_FROM_FILE_HEADER"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Parser\u003A\u003ATO_FILE_HEADER",
+            "name": "TO_FILE_HEADER",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Parser.html#constant_TO_FILE_HEADER"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Parser\u003A\u003AMETADATA_HEADER",
+            "name": "METADATA_HEADER",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Parser.html#constant_METADATA_HEADER"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Parser\u003A\u003ACHUNK_HEADER",
+            "name": "CHUNK_HEADER",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Parser.html#constant_CHUNK_HEADER"
+        },                {
+            "fqsen": "\\SebastianBergmann\\Diff\\Parser\u003A\u003ACHUNK_LINE",
+            "name": "CHUNK_LINE",
+            "summary": "",
+            "url": "classes/SebastianBergmann-Diff-Parser.html#constant_CHUNK_LINE"
+        },                {
             "fqsen": "\\SebastianBergmann\\Environment\\Console",
             "name": "Console",
             "summary": "",
@@ -37150,6 +37180,11 @@ Search.appendIndex(
             "name": "getProperties",
             "summary": "",
             "url": "classes/SebastianBergmann-ObjectReflector-ObjectReflector.html#method_getProperties"
+        },                {
+            "fqsen": "\\SebastianBergmann\\ObjectReflector\\ObjectReflector\u003A\u003A\u0024names",
+            "name": "names",
+            "summary": "Maps\u0020mangled\u0020property\u0020names\u0020to\u0020their\u0020unmangled\u0020representation,\u0020per\u0020class.",
+            "url": "classes/SebastianBergmann-ObjectReflector-ObjectReflector.html#property_names"
         },                {
             "fqsen": "\\SebastianBergmann\\RecursionContext\\Context",
             "name": "Context",
