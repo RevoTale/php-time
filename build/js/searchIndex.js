@@ -3481,6 +3481,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpParser-Node-Arg.html#property_unpack"
         },                {
+            "fqsen": "\\PhpParser\\Node\\ArgPlaceholder",
+            "name": "ArgPlaceholder",
+            "summary": "Represents\u0020the\u0020\u0022\u003F\u0022\u0020argument\u0020placeholder\u0020of\u0020the\u0020partial\u0020function\u0020application\u0020syntax,\ne.g.\u0020the\u0020\u0022\u003F\u0022\u0020in\u0020\u0022foo\u0028\u003F\u0029\u0022.\u0020Like\u0020VariadicPlaceholder,\u0020it\u0020occurs\u0020in\u0020the\u0020argument\u0020list\nof\u0020a\u0020call,\u0020in\u0020place\u0020of\u0020an\u0020ordinary\u0020Arg.",
+            "url": "classes/PhpParser-Node-ArgPlaceholder.html"
+        },                {
+            "fqsen": "\\PhpParser\\Node\\ArgPlaceholder\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Create\u0020a\u0020\u0022\u003F\u0022\u0020argument\u0020placeholder\u0020\u0028partial\u0020function\u0020application\u0020syntax\u0029.",
+            "url": "classes/PhpParser-Node-ArgPlaceholder.html#method___construct"
+        },                {
+            "fqsen": "\\PhpParser\\Node\\ArgPlaceholder\u003A\u003AgetSubNodeNames\u0028\u0029",
+            "name": "getSubNodeNames",
+            "summary": "Gets\u0020the\u0020names\u0020of\u0020the\u0020sub\u0020nodes.",
+            "url": "classes/PhpParser-Node-ArgPlaceholder.html#method_getSubNodeNames"
+        },                {
+            "fqsen": "\\PhpParser\\Node\\ArgPlaceholder\u003A\u003AgetType\u0028\u0029",
+            "name": "getType",
+            "summary": "Gets\u0020the\u0020type\u0020of\u0020the\u0020node.",
+            "url": "classes/PhpParser-Node-ArgPlaceholder.html#method_getType"
+        },                {
+            "fqsen": "\\PhpParser\\Node\\ArgPlaceholder\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/PhpParser-Node-ArgPlaceholder.html#property_name"
+        },                {
             "fqsen": "\\PhpParser\\Node\\ArrayItem",
             "name": "ArrayItem",
             "summary": "",
@@ -4543,7 +4568,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\CallLike\u003A\u003AgetRawArgs\u0028\u0029",
             "name": "getRawArgs",
-            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020or\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables.",
+            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables,\u0020or\u0020ArgPlaceholders\u0020for\u0020partial\u0020function\u0020application.",
             "url": "classes/PhpParser-Node-Expr-CallLike.html#method_getRawArgs"
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\CallLike\u003A\u003AisFirstClassCallable\u0028\u0029",
@@ -4551,9 +4576,14 @@ Search.appendIndex(
             "summary": "Returns\u0020whether\u0020this\u0020call\u0020expression\u0020is\u0020actually\u0020a\u0020first\u0020class\u0020callable.",
             "url": "classes/PhpParser-Node-Expr-CallLike.html#method_isFirstClassCallable"
         },                {
+            "fqsen": "\\PhpParser\\Node\\Expr\\CallLike\u003A\u003AisPartialFunctionApplication\u0028\u0029",
+            "name": "isPartialFunctionApplication",
+            "summary": "Returns\u0020whether\u0020this\u0020call\u0020expression\u0020is\u0020a\u0020partial\u0020function\u0020application,\u0020i.e.\u0020whether\u0020its\nargument\u0020list\u0020contains\u0020one\u0020or\u0020more\u0020\u0022\u003F\u0022\u0020placeholders\u0020or\u0020a\u0020\u0022...\u0022\u0020placeholder.\u0020First\u002Dclass\ncallables\u0020are\u0020a\u0020special\u0020case\u0020of\u0020partial\u0020function\u0020application,\u0020so\u0020this\u0020also\u0020returns\u0020true\nfor\u0020them.",
+            "url": "classes/PhpParser-Node-Expr-CallLike.html#method_isPartialFunctionApplication"
+        },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\CallLike\u003A\u003AgetArgs\u0028\u0029",
             "name": "getArgs",
-            "summary": "Assert\u0020that\u0020this\u0020is\u0020not\u0020a\u0020first\u002Dclass\u0020callable\u0020and\u0020return\u0020only\u0020ordinary\u0020Args.",
+            "summary": "Assert\u0020that\u0020this\u0020is\u0020not\u0020a\u0020partial\u0020function\u0020application\u0020\u0028which\u0020includes\u0020first\u002Dclass\ncallables\u0029\u0020and\u0020return\u0020only\u0020ordinary\u0020Args.",
             "url": "classes/PhpParser-Node-Expr-CallLike.html#method_getArgs"
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\CallLike\u003A\u003AgetArg\u0028\u0029",
@@ -5023,7 +5053,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\FuncCall\u003A\u003AgetRawArgs\u0028\u0029",
             "name": "getRawArgs",
-            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020or\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables.",
+            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables,\u0020or\u0020ArgPlaceholders\u0020for\u0020partial\u0020function\u0020application.",
             "url": "classes/PhpParser-Node-Expr-FuncCall.html#method_getRawArgs"
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\FuncCall\u003A\u003A\u0024name",
@@ -5228,7 +5258,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\MethodCall\u003A\u003AgetRawArgs\u0028\u0029",
             "name": "getRawArgs",
-            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020or\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables.",
+            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables,\u0020or\u0020ArgPlaceholders\u0020for\u0020partial\u0020function\u0020application.",
             "url": "classes/PhpParser-Node-Expr-MethodCall.html#method_getRawArgs"
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\MethodCall\u003A\u003A\u0024var",
@@ -5268,7 +5298,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\New_\u003A\u003AgetRawArgs\u0028\u0029",
             "name": "getRawArgs",
-            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020or\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables.",
+            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables,\u0020or\u0020ArgPlaceholders\u0020for\u0020partial\u0020function\u0020application.",
             "url": "classes/PhpParser-Node-Expr-New.html#method_getRawArgs"
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\New_\u003A\u003A\u0024class",
@@ -5303,7 +5333,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\NullsafeMethodCall\u003A\u003AgetRawArgs\u0028\u0029",
             "name": "getRawArgs",
-            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020or\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables.",
+            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables,\u0020or\u0020ArgPlaceholders\u0020for\u0020partial\u0020function\u0020application.",
             "url": "classes/PhpParser-Node-Expr-NullsafeMethodCall.html#method_getRawArgs"
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\NullsafeMethodCall\u003A\u003A\u0024var",
@@ -5553,7 +5583,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\StaticCall\u003A\u003AgetRawArgs\u0028\u0029",
             "name": "getRawArgs",
-            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020or\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables.",
+            "summary": "Return\u0020raw\u0020arguments,\u0020which\u0020may\u0020be\u0020actual\u0020Args,\u0020VariadicPlaceholders\u0020for\u0020first\u002Dclass\ncallables,\u0020or\u0020ArgPlaceholders\u0020for\u0020partial\u0020function\u0020application.",
             "url": "classes/PhpParser-Node-Expr-StaticCall.html#method_getRawArgs"
         },                {
             "fqsen": "\\PhpParser\\Node\\Expr\\StaticCall\u003A\u003A\u0024class",
@@ -11580,6 +11610,11 @@ Search.appendIndex(
             "name": "pVariadicPlaceholder",
             "summary": "",
             "url": "classes/PhpParser-PrettyPrinter-Standard.html#method_pVariadicPlaceholder"
+        },                {
+            "fqsen": "\\PhpParser\\PrettyPrinter\\Standard\u003A\u003ApArgPlaceholder\u0028\u0029",
+            "name": "pArgPlaceholder",
+            "summary": "",
+            "url": "classes/PhpParser-PrettyPrinter-Standard.html#method_pArgPlaceholder"
         },                {
             "fqsen": "\\PhpParser\\PrettyPrinter\\Standard\u003A\u003ApConst\u0028\u0029",
             "name": "pConst",
