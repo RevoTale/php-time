@@ -1,0 +1,19 @@
+when:
+  - event: push
+    branch:
+      exclude: ['*/*']
+  - event: pull_request
+    branch: main
+
+matrix:
+  include:
+    - PHP_IMAGE: mcr.microsoft.com/devcontainers/php:8.4@sha256:a5661904b8611ebfa831a73c7d629e3a756a0db20fe77f67d3fc665b0caa6e09
+    - PHP_IMAGE: mcr.microsoft.com/devcontainers/php:8.5@sha256:844e60e9b5f98d2b33385b69893032747e15d107b6330c06112fc9f8d5e74de7
+
+steps:
+  - name: test
+    image: ${PHP_IMAGE}
+    commands:
+      - composer validate --strict
+      - composer install --prefer-dist --no-progress
+      - composer run-script test
