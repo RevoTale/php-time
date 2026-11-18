@@ -1,0 +1,45 @@
+when:
+  - event: push
+    branch: main
+  - event: pull_request
+
+concurrency:
+  group: pages
+  limit: 1
+
+steps:
+  - name: build-docs
+    image: mcr.microsoft.com/devcontainers/php:8.4@sha256:a5661904b8611ebfa831a73c7d629e3a756a0db20fe77f67d3fc665b0caa6e09
+    commands:
+      - composer install --prefer-dist --no-progress
+      - composer run docs
+      - test -s .phpdoc/build/index.html
+
+  - name: publish-docs
+    image: mcr.microsoft.com/devcontainers/php:8.4@sha256:a5661904b8611ebfa831a73c7d629e3a756a0db20fe77f67d3fc665b0caa6e09
+    when:
+      - event: push
+        branch: main
+    environment:
+      FORGE_TOKEN:
+        from_secret: forge_token
+    commands:
+      - |
+        set -eu
+        export GIT_TERMINAL_PROMPT=0
+        export GIT_CONFIG_COUNT=1
+        export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
+        export GIT_CONFIG_VALUE_0="Authorization: Basic $$(printf 'x-access-token:%s' "$FORGE_TOKEN" | base64 -w0)"
+        git fetch --depth=1 origin refs/heads/gh-pages
+        pages_dir=$$(mktemp -d)
+        trap 'git worktree remove --force "$pages_dir" >/dev/null 2>&1 || rmdir "$pages_dir"' EXIT
+        git worktree add --detach "$pages_dir" FETCH_HEAD
+        git -C "$pages_dir" rm -rf --ignore-unmatch -- .
+        cp -a .phpdoc/. "$pages_dir"/
+        touch "$pages_dir"/.nojekyll
+        git -C "$pages_dir" add --all
+        if git -C "$pages_dir" diff --cached --quiet; then
+          exit 0
+        fi
+        git -C "$pages_dir" -c user.name=woodpecker -c user.email=woodpecker@revotale.com commit -m "Publish docs for $CI_COMMIT_SHA"
+        git -C "$pages_dir" push origin HEAD:refs/heads/gh-pages
